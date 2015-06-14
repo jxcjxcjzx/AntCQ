@@ -1,0 +1,1343 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" class="">
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# object: http://ogp.me/ns/object# article: http://ogp.me/ns/article# profile: http://ogp.me/ns/profile#">
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Language" content="en">
+    
+    
+    <title>ndmitchell/hlint · GitHub</title>
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+    <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-144.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144.png">
+    <meta property="fb:app_id" content="1401488693436528">
+
+      <meta content="@github" name="twitter:site" /><meta content="summary" name="twitter:card" /><meta content="ndmitchell/hlint" name="twitter:title" /><meta content="hlint - Haskell source code suggestions" name="twitter:description" /><meta content="https://avatars2.githubusercontent.com/u/1651197?v=3&amp;s=400" name="twitter:image:src" />
+      <meta content="GitHub" property="og:site_name" /><meta content="object" property="og:type" /><meta content="https://avatars2.githubusercontent.com/u/1651197?v=3&amp;s=400" property="og:image" /><meta content="ndmitchell/hlint" property="og:title" /><meta content="https://github.com/ndmitchell/hlint" property="og:url" /><meta content="hlint - Haskell source code suggestions" property="og:description" />
+      <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+    <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+    <link rel="assets" href="https://assets-cdn.github.com/">
+    
+    <meta name="pjax-timeout" content="1000">
+    
+
+    <meta name="msapplication-TileImage" content="/windows-tile.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="selected-link" value="repo_source" data-pjax-transient>
+      <meta name="google-analytics" content="UA-3769691-2">
+
+    <meta content="collector.githubapp.com" name="octolytics-host" /><meta content="collector-cdn.github.com" name="octolytics-script-host" /><meta content="github" name="octolytics-app-id" /><meta content="6FDE13B9:4E1F:24111E0:557BAA8D" name="octolytics-dimension-request_id" />
+    
+    <meta content="Rails, view, files#disambiguate" name="analytics-event" />
+    <meta class="js-ga-set" name="dimension1" content="Logged Out">
+    <meta name="is-dotcom" content="true">
+      <meta name="hostname" content="github.com">
+    <meta name="user-login" content="">
+
+      <link rel="icon" sizes="any" mask href="https://assets-cdn.github.com/pinned-octocat.svg">
+      <meta name="theme-color" content="#4078c0">
+      <link rel="icon" type="image/x-icon" href="https://assets-cdn.github.com/favicon.ico">
+
+
+    <meta content="authenticity_token" name="csrf-param" />
+<meta content="Puf+SvGTGpHylWkpasI7y+TerJjRUe1WdYFgNz5cAeapXySa882T+Jct+uU/tanoch1k33bW+NiU7HvASrc0Tg==" name="csrf-token" />
+
+    <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github/index-10789d1d56bfe8c960a6caf2954ab053c3fac748d581415395f986779781b4a7.css" media="all" rel="stylesheet" />
+    <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github2/index-8b4acc27f06d948d9a73d77849e0fe0b98d8636c85e2fe0e6c4b8762dec9fd3d.css" media="all" rel="stylesheet" />
+    
+    
+
+
+    <meta http-equiv="x-pjax-version" content="62b85260d6deaadccdaa2c3c0e0b0c94">
+
+      
+  <meta name="description" content="hlint - Haskell source code suggestions">
+  <meta name="go-import" content="github.com/ndmitchell/hlint git https://github.com/ndmitchell/hlint.git">
+
+  <meta content="1651197" name="octolytics-dimension-user_id" /><meta content="ndmitchell" name="octolytics-dimension-user_login" /><meta content="11603668" name="octolytics-dimension-repository_id" /><meta content="ndmitchell/hlint" name="octolytics-dimension-repository_nwo" /><meta content="true" name="octolytics-dimension-repository_public" /><meta content="false" name="octolytics-dimension-repository_is_fork" /><meta content="11603668" name="octolytics-dimension-repository_network_root_id" /><meta content="ndmitchell/hlint" name="octolytics-dimension-repository_network_root_nwo" />
+  <link href="https://github.com/ndmitchell/hlint/commits/master.atom" rel="alternate" title="Recent Commits to hlint:master" type="application/atom+xml">
+
+  </head>
+
+
+  <body class="logged_out  env-production windows vis-public">
+    <a href="#start-of-content" tabindex="1" class="accessibility-aid js-skip-to-content">Skip to content</a>
+    <div class="wrapper">
+      
+      
+      
+
+
+        
+        <div class="header header-logged-out" role="banner">
+  <div class="container clearfix">
+
+    <a class="header-logo-wordmark" href="https://github.com/" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
+      <span class="mega-octicon octicon-logo-github"></span>
+    </a>
+
+    <div class="header-actions" role="navigation">
+        <a class="btn btn-primary" href="/join" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">Sign up</a>
+      <a class="btn" href="/login?return_to=%2Fndmitchell%2Fhlint" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign in</a>
+    </div>
+
+    <div class="site-search repo-scope js-site-search" role="search">
+      <form accept-charset="UTF-8" action="/ndmitchell/hlint/search" class="js-site-search-form" data-global-search-url="/search" data-repo-search-url="/ndmitchell/hlint/search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+  <label class="js-chromeless-input-container form-control">
+    <div class="scope-badge">This repository</div>
+    <input type="text"
+      class="js-site-search-focus js-site-search-field is-clearable chromeless-input"
+      data-hotkey="s"
+      name="q"
+      placeholder="Search"
+      data-global-scope-placeholder="Search GitHub"
+      data-repo-scope-placeholder="Search"
+      tabindex="1"
+      autocapitalize="off">
+  </label>
+</form>
+    </div>
+
+      <ul class="header-nav left" role="navigation">
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="/explore" data-ga-click="(Logged out) Header, go to explore, text:explore">Explore</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="/features" data-ga-click="(Logged out) Header, go to features, text:features">Features</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="https://enterprise.github.com/" data-ga-click="(Logged out) Header, go to enterprise, text:enterprise">Enterprise</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="/blog" data-ga-click="(Logged out) Header, go to blog, text:blog">Blog</a>
+          </li>
+      </ul>
+
+  </div>
+</div>
+
+
+
+      <div id="start-of-content" class="accessibility-aid"></div>
+          <div class="site" itemscope itemtype="http://schema.org/WebPage">
+    <div id="js-flash-container">
+      
+    </div>
+    <div class="pagehead repohead instapaper_ignore readability-menu">
+      <div class="container">
+
+        
+<ul class="pagehead-actions">
+
+  <li>
+      <a href="/login?return_to=%2Fndmitchell%2Fhlint"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to watch a repository" rel="nofollow">
+    <span class="octicon octicon-eye"></span>
+    Watch
+  </a>
+  <a class="social-count" href="/ndmitchell/hlint/watchers">
+    13
+  </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Fndmitchell%2Fhlint"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to star a repository" rel="nofollow">
+    <span class="octicon octicon-star"></span>
+    Star
+  </a>
+
+    <a class="social-count js-social-count" href="/ndmitchell/hlint/stargazers">
+      196
+    </a>
+
+  </li>
+
+    <li>
+      <a href="/login?return_to=%2Fndmitchell%2Fhlint"
+        class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+        aria-label="You must be signed in to fork a repository" rel="nofollow">
+        <span class="octicon octicon-repo-forked"></span>
+        Fork
+      </a>
+      <a href="/ndmitchell/hlint/network" class="social-count">
+        30
+      </a>
+    </li>
+</ul>
+
+        <h1 itemscope itemtype="http://data-vocabulary.org/Breadcrumb" class="entry-title public">
+          <span class="mega-octicon octicon-repo"></span>
+          <span class="author"><a href="/ndmitchell" class="url fn" itemprop="url" rel="author"><span itemprop="title">ndmitchell</span></a></span><!--
+       --><span class="path-divider">/</span><!--
+       --><strong><a href="/ndmitchell/hlint" data-pjax="#js-repo-pjax-container">hlint</a></strong>
+
+          <span class="page-context-loader">
+            <img alt="" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </span>
+
+        </h1>
+      </div><!-- /.container -->
+    </div><!-- /.repohead -->
+
+    <div class="container">
+      <div class="repository-with-sidebar repo-container new-discussion-timeline with-full-navigation ">
+        <div class="repository-sidebar clearfix">
+            
+<nav class="sunken-menu repo-nav js-repo-nav js-sidenav-container-pjax js-octicon-loaders"
+     role="navigation"
+     data-pjax="#js-repo-pjax-container"
+     data-issue-count-url="/ndmitchell/hlint/issues/counts">
+  <ul class="sunken-menu-group">
+    <li class="tooltipped tooltipped-w" aria-label="Code">
+      <a href="/ndmitchell/hlint" aria-label="Code" class="selected js-selected-navigation-item sunken-menu-item" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches /ndmitchell/hlint">
+        <span class="octicon octicon-code"></span> <span class="full-word">Code</span>
+        <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+</a>    </li>
+
+      <li class="tooltipped tooltipped-w" aria-label="Issues">
+        <a href="/ndmitchell/hlint/issues" aria-label="Issues" class="js-selected-navigation-item sunken-menu-item" data-hotkey="g i" data-selected-links="repo_issues repo_labels repo_milestones /ndmitchell/hlint/issues">
+          <span class="octicon octicon-issue-opened"></span> <span class="full-word">Issues</span>
+          <span class="js-issue-replace-counter"></span>
+          <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+</a>      </li>
+
+    <li class="tooltipped tooltipped-w" aria-label="Pull requests">
+      <a href="/ndmitchell/hlint/pulls" aria-label="Pull requests" class="js-selected-navigation-item sunken-menu-item" data-hotkey="g p" data-selected-links="repo_pulls /ndmitchell/hlint/pulls">
+          <span class="octicon octicon-git-pull-request"></span> <span class="full-word">Pull requests</span>
+          <span class="js-pull-replace-counter"></span>
+          <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+</a>    </li>
+
+  </ul>
+  <div class="sunken-menu-separator"></div>
+  <ul class="sunken-menu-group">
+
+    <li class="tooltipped tooltipped-w" aria-label="Pulse">
+      <a href="/ndmitchell/hlint/pulse" aria-label="Pulse" class="js-selected-navigation-item sunken-menu-item" data-selected-links="pulse /ndmitchell/hlint/pulse">
+        <span class="octicon octicon-pulse"></span> <span class="full-word">Pulse</span>
+        <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+</a>    </li>
+
+    <li class="tooltipped tooltipped-w" aria-label="Graphs">
+      <a href="/ndmitchell/hlint/graphs" aria-label="Graphs" class="js-selected-navigation-item sunken-menu-item" data-selected-links="repo_graphs repo_contributors /ndmitchell/hlint/graphs">
+        <span class="octicon octicon-graph"></span> <span class="full-word">Graphs</span>
+        <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+</a>    </li>
+  </ul>
+
+
+</nav>
+
+              <div class="only-with-full-nav">
+                  
+<div class="js-clone-url clone-url open"
+  data-protocol-type="http">
+  <h3><span class="text-emphasized">HTTPS</span> clone URL</h3>
+  <div class="input-group js-zeroclipboard-container">
+    <input type="text" class="input-mini input-monospace js-url-field js-zeroclipboard-target"
+           value="https://github.com/ndmitchell/hlint.git" readonly="readonly">
+    <span class="input-group-button">
+      <button aria-label="Copy to clipboard" class="js-zeroclipboard btn btn-sm zeroclipboard-button tooltipped tooltipped-s" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+    </span>
+  </div>
+</div>
+
+  
+<div class="js-clone-url clone-url "
+  data-protocol-type="subversion">
+  <h3><span class="text-emphasized">Subversion</span> checkout URL</h3>
+  <div class="input-group js-zeroclipboard-container">
+    <input type="text" class="input-mini input-monospace js-url-field js-zeroclipboard-target"
+           value="https://github.com/ndmitchell/hlint" readonly="readonly">
+    <span class="input-group-button">
+      <button aria-label="Copy to clipboard" class="js-zeroclipboard btn btn-sm zeroclipboard-button tooltipped tooltipped-s" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+    </span>
+  </div>
+</div>
+
+
+
+<div class="clone-options">You can clone with
+  <form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=http&amp;protocol_type=clone" class="inline-form js-clone-selector-form " data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="p+DA9O/hq2yrhE9Bo4g9xILywPP893iYAPQS+DBBnIuYsfWK4hZR0QhbewZ1lO6B4nDbaNmHNNvLkwdoNsfEUQ==" /></div><button class="btn-link js-clone-selector" data-protocol="http" type="submit">HTTPS</button></form> or <form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=subversion&amp;protocol_type=clone" class="inline-form js-clone-selector-form " data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="E9T8KeT9Kzvet2xYwvkxGxz69BT0m4lPyqU2JNRXtPqtqsRZjUqMZ5xH4QEhIlwGw5BU2K7lHu4nUp7V8Govhw==" /></div><button class="btn-link js-clone-selector" data-protocol="subversion" type="submit">Subversion</button></form>.
+  <a href="https://help.github.com/articles/which-remote-url-should-i-use" class="help tooltipped tooltipped-n" aria-label="Get help on which URL is right for you.">
+    <span class="octicon octicon-question"></span>
+  </a>
+</div>
+
+
+  <a href="https://windows.github.com" class="btn btn-sm sidebar-button" title="Save ndmitchell/hlint to your computer and use it in GitHub Desktop." aria-label="Save ndmitchell/hlint to your computer and use it in GitHub Desktop.">
+    <span class="octicon octicon-device-desktop"></span>
+    Clone in Desktop
+  </a>
+
+
+                <a href="/ndmitchell/hlint/archive/master.zip"
+                   class="btn btn-sm sidebar-button"
+                   aria-label="Download the contents of ndmitchell/hlint as a zip file"
+                   title="Download the contents of ndmitchell/hlint as a zip file"
+                   rel="nofollow">
+                  <span class="octicon octicon-cloud-download"></span>
+                  Download ZIP
+                </a>
+              </div>
+        </div><!-- /.repository-sidebar -->
+
+        <div id="js-repo-pjax-container" class="repository-content context-loader-container" data-pjax-container>
+
+          
+<span id="js-show-full-navigation"></span>
+
+<div class="repository-meta js-details-container ">
+    <div class="repository-description">
+      Haskell source code suggestions
+    </div>
+
+
+
+</div>
+
+<div class="overall-summary overall-summary-bottomless">
+
+  <div class="stats-switcher-viewport js-stats-switcher-viewport">
+    <div class="stats-switcher-wrapper">
+    <ul class="numbers-summary">
+      <li class="commits">
+        <a data-pjax href="/ndmitchell/hlint/commits/master">
+            <span class="octicon octicon-history"></span>
+            <span class="num text-emphasized">
+              1,884
+            </span>
+            commits
+        </a>
+      </li>
+      <li>
+        <a data-pjax href="/ndmitchell/hlint/branches">
+          <span class="octicon octicon-git-branch"></span>
+          <span class="num text-emphasized">
+            2
+          </span>
+          branches
+        </a>
+      </li>
+
+      <li>
+        <a data-pjax href="/ndmitchell/hlint/releases">
+          <span class="octicon octicon-tag"></span>
+          <span class="num text-emphasized">
+            30
+          </span>
+          releases
+        </a>
+      </li>
+
+      <li>
+        
+  <a href="/ndmitchell/hlint/graphs/contributors">
+    <span class="octicon octicon-organization"></span>
+    <span class="num text-emphasized">
+      25
+    </span>
+    contributors
+  </a>
+      </li>
+    </ul>
+
+      <div class="repository-lang-stats">
+        <ol class="repository-lang-stats-numbers">
+          <li>
+              <a href="/ndmitchell/hlint/search?l=haskell">
+                <span class="color-block language-color" style="background-color:#29b544;"></span>
+                <span class="lang">Haskell</span>
+                <span class="percent">96.7%</span>
+              </a>
+          </li>
+          <li>
+              <a href="/ndmitchell/hlint/search?l=emacs-lisp">
+                <span class="color-block language-color" style="background-color:#c065db;"></span>
+                <span class="lang">Emacs Lisp</span>
+                <span class="percent">1.5%</span>
+              </a>
+          </li>
+          <li>
+              <a href="/ndmitchell/hlint/search?l=html">
+                <span class="color-block language-color" style="background-color:#e44b23;"></span>
+                <span class="lang">HTML</span>
+                <span class="percent">1.3%</span>
+              </a>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+  <div class="repository-lang-stats-graph js-toggle-lang-stats" title="Click for language details">
+    <span class="language-color" aria-label="Haskell 96.7%" style="width:96.7%; background-color:#29b544;" itemprop="keywords">Haskell</span>
+    <span class="language-color" aria-label="Emacs Lisp 1.5%" style="width:1.5%; background-color:#c065db;" itemprop="keywords">Emacs Lisp</span>
+    <span class="language-color" aria-label="HTML 1.3%" style="width:1.3%; background-color:#e44b23;" itemprop="keywords">HTML</span>
+  </div>
+
+<include-fragment src="/ndmitchell/hlint/show_partial?partial=tree%2Frecently_touched_branches_list"></include-fragment>
+
+<div class="file-navigation in-mid-page">
+  <a href="/ndmitchell/hlint/find/master"
+        class="js-show-file-finder btn btn-sm empty-icon tooltipped tooltipped-s right"
+        data-pjax
+        data-hotkey="t"
+        aria-label="Quickly jump between files">
+    <span class="octicon octicon-list-unordered"></span>
+  </a>
+    <a href="/ndmitchell/hlint/compare" aria-label="Compare, review, create a pull request" class="btn btn-sm btn-primary tooltipped tooltipped-se left compare-button" aria-label="Compare &amp; review" data-pjax data-ga-click="Repository, go to compare view, location:repo overview; icon:git-compare">
+      <span class="octicon octicon-git-compare"></span>
+    </a>
+
+  
+<div class="select-menu js-menu-container js-select-menu left">
+  <span class="btn btn-sm select-menu-button js-menu-target css-truncate" data-hotkey="w"
+    data-ref="master"
+    title="master"
+    role="button" aria-label="Switch branches or tags" tabindex="0" aria-haspopup="true">
+    <span class="octicon octicon-git-branch"></span>
+    <i>branch:</i>
+    <span class="js-select-button css-truncate-target">master</span>
+  </span>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax aria-hidden="true">
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <span class="select-menu-title">Switch branches/tags</span>
+        <span class="octicon octicon-x js-menu-close" role="button" aria-label="Close"></span>
+      </div>
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="branches" data-filter-placeholder="Filter branches/tags" class="js-select-menu-tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="tags" data-filter-placeholder="Find a tag…" class="js-select-menu-tab">Tags</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <a class="select-menu-item js-navigation-item js-navigation-open selected"
+               href="/ndmitchell/hlint/tree/master"
+               data-name="master"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <span class="select-menu-item-text css-truncate-target" title="master">
+                master
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/ndmitchell/hlint/tree/revert-90-exec-dep-lib"
+               data-name="revert-90-exec-dep-lib"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <span class="select-menu-item-text css-truncate-target" title="revert-90-exec-dep-lib">
+                revert-90-exec-dep-lib
+              </span>
+            </a>
+        </div>
+
+          <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/ndmitchell/hlint/tree/v1.9.21"
+                 data-name="v1.9.21"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v1.9.21">v1.9.21</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/ndmitchell/hlint/tree/v1.9.20"
+                 data-name="v1.9.20"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v1.9.20">v1.9.20</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/ndmitchell/hlint/tree/v1.9.19"
+                 data-name="v1.9.19"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v1.9.19">v1.9.19</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/ndmitchell/hlint/tree/v1.9.18"
+                 data-name="v1.9.18"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v1.9.18">v1.9.18</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/ndmitchell/hlint/tree/v1.9.17"
+                 data-name="v1.9.17"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v1.9.17">v1.9.17</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/ndmitchell/hlint/tree/v1.9.16"
+                 data-name="v1.9.16"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v1.9.16">v1.9.16</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/ndmitchell/hlint/tree/v1.9.15"
+                 data-name="v1.9.15"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v1.9.15">v1.9.15</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/ndmitchell/hlint/tree/v1.9.14"
+                 data-name="v1.9.14"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v1.9.14">v1.9.14</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/ndmitchell/hlint/tree/v1.9.13"
+                 data-name="v1.9.13"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v1.9.13">v1.9.13</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/ndmitchell/hlint/tree/v1.9.12"
+                 data-name="v1.9.12"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v1.9.12">v1.9.12</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/ndmitchell/hlint/tree/v1.9.11"
+                 data-name="v1.9.11"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v1.9.11">v1.9.11</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/ndmitchell/hlint/tree/v1.9.10"
+                 data-name="v1.9.10"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v1.9.10">v1.9.10</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/ndmitchell/hlint/tree/v1.9.9"
+                 data-name="v1.9.9"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v1.9.9">v1.9.9</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/ndmitchell/hlint/tree/v1.9.8"
+                 data-name="v1.9.8"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v1.9.8">v1.9.8</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/ndmitchell/hlint/tree/v1.9.7"
+                 data-name="v1.9.7"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v1.9.7">v1.9.7</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/ndmitchell/hlint/tree/v1.9.6"
+                 data-name="v1.9.6"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v1.9.6">v1.9.6</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/ndmitchell/hlint/tree/v1.9.5"
+                 data-name="v1.9.5"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v1.9.5">v1.9.5</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/ndmitchell/hlint/tree/v1.9.4"
+                 data-name="v1.9.4"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v1.9.4">v1.9.4</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/ndmitchell/hlint/tree/v1.9.3"
+                 data-name="v1.9.3"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v1.9.3">v1.9.3</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/ndmitchell/hlint/tree/v1.9.2"
+                 data-name="v1.9.2"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v1.9.2">v1.9.2</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/ndmitchell/hlint/tree/v1.9.1"
+                 data-name="v1.9.1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v1.9.1">v1.9.1</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/ndmitchell/hlint/tree/v1.9"
+                 data-name="v1.9"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v1.9">v1.9</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/ndmitchell/hlint/tree/v1.8.61"
+                 data-name="v1.8.61"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v1.8.61">v1.8.61</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/ndmitchell/hlint/tree/v1.8.60"
+                 data-name="v1.8.60"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v1.8.60">v1.8.60</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/ndmitchell/hlint/tree/v1.8.59"
+                 data-name="v1.8.59"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v1.8.59">v1.8.59</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/ndmitchell/hlint/tree/v1.8.58"
+                 data-name="v1.8.58"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v1.8.58">v1.8.58</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/ndmitchell/hlint/tree/v1.8.57"
+                 data-name="v1.8.57"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v1.8.57">v1.8.57</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/ndmitchell/hlint/tree/v1.8.56"
+                 data-name="v1.8.56"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v1.8.56">v1.8.56</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/ndmitchell/hlint/tree/v1.8.55"
+                 data-name="v1.8.55"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v1.8.55">v1.8.55</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/ndmitchell/hlint/tree/v1.8.54"
+                 data-name="v1.8.54"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v1.8.54">v1.8.54</a>
+            </div>
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+  <div class="breadcrumb"><span class="repo-root js-repo-root"><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/ndmitchell/hlint" class="" data-branch="master" data-pjax="true" itemscope="url"><span itemprop="title">hlint</span></a></span></span><span class="separator">/</span>
+    <a class="btn-link disabled tooltipped tooltipped-e" href="#" aria-label="You must be signed in to make or propose changes">
+      <span class="octicon octicon-plus"></span>
+    </a>
+</div>
+</div>
+
+
+
+  
+  <div class="commit commit-tease js-details-container" >
+    <p class="commit-title ">
+        <a href="/ndmitchell/hlint/commit/f645311aa6b93a9e227f949d2fde040e54427088" class="message" data-pjax="true" title="Update CHANGES.txt">Update CHANGES.txt</a>
+        
+    </p>
+    <div class="commit-meta">
+      <button aria-label="Copy SHA" class="js-zeroclipboard zeroclipboard-link tooltipped tooltipped-s" data-clipboard-text="f645311aa6b93a9e227f949d2fde040e54427088" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+      <a href="/ndmitchell/hlint/commit/f645311aa6b93a9e227f949d2fde040e54427088" class="sha-block" data-pjax>latest commit <span class="sha">f645311aa6</span></a>
+
+      <div class="authorship">
+        <img alt="@ndmitchell" class="avatar" data-user="1651197" height="20" src="https://avatars3.githubusercontent.com/u/1651197?v=3&amp;s=40" width="20" />
+        <span class="author-name"><a href="/ndmitchell" rel="author">ndmitchell</a></span>
+        authored <time class="updated" datetime="2015-05-30T16:26:55Z" is="relative-time">May 30, 2015</time>
+
+      </div>
+    </div>
+  </div>
+
+  
+<div class="file-wrap">
+  <a href="/ndmitchell/hlint/tree/f645311aa6b93a9e227f949d2fde040e54427088" class="hidden js-permalink-shortcut" data-hotkey="y">Permalink</a>
+
+  <table class="files" data-pjax>
+
+
+    <tbody>
+      <tr class="warning include-fragment-error">
+        <td class="icon"><span class="octicon octicon-alert"></span></td>
+        <td class="content" colspan="3">Failed to load latest commit information.</td>
+      </tr>
+
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-directory"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/ndmitchell/hlint/tree/master/data" class="js-directory-link" id="8d777f385d3dfec8815d20f7496026dc-dc69ab607c847df1c9022cc97d4370a834c6f757" title="data">data</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/ndmitchell/hlint/commit/1adf8b5de9c5698eaed52eec201cd47419152f45" class="message" data-pjax="true" title="Complete line rules for (=&lt;&lt;) as dual of (&gt;&gt;=)">Complete line rules for (=&lt;&lt;) as dual of (&gt;&gt;=)</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2015-05-29T21:07:21Z" is="time-ago">May 29, 2015</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-directory"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/ndmitchell/hlint/tree/master/misc" class="js-directory-link" id="bc957e26ff41470c556ee5d09e96880b-0bc17260df4bbb7d7890df5f2c7128c0935b868e" title="misc">misc</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/ndmitchell/hlint/commit/530358121be9d57a4bc125b232173b55fe57438a" class="message" data-pjax="true" title="Move ignoring eta reduce over to the hint file">Move ignoring eta reduce over to the hint file</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2014-01-31T07:57:00Z" is="time-ago">Jan 31, 2014</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-directory"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/ndmitchell/hlint/tree/master/src" class="js-directory-link" id="25d902c24283ab8cfbac54dfa101ad31-056d4acc5e582866be71ed9e0f22ff1b332dcfa8" title="src">src</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/ndmitchell/hlint/commit/88653ae015bd6289c5e2a253540f9101fe0c503a" class="message" data-pjax="true" title="Merge branch 'master' of https://github.com/ndmitchell/hlint
+
+Conflicts:
+	CHANGES.txt">Merge branch 'master' of</a> <a href="https://github.com/ndmitchell/hlint">https://github.com/ndmitchell/hlint</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2015-05-26T09:46:42Z" is="time-ago">May 26, 2015</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-directory"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/ndmitchell/hlint/tree/master/tests" class="js-directory-link" id="b61a6d542f9036550ba9c401c80f00ef-b97475406ef0f2f3025c13bbacecaa7f458a97ec" title="tests">tests</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/ndmitchell/hlint/commit/e83f16c428a7a57d5c93b55c09ad96ec364802a6" class="message" data-pjax="true" title="Make --json put each hint on a different line">Make --json put each hint on a different line</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2014-09-26T19:40:46Z" is="time-ago">Sep 26, 2014</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/ndmitchell/hlint/blob/master/.ghci" class="js-directory-link" id="d6222b6b2ffac079411135970fbdce5d-07bad7f4b1d9b1ba3cf9d2034c3c39dda0cdcc19" title=".ghci">.ghci</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/ndmitchell/hlint/commit/6af7099757ff576508e97399354298a356190609" class="message" data-pjax="true" title="Add an HLint3 prototype API">Add an HLint3 prototype API</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2014-11-24T07:55:13Z" is="time-ago">Nov 24, 2014</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/ndmitchell/hlint/blob/master/.gitignore" class="js-directory-link" id="a084b794bc0759e7a6b77810e01874f2-b99c4d1c44f4346629b66fd24e840b30153c6036" title=".gitignore">.gitignore</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/ndmitchell/hlint/commit/d56903e864c21a2a229b8d219877dfa3e2ce7f41" class="message" data-pjax="true" title="Move from boring to .gitignore">Move from boring to .gitignore</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2013-07-23T08:50:07Z" is="time-ago">Jul 23, 2013</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/ndmitchell/hlint/blob/master/.travis.yml" class="js-directory-link" id="354f30a63fb0907d4ad57269548329e3-38a681d6c06f8b201c37e3f98524e53e3ad68712" title=".travis.yml">.travis.yml</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/ndmitchell/hlint/commit/ede88f5c5aede7adb645bd486d31910056315dcd" class="message" data-pjax="true" title="Move to GHC 7.8.4">Move to GHC 7.8.4</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2015-03-12T18:51:30Z" is="time-ago">Mar 12, 2015</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/ndmitchell/hlint/blob/master/CHANGES.txt" class="js-directory-link" id="bb3c4deeba77c2bbfd893f2e90fecc77-ed7635bb203f83a2cbb1efb0d9bb066f76550873" title="CHANGES.txt">CHANGES.txt</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/ndmitchell/hlint/commit/f645311aa6b93a9e227f949d2fde040e54427088" class="message" data-pjax="true" title="Update CHANGES.txt">Update CHANGES.txt</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2015-05-30T16:26:55Z" is="time-ago">May 30, 2015</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/ndmitchell/hlint/blob/master/LICENSE" class="js-directory-link" id="9879d6db96fd29134fc802214163b95a-c26a29fdf1a3741054a5564268c79a07aa2c62dd" title="LICENSE">LICENSE</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/ndmitchell/hlint/commit/497726186e4989a533d293b7ea94a35b269cb797" class="message" data-pjax="true" title="Update the copyright year to 2015">Update the copyright year to 2015</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2015-02-12T14:28:48Z" is="time-ago">Feb 12, 2015</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/ndmitchell/hlint/blob/master/README.md" class="js-directory-link" id="04c6e90faac2675aa89e2176d2eec7d8-156a921892c8d2957533e0c8738c978c34f30965" title="README.md">README.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/ndmitchell/hlint/commit/3022e282a180acfec8976730e2b6c3d8d11f5879" class="message" data-pjax="true" title="Update README.md">Update README.md</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2014-12-02T15:25:20Z" is="time-ago">Dec 2, 2014</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/ndmitchell/hlint/blob/master/Setup.hs" class="js-directory-link" id="8288955e209cfbead5b318a8598be9c0-9a994af677b0dfd41b4e3b76b3e7e604003d64e1" title="Setup.hs">Setup.hs</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/ndmitchell/hlint/commit/c36383f1306f94cc033cd1cfb33246440359a73b" class="message" data-pjax="true" title="Revise everything to build with Cabal">Revise everything to build with Cabal</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2008-11-10T16:59:44Z" is="time-ago">Nov 10, 2008</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/ndmitchell/hlint/blob/master/hlint.cabal" class="js-directory-link" id="0cb7acc6383fd9e216edd3d5370906ef-9c5547b41779ac4e7db06395f032a6e52676cce4" title="hlint.cabal">hlint.cabal</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/ndmitchell/hlint/commit/5e9edb40eb36fd47f01e30cab09f5482339f323b" class="message" data-pjax="true" title="Version 1.9.21">Version 1.9.21</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2015-05-26T10:15:45Z" is="time-ago">May 26, 2015</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/ndmitchell/hlint/blob/master/travis.hs" class="js-directory-link" id="1c48f3c48fdb97fe6188810f054cd196-d4f5ae9766d2b5c872210f4493bc75b035a78e24" title="travis.hs">travis.hs</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="https://github.com/ndmitchell/hlint/issues/107" class="issue-link" title="Fix --quickcheck tests on GHC 7.10">#107</a><a href="/ndmitchell/hlint/commit/964e30de65efa2fa9bfaf64c9f861010b170e7ad" class="message" data-pjax="true" title="#107, temporarily disable --quickcheck --typecheck tests">, temporarily disable --quickcheck --typecheck tests</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2015-01-04T16:33:34Z" is="time-ago">Jan 4, 2015</time></span>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+</div>
+
+
+  <div id="readme" class="boxed-group flush clearfix announce instapaper_body md">
+    <h3>
+      <span class="octicon octicon-book"></span>
+      README.md
+    </h3>
+
+    <article class="markdown-body entry-content" itemprop="mainContentOfPage"><h1><a id="user-content-hlint--" class="anchor" href="#hlint--" aria-hidden="true"><span class="octicon octicon-link"></span></a>HLint <a href="https://hackage.haskell.org/package/hlint"><img src="https://camo.githubusercontent.com/87b9974f6de9bb04c012da60a7069cced7d955b2/68747470733a2f2f696d672e736869656c64732e696f2f6861636b6167652f762f686c696e742e7376673f7374796c653d666c6174" alt="Hackage version" data-canonical-src="https://img.shields.io/hackage/v/hlint.svg?style=flat" style="max-width:100%;"></a> <a href="https://travis-ci.org/ndmitchell/hlint"><img src="https://camo.githubusercontent.com/ff3004de0f401ae1116af801756a77c8febe7a9a/68747470733a2f2f696d672e736869656c64732e696f2f7472617669732f6e646d69746368656c6c2f686c696e742e7376673f7374796c653d666c6174" alt="Build Status" data-canonical-src="https://img.shields.io/travis/ndmitchell/hlint.svg?style=flat" style="max-width:100%;"></a></h1>
+
+<p>HLint is a tool for suggesting possible improvements to Haskell code. These suggestions include ideas such as using alternative functions, simplifying code and spotting redundancies. You can try HLint online at <a href="http://lpaste.net/">lpaste.net</a> - suggestions are shown at the bottom. This document is structured as follows:</p>
+
+<ul>
+<li><a href="#installing-and-running-hlint">Installing and running HLint</a></li>
+<li><a href="#faq">FAQ</a></li>
+<li><a href="#customizing-the-hints">Customizing the hints</a></li>
+</ul>
+
+<h3><a id="user-content-acknowledgements" class="anchor" href="#acknowledgements" aria-hidden="true"><span class="octicon octicon-link"></span></a>Acknowledgements</h3>
+
+<p>This program has only been made possible by the presence of the <a href="https://github.com/haskell-suite/haskell-src-exts">haskell-src-exts</a> package, and many improvements have been made by <a href="http://www.nbroberg.se">Niklas Broberg</a> in response to feature requests. Additionally, many people have provided help and patches, including Lennart Augustsson, Malcolm Wallace, Henk-Jan van Tuyl, Gwern Branwen, Alex Ott, Andy Stewart, Roman Leshchinskiy, Johannes Lippmann, Iustin Pop, Steve Purcell and others.</p>
+
+<h3><a id="user-content-bugs-and-limitations" class="anchor" href="#bugs-and-limitations" aria-hidden="true"><span class="octicon octicon-link"></span></a>Bugs and limitations</h3>
+
+<p>Bugs can be reported <a href="https://github.com/ndmitchell/hlint/issues">on the bug tracker</a>. There are some issues that I do not intend to fix:</p>
+
+<ul>
+<li>HLint operates on each module at a time in isolation, as a result HLint does not know about types or which names are in scope.</li>
+<li>The presence of <code>seq</code> may cause some hints (i.e. eta-reduction) to change the semantics of a program.</li>
+<li>Either the monomorphism restriction, or rank-2 types, may cause transformed programs to require type signatures to be manually inserted.</li>
+<li>The <code>RebindableSyntax</code> extension can cause HLint to suggest incorrect changes.</li>
+<li>HLint turns on many language extensions so it can parse more documents, occasionally some break otherwise legal syntax - e.g. <code>{-#INLINE foo#-}</code> doesn't work with <code>MagicHash</code>. These extensions can be disabled with <code>-XNoMagicHash</code>.</li>
+</ul>
+
+<h2><a id="user-content-installing-and-running-hlint" class="anchor" href="#installing-and-running-hlint" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installing and running HLint</h2>
+
+<p>Installation follows the standard pattern of any Haskell library or program, type <code>cabal update</code> to update your local hackage database, then <code>cabal install hlint</code> to install HLint.</p>
+
+<p>Once HLint is installed, run hlint source where source is either a Haskell file, or a directory containing Haskell files. A directory will be searched recursively for any files ending with .hs or .lhs. For example, running HLint over darcs would give:</p>
+
+<pre><code>$ hlint darcs-2.1.2
+
+darcs-2.1.2\src\CommandLine.lhs:94:1: Error: Use concatMap
+Found:
+  concat $ map escapeC s
+Why not:
+  concatMap escapeC s
+
+darcs-2.1.2\src\CommandLine.lhs:103:1: Warning: Use fewer brackets
+Found:
+  ftable ++ (map (\ (c, x) -&gt; (toUpper c, urlEncode x)) ftable)
+Why not:
+  ftable ++ map (\ (c, x) -&gt; (toUpper c, urlEncode x)) ftable
+
+darcs-2.1.2\src\Darcs\Patch\Test.lhs:306:1: Error: Use a more efficient monadic variant
+Found:
+  mapM (delete_line (fn2fp f) line) old
+Why not:
+  mapM_ (delete_line (fn2fp f) line) old
+
+... lots more suggestions ...
+</code></pre>
+
+<p>Each suggestion says which file/line the suggestion relates to, how serious the issue is, a description of the issue, what it found, and what you might want to replace it with. In the case of the first hint, it has suggested that instead of applying <code>concat</code> and <code>map</code> separately, it would be better to use the combination function <code>concatMap</code>.</p>
+
+<p>The first suggestion is marked as an error, because using <code>concatMap</code> in preference to the two separate functions is always desirable. In contrast, the removal of brackets is probably a good idea, but not always. Reasons that a hint might be a warning include requiring an additional import, something not everyone agrees on, and functions only available in more recent versions of the base library.</p>
+
+<p><strong>Bug reports:</strong> The suggested replacement should be equivalent - please report all incorrect suggestions not mentioned as known limitations.</p>
+
+<h3><a id="user-content-reports" class="anchor" href="#reports" aria-hidden="true"><span class="octicon octicon-link"></span></a>Reports</h3>
+
+<p>HLint can generate a lot of information, making it difficult to search for particular types of errors. The <code>--report</code> flag will cause HLint to generate a report file in HTML, which can be viewed interactively. Reports are recommended when there are more than a handful of hints.</p>
+
+<h3><a id="user-content-language-extensions" class="anchor" href="#language-extensions" aria-hidden="true"><span class="octicon octicon-link"></span></a>Language Extensions</h3>
+
+<p>HLint enables most Haskell extensions, disabling only those which steal too much syntax (currently Arrows, TransformListComp, XmlSyntax and RegularPatterns). Individual extensions can be enabled or disabled with, for instance, <code>-XArrows</code>, or <code>-XNoMagicHash</code>. The flag <code>-XHaskell98</code> selects Haskell 98 compatibility.</p>
+
+<h3><a id="user-content-emacs-integration" class="anchor" href="#emacs-integration" aria-hidden="true"><span class="octicon octicon-link"></span></a>Emacs Integration</h3>
+
+<p>Emacs integration has been provided by <a href="http://xtalk.msk.su/%7Eott/">Alex Ott</a>. The integration is similar to compilation-mode, allowing navigation between errors. The script is at <a href="https://github.com/ndmitchell/hlint/blob/master/data/hs-lint.el">hs-lint.el</a>, and a copy is installed locally in the data directory. To use, add the following code to the Emacs init file:</p>
+
+<pre><code>(require 'hs-lint)
+(defun my-haskell-mode-hook ()
+   (local-set-key "\C-cl" 'hs-lint))
+(add-hook 'haskell-mode-hook 'my-haskell-mode-hook)
+</code></pre>
+
+<h3><a id="user-content-ghci-integration" class="anchor" href="#ghci-integration" aria-hidden="true"><span class="octicon octicon-link"></span></a>GHCi Integration</h3>
+
+<p>GHCi integration has been provided by Gwern Branwen. The integration allows running <code>:hlint</code> from the GHCi prompt. The script is at <a href="http://community.haskell.org/%7Endm/darcs/hlint/data/hlint.ghci">hlint.ghci</a>, and a copy is installed locally in the data directory. To use, add the contents to your <a href="http://www.haskell.org/ghc/docs/latest/html/users_guide/ghci-dot-files.html">GHCi startup file</a>.</p>
+
+<h3><a id="user-content-parallel-operation" class="anchor" href="#parallel-operation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Parallel Operation</h3>
+
+<p>To run HLint on n processors append the flags <code>+RTS -Nn</code>, as described in the <a href="http://www.haskell.org/ghc/docs/latest/html/users_guide/runtime-control.html">GHC user manual</a>. HLint will usually perform fastest if n is equal to the number of physical processors.</p>
+
+<p>If your version of GHC does not support the GHC threaded runtime then install with the command: <code>cabal install --flags="-threaded"</code></p>
+
+<h3><a id="user-content-c-preprocessor-support" class="anchor" href="#c-preprocessor-support" aria-hidden="true"><span class="octicon octicon-link"></span></a>C preprocessor support</h3>
+
+<p>HLint runs the <a href="http://hackage.haskell.org/package/cpphs">cpphs C preprocessor</a> over all input files, by default using the current directory as the include path with no defined macros. These settings can be modified using the flags <code>--cpp-include</code> and <code>--cpp-define</code>. To disable the C preprocessor use the flag <code>-XNoCPP</code>. There are a number of limitations to the C preprocessor support:</p>
+
+<ul>
+<li>HLint will only check one branch of an <code>#if</code>, based on which macros have been defined.</li>
+<li>Any missing <code>#include</code> files will produce a warning on the console, but no information in the reports.</li>
+</ul>
+
+<h3><a id="user-content-unicode-support" class="anchor" href="#unicode-support" aria-hidden="true"><span class="octicon octicon-link"></span></a>Unicode support</h3>
+
+<p>By default, HLint uses the current locale encoding. The encoding can be overridden with either <code>--utf8</code> or <code>--encoding=value</code>. For descriptions of some valid <a href="http://haskell.org/ghc/docs/latest/html/libraries/base/System-IO.html#v%3AmkTextEncoding">encodings see the mkTextEncoding documentation</a>.</p>
+
+<h2><a id="user-content-faq" class="anchor" href="#faq" aria-hidden="true"><span class="octicon octicon-link"></span></a>FAQ</h2>
+
+<h3><a id="user-content-why-are-suggestions-not-applied-recursively" class="anchor" href="#why-are-suggestions-not-applied-recursively" aria-hidden="true"><span class="octicon octicon-link"></span></a>Why are suggestions not applied recursively?</h3>
+
+<p>Consider:</p>
+
+<pre><code>foo xs = concat (map op xs)
+</code></pre>
+
+<p>This will suggest eta reduction to <code>concat . map op</code>, and then after making that change and running HLint again, will suggest use of <code>concatMap</code>. Many people wonder why HLint doesn't directly suggest <code>concatMap op</code>. There are a number of reasons:</p>
+
+<ul>
+<li>HLint aims to both improve code, and to teach the author better style. Doing modifications individually helps this process.</li>
+<li>Sometimes the steps are reasonably complex, by automatically composing them the user may become confused.</li>
+<li>Sometimes HLint gets transformations wrong. If suggestions are applied recursively, one error will cascade.</li>
+<li>Some people only make use of some of the suggestions. In the above example using concatMap is a good idea, but sometimes eta reduction isn't. By suggesting them separately, people can pick and choose.</li>
+<li>Sometimes a transformed expression will be large, and a further hint will apply to some small part of the result, which appears confusing.</li>
+<li>Consider <code>f $ (a b)</code>. There are two valid hints, either remove the $ or remove the brackets, but only one can be applied.</li>
+</ul>
+
+<h3><a id="user-content-why-arent-the-suggestions-automatically-applied" class="anchor" href="#why-arent-the-suggestions-automatically-applied" aria-hidden="true"><span class="octicon octicon-link"></span></a>Why aren't the suggestions automatically applied?</h3>
+
+<p>If you want to automatically apply suggestions, the <a href="https://rawgithub.com/ndmitchell/hlint/master/hlint.htm#emacs">Emacs integration</a> offers such a feature. However, there are a number of reasons that HLint itself doesn't have an option to automatically apply suggestions:</p>
+
+<ul>
+<li>The underlying Haskell parser library makes it hard to modify the code, then print it similarly to the original.</li>
+<li>Sometimes multiple transformations may apply.</li>
+<li>After applying one transformation, others that were otherwise suggested may become inappropriate.</li>
+</ul>
+
+<p>I am intending to develop such a feature, but the above reasons mean it is likely to take some time.</p>
+
+<h3><a id="user-content-why-doesnt-the-compiler-automatically-apply-the-optimisations" class="anchor" href="#why-doesnt-the-compiler-automatically-apply-the-optimisations" aria-hidden="true"><span class="octicon octicon-link"></span></a>Why doesn't the compiler automatically apply the optimisations?</h3>
+
+<p>HLint doesn't suggest optimisations, it suggests code improvements - the intention is to make the code simpler, rather than making the code perform faster. The <a href="http://haskell.org/ghc/">GHC compiler</a> automatically applies many of the rules suggested by HLint, so HLint suggestions will rarely improve performance.</p>
+
+<h3><a id="user-content-why-doesnt-hlint-know-the-fixity-for-my-custom--operator" class="anchor" href="#why-doesnt-hlint-know-the-fixity-for-my-custom--operator" aria-hidden="true"><span class="octicon octicon-link"></span></a>Why doesn't HLint know the fixity for my custom !@%$ operator?</h3>
+
+<p>HLint knows the fixities for all the operators in the base library, but no others. HLint works on a single file at a time, and does not resolve imports, so cannot see fixity declarations from imported modules. You can tell HLint about fixities by putting them in a hint file, or passing them on the command line. For example, pass <code>--with=infixr 5 !@%$</code>, or put all the fixity declarations in a file and pass <code>--hint=fixities.hs</code>. You can also use <a href="https://rawgithub.com/ndmitchell/hlint/master/hlint.htm#find">--find</a> to automatically produce a list of fixity declarations in a file.</p>
+
+<h3><a id="user-content-how-can-i-use---with-or---hint-with-the-default-hints" class="anchor" href="#how-can-i-use---with-or---hint-with-the-default-hints" aria-hidden="true"><span class="octicon octicon-link"></span></a>How can I use <code>--with</code> or <code>--hint</code> with the default hints?</h3>
+
+<p>HLint does not use the default set of hints if custom hints are specified on the command line using <code>--with</code> or <code>--hint</code>. To include the default hints either pass <code>--hint=HLint</code> on the command line, or add import <code>"hint" HLint.HLint</code> in one of the hint files you specify with <code>--hint</code>.</p>
+
+<h3><a id="user-content-why-do-i-sometimes-get-a-note-with-my-hint" class="anchor" href="#why-do-i-sometimes-get-a-note-with-my-hint" aria-hidden="true"><span class="octicon octicon-link"></span></a>Why do I sometimes get a "Note" with my hint?</h3>
+
+<p>Most hints are perfect substitutions, and these are displayed without any notes. However, some hints change the semantics of your program - typically in irrelevant ways - but HLint shows a warning note. HLint does not warn when assuming typeclass laws (such as <code>==</code> being symmetric). Some notes you may see include:</p>
+
+<ul>
+<li><strong>Increases laziness</strong> - for example <code>foldl (&amp;&amp;) True</code> suggests <code>and</code> including this note. The new code will work on infinite lists, while the old code would not. Increasing laziness is usually a good idea.</li>
+<li><strong>Decreases laziness</strong> - for example <code>(fst a, snd a)</code> suggests a including this note. On evaluation the new code will raise an error if a is an error, while the old code would produce a pair containing two error values. Only a small number of hints decrease laziness, and anyone relying on the laziness of the original code would be advised to include a comment.</li>
+<li><strong>Removes error</strong> - for example foldr1 (&amp;&amp;) suggests and including the note "Removes error on []". The new code will produce <code>True</code> on the empty list, while the old code would raise an error. Unless you are relying on the exception thrown by the empty list, this hint is safe - and if you do rely on the exception, you would be advised to add a comment. </li>
+</ul>
+
+<h3><a id="user-content-what-is-the-difference-between-error-and-warning" class="anchor" href="#what-is-the-difference-between-error-and-warning" aria-hidden="true"><span class="octicon octicon-link"></span></a>What is the difference between error and warning?</h3>
+
+<p>Every hint has a severity level:</p>
+
+<ul>
+<li><strong>Error</strong> - for example <code>concat (map f x)</code> suggests <code>concatMap f x</code> as an "error" severity hint. From a style point of view, you should always replace a combination of <code>concat</code> and <code>map</code> with <code>concatMap</code>. Note that both expressions are equivalent - HLint is reporting an error in style, not an actual error in the code.</li>
+<li><strong>Warning</strong> - for example <code>x !! 0</code> suggests head x as a "warning" severity hint. Typically head is a simpler way of expressing the first element of a list, especially if you are treating the list inductively. However, in the expression <code>f (x !! 4) (x !! 0) (x !! 7)</code>, replacing the middle argument with <code>head</code> makes it harder to follow the pattern, and is probably a bad idea. Warning hints are often worthwhile, but should not be applied blindly.</li>
+</ul>
+
+<p>The difference between error and warning is one of personal taste, typically my personal taste. If you already have a well developed sense of Haskell style, you should ignore the difference. If you are a beginner Haskell programmer you may wish to focus on error hints before warning hints.</p>
+
+<h2><a id="user-content-customizing-the-hints" class="anchor" href="#customizing-the-hints" aria-hidden="true"><span class="octicon octicon-link"></span></a>Customizing the hints</h2>
+
+<p>Many of the hints that are applied by HLint are contained in Haskell source files which are installed in the data directory by Cabal. These files may be edited, to add library specific knowledge, to include hints that may have been missed, or to ignore unwanted hints.</p>
+
+<h3><a id="user-content-choosing-a-package-of-hints" class="anchor" href="#choosing-a-package-of-hints" aria-hidden="true"><span class="octicon octicon-link"></span></a>Choosing a package of hints</h3>
+
+<p>By default, HLint will use the <code>HLint.hs</code> file either from the current working directory, or from the data directory. Alternatively, hint files can be specified with the <code>--hint</code> flag. HLint comes with a number of hint packages:</p>
+
+<ul>
+<li><strong>Default</strong> - these are the hints that are used by default, covering most of the base libraries.</li>
+<li><strong>Dollar</strong> - suggests the replacement <code>a $ b $ c</code> with <code>a . b $ c</code>. This hint is especially popular on the <a href="http://www.haskell.org/haskellwiki/IRC_channel">#haskell IRC channel</a>.</li>
+<li><strong>Generalise</strong> - suggests replacing specific variants of functions (i.e. <code>map</code>) with more generic functions (i.e. <code>fmap</code>).</li>
+</ul>
+
+<p>As an example, to check the file <code>Example.hs</code> with both the default hints and the dollar hint, I could type: <code>hlint Example.hs --hint=Default --hint=Dollar</code>. Alternatively, I could create the file <code>HLint.hs</code> in the working directory and give it the contents:</p>
+
+<pre><code>import "hint" HLint.Default
+import "hint" HLint.Dollar
+</code></pre>
+
+<h3><a id="user-content-ignoring-hints" class="anchor" href="#ignoring-hints" aria-hidden="true"><span class="octicon octicon-link"></span></a>Ignoring hints</h3>
+
+<p>Some of the hints are subjective, and some users believe they should be ignored. Some hints are applicable usually, but occasionally don't always make sense. The ignoring mechanism provides features for suppressing certain hints. Ignore directives can either be written as pragmas in the file being analysed, or in the hint files. Examples of pragmas are:</p>
+
+<ul>
+<li><code>{-# ANN module "HLint: ignore Eta reduce" #-}</code> - ignore all eta reduction suggestions in this module (use <code>module</code> literally, not the name of the module).</li>
+<li><code>{-# ANN myFunction "HLint: ignore" #-}</code> - don't give any hints in the function <code>myFunction</code>.</li>
+<li><code>{-# ANN myFunction "HLint: error" #-}</code> - any hint in the function <code>myFunction</code> is an error.</li>
+<li><code>{-# ANN module "HLint: error Use concatMap" #-}</code> - the hint to use concatMap is an error.</li>
+<li><code>{-# ANN module "HLint: warn Use concatMap" #-}</code> - the hint to use concatMap is a warning.</li>
+</ul>
+
+<p>Ignore directives can also be written in the hint files:</p>
+
+<ul>
+<li><code>ignore "Eta reduce"</code> - suppress all eta reduction suggestions.</li>
+<li><code>ignore "Eta reduce" = MyModule1 MyModule2</code> - suppress eta reduction hints in the <code>MyModule1</code> and <code>MyModule2</code> modules.</li>
+<li><code>ignore = MyModule.myFunction</code> - don't give any hints in the function <code>MyModule.myFunction</code>.</li>
+<li><code>error = MyModule.myFunction</code> - any hint in the function <code>MyModule.myFunction</code> is an error.</li>
+<li><code>error "Use concatMap"</code> - the hint to use <code>concatMap</code> is an error.</li>
+<li><code>warn "Use concatMap"</code> - the hint to use <code>concatMap</code> is a warning.</li>
+</ul>
+
+<p>These directives are applied in the order they are given, with later hints overriding earlier ones.</p>
+
+<h3><a id="user-content-adding-hints" class="anchor" href="#adding-hints" aria-hidden="true"><span class="octicon octicon-link"></span></a>Adding hints</h3>
+
+<p>The hint suggesting <code>concatMap</code> is defined as:</p>
+
+<pre><code>error = concat (map f x) ==&gt; concatMap f x
+</code></pre>
+
+<p>The line can be read as replace <code>concat (map f x)</code> with <code>concatMap f x</code>. All single-letter variables are treated as substitution parameters. For examples of more complex hints see the supplied hints file. In general, hints should not be given in point free style, as this reduces the power of the matching. Hints may start with <code>error</code> or <code>warn</code> to denote how severe they are by default. If you come up with interesting hints, please submit them for inclusion.</p>
+
+<p>You can search for possible hints to add from a source file with the <code>--find</code> flag, for example:</p>
+
+<pre><code>$ hlint --find=src/Utils.hs
+-- hints found in src/Util.hs
+warn = null (intersect a b) ==&gt; disjoint a b
+warn = dropWhile isSpace ==&gt; trimStart
+infixr 5 !:
+</code></pre>
+
+<p>These hints are suitable for inclusion in a custom hint file. You can also include Haskell fixity declarations in a hint file, and these will also be extracted. If you pass only <code>--find</code> flags then the hints will be written out, if you also pass files/folders to check, then the found hints will be automatically used when checking.</p>
+</article>
+  </div>
+
+
+        </div>
+
+      </div><!-- /.repo-container -->
+      <div class="modal-backdrop"></div>
+    </div><!-- /.container -->
+  </div><!-- /.site -->
+
+
+    </div><!-- /.wrapper -->
+
+      <div class="container">
+  <div class="site-footer" role="contentinfo">
+    <ul class="site-footer-links right">
+        <li><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+      <li><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
+      <li><a href="https://shop.github.com" data-ga-click="Footer, go to shop, text:shop">Shop</a></li>
+        <li><a href="https://github.com/blog" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a href="https://github.com/about" data-ga-click="Footer, go to about, text:about">About</a></li>
+      <li><a href="https://help.github.com" data-ga-click="Footer, go to help, text:help">Help</a></li>
+
+    </ul>
+
+    <a href="https://github.com" aria-label="Homepage">
+      <span class="mega-octicon octicon-mark-github" title="GitHub"></span>
+</a>
+    <ul class="site-footer-links">
+      <li>&copy; 2015 <span title="0.03870s from github-fe140-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
+        <li><a href="https://github.com/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
+        <li><a href="https://github.com/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
+        <li><a href="https://github.com/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li><a href="https://github.com/contact" data-ga-click="Footer, go to contact, text:contact">Contact</a></li>
+    </ul>
+  </div>
+</div>
+
+
+    <div class="fullscreen-overlay js-fullscreen-overlay" id="fullscreen_overlay">
+  <div class="fullscreen-container js-suggester-container">
+    <div class="textarea-wrap">
+      <textarea name="fullscreen-contents" id="fullscreen-contents" class="fullscreen-contents js-fullscreen-contents" placeholder=""></textarea>
+      <div class="suggester-container">
+        <div class="suggester fullscreen-suggester js-suggester js-navigation-container"></div>
+      </div>
+    </div>
+  </div>
+  <div class="fullscreen-sidebar">
+    <a href="#" class="exit-fullscreen js-exit-fullscreen tooltipped tooltipped-w" aria-label="Exit Zen Mode">
+      <span class="mega-octicon octicon-screen-normal"></span>
+    </a>
+    <a href="#" class="theme-switcher js-theme-switcher tooltipped tooltipped-w"
+      aria-label="Switch themes">
+      <span class="octicon octicon-color-mode"></span>
+    </a>
+  </div>
+</div>
+
+
+
+    
+    
+
+    <div id="ajax-error-message" class="flash flash-error">
+      <span class="octicon octicon-alert"></span>
+      <a href="#" class="octicon octicon-x flash-close js-ajax-error-dismiss" aria-label="Dismiss error"></a>
+      Something went wrong with that request. Please try again.
+    </div>
+
+
+      <script crossorigin="anonymous" src="https://assets-cdn.github.com/assets/frameworks-dea2e78f4b34a1f3429ade94f98bd25fad6bbe8d28635a93d9caeb68e3c2d258.js"></script>
+      <script async="async" crossorigin="anonymous" src="https://assets-cdn.github.com/assets/github/index-f2bb67dd64e6f69f40f179e8bdddd466056de1bf6e2e88b013c8367c41ad703d.js"></script>
+      
+      
+  </body>
+</html>
+

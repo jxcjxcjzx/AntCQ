@@ -1,0 +1,1527 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" class="">
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# object: http://ogp.me/ns/object# article: http://ogp.me/ns/article# profile: http://ogp.me/ns/profile#">
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Language" content="en">
+    
+    
+    <title>twbs/bootstrap · GitHub</title>
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+    <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-144.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144.png">
+    <meta property="fb:app_id" content="1401488693436528">
+
+      <meta content="@github" name="twitter:site" /><meta content="summary" name="twitter:card" /><meta content="twbs/bootstrap" name="twitter:title" /><meta content="bootstrap - The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web." name="twitter:description" /><meta content="https://avatars1.githubusercontent.com/u/2918581?v=3&amp;s=400" name="twitter:image:src" />
+      <meta content="GitHub" property="og:site_name" /><meta content="object" property="og:type" /><meta content="https://avatars1.githubusercontent.com/u/2918581?v=3&amp;s=400" property="og:image" /><meta content="twbs/bootstrap" property="og:title" /><meta content="https://github.com/twbs/bootstrap" property="og:url" /><meta content="bootstrap - The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web." property="og:description" />
+      <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+    <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+    <link rel="assets" href="https://assets-cdn.github.com/">
+    
+    <meta name="pjax-timeout" content="1000">
+    
+
+    <meta name="msapplication-TileImage" content="/windows-tile.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="selected-link" value="repo_source" data-pjax-transient>
+      <meta name="google-analytics" content="UA-3769691-2">
+
+    <meta content="collector.githubapp.com" name="octolytics-host" /><meta content="collector-cdn.github.com" name="octolytics-script-host" /><meta content="github" name="octolytics-app-id" /><meta content="6FDE13B9:5FD5:2054213:557BA8CF" name="octolytics-dimension-request_id" />
+    
+    <meta content="Rails, view, files#disambiguate" name="analytics-event" />
+    <meta class="js-ga-set" name="dimension1" content="Logged Out">
+    <meta name="is-dotcom" content="true">
+      <meta name="hostname" content="github.com">
+    <meta name="user-login" content="">
+
+      <link rel="icon" sizes="any" mask href="https://assets-cdn.github.com/pinned-octocat.svg">
+      <meta name="theme-color" content="#4078c0">
+      <link rel="icon" type="image/x-icon" href="https://assets-cdn.github.com/favicon.ico">
+
+
+    <meta content="authenticity_token" name="csrf-param" />
+<meta content="OJnJRkV7vrQZx0dBG5BQnbm/wXJD9j1dsXmi+J4wf49Kx09atnIMl5zM2uwc1rj8NLQb5wIdwt4O8TykIh9xvw==" name="csrf-token" />
+
+    <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github/index-10789d1d56bfe8c960a6caf2954ab053c3fac748d581415395f986779781b4a7.css" media="all" rel="stylesheet" />
+    <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github2/index-8b4acc27f06d948d9a73d77849e0fe0b98d8636c85e2fe0e6c4b8762dec9fd3d.css" media="all" rel="stylesheet" />
+    
+    
+
+
+    <meta http-equiv="x-pjax-version" content="62b85260d6deaadccdaa2c3c0e0b0c94">
+
+      
+  <meta name="description" content="bootstrap - The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.">
+  <meta name="go-import" content="github.com/twbs/bootstrap git https://github.com/twbs/bootstrap.git">
+
+  <meta content="2918581" name="octolytics-dimension-user_id" /><meta content="twbs" name="octolytics-dimension-user_login" /><meta content="2126244" name="octolytics-dimension-repository_id" /><meta content="twbs/bootstrap" name="octolytics-dimension-repository_nwo" /><meta content="true" name="octolytics-dimension-repository_public" /><meta content="false" name="octolytics-dimension-repository_is_fork" /><meta content="2126244" name="octolytics-dimension-repository_network_root_id" /><meta content="twbs/bootstrap" name="octolytics-dimension-repository_network_root_nwo" />
+  <link href="https://github.com/twbs/bootstrap/commits/master.atom" rel="alternate" title="Recent Commits to bootstrap:master" type="application/atom+xml">
+
+  </head>
+
+
+  <body class="logged_out  env-production windows vis-public">
+    <a href="#start-of-content" tabindex="1" class="accessibility-aid js-skip-to-content">Skip to content</a>
+    <div class="wrapper">
+      
+      
+      
+
+
+        
+        <div class="header header-logged-out" role="banner">
+  <div class="container clearfix">
+
+    <a class="header-logo-wordmark" href="https://github.com/" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
+      <span class="mega-octicon octicon-logo-github"></span>
+    </a>
+
+    <div class="header-actions" role="navigation">
+        <a class="btn btn-primary" href="/join" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">Sign up</a>
+      <a class="btn" href="/login?return_to=%2Ftwbs%2Fbootstrap" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign in</a>
+    </div>
+
+    <div class="site-search repo-scope js-site-search" role="search">
+      <form accept-charset="UTF-8" action="/twbs/bootstrap/search" class="js-site-search-form" data-global-search-url="/search" data-repo-search-url="/twbs/bootstrap/search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+  <label class="js-chromeless-input-container form-control">
+    <div class="scope-badge">This repository</div>
+    <input type="text"
+      class="js-site-search-focus js-site-search-field is-clearable chromeless-input"
+      data-hotkey="s"
+      name="q"
+      placeholder="Search"
+      data-global-scope-placeholder="Search GitHub"
+      data-repo-scope-placeholder="Search"
+      tabindex="1"
+      autocapitalize="off">
+  </label>
+</form>
+    </div>
+
+      <ul class="header-nav left" role="navigation">
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="/explore" data-ga-click="(Logged out) Header, go to explore, text:explore">Explore</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="/features" data-ga-click="(Logged out) Header, go to features, text:features">Features</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="https://enterprise.github.com/" data-ga-click="(Logged out) Header, go to enterprise, text:enterprise">Enterprise</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="/blog" data-ga-click="(Logged out) Header, go to blog, text:blog">Blog</a>
+          </li>
+      </ul>
+
+  </div>
+</div>
+
+
+
+      <div id="start-of-content" class="accessibility-aid"></div>
+          <div class="site" itemscope itemtype="http://schema.org/WebPage">
+    <div id="js-flash-container">
+      
+    </div>
+    <div class="pagehead repohead instapaper_ignore readability-menu">
+      <div class="container">
+
+        
+<ul class="pagehead-actions">
+
+  <li>
+      <a href="/login?return_to=%2Ftwbs%2Fbootstrap"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to watch a repository" rel="nofollow">
+    <span class="octicon octicon-eye"></span>
+    Watch
+  </a>
+  <a class="social-count" href="/twbs/bootstrap/watchers">
+    5,009
+  </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Ftwbs%2Fbootstrap"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to star a repository" rel="nofollow">
+    <span class="octicon octicon-star"></span>
+    Star
+  </a>
+
+    <a class="social-count js-social-count" href="/twbs/bootstrap/stargazers">
+      82,099
+    </a>
+
+  </li>
+
+    <li>
+      <a href="/login?return_to=%2Ftwbs%2Fbootstrap"
+        class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+        aria-label="You must be signed in to fork a repository" rel="nofollow">
+        <span class="octicon octicon-repo-forked"></span>
+        Fork
+      </a>
+      <a href="/twbs/bootstrap/network" class="social-count">
+        32,840
+      </a>
+    </li>
+</ul>
+
+        <h1 itemscope itemtype="http://data-vocabulary.org/Breadcrumb" class="entry-title public">
+          <span class="mega-octicon octicon-repo"></span>
+          <span class="author"><a href="/twbs" class="url fn" itemprop="url" rel="author"><span itemprop="title">twbs</span></a></span><!--
+       --><span class="path-divider">/</span><!--
+       --><strong><a href="/twbs/bootstrap" data-pjax="#js-repo-pjax-container">bootstrap</a></strong>
+
+          <span class="page-context-loader">
+            <img alt="" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </span>
+
+        </h1>
+      </div><!-- /.container -->
+    </div><!-- /.repohead -->
+
+    <div class="container">
+      <div class="repository-with-sidebar repo-container new-discussion-timeline with-full-navigation ">
+        <div class="repository-sidebar clearfix">
+            
+<nav class="sunken-menu repo-nav js-repo-nav js-sidenav-container-pjax js-octicon-loaders"
+     role="navigation"
+     data-pjax="#js-repo-pjax-container"
+     data-issue-count-url="/twbs/bootstrap/issues/counts">
+  <ul class="sunken-menu-group">
+    <li class="tooltipped tooltipped-w" aria-label="Code">
+      <a href="/twbs/bootstrap" aria-label="Code" class="selected js-selected-navigation-item sunken-menu-item" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches /twbs/bootstrap">
+        <span class="octicon octicon-code"></span> <span class="full-word">Code</span>
+        <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+</a>    </li>
+
+      <li class="tooltipped tooltipped-w" aria-label="Issues">
+        <a href="/twbs/bootstrap/issues" aria-label="Issues" class="js-selected-navigation-item sunken-menu-item" data-hotkey="g i" data-selected-links="repo_issues repo_labels repo_milestones /twbs/bootstrap/issues">
+          <span class="octicon octicon-issue-opened"></span> <span class="full-word">Issues</span>
+          <span class="js-issue-replace-counter"></span>
+          <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+</a>      </li>
+
+    <li class="tooltipped tooltipped-w" aria-label="Pull requests">
+      <a href="/twbs/bootstrap/pulls" aria-label="Pull requests" class="js-selected-navigation-item sunken-menu-item" data-hotkey="g p" data-selected-links="repo_pulls /twbs/bootstrap/pulls">
+          <span class="octicon octicon-git-pull-request"></span> <span class="full-word">Pull requests</span>
+          <span class="js-pull-replace-counter"></span>
+          <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+</a>    </li>
+
+  </ul>
+  <div class="sunken-menu-separator"></div>
+  <ul class="sunken-menu-group">
+
+    <li class="tooltipped tooltipped-w" aria-label="Pulse">
+      <a href="/twbs/bootstrap/pulse" aria-label="Pulse" class="js-selected-navigation-item sunken-menu-item" data-selected-links="pulse /twbs/bootstrap/pulse">
+        <span class="octicon octicon-pulse"></span> <span class="full-word">Pulse</span>
+        <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+</a>    </li>
+
+    <li class="tooltipped tooltipped-w" aria-label="Graphs">
+      <a href="/twbs/bootstrap/graphs" aria-label="Graphs" class="js-selected-navigation-item sunken-menu-item" data-selected-links="repo_graphs repo_contributors /twbs/bootstrap/graphs">
+        <span class="octicon octicon-graph"></span> <span class="full-word">Graphs</span>
+        <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+</a>    </li>
+  </ul>
+
+
+</nav>
+
+              <div class="only-with-full-nav">
+                  
+<div class="js-clone-url clone-url open"
+  data-protocol-type="http">
+  <h3><span class="text-emphasized">HTTPS</span> clone URL</h3>
+  <div class="input-group js-zeroclipboard-container">
+    <input type="text" class="input-mini input-monospace js-url-field js-zeroclipboard-target"
+           value="https://github.com/twbs/bootstrap.git" readonly="readonly">
+    <span class="input-group-button">
+      <button aria-label="Copy to clipboard" class="js-zeroclipboard btn btn-sm zeroclipboard-button tooltipped tooltipped-s" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+    </span>
+  </div>
+</div>
+
+  
+<div class="js-clone-url clone-url "
+  data-protocol-type="subversion">
+  <h3><span class="text-emphasized">Subversion</span> checkout URL</h3>
+  <div class="input-group js-zeroclipboard-container">
+    <input type="text" class="input-mini input-monospace js-url-field js-zeroclipboard-target"
+           value="https://github.com/twbs/bootstrap" readonly="readonly">
+    <span class="input-group-button">
+      <button aria-label="Copy to clipboard" class="js-zeroclipboard btn btn-sm zeroclipboard-button tooltipped tooltipped-s" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+    </span>
+  </div>
+</div>
+
+
+
+<div class="clone-options">You can clone with
+  <form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=http&amp;protocol_type=clone" class="inline-form js-clone-selector-form " data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="bnb80EAET9XCmLdehwhGbzsGU3HHJ/83p2ZTqbI8yfK9LbHqw2ZpaSvpoDcnJ1qbR8xcWjLYl435qrVE4JPHzA==" /></div><button class="btn-link js-clone-selector" data-protocol="http" type="submit">HTTPS</button></form> or <form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=subversion&amp;protocol_type=clone" class="inline-form js-clone-selector-form " data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="8E+3o1ha4E27Qq76VpUSpxGRlID1QyXSu3DfreJHExGgX/POPIorm+X+JSYYjaKhvcNwJISdSu0hogNMUIc0rg==" /></div><button class="btn-link js-clone-selector" data-protocol="subversion" type="submit">Subversion</button></form>.
+  <a href="https://help.github.com/articles/which-remote-url-should-i-use" class="help tooltipped tooltipped-n" aria-label="Get help on which URL is right for you.">
+    <span class="octicon octicon-question"></span>
+  </a>
+</div>
+
+
+  <a href="https://windows.github.com" class="btn btn-sm sidebar-button" title="Save twbs/bootstrap to your computer and use it in GitHub Desktop." aria-label="Save twbs/bootstrap to your computer and use it in GitHub Desktop.">
+    <span class="octicon octicon-device-desktop"></span>
+    Clone in Desktop
+  </a>
+
+
+                <a href="/twbs/bootstrap/archive/master.zip"
+                   class="btn btn-sm sidebar-button"
+                   aria-label="Download the contents of twbs/bootstrap as a zip file"
+                   title="Download the contents of twbs/bootstrap as a zip file"
+                   rel="nofollow">
+                  <span class="octicon octicon-cloud-download"></span>
+                  Download ZIP
+                </a>
+              </div>
+        </div><!-- /.repository-sidebar -->
+
+        <div id="js-repo-pjax-container" class="repository-content context-loader-container" data-pjax-container>
+
+          
+<span id="js-show-full-navigation"></span>
+
+<div class="repository-meta js-details-container ">
+    <div class="repository-description">
+      The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.
+    </div>
+
+    <div class="repository-website">
+      <p><a href="http://getbootstrap.com" rel="nofollow">http://getbootstrap.com</a></p>
+    </div>
+
+
+</div>
+
+<div class="overall-summary overall-summary-bottomless">
+
+  <div class="stats-switcher-viewport js-stats-switcher-viewport">
+    <div class="stats-switcher-wrapper">
+    <ul class="numbers-summary">
+      <li class="commits">
+        <a data-pjax href="/twbs/bootstrap/commits/master">
+            <span class="octicon octicon-history"></span>
+            <span class="num text-emphasized">
+              11,408
+            </span>
+            commits
+        </a>
+      </li>
+      <li>
+        <a data-pjax href="/twbs/bootstrap/branches">
+          <span class="octicon octicon-git-branch"></span>
+          <span class="num text-emphasized">
+            10
+          </span>
+          branches
+        </a>
+      </li>
+
+      <li>
+        <a data-pjax href="/twbs/bootstrap/releases">
+          <span class="octicon octicon-tag"></span>
+          <span class="num text-emphasized">
+            32
+          </span>
+          releases
+        </a>
+      </li>
+
+      <li>
+        
+  <a href="/twbs/bootstrap/graphs/contributors">
+    <span class="octicon octicon-organization"></span>
+    <span class="num text-emphasized">
+      654
+    </span>
+    contributors
+  </a>
+      </li>
+    </ul>
+
+      <div class="repository-lang-stats">
+        <ol class="repository-lang-stats-numbers">
+          <li>
+              <a href="/twbs/bootstrap/search?l=css">
+                <span class="color-block language-color" style="background-color:#563d7c;"></span>
+                <span class="lang">CSS</span>
+                <span class="percent">44.0%</span>
+              </a>
+          </li>
+          <li>
+              <a href="/twbs/bootstrap/search?l=javascript">
+                <span class="color-block language-color" style="background-color:#f1e05a;"></span>
+                <span class="lang">JavaScript</span>
+                <span class="percent">38.4%</span>
+              </a>
+          </li>
+          <li>
+              <a href="/twbs/bootstrap/search?l=html">
+                <span class="color-block language-color" style="background-color:#e44b23;"></span>
+                <span class="lang">HTML</span>
+                <span class="percent">16.9%</span>
+              </a>
+          </li>
+          <li>
+              <span class="other">
+                <span class="color-block language-color" style="background-color:#ededed;"></span>
+                <span class="lang">Other</span>
+                <span class="percent">0.7%</span>
+              </span>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+  <div class="repository-lang-stats-graph js-toggle-lang-stats" title="Click for language details">
+    <span class="language-color" aria-label="CSS 44.0%" style="width:44.0%; background-color:#563d7c;" itemprop="keywords">CSS</span>
+    <span class="language-color" aria-label="JavaScript 38.4%" style="width:38.4%; background-color:#f1e05a;" itemprop="keywords">JavaScript</span>
+    <span class="language-color" aria-label="HTML 16.9%" style="width:16.9%; background-color:#e44b23;" itemprop="keywords">HTML</span>
+    <span class="language-color" aria-label="Other 0.7%" style="width:0.7%; background-color:#ededed;" itemprop="keywords">Other</span>
+  </div>
+
+<include-fragment src="/twbs/bootstrap/show_partial?partial=tree%2Frecently_touched_branches_list"></include-fragment>
+
+<div class="file-navigation in-mid-page">
+  <a href="/twbs/bootstrap/find/master"
+        class="js-show-file-finder btn btn-sm empty-icon tooltipped tooltipped-s right"
+        data-pjax
+        data-hotkey="t"
+        aria-label="Quickly jump between files">
+    <span class="octicon octicon-list-unordered"></span>
+  </a>
+    <a href="/twbs/bootstrap/compare" aria-label="Compare, review, create a pull request" class="btn btn-sm btn-primary tooltipped tooltipped-se left compare-button" aria-label="Compare &amp; review" data-pjax data-ga-click="Repository, go to compare view, location:repo overview; icon:git-compare">
+      <span class="octicon octicon-git-compare"></span>
+    </a>
+
+  
+<div class="select-menu js-menu-container js-select-menu left">
+  <span class="btn btn-sm select-menu-button js-menu-target css-truncate" data-hotkey="w"
+    data-ref="master"
+    title="master"
+    role="button" aria-label="Switch branches or tags" tabindex="0" aria-haspopup="true">
+    <span class="octicon octicon-git-branch"></span>
+    <i>branch:</i>
+    <span class="js-select-button css-truncate-target">master</span>
+  </span>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax aria-hidden="true">
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <span class="select-menu-title">Switch branches/tags</span>
+        <span class="octicon octicon-x js-menu-close" role="button" aria-label="Close"></span>
+      </div>
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="branches" data-filter-placeholder="Filter branches/tags" class="js-select-menu-tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="tags" data-filter-placeholder="Find a tag…" class="js-select-menu-tab">Tags</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/twbs/bootstrap/tree/14226-rebased"
+               data-name="14226-rebased"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <span class="select-menu-item-text css-truncate-target" title="14226-rebased">
+                14226-rebased
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/twbs/bootstrap/tree/XhmikosR-patch-1"
+               data-name="XhmikosR-patch-1"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <span class="select-menu-item-text css-truncate-target" title="XhmikosR-patch-1">
+                XhmikosR-patch-1
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/twbs/bootstrap/tree/bundler"
+               data-name="bundler"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <span class="select-menu-item-text css-truncate-target" title="bundler">
+                bundler
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/twbs/bootstrap/tree/deps"
+               data-name="deps"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <span class="select-menu-item-text css-truncate-target" title="deps">
+                deps
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/twbs/bootstrap/tree/derp"
+               data-name="derp"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <span class="select-menu-item-text css-truncate-target" title="derp">
+                derp
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/twbs/bootstrap/tree/fix-15534"
+               data-name="fix-15534"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <span class="select-menu-item-text css-truncate-target" title="fix-15534">
+                fix-15534
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/twbs/bootstrap/tree/fix-popover-setContent"
+               data-name="fix-popover-setContent"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <span class="select-menu-item-text css-truncate-target" title="fix-popover-setContent">
+                fix-popover-setContent
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/twbs/bootstrap/tree/gh-pages"
+               data-name="gh-pages"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <span class="select-menu-item-text css-truncate-target" title="gh-pages">
+                gh-pages
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open selected"
+               href="/twbs/bootstrap/tree/master"
+               data-name="master"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <span class="select-menu-item-text css-truncate-target" title="master">
+                master
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/twbs/bootstrap/tree/travis2"
+               data-name="travis2"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <span class="select-menu-item-text css-truncate-target" title="travis2">
+                travis2
+              </span>
+            </a>
+        </div>
+
+          <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/twbs/bootstrap/tree/v3.3.4"
+                 data-name="v3.3.4"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v3.3.4">v3.3.4</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/twbs/bootstrap/tree/v3.3.2"
+                 data-name="v3.3.2"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v3.3.2">v3.3.2</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/twbs/bootstrap/tree/v3.3.1"
+                 data-name="v3.3.1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v3.3.1">v3.3.1</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/twbs/bootstrap/tree/v3.3.0"
+                 data-name="v3.3.0"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v3.3.0">v3.3.0</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/twbs/bootstrap/tree/v3.2.0"
+                 data-name="v3.2.0"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v3.2.0">v3.2.0</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/twbs/bootstrap/tree/v3.1.1"
+                 data-name="v3.1.1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v3.1.1">v3.1.1</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/twbs/bootstrap/tree/v3.1.0"
+                 data-name="v3.1.0"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v3.1.0">v3.1.0</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/twbs/bootstrap/tree/v3.0.3"
+                 data-name="v3.0.3"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v3.0.3">v3.0.3</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/twbs/bootstrap/tree/v3.0.2"
+                 data-name="v3.0.2"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v3.0.2">v3.0.2</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/twbs/bootstrap/tree/v3.0.1"
+                 data-name="v3.0.1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v3.0.1">v3.0.1a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/twbs/bootstrap/tree/v3.0.0-rc.2"
+                 data-name="v3.0.0-rc.2"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v3.0.0-rc.2">v3.0.0-rc.2</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/twbs/bootstrap/tree/v3.0.0-rc1"
+                 data-name="v3.0.0-rc1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v3.0.0-rc1">v3.0.0-rc1</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/twbs/bootstrap/tree/v3.0.0"
+                 data-name="v3.0.0"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v3.0.0">v3.0.0</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/twbs/bootstrap/tree/v2.3.2"
+                 data-name="v2.3.2"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v2.3.2">v2.3.2</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/twbs/bootstrap/tree/v2.3.1"
+                 data-name="v2.3.1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v2.3.1">v2.3.1</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/twbs/bootstrap/tree/v2.3.0"
+                 data-name="v2.3.0"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v2.3.0">v2.3.0</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/twbs/bootstrap/tree/v2.2.2"
+                 data-name="v2.2.2"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v2.2.2">v2.2.2</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/twbs/bootstrap/tree/v2.2.1"
+                 data-name="v2.2.1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v2.2.1">v2.2.1</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/twbs/bootstrap/tree/v2.2.0"
+                 data-name="v2.2.0"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v2.2.0">v2.2.0</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/twbs/bootstrap/tree/v2.1.1"
+                 data-name="v2.1.1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v2.1.1">v2.1.1</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/twbs/bootstrap/tree/v2.1.0"
+                 data-name="v2.1.0"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v2.1.0">v2.1.0</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/twbs/bootstrap/tree/v2.0.4"
+                 data-name="v2.0.4"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v2.0.4">v2.0.4</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/twbs/bootstrap/tree/v2.0.3"
+                 data-name="v2.0.3"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v2.0.3">v2.0.3</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/twbs/bootstrap/tree/v2.0.2"
+                 data-name="v2.0.2"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v2.0.2">v2.0.2</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/twbs/bootstrap/tree/v2.0.1"
+                 data-name="v2.0.1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v2.0.1">v2.0.1</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/twbs/bootstrap/tree/v2.0.0"
+                 data-name="v2.0.0"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v2.0.0">v2.0.0</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/twbs/bootstrap/tree/v1.4.0"
+                 data-name="v1.4.0"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v1.4.0">v1.4.0</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/twbs/bootstrap/tree/v1.3.0"
+                 data-name="v1.3.0"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v1.3.0">v1.3.0</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/twbs/bootstrap/tree/v1.2.0"
+                 data-name="v1.2.0"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v1.2.0">v1.2.0</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/twbs/bootstrap/tree/v1.1.1"
+                 data-name="v1.1.1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v1.1.1">v1.1.1</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/twbs/bootstrap/tree/v1.1.0"
+                 data-name="v1.1.0"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v1.1.0">v1.1.0</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/twbs/bootstrap/tree/v1.0.0"
+                 data-name="v1.0.0"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v1.0.0">v1.0.0</a>
+            </div>
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+  <div class="breadcrumb"><span class="repo-root js-repo-root"><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/twbs/bootstrap" class="" data-branch="master" data-pjax="true" itemscope="url"><span itemprop="title">bootstrap</span></a></span></span><span class="separator">/</span>
+    <a class="btn-link disabled tooltipped tooltipped-e" href="#" aria-label="You must be signed in to make or propose changes">
+      <span class="octicon octicon-plus"></span>
+    </a>
+</div>
+</div>
+
+
+
+  
+  <div class="commit commit-tease js-details-container" >
+    <p class="commit-title ">
+        <a href="/twbs/bootstrap/commit/5a8d0143b3fa9de883a5672d4a1f44d472657a8a" class="message" data-pjax="true" title='Merge pull request #16623 from patrickhlauke/docs-modal-role-fix
+
+Add role="document" to modal dialog content'>Merge pull request</a> <a href="https://github.com/twbs/bootstrap/pull/16623" class="issue-link" title='Add role="document" to modal dialog content'>#16623</a> <a href="/twbs/bootstrap/commit/5a8d0143b3fa9de883a5672d4a1f44d472657a8a" class="message" data-pjax="true" title='Merge pull request #16623 from patrickhlauke/docs-modal-role-fix
+
+Add role="document" to modal dialog content'>from patrickhlauke/docs-modal-role-fix</a>
+        <span class="hidden-text-expander inline"><a href="#" class="js-details-target">…</a></span>
+    </p>
+      <div class="commit-desc"><pre>Add role="document" to modal dialog content</pre></div>
+    <div class="commit-meta">
+      <button aria-label="Copy SHA" class="js-zeroclipboard zeroclipboard-link tooltipped tooltipped-s" data-clipboard-text="5a8d0143b3fa9de883a5672d4a1f44d472657a8a" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+      <a href="/twbs/bootstrap/commit/5a8d0143b3fa9de883a5672d4a1f44d472657a8a" class="sha-block" data-pjax>latest commit <span class="sha">5a8d0143b3</span></a>
+
+      <div class="authorship">
+        <img alt="@patrickhlauke" class="avatar" height="20" src="https://avatars1.githubusercontent.com/u/895831?v=3&amp;s=40" width="20" />
+        <span class="author-name"><a href="/patrickhlauke" rel="contributor">patrickhlauke</a></span>
+        authored <time class="updated" datetime="2015-06-11T11:53:46Z" is="relative-time">Jun 11, 2015</time>
+
+      </div>
+    </div>
+  </div>
+
+  
+<div class="file-wrap">
+  <a href="/twbs/bootstrap/tree/5a8d0143b3fa9de883a5672d4a1f44d472657a8a" class="hidden js-permalink-shortcut" data-hotkey="y">Permalink</a>
+
+  <table class="files" data-pjax>
+
+
+    <tbody>
+      <tr class="warning include-fragment-error">
+        <td class="icon"><span class="octicon octicon-alert"></span></td>
+        <td class="content" colspan="3">Failed to load latest commit information.</td>
+      </tr>
+
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-directory"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/twbs/bootstrap/tree/master/dist" class="js-directory-link" id="2a6d07eef8b10b84129b42424ed99327-f72f37cc773ae91d6b216d21ded76dfbb2e716c3" title="dist">dist</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/twbs/bootstrap/commit/b5ed74d43dfb91e7447000ff371886ad55c3b850" class="message" data-pjax="true" title="Run `grunt`.
+
+[ci skip]">Run `grunt`.</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2015-06-01T07:29:18Z" is="time-ago">Jun 1, 2015</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-directory"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/twbs/bootstrap/tree/master/docs" class="js-directory-link" id="e3e2a9bfd88566b05001b02a3f51d286-ba99c8abfba3f702a869f0a897253d8549f3bc7c" title="docs">docs</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/twbs/bootstrap/commit/3d244537fb94ea5d15476f503acf43e462770d30" class="message" data-pjax="true" title="Slightly expand accessible modals callout
+
+to include a note about `role=&quot;document&quot;`">Slightly expand accessible modals callout</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2015-06-11T11:47:52Z" is="time-ago">Jun 11, 2015</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-directory"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/twbs/bootstrap/tree/master/fonts" class="js-directory-link" id="980d14c0c85495b48b9a9134658e6121-14032aabd85b43a058cfc7025dd4fa9dd325ea97" title="fonts">fonts</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/twbs/bootstrap/commit/c8855a7ad120b37fd9a25125f90093478656362f" class="message" data-pjax="true" title="Add glyphicons fonts in woff2">Add glyphicons fonts in woff2</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2014-12-12T13:22:41Z" is="time-ago">Dec 12, 2014</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-directory"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/twbs/bootstrap/tree/master/grunt" class="js-directory-link" id="ab950343e97df05f1262e24666111fb6-019c94d5bb96c6dafbe32b53dbe00b2db6fa3885" title="grunt">grunt</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/twbs/bootstrap/commit/86400070b5a10d4c013f1f8b72d7d170888031fb" class="message" data-pjax="true" title="Bump copyright year.
+
+[ci skip]">Bump copyright year.</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2015-04-28T08:40:42Z" is="time-ago">Apr 28, 2015</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-directory"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/twbs/bootstrap/tree/master/js" class="js-directory-link" id="32981a13284db7a021131df49e6cd203-e95f57393c81dd6cf4abb38de620ed5a3d4428da" title="js">js</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/twbs/bootstrap/commit/5fd7bc1554d492bdd5794d35fce515fe951439a6" class="message" data-pjax="true" title="generalize dropdowns / drop role=&quot;menu&quot;
+
+as role=&quot;menu&quot; is a very specific (and strict) ARIA pattern for
+desktop-like application menus, and our dropdowns are often used
+as pure navigation dropdowns, this change abandons ARIA menus for
+a more open-ended and light-weight approach
+(see http://heydonworks.com/practical_aria_examples/#submenus and
+http://www.w3.org/WAI/tutorials/menus/flyout/#improve-screen-reader-support-using-wai-aria)
+note that in dropdown.js, switched to now target ``.dropdown-menu``
+instead of ``role[&quot;menu&quot;]`` - this also prevents bootstrap scripts
+from &quot;bleeding&quot; into non-bootstrap components on the same page.
+also removed the ``role=[&quot;listbox&quot;]`` part, which appears to be
+vestigial/unused (only place in bootstrap that uses that
+role are carousels, and their key handling is done separately)">generalize dropdowns / drop role="menu"</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2015-06-02T10:03:21Z" is="time-ago">Jun 2, 2015</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-directory"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/twbs/bootstrap/tree/master/less" class="js-directory-link" id="e37e8d912e8f7b8f9b5ef9452ba47ff1-03ef4c53e3edfd02ff945421a44c4127847034c1" title="less">less</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/twbs/bootstrap/commit/87e99b51551801eddf3664ee2ec9ac9f9118020c" class="message" data-pjax="true" title="Fix asymmetry between dropup and dropdown carets.">Fix asymmetry between dropup and dropdown carets.</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2015-06-10T07:52:01Z" is="time-ago">Jun 10, 2015</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-directory"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/twbs/bootstrap/tree/master/test-infra" class="js-directory-link" id="237af3cccacb3d1b81457f1065659488-6b671256ae8d416fa5bf1fbd3ce81d7696a109f7" title="test-infra">test-infra</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/twbs/bootstrap/commit/704e3448bfcb46a3d417ffd300f8c7f5e820907c" class="message" data-pjax="true" title="Bump load-grunt-tasks.">Bump load-grunt-tasks.</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2015-06-01T07:29:18Z" is="time-ago">Jun 1, 2015</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/twbs/bootstrap/blob/master/.editorconfig" class="js-directory-link" id="1e70daafb475c0ce3fef7d2728279182-ff0ad0433c9e554c5cb10368a05b6de5712c4eb7" title=".editorconfig">.editorconfig</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/twbs/bootstrap/commit/aa8269cfb6a251db60c3a86eb761650ecd81aefc" class="message" data-pjax="true" title="Sorted various lines using atom/sort-lines">Sorted various lines using atom/sort-lines</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2014-10-22T12:06:09Z" is="time-ago">Oct 22, 2014</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/twbs/bootstrap/blob/master/.gitattributes" class="js-directory-link" id="fc723d30b02a4cca7a534518111c1a66-f140503687e4573b7d1369524bee123ad7beca9b" title=".gitattributes">.gitattributes</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/twbs/bootstrap/commit/40961659acf84a8b0952f87e9a46462fac7a7e24" class="message" data-pjax="true" title=".gitattributes: treat source maps as binary files">.gitattributes: treat source maps as binary files</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2015-02-17T06:27:31Z" is="time-ago">Feb 16, 2015</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/twbs/bootstrap/blob/master/.gitignore" class="js-directory-link" id="a084b794bc0759e7a6b77810e01874f2-0aaa46c82b799f4dc00b844c842f680313be5934" title=".gitignore">.gitignore</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/twbs/bootstrap/commit/e7efd810339eb538c4103a6d116956f1917c43d8" class="message" data-pjax="true" title=".gitignore: Remove obsolete files.
+
+They are grunt-html-validation leftovers.
+
+[ci skip]">.gitignore: Remove obsolete files.</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2015-03-07T08:11:28Z" is="time-ago">Mar 7, 2015</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/twbs/bootstrap/blob/master/.travis.yml" class="js-directory-link" id="354f30a63fb0907d4ad57269548329e3-c4fea951357728785e1740c0de0dea819962fe8e" title=".travis.yml">.travis.yml</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/twbs/bootstrap/commit/b9aad573f9400693f6bcbf9af5374a93228dbe6f" class="message" data-pjax="true" title="Travis: test against node.js 0.12.">Travis: test against node.js 0.12.</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2015-02-17T05:09:32Z" is="time-ago">Feb 16, 2015</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/twbs/bootstrap/blob/master/CNAME" class="js-directory-link" id="adc4bfdb0829dae99e3699393e3fbaa4-52c853392c25d3a670446641f4b44b22770b3bbe" title="CNAME">CNAME</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/twbs/bootstrap/commit/c8883647ae05aa80667f3ae49c5b321487491ecb" class="message" data-pjax="true" title="add cname">add cname</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2013-07-27T06:04:03Z" is="time-ago">Jul 26, 2013</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/twbs/bootstrap/blob/master/CONTRIBUTING.md" class="js-directory-link" id="6a3371457528722a734f3c51d9238c13-a3da481928323d3de47590ad7be62f16db7c31bc" title="CONTRIBUTING.md">CONTRIBUTING.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/twbs/bootstrap/commit/f6e7fc9309d83790c61fc4d86f13a56e6e1eca5c" class="message" data-pjax="true" title="Add Slack link to `CONTRIBUTING.md`">Add Slack link to `CONTRIBUTING.md`</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2015-06-05T09:35:13Z" is="time-ago">Jun 5, 2015</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/twbs/bootstrap/blob/master/Gruntfile.js" class="js-directory-link" id="35b4a816e0441e6a375cd925af50752c-4c021cef15b8a0e423bc9d8ed7143eed5b824a7b" title="Gruntfile.js">Gruntfile.js</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/twbs/bootstrap/commit/cbe0f352d136c8a0750b0ff0294038818ad91a50" class="message" data-pjax="true" title="Fix license header after e93c6a2216c69daa574abc16e7c14767fce44ad6.
+
+[ci skip]">Fix license header after</a> <a href="https://github.com/twbs/bootstrap/commit/e93c6a2216c69daa574abc16e7c14767fce44ad6" class="commit-link"><tt>e93c6a2</tt></a><a href="/twbs/bootstrap/commit/cbe0f352d136c8a0750b0ff0294038818ad91a50" class="message" data-pjax="true" title="Fix license header after e93c6a2216c69daa574abc16e7c14767fce44ad6.
+
+[ci skip]">.</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2015-06-01T07:29:18Z" is="time-ago">Jun 1, 2015</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/twbs/bootstrap/blob/master/LICENSE" class="js-directory-link" id="9879d6db96fd29134fc802214163b95a-f4c52d6a4b3e13836fc2b516b962b5365a1d19c8" title="LICENSE">LICENSE</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/twbs/bootstrap/commit/576230b92ae5a082eb8e058dc2fab7c67c99bd19" class="message" data-pjax="true" title="Happy New Year :santa:">Happy New Year <img class="emoji" title=":santa:" alt=":santa:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f385.png" height="20" width="20" align="absmiddle"></a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2015-01-01T00:23:48Z" is="time-ago">Jan 1, 2015</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/twbs/bootstrap/blob/master/README.md" class="js-directory-link" id="04c6e90faac2675aa89e2176d2eec7d8-f941d582ed697ce00ce122988ff1d7ea7eadf78d" title="README.md">README.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/twbs/bootstrap/commit/665d2d25c03c14dfa376a5546d85ffad7dbb1b5f" class="message" data-pjax="true" title="Update source maps link">Update source maps link</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2015-05-26T12:14:57Z" is="time-ago">May 26, 2015</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/twbs/bootstrap/blob/master/_config.yml" class="js-directory-link" id="aeb42283af8ef8e9da40ededd3ae2ab2-839bc7593f10aed332fd4a08aa88186db2f15e4a" title="_config.yml">_config.yml</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/twbs/bootstrap/commit/312e527cb099cd9bbed41233ba96a85f066f04f5" class="message" data-pjax="true" title="BootstrapCDN: v3.3.2 =&gt; v3.3.4">BootstrapCDN: v3.3.2 =&gt; v3.3.4</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2015-03-16T15:41:00Z" is="time-ago">Mar 16, 2015</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/twbs/bootstrap/blob/master/bower.json" class="js-directory-link" id="0a08a7565aba4405282251491979bb6b-686bcf1ae23027bf8a07f16e1506b07f35f3d4b3" title="bower.json">bower.json</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/twbs/bootstrap/commit/f1e1411536c41c4a4bfd2c69d1bbb32b4e457a1c" class="message" data-pjax="true" title="bower.json: Add `license` field
+
+[ci skip]">bower.json: Add `license` field</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2015-04-27T17:49:55Z" is="time-ago">Apr 27, 2015</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/twbs/bootstrap/blob/master/composer.json" class="js-directory-link" id="b5d0ee8c97c7abd7e3fa29b9a27d1780-b63a6d3204a3985ebbd7921543f21a2ed9103a4c" title="composer.json">composer.json</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/twbs/bootstrap/commit/94b59b57d6cae8ba6503b3040d361a4efda5cdc6" class="message" data-pjax="true" title="version bump">version bump</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2014-10-29T15:56:20Z" is="time-ago">Oct 29, 2014</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/twbs/bootstrap/blob/master/package.js" class="js-directory-link" id="49fb32b6d8276ecd1268e47c0339d55c-48de34127a566a82ae2e3c22ce0999fa166d2bdf" title="package.js">package.js</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/twbs/bootstrap/commit/fae8c5d0dc1814ef01c607d3a6551eb286e62f0d" class="message" data-pjax="true" title="Add package.js in Grunt tasks.">Add package.js in Grunt tasks.</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2015-04-28T08:03:37Z" is="time-ago">Apr 28, 2015</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/twbs/bootstrap/blob/master/package.json" class="js-directory-link" id="b9cfc7f2cdf78a7f4b91a753d10865a2-578642a23a406bf7566b6663f45cdb1340aac8bd" title="package.json">package.json</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/twbs/bootstrap/commit/704e3448bfcb46a3d417ffd300f8c7f5e820907c" class="message" data-pjax="true" title="Bump load-grunt-tasks.">Bump load-grunt-tasks.</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2015-06-01T07:29:18Z" is="time-ago">Jun 1, 2015</time></span>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+</div>
+
+
+  <div id="readme" class="boxed-group flush clearfix announce instapaper_body md">
+    <h3>
+      <span class="octicon octicon-book"></span>
+      README.md
+    </h3>
+
+    <article class="markdown-body entry-content" itemprop="mainContentOfPage"><h1><a id="user-content-bootstrap" class="anchor" href="#bootstrap" aria-hidden="true"><span class="octicon octicon-link"></span></a><a href="http://getbootstrap.com">Bootstrap</a></h1>
+
+<p><a href="https://bootstrap-slack.herokuapp.com"><img src="https://camo.githubusercontent.com/b24a92612c39037a7fe712696b32ddf04d8ad970/68747470733a2f2f626f6f7473747261702d736c61636b2e6865726f6b756170702e636f6d2f62616467652e737667" alt="Slack" data-canonical-src="https://bootstrap-slack.herokuapp.com/badge.svg" style="max-width:100%;"></a>
+<a href="https://camo.githubusercontent.com/93ca9882de8a3dc73ac69d5d8bd63f363660b561/68747470733a2f2f696d672e736869656c64732e696f2f626f7765722f762f626f6f7473747261702e737667" target="_blank"><img src="https://camo.githubusercontent.com/93ca9882de8a3dc73ac69d5d8bd63f363660b561/68747470733a2f2f696d672e736869656c64732e696f2f626f7765722f762f626f6f7473747261702e737667" alt="Bower version" data-canonical-src="https://img.shields.io/bower/v/bootstrap.svg" style="max-width:100%;"></a>
+<a href="https://www.npmjs.com/package/bootstrap"><img src="https://camo.githubusercontent.com/37040a3313caaeba028d2cb2d683fc803cc8ca06/68747470733a2f2f696d672e736869656c64732e696f2f6e706d2f762f626f6f7473747261702e737667" alt="npm version" data-canonical-src="https://img.shields.io/npm/v/bootstrap.svg" style="max-width:100%;"></a>
+<a href="https://travis-ci.org/twbs/bootstrap"><img src="https://camo.githubusercontent.com/555e7b3343d4a537b97fbdbc1672223f45badbf2/68747470733a2f2f696d672e736869656c64732e696f2f7472617669732f747762732f626f6f7473747261702f6d61737465722e737667" alt="Build Status" data-canonical-src="https://img.shields.io/travis/twbs/bootstrap/master.svg" style="max-width:100%;"></a>
+<a href="https://david-dm.org/twbs/bootstrap#info=devDependencies"><img src="https://camo.githubusercontent.com/5bd79ff4565350259789b599873cf6d1396e112b/68747470733a2f2f696d672e736869656c64732e696f2f64617669642f6465762f747762732f626f6f7473747261702e737667" alt="devDependency Status" data-canonical-src="https://img.shields.io/david/dev/twbs/bootstrap.svg" style="max-width:100%;"></a>
+<a href="https://saucelabs.com/u/bootstrap"><img src="https://camo.githubusercontent.com/3e0aa93ee06f55b9d19d2209bd12bec39cc40cec/68747470733a2f2f73617563656c6162732e636f6d2f62726f777365722d6d61747269782f626f6f7473747261702e737667" alt="Selenium Test Status" data-canonical-src="https://saucelabs.com/browser-matrix/bootstrap.svg" style="max-width:100%;"></a></p>
+
+<p>Bootstrap is a sleek, intuitive, and powerful front-end framework for faster and easier web development, created by <a href="https://twitter.com/mdo">Mark Otto</a> and <a href="https://twitter.com/fat">Jacob Thornton</a>, and maintained by the <a href="https://github.com/orgs/twbs/people">core team</a> with the massive support and involvement of the community.</p>
+
+<p>To get started, check out <a href="http://getbootstrap.com">http://getbootstrap.com</a>!</p>
+
+<h2><a id="user-content-table-of-contents" class="anchor" href="#table-of-contents" aria-hidden="true"><span class="octicon octicon-link"></span></a>Table of contents</h2>
+
+<ul>
+<li><a href="#quick-start">Quick start</a></li>
+<li><a href="#bugs-and-feature-requests">Bugs and feature requests</a></li>
+<li><a href="#documentation">Documentation</a></li>
+<li><a href="#contributing">Contributing</a></li>
+<li><a href="#community">Community</a></li>
+<li><a href="#versioning">Versioning</a></li>
+<li><a href="#creators">Creators</a></li>
+<li><a href="#copyright-and-license">Copyright and license</a></li>
+</ul>
+
+<h2><a id="user-content-quick-start" class="anchor" href="#quick-start" aria-hidden="true"><span class="octicon octicon-link"></span></a>Quick start</h2>
+
+<p>Several quick start options are available:</p>
+
+<ul>
+<li><a href="https://github.com/twbs/bootstrap/archive/v3.3.4.zip">Download the latest release</a>.</li>
+<li>Clone the repo: <code>git clone https://github.com/twbs/bootstrap.git</code>.</li>
+<li>Install with <a href="http://bower.io">Bower</a>: <code>bower install bootstrap</code>.</li>
+<li>Install with <a href="https://www.npmjs.com">npm</a>: <code>npm install bootstrap</code>.</li>
+<li>Install with <a href="https://www.meteor.com">Meteor</a>: <code>meteor add twbs:bootstrap</code>.</li>
+<li>Install with <a href="https://getcomposer.org">Composer</a>: <code>composer require twbs/bootstrap</code>.</li>
+</ul>
+
+<p>Read the <a href="http://getbootstrap.com/getting-started/">Getting started page</a> for information on the framework contents, templates and examples, and more.</p>
+
+<h3><a id="user-content-whats-included" class="anchor" href="#whats-included" aria-hidden="true"><span class="octicon octicon-link"></span></a>What's included</h3>
+
+<p>Within the download you'll find the following directories and files, logically grouping common assets and providing both compiled and minified variations. You'll see something like this:</p>
+
+<pre><code>bootstrap/
+├── css/
+│   ├── bootstrap.css
+│   ├── bootstrap.css.map
+│   ├── bootstrap.min.css
+│   ├── bootstrap-theme.css
+│   ├── bootstrap-theme.css.map
+│   └── bootstrap-theme.min.css
+├── js/
+│   ├── bootstrap.js
+│   └── bootstrap.min.js
+└── fonts/
+    ├── glyphicons-halflings-regular.eot
+    ├── glyphicons-halflings-regular.svg
+    ├── glyphicons-halflings-regular.ttf
+    ├── glyphicons-halflings-regular.woff
+    └── glyphicons-halflings-regular.woff2
+</code></pre>
+
+<p>We provide compiled CSS and JS (<code>bootstrap.*</code>), as well as compiled and minified CSS and JS (<code>bootstrap.min.*</code>). CSS <a href="https://developer.chrome.com/devtools/docs/css-preprocessors">source maps</a> (<code>bootstrap.*.map</code>) are available for use with certain browsers' developer tools. Fonts from Glyphicons are included, as is the optional Bootstrap theme.</p>
+
+<h2><a id="user-content-bugs-and-feature-requests" class="anchor" href="#bugs-and-feature-requests" aria-hidden="true"><span class="octicon octicon-link"></span></a>Bugs and feature requests</h2>
+
+<p>Have a bug or a feature request? Please first read the <a href="https://github.com/twbs/bootstrap/blob/master/CONTRIBUTING.md#using-the-issue-tracker">issue guidelines</a> and search for existing and closed issues. If your problem or idea is not addressed yet, <a href="https://github.com/twbs/bootstrap/issues/new">please open a new issue</a>.</p>
+
+<h2><a id="user-content-documentation" class="anchor" href="#documentation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Documentation</h2>
+
+<p>Bootstrap's documentation, included in this repo in the root directory, is built with <a href="http://jekyllrb.com">Jekyll</a> and publicly hosted on GitHub Pages at <a href="http://getbootstrap.com">http://getbootstrap.com</a>. The docs may also be run locally.</p>
+
+<h3><a id="user-content-running-documentation-locally" class="anchor" href="#running-documentation-locally" aria-hidden="true"><span class="octicon octicon-link"></span></a>Running documentation locally</h3>
+
+<ol>
+<li>If necessary, <a href="http://jekyllrb.com/docs/installation">install Jekyll</a> (requires v2.5.x).
+
+<ul>
+<li><strong>Windows users:</strong> Read <a href="http://jekyll-windows.juthilo.com/">this unofficial guide</a> to get Jekyll up and running without problems.</li>
+</ul></li>
+<li>Install the Ruby-based syntax highlighter, <a href="https://github.com/jneen/rouge">Rouge</a>, with <code>gem install rouge</code>.</li>
+<li>From the root <code>/bootstrap</code> directory, run <code>jekyll serve</code> in the command line.</li>
+<li>Open <a href="http://localhost:9001">http://localhost:9001</a> in your browser, and voilà.</li>
+</ol>
+
+<p>Learn more about using Jekyll by reading its <a href="http://jekyllrb.com/docs/home/">documentation</a>.</p>
+
+<h3><a id="user-content-documentation-for-previous-releases" class="anchor" href="#documentation-for-previous-releases" aria-hidden="true"><span class="octicon octicon-link"></span></a>Documentation for previous releases</h3>
+
+<p>Documentation for v2.3.2 has been made available for the time being at <a href="http://getbootstrap.com/2.3.2/">http://getbootstrap.com/2.3.2/</a> while folks transition to Bootstrap 3.</p>
+
+<p><a href="https://github.com/twbs/bootstrap/releases">Previous releases</a> and their documentation are also available for download.</p>
+
+<h2><a id="user-content-contributing" class="anchor" href="#contributing" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contributing</h2>
+
+<p>Please read through our <a href="https://github.com/twbs/bootstrap/blob/master/CONTRIBUTING.md">contributing guidelines</a>. Included are directions for opening issues, coding standards, and notes on development.</p>
+
+<p>Moreover, if your pull request contains JavaScript patches or features, you must include <a href="https://github.com/twbs/bootstrap/tree/master/js/tests">relevant unit tests</a>. All HTML and CSS should conform to the <a href="https://github.com/mdo/code-guide">Code Guide</a>, maintained by <a href="https://github.com/mdo">Mark Otto</a>.</p>
+
+<p>Editor preferences are available in the <a href="https://github.com/twbs/bootstrap/blob/master/.editorconfig">editor config</a> for easy use in common text editors. Read more and download plugins at <a href="http://editorconfig.org">http://editorconfig.org</a>.</p>
+
+<h2><a id="user-content-community" class="anchor" href="#community" aria-hidden="true"><span class="octicon octicon-link"></span></a>Community</h2>
+
+<p>Get updates on Bootstrap's development and chat with the project maintainers and community members.</p>
+
+<ul>
+<li>Follow <a href="https://twitter.com/getbootstrap">@getbootstrap on Twitter</a>.</li>
+<li>Read and subscribe to <a href="http://blog.getbootstrap.com">The Official Bootstrap Blog</a>.</li>
+<li>Join <a href="https://bootstrap-slack.herokuapp.com">the official Slack room</a>.</li>
+<li>Chat with fellow Bootstrappers in IRC. On the <code>irc.freenode.net</code> server, in the <code>##bootstrap</code> channel.</li>
+<li>Implementation help may be found at Stack Overflow (tagged <a href="https://stackoverflow.com/questions/tagged/twitter-bootstrap-3"><code>twitter-bootstrap-3</code></a>).</li>
+<li>Developers should use the keyword <code>bootstrap</code> on packages which modify or add to the functionality of Bootstrap when distributing through <a href="https://www.npmjs.com/browse/keyword/bootstrap">npm</a> or similar delivery mechanisms for maximum discoverability.</li>
+</ul>
+
+<h2><a id="user-content-versioning" class="anchor" href="#versioning" aria-hidden="true"><span class="octicon octicon-link"></span></a>Versioning</h2>
+
+<p>For transparency into our release cycle and in striving to maintain backward compatibility, Bootstrap is maintained under <a href="http://semver.org/">the Semantic Versioning guidelines</a>. Sometimes we screw up, but we'll adhere to those rules whenever possible.</p>
+
+<h2><a id="user-content-creators" class="anchor" href="#creators" aria-hidden="true"><span class="octicon octicon-link"></span></a>Creators</h2>
+
+<p><strong>Mark Otto</strong></p>
+
+<ul>
+<li><a href="https://twitter.com/mdo">https://twitter.com/mdo</a></li>
+<li><a href="https://github.com/mdo">https://github.com/mdo</a></li>
+</ul>
+
+<p><strong>Jacob Thornton</strong></p>
+
+<ul>
+<li><a href="https://twitter.com/fat">https://twitter.com/fat</a></li>
+<li><a href="https://github.com/fat">https://github.com/fat</a></li>
+</ul>
+
+<h2><a id="user-content-copyright-and-license" class="anchor" href="#copyright-and-license" aria-hidden="true"><span class="octicon octicon-link"></span></a>Copyright and license</h2>
+
+<p>Code and documentation copyright 2011-2015 Twitter, Inc. Code released under <a href="https://github.com/twbs/bootstrap/blob/master/LICENSE">the MIT license</a>. Docs released under <a href="https://github.com/twbs/bootstrap/blob/master/docs/LICENSE">Creative Commons</a>.</p>
+</article>
+  </div>
+
+
+        </div>
+
+      </div><!-- /.repo-container -->
+      <div class="modal-backdrop"></div>
+    </div><!-- /.container -->
+  </div><!-- /.site -->
+
+
+    </div><!-- /.wrapper -->
+
+      <div class="container">
+  <div class="site-footer" role="contentinfo">
+    <ul class="site-footer-links right">
+        <li><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+      <li><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
+      <li><a href="https://shop.github.com" data-ga-click="Footer, go to shop, text:shop">Shop</a></li>
+        <li><a href="https://github.com/blog" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a href="https://github.com/about" data-ga-click="Footer, go to about, text:about">About</a></li>
+      <li><a href="https://help.github.com" data-ga-click="Footer, go to help, text:help">Help</a></li>
+
+    </ul>
+
+    <a href="https://github.com" aria-label="Homepage">
+      <span class="mega-octicon octicon-mark-github" title="GitHub"></span>
+</a>
+    <ul class="site-footer-links">
+      <li>&copy; 2015 <span title="0.04192s from github-fe140-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
+        <li><a href="https://github.com/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
+        <li><a href="https://github.com/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
+        <li><a href="https://github.com/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li><a href="https://github.com/contact" data-ga-click="Footer, go to contact, text:contact">Contact</a></li>
+    </ul>
+  </div>
+</div>
+
+
+    <div class="fullscreen-overlay js-fullscreen-overlay" id="fullscreen_overlay">
+  <div class="fullscreen-container js-suggester-container">
+    <div class="textarea-wrap">
+      <textarea name="fullscreen-contents" id="fullscreen-contents" class="fullscreen-contents js-fullscreen-contents" placeholder=""></textarea>
+      <div class="suggester-container">
+        <div class="suggester fullscreen-suggester js-suggester js-navigation-container"></div>
+      </div>
+    </div>
+  </div>
+  <div class="fullscreen-sidebar">
+    <a href="#" class="exit-fullscreen js-exit-fullscreen tooltipped tooltipped-w" aria-label="Exit Zen Mode">
+      <span class="mega-octicon octicon-screen-normal"></span>
+    </a>
+    <a href="#" class="theme-switcher js-theme-switcher tooltipped tooltipped-w"
+      aria-label="Switch themes">
+      <span class="octicon octicon-color-mode"></span>
+    </a>
+  </div>
+</div>
+
+
+
+    
+    
+
+    <div id="ajax-error-message" class="flash flash-error">
+      <span class="octicon octicon-alert"></span>
+      <a href="#" class="octicon octicon-x flash-close js-ajax-error-dismiss" aria-label="Dismiss error"></a>
+      Something went wrong with that request. Please try again.
+    </div>
+
+
+      <script crossorigin="anonymous" src="https://assets-cdn.github.com/assets/frameworks-dea2e78f4b34a1f3429ade94f98bd25fad6bbe8d28635a93d9caeb68e3c2d258.js"></script>
+      <script async="async" crossorigin="anonymous" src="https://assets-cdn.github.com/assets/github/index-f2bb67dd64e6f69f40f179e8bdddd466056de1bf6e2e88b013c8367c41ad703d.js"></script>
+      
+      
+  </body>
+</html>
+

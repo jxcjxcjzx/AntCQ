@@ -1,0 +1,1927 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" class="">
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# object: http://ogp.me/ns/object# article: http://ogp.me/ns/article# profile: http://ogp.me/ns/profile#">
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Language" content="en">
+    
+    
+    <title>optimizely/nuclear-js · GitHub</title>
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+    <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-144.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144.png">
+    <meta property="fb:app_id" content="1401488693436528">
+
+      <meta content="@github" name="twitter:site" /><meta content="summary" name="twitter:card" /><meta content="optimizely/nuclear-js" name="twitter:title" /><meta content="nuclear-js - Reactive Flux built with ImmutableJS data structures. Framework agnostic." name="twitter:description" /><meta content="https://avatars2.githubusercontent.com/u/1274132?v=3&amp;s=400" name="twitter:image:src" />
+      <meta content="GitHub" property="og:site_name" /><meta content="object" property="og:type" /><meta content="https://avatars2.githubusercontent.com/u/1274132?v=3&amp;s=400" property="og:image" /><meta content="optimizely/nuclear-js" property="og:title" /><meta content="https://github.com/optimizely/nuclear-js" property="og:url" /><meta content="nuclear-js - Reactive Flux built with ImmutableJS data structures. Framework agnostic." property="og:description" />
+      <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+    <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+    <link rel="assets" href="https://assets-cdn.github.com/">
+    
+    <meta name="pjax-timeout" content="1000">
+    
+
+    <meta name="msapplication-TileImage" content="/windows-tile.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="selected-link" value="repo_source" data-pjax-transient>
+      <meta name="google-analytics" content="UA-3769691-2">
+
+    <meta content="collector.githubapp.com" name="octolytics-host" /><meta content="collector-cdn.github.com" name="octolytics-script-host" /><meta content="github" name="octolytics-app-id" /><meta content="6FDE13B9:5FD7:2425F28:557BA8A9" name="octolytics-dimension-request_id" />
+    
+    <meta content="Rails, view, files#disambiguate" name="analytics-event" />
+    <meta class="js-ga-set" name="dimension1" content="Logged Out">
+    <meta name="is-dotcom" content="true">
+      <meta name="hostname" content="github.com">
+    <meta name="user-login" content="">
+
+      <link rel="icon" sizes="any" mask href="https://assets-cdn.github.com/pinned-octocat.svg">
+      <meta name="theme-color" content="#4078c0">
+      <link rel="icon" type="image/x-icon" href="https://assets-cdn.github.com/favicon.ico">
+
+
+    <meta content="authenticity_token" name="csrf-param" />
+<meta content="AKOYCRgPmnTWs5o7EGQ0Txjxt5jcDxXrRcy2ZaQjQ+6MdTrHQGSvT4Wh0wPANhLVQQ9k4W0n024zHPGbcm/udg==" name="csrf-token" />
+
+    <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github/index-10789d1d56bfe8c960a6caf2954ab053c3fac748d581415395f986779781b4a7.css" media="all" rel="stylesheet" />
+    <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github2/index-8b4acc27f06d948d9a73d77849e0fe0b98d8636c85e2fe0e6c4b8762dec9fd3d.css" media="all" rel="stylesheet" />
+    
+    
+
+
+    <meta http-equiv="x-pjax-version" content="62b85260d6deaadccdaa2c3c0e0b0c94">
+
+      
+  <meta name="description" content="nuclear-js - Reactive Flux built with ImmutableJS data structures. Framework agnostic.">
+  <meta name="go-import" content="github.com/optimizely/nuclear-js git https://github.com/optimizely/nuclear-js.git">
+
+  <meta content="1274132" name="octolytics-dimension-user_id" /><meta content="optimizely" name="octolytics-dimension-user_login" /><meta content="24073130" name="octolytics-dimension-repository_id" /><meta content="optimizely/nuclear-js" name="octolytics-dimension-repository_nwo" /><meta content="true" name="octolytics-dimension-repository_public" /><meta content="false" name="octolytics-dimension-repository_is_fork" /><meta content="24073130" name="octolytics-dimension-repository_network_root_id" /><meta content="optimizely/nuclear-js" name="octolytics-dimension-repository_network_root_nwo" />
+  <link href="https://github.com/optimizely/nuclear-js/commits/master.atom" rel="alternate" title="Recent Commits to nuclear-js:master" type="application/atom+xml">
+
+  </head>
+
+
+  <body class="logged_out  env-production windows vis-public">
+    <a href="#start-of-content" tabindex="1" class="accessibility-aid js-skip-to-content">Skip to content</a>
+    <div class="wrapper">
+      
+      
+      
+
+
+        
+        <div class="header header-logged-out" role="banner">
+  <div class="container clearfix">
+
+    <a class="header-logo-wordmark" href="https://github.com/" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
+      <span class="mega-octicon octicon-logo-github"></span>
+    </a>
+
+    <div class="header-actions" role="navigation">
+        <a class="btn btn-primary" href="/join" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">Sign up</a>
+      <a class="btn" href="/login?return_to=%2Foptimizely%2Fnuclear-js" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign in</a>
+    </div>
+
+    <div class="site-search repo-scope js-site-search" role="search">
+      <form accept-charset="UTF-8" action="/optimizely/nuclear-js/search" class="js-site-search-form" data-global-search-url="/search" data-repo-search-url="/optimizely/nuclear-js/search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+  <label class="js-chromeless-input-container form-control">
+    <div class="scope-badge">This repository</div>
+    <input type="text"
+      class="js-site-search-focus js-site-search-field is-clearable chromeless-input"
+      data-hotkey="s"
+      name="q"
+      placeholder="Search"
+      data-global-scope-placeholder="Search GitHub"
+      data-repo-scope-placeholder="Search"
+      tabindex="1"
+      autocapitalize="off">
+  </label>
+</form>
+    </div>
+
+      <ul class="header-nav left" role="navigation">
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="/explore" data-ga-click="(Logged out) Header, go to explore, text:explore">Explore</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="/features" data-ga-click="(Logged out) Header, go to features, text:features">Features</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="https://enterprise.github.com/" data-ga-click="(Logged out) Header, go to enterprise, text:enterprise">Enterprise</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="/blog" data-ga-click="(Logged out) Header, go to blog, text:blog">Blog</a>
+          </li>
+      </ul>
+
+  </div>
+</div>
+
+
+
+      <div id="start-of-content" class="accessibility-aid"></div>
+          <div class="site" itemscope itemtype="http://schema.org/WebPage">
+    <div id="js-flash-container">
+      
+    </div>
+    <div class="pagehead repohead instapaper_ignore readability-menu">
+      <div class="container">
+
+        
+<ul class="pagehead-actions">
+
+  <li>
+      <a href="/login?return_to=%2Foptimizely%2Fnuclear-js"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to watch a repository" rel="nofollow">
+    <span class="octicon octicon-eye"></span>
+    Watch
+  </a>
+  <a class="social-count" href="/optimizely/nuclear-js/watchers">
+    130
+  </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Foptimizely%2Fnuclear-js"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to star a repository" rel="nofollow">
+    <span class="octicon octicon-star"></span>
+    Star
+  </a>
+
+    <a class="social-count js-social-count" href="/optimizely/nuclear-js/stargazers">
+      510
+    </a>
+
+  </li>
+
+    <li>
+      <a href="/login?return_to=%2Foptimizely%2Fnuclear-js"
+        class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+        aria-label="You must be signed in to fork a repository" rel="nofollow">
+        <span class="octicon octicon-repo-forked"></span>
+        Fork
+      </a>
+      <a href="/optimizely/nuclear-js/network" class="social-count">
+        21
+      </a>
+    </li>
+</ul>
+
+        <h1 itemscope itemtype="http://data-vocabulary.org/Breadcrumb" class="entry-title public">
+          <span class="mega-octicon octicon-repo"></span>
+          <span class="author"><a href="/optimizely" class="url fn" itemprop="url" rel="author"><span itemprop="title">optimizely</span></a></span><!--
+       --><span class="path-divider">/</span><!--
+       --><strong><a href="/optimizely/nuclear-js" data-pjax="#js-repo-pjax-container">nuclear-js</a></strong>
+
+          <span class="page-context-loader">
+            <img alt="" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </span>
+
+        </h1>
+      </div><!-- /.container -->
+    </div><!-- /.repohead -->
+
+    <div class="container">
+      <div class="repository-with-sidebar repo-container new-discussion-timeline with-full-navigation ">
+        <div class="repository-sidebar clearfix">
+            
+<nav class="sunken-menu repo-nav js-repo-nav js-sidenav-container-pjax js-octicon-loaders"
+     role="navigation"
+     data-pjax="#js-repo-pjax-container"
+     data-issue-count-url="/optimizely/nuclear-js/issues/counts">
+  <ul class="sunken-menu-group">
+    <li class="tooltipped tooltipped-w" aria-label="Code">
+      <a href="/optimizely/nuclear-js" aria-label="Code" class="selected js-selected-navigation-item sunken-menu-item" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches /optimizely/nuclear-js">
+        <span class="octicon octicon-code"></span> <span class="full-word">Code</span>
+        <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+</a>    </li>
+
+      <li class="tooltipped tooltipped-w" aria-label="Issues">
+        <a href="/optimizely/nuclear-js/issues" aria-label="Issues" class="js-selected-navigation-item sunken-menu-item" data-hotkey="g i" data-selected-links="repo_issues repo_labels repo_milestones /optimizely/nuclear-js/issues">
+          <span class="octicon octicon-issue-opened"></span> <span class="full-word">Issues</span>
+          <span class="js-issue-replace-counter"></span>
+          <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+</a>      </li>
+
+    <li class="tooltipped tooltipped-w" aria-label="Pull requests">
+      <a href="/optimizely/nuclear-js/pulls" aria-label="Pull requests" class="js-selected-navigation-item sunken-menu-item" data-hotkey="g p" data-selected-links="repo_pulls /optimizely/nuclear-js/pulls">
+          <span class="octicon octicon-git-pull-request"></span> <span class="full-word">Pull requests</span>
+          <span class="js-pull-replace-counter"></span>
+          <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+</a>    </li>
+
+  </ul>
+  <div class="sunken-menu-separator"></div>
+  <ul class="sunken-menu-group">
+
+    <li class="tooltipped tooltipped-w" aria-label="Pulse">
+      <a href="/optimizely/nuclear-js/pulse" aria-label="Pulse" class="js-selected-navigation-item sunken-menu-item" data-selected-links="pulse /optimizely/nuclear-js/pulse">
+        <span class="octicon octicon-pulse"></span> <span class="full-word">Pulse</span>
+        <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+</a>    </li>
+
+    <li class="tooltipped tooltipped-w" aria-label="Graphs">
+      <a href="/optimizely/nuclear-js/graphs" aria-label="Graphs" class="js-selected-navigation-item sunken-menu-item" data-selected-links="repo_graphs repo_contributors /optimizely/nuclear-js/graphs">
+        <span class="octicon octicon-graph"></span> <span class="full-word">Graphs</span>
+        <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+</a>    </li>
+  </ul>
+
+
+</nav>
+
+              <div class="only-with-full-nav">
+                  
+<div class="js-clone-url clone-url open"
+  data-protocol-type="http">
+  <h3><span class="text-emphasized">HTTPS</span> clone URL</h3>
+  <div class="input-group js-zeroclipboard-container">
+    <input type="text" class="input-mini input-monospace js-url-field js-zeroclipboard-target"
+           value="https://github.com/optimizely/nuclear-js.git" readonly="readonly">
+    <span class="input-group-button">
+      <button aria-label="Copy to clipboard" class="js-zeroclipboard btn btn-sm zeroclipboard-button tooltipped tooltipped-s" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+    </span>
+  </div>
+</div>
+
+  
+<div class="js-clone-url clone-url "
+  data-protocol-type="subversion">
+  <h3><span class="text-emphasized">Subversion</span> checkout URL</h3>
+  <div class="input-group js-zeroclipboard-container">
+    <input type="text" class="input-mini input-monospace js-url-field js-zeroclipboard-target"
+           value="https://github.com/optimizely/nuclear-js" readonly="readonly">
+    <span class="input-group-button">
+      <button aria-label="Copy to clipboard" class="js-zeroclipboard btn btn-sm zeroclipboard-button tooltipped tooltipped-s" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+    </span>
+  </div>
+</div>
+
+
+
+<div class="clone-options">You can clone with
+  <form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=http&amp;protocol_type=clone" class="inline-form js-clone-selector-form " data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="rRIBBYa1RS4c5JZyEF41nyqcgbfCdfXCpIQpo4jXVW416kKHOkpw6CqX97nVHvHJnCH4MAu5fj0a6wyp1gHcdQ==" /></div><button class="btn-link js-clone-selector" data-protocol="http" type="submit">HTTPS</button></form> or <form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=subversion&amp;protocol_type=clone" class="inline-form js-clone-selector-form " data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="ux0/EG7HBVip+9lw3DUA71lKTXMmXH0nvA4G0OpHpa/UN696Ol7EVUv7FTq2RyDDxHFjOeS8OBkf+NgzitH5nw==" /></div><button class="btn-link js-clone-selector" data-protocol="subversion" type="submit">Subversion</button></form>.
+  <a href="https://help.github.com/articles/which-remote-url-should-i-use" class="help tooltipped tooltipped-n" aria-label="Get help on which URL is right for you.">
+    <span class="octicon octicon-question"></span>
+  </a>
+</div>
+
+
+  <a href="https://windows.github.com" class="btn btn-sm sidebar-button" title="Save optimizely/nuclear-js to your computer and use it in GitHub Desktop." aria-label="Save optimizely/nuclear-js to your computer and use it in GitHub Desktop.">
+    <span class="octicon octicon-device-desktop"></span>
+    Clone in Desktop
+  </a>
+
+
+                <a href="/optimizely/nuclear-js/archive/master.zip"
+                   class="btn btn-sm sidebar-button"
+                   aria-label="Download the contents of optimizely/nuclear-js as a zip file"
+                   title="Download the contents of optimizely/nuclear-js as a zip file"
+                   rel="nofollow">
+                  <span class="octicon octicon-cloud-download"></span>
+                  Download ZIP
+                </a>
+              </div>
+        </div><!-- /.repository-sidebar -->
+
+        <div id="js-repo-pjax-container" class="repository-content context-loader-container" data-pjax-container>
+
+          
+<span id="js-show-full-navigation"></span>
+
+<div class="repository-meta js-details-container ">
+    <div class="repository-description">
+      Reactive Flux built with ImmutableJS data structures. Framework agnostic.
+    </div>
+
+
+
+</div>
+
+<div class="overall-summary overall-summary-bottomless">
+
+  <div class="stats-switcher-viewport js-stats-switcher-viewport">
+    <div class="stats-switcher-wrapper">
+    <ul class="numbers-summary">
+      <li class="commits">
+        <a data-pjax href="/optimizely/nuclear-js/commits/master">
+            <span class="octicon octicon-history"></span>
+            <span class="num text-emphasized">
+              252
+            </span>
+            commits
+        </a>
+      </li>
+      <li>
+        <a data-pjax href="/optimizely/nuclear-js/branches">
+          <span class="octicon octicon-git-branch"></span>
+          <span class="num text-emphasized">
+            6
+          </span>
+          branches
+        </a>
+      </li>
+
+      <li>
+        <a data-pjax href="/optimizely/nuclear-js/releases">
+          <span class="octicon octicon-tag"></span>
+          <span class="num text-emphasized">
+            11
+          </span>
+          releases
+        </a>
+      </li>
+
+      <li>
+        
+  <a href="/optimizely/nuclear-js/graphs/contributors">
+    <span class="octicon octicon-organization"></span>
+    <span class="num text-emphasized">
+      13
+    </span>
+    contributors
+  </a>
+      </li>
+    </ul>
+
+      <div class="repository-lang-stats">
+        <ol class="repository-lang-stats-numbers">
+          <li>
+              <a href="/optimizely/nuclear-js/search?l=javascript">
+                <span class="color-block language-color" style="background-color:#f1e05a;"></span>
+                <span class="lang">JavaScript</span>
+                <span class="percent">99.1%</span>
+              </a>
+          </li>
+          <li>
+              <span class="other">
+                <span class="color-block language-color" style="background-color:#ededed;"></span>
+                <span class="lang">Other</span>
+                <span class="percent">0.9%</span>
+              </span>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+  <div class="repository-lang-stats-graph js-toggle-lang-stats" title="Click for language details">
+    <span class="language-color" aria-label="JavaScript 99.1%" style="width:99.1%; background-color:#f1e05a;" itemprop="keywords">JavaScript</span>
+    <span class="language-color" aria-label="Other 0.9%" style="width:0.9%; background-color:#ededed;" itemprop="keywords">Other</span>
+  </div>
+
+<include-fragment src="/optimizely/nuclear-js/show_partial?partial=tree%2Frecently_touched_branches_list"></include-fragment>
+
+<div class="file-navigation in-mid-page">
+  <a href="/optimizely/nuclear-js/find/master"
+        class="js-show-file-finder btn btn-sm empty-icon tooltipped tooltipped-s right"
+        data-pjax
+        data-hotkey="t"
+        aria-label="Quickly jump between files">
+    <span class="octicon octicon-list-unordered"></span>
+  </a>
+    <a href="/optimizely/nuclear-js/compare" aria-label="Compare, review, create a pull request" class="btn btn-sm btn-primary tooltipped tooltipped-se left compare-button" aria-label="Compare &amp; review" data-pjax data-ga-click="Repository, go to compare view, location:repo overview; icon:git-compare">
+      <span class="octicon octicon-git-compare"></span>
+    </a>
+
+  
+<div class="select-menu js-menu-container js-select-menu left">
+  <span class="btn btn-sm select-menu-button js-menu-target css-truncate" data-hotkey="w"
+    data-ref="master"
+    title="master"
+    role="button" aria-label="Switch branches or tags" tabindex="0" aria-haspopup="true">
+    <span class="octicon octicon-git-branch"></span>
+    <i>branch:</i>
+    <span class="js-select-button css-truncate-target">master</span>
+  </span>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax aria-hidden="true">
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <span class="select-menu-title">Switch branches/tags</span>
+        <span class="octicon octicon-x js-menu-close" role="button" aria-label="Close"></span>
+      </div>
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="branches" data-filter-placeholder="Filter branches/tags" class="js-select-menu-tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="tags" data-filter-placeholder="Find a tag…" class="js-select-menu-tab">Tags</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/optimizely/nuclear-js/tree/docs-site"
+               data-name="docs-site"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <span class="select-menu-item-text css-truncate-target" title="docs-site">
+                docs-site
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/optimizely/nuclear-js/tree/gh-page-generation"
+               data-name="gh-page-generation"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <span class="select-menu-item-text css-truncate-target" title="gh-page-generation">
+                gh-page-generation
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/optimizely/nuclear-js/tree/gh-pages"
+               data-name="gh-pages"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <span class="select-menu-item-text css-truncate-target" title="gh-pages">
+                gh-pages
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open selected"
+               href="/optimizely/nuclear-js/tree/master"
+               data-name="master"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <span class="select-menu-item-text css-truncate-target" title="master">
+                master
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/optimizely/nuclear-js/tree/oldref"
+               data-name="oldref"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <span class="select-menu-item-text css-truncate-target" title="oldref">
+                oldref
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/optimizely/nuclear-js/tree/rest-api-example"
+               data-name="rest-api-example"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <span class="select-menu-item-text css-truncate-target" title="rest-api-example">
+                rest-api-example
+              </span>
+            </a>
+        </div>
+
+          <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/optimizely/nuclear-js/tree/1.0.5"
+                 data-name="1.0.5"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="1.0.5">1.0.5</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/optimizely/nuclear-js/tree/1.0.3"
+                 data-name="1.0.3"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="1.0.3">1.0.3</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/optimizely/nuclear-js/tree/1.0.2"
+                 data-name="1.0.2"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="1.0.2">1.0.2</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/optimizely/nuclear-js/tree/1.0.1"
+                 data-name="1.0.1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="1.0.1">1.0.1</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/optimizely/nuclear-js/tree/1.0.0"
+                 data-name="1.0.0"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="1.0.0">1.0.0</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/optimizely/nuclear-js/tree/0.6.0"
+                 data-name="0.6.0"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="0.6.0">0.6.0</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/optimizely/nuclear-js/tree/0.4-rc2"
+                 data-name="0.4-rc2"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="0.4-rc2">0.4-rc2</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/optimizely/nuclear-js/tree/0.3.0-rc"
+                 data-name="0.3.0-rc"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="0.3.0-rc">0.3.0-rc</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/optimizely/nuclear-js/tree/0.3.0"
+                 data-name="0.3.0"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="0.3.0">0.3.0</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/optimizely/nuclear-js/tree/0.2.0"
+                 data-name="0.2.0"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="0.2.0">0.2.0</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/optimizely/nuclear-js/tree/0.1.2"
+                 data-name="0.1.2"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="0.1.2">0.1.2</a>
+            </div>
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+  <div class="breadcrumb"><span class="repo-root js-repo-root"><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/optimizely/nuclear-js" class="" data-branch="master" data-pjax="true" itemscope="url"><span itemprop="title">nuclear-js</span></a></span></span><span class="separator">/</span>
+    <a class="btn-link disabled tooltipped tooltipped-e" href="#" aria-label="You must be signed in to make or propose changes">
+      <span class="octicon octicon-plus"></span>
+    </a>
+</div>
+</div>
+
+
+
+  <include-fragment class="commit commit-loader commit-tease" src="/optimizely/nuclear-js/tree-commit/d1d3c4a2e97afc144ed17ee8ae5c4518adce7459">
+    <p class="commit-title blank">
+      Fetching latest commit…
+    </p>
+    <div class="commit-meta">
+      <p class="loader-loading"><img alt="" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-EAF2F5-0bdc57d34b85c4a4de9d0d1db10cd70e8a95f33ff4f46c5a8c48b4bf4e5a9abe.gif" width="16" /></p>
+      <p class="loader-error">Cannot retrieve the latest commit at this time</p>
+    </div>
+</include-fragment>
+  
+<div class="file-wrap">
+  <a href="/optimizely/nuclear-js/tree/d1d3c4a2e97afc144ed17ee8ae5c4518adce7459" class="hidden js-permalink-shortcut" data-hotkey="y">Permalink</a>
+
+  <table class="files" data-pjax>
+
+
+    <tbody>
+      <tr class="warning include-fragment-error">
+        <td class="icon"><span class="octicon octicon-alert"></span></td>
+        <td class="content" colspan="3">Failed to load latest commit information.</td>
+      </tr>
+
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-directory"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/optimizely/nuclear-js/tree/master/dist" class="js-directory-link" id="2a6d07eef8b10b84129b42424ed99327-386fe84fec063791f1dadaf7f83b94ec0df78d1b" title="dist">dist</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/optimizely/nuclear-js/commit/8df45ffb632d4258833aef28387bdb48606d277a" class="message" data-pjax="true" title="[release] 1.0.5">[release] 1.0.5</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2015-06-04T17:37:16Z" is="time-ago">Jun 4, 2015</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-directory"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/optimizely/nuclear-js/tree/master/docs" class="js-directory-link" id="e3e2a9bfd88566b05001b02a3f51d286-38a1cbb2b2d5befc60dd54b92c3740fe91102c3e" title="docs">docs</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/optimizely/nuclear-js/commit/d1d3c4a2e97afc144ed17ee8ae5c4518adce7459" class="message" data-pjax="true" title="Add GA + optimizely scripts to docs website">Add GA + optimizely scripts to docs website</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2015-06-13T03:03:33Z" is="time-ago">Jun 12, 2015</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-directory"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/optimizely/nuclear-js/tree/master/examples/flux-chat" class="js-directory-link" id="748e73d2daaebe33a18c955f767ad3bf-e72ded5a86183beeb3dda1a52f8caf868cf57518" title="This path skips through empty directories"><span class="simplified-path">examples/</span>flux-chat</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/optimizely/nuclear-js/commit/0119db5932f103a11e88d0d58263588d8b58cdaf" class="message" data-pjax="true" title="Remove accidentally checked in example dist files
+
+Morale of the story: &quot;dont do `git add .`&quot;">Remove accidentally checked in example dist files</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2015-05-18T21:18:09Z" is="time-ago">May 18, 2015</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-directory"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/optimizely/nuclear-js/tree/master/grunt" class="js-directory-link" id="ab950343e97df05f1262e24666111fb6-e0624efc6cb0addd608886fe4fd40a15183c3c02" title="grunt">grunt</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/optimizely/nuclear-js/commit/b4067f71f2bdcfc942391327c6ef3811e28f1faa" class="message" data-pjax="true" title="Hardcode path to grunt bin in postinstall">Hardcode path to grunt bin in postinstall</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2015-06-04T17:32:27Z" is="time-ago">Jun 4, 2015</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-directory"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/optimizely/nuclear-js/tree/master/src" class="js-directory-link" id="25d902c24283ab8cfbac54dfa101ad31-e273db7727e347dcec4289a883f05571bc335ac5" title="src">src</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/optimizely/nuclear-js/commit/9c56ec172c3769c3c3c192b796355f227c3d93f6" class="message" data-pjax="true" title="Camel case variables.">Camel case variables.</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2015-06-02T00:07:25Z" is="time-ago">Jun 1, 2015</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-directory"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/optimizely/nuclear-js/tree/master/tests" class="js-directory-link" id="b61a6d542f9036550ba9c401c80f00ef-2554604b4b83d5a28f78a2c33c3e77e24f6cfb8a" title="tests">tests</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/optimizely/nuclear-js/commit/9c56ec172c3769c3c3c192b796355f227c3d93f6" class="message" data-pjax="true" title="Camel case variables.">Camel case variables.</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2015-06-02T00:07:25Z" is="time-ago">Jun 2, 2015</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/optimizely/nuclear-js/blob/master/.eslintrc" class="js-directory-link" id="1dc6ee56b778cd91e0327b52aaeaa1b9-de956dfb2a509f3675ca8b657743252ee1be6dfa" title=".eslintrc">.eslintrc</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/optimizely/nuclear-js/commit/9d3fc1587db38f6cf28053aa96262d909b887bcf" class="message" data-pjax="true" title="Configured grunt eslint.">Configured grunt eslint.</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2015-05-28T21:13:04Z" is="time-ago">May 28, 2015</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/optimizely/nuclear-js/blob/master/.gitignore" class="js-directory-link" id="a084b794bc0759e7a6b77810e01874f2-25fbf5a1c42c82c0f45aa74514722b67863ba17d" title=".gitignore">.gitignore</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/optimizely/nuclear-js/commit/46c603329595adf5f49b1beabf18b10d664c2240" class="message" data-pjax="true" title="WIP: implement code coverage with karma-coverage
+
+TODO:
+
+- [ ] implement karma running with grunt so we can have multiple karma
+configs (need specific settings for coverage)
+- [ ] 100% test coverage or ignore utils file
+- [ ] setup coveralls with grunt-karma-coveralls
+- [ ] add coveralls badge to README">WIP: implement code coverage with karma-coverage</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2015-05-10T20:30:36Z" is="time-ago">May 10, 2015</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/optimizely/nuclear-js/blob/master/.travis.yml" class="js-directory-link" id="354f30a63fb0907d4ad57269548329e3-a56888b99d183bc9a0c3216626c864492631c185" title=".travis.yml">.travis.yml</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/optimizely/nuclear-js/commit/e8c2791eb535c3a8fea335379ebe5f205adb5bbf" class="message" data-pjax="true" title="Update sauce config for travis">Update sauce config for travis</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2015-05-16T17:52:44Z" is="time-ago">May 16, 2015</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/optimizely/nuclear-js/blob/master/CHANGELOG.md" class="js-directory-link" id="4ac32a78649ca5bdd8e0ba38b7006a1e-9c5e6a6cee4d74712bae1f100f1fd9857f10d3a6" title="CHANGELOG.md">CHANGELOG.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/optimizely/nuclear-js/commit/dcd8546d510145c99baddacc5708629edf8a40e6" class="message" data-pjax="true" title="Add developer site to changelog">Add developer site to changelog</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2015-06-09T21:51:49Z" is="time-ago">Jun 9, 2015</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/optimizely/nuclear-js/blob/master/CONTRIBUTING.md" class="js-directory-link" id="6a3371457528722a734f3c51d9238c13-517c49206d90956deeabd9c4425ce2e645b5c6a6" title="CONTRIBUTING.md">CONTRIBUTING.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/optimizely/nuclear-js/commit/ec80daf19ff11392e2d9f3522ab2635d4de1328f" class="message" data-pjax="true" title="Added new dev site to contributing docs.">Added new dev site to contributing docs.</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2015-06-09T21:54:01Z" is="time-ago">Jun 9, 2015</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/optimizely/nuclear-js/blob/master/Gruntfile.js" class="js-directory-link" id="35b4a816e0441e6a375cd925af50752c-8b7fb235ae704f4057e0aa7b6e018eb99c4a165a" title="Gruntfile.js">Gruntfile.js</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/optimizely/nuclear-js/commit/39e567627e62a5e41160fbe3439e626561c0bcd3" class="message" data-pjax="true" title="Final styling fixes.">Final styling fixes.</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2015-05-31T17:30:33Z" is="time-ago">May 31, 2015</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/optimizely/nuclear-js/blob/master/LICENSE.md" class="js-directory-link" id="37854d19817c792316d481f5beb93cc7-e1e0e9a06b05974ea88910c6e3338f07f4cab031" title="LICENSE.md">LICENSE.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/optimizely/nuclear-js/commit/e4954c1b7651d0cb840c153a83e316b24056e280" class="message" data-pjax="true" title="Create LICENSE.md">Create LICENSE.md</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2015-05-11T17:54:34Z" is="time-ago">May 11, 2015</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/optimizely/nuclear-js/blob/master/README.md" class="js-directory-link" id="04c6e90faac2675aa89e2176d2eec7d8-f92bba79281a3258a720a5dbcb0ad0a587cb3370" title="README.md">README.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/optimizely/nuclear-js/commit/9ea0681ae7fc8164af1f3b34d4b915c44f35809c" class="message" data-pjax="true" title="Add link to docs site">Add link to docs site</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2015-06-09T18:04:47Z" is="time-ago">Jun 9, 2015</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/optimizely/nuclear-js/blob/master/package.json" class="js-directory-link" id="b9cfc7f2cdf78a7f4b91a753d10865a2-c8865f843b3bd80b113af30dfa0a8064c4e5776e" title="package.json">package.json</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/optimizely/nuclear-js/commit/24114c6beb1172fd3ea5934d6a4f60f485ee2150" class="message" data-pjax="true" title="Updated dependencies.">Updated dependencies.</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2015-06-11T03:45:56Z" is="time-ago">Jun 10, 2015</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/optimizely/nuclear-js/blob/master/webpack.config.js" class="js-directory-link" id="11e9f7f953edc64ba14b0cc350ae7b9d-82340a6b2fed84ae4fa119cf7e14f55a4541ffba" title="webpack.config.js">webpack.config.js</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/optimizely/nuclear-js/commit/39e567627e62a5e41160fbe3439e626561c0bcd3" class="message" data-pjax="true" title="Final styling fixes.">Final styling fixes.</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2015-05-31T17:30:33Z" is="time-ago">May 31, 2015</time></span>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+</div>
+
+
+  <div id="readme" class="boxed-group flush clearfix announce instapaper_body md">
+    <h3>
+      <span class="octicon octicon-book"></span>
+      README.md
+    </h3>
+
+    <article class="markdown-body entry-content" itemprop="mainContentOfPage"><h1><a id="user-content-nuclearjs" class="anchor" href="#nuclearjs" aria-hidden="true"><span class="octicon octicon-link"></span></a>NuclearJS</h1>
+
+<p><a href="https://travis-ci.org/optimizely/nuclear-js"><img src="https://camo.githubusercontent.com/1c3ae0c3bf3917549965ab2f25ccfa3d97f14a73/68747470733a2f2f7472617669732d63692e6f72672f6f7074696d697a656c792f6e75636c6561722d6a732e7376673f6272616e63683d6d6173746572" alt="Build Status" data-canonical-src="https://travis-ci.org/optimizely/nuclear-js.svg?branch=master" style="max-width:100%;"></a>
+<a href="https://coveralls.io/r/optimizely/nuclear-js?branch=master"><img src="https://camo.githubusercontent.com/f0bc289d78a8860109060ecd9cd31f93257c5344/68747470733a2f2f636f766572616c6c732e696f2f7265706f732f6f7074696d697a656c792f6e75636c6561722d6a732f62616467652e7376673f6272616e63683d6d6173746572" alt="Coverage Status" data-canonical-src="https://coveralls.io/repos/optimizely/nuclear-js/badge.svg?branch=master" style="max-width:100%;"></a>
+<a href="https://gitter.im/optimizely/nuclear-js?utm_source=badge&amp;utm_medium=badge&amp;utm_campaign=pr-badge&amp;utm_content=badge"><img src="https://camo.githubusercontent.com/da2edb525cde1455a622c58c0effc3a90b9a181c/68747470733a2f2f6261646765732e6769747465722e696d2f4a6f696e253230436861742e737667" alt="Join the chat at https://gitter.im/optimizely/nuclear-js" data-canonical-src="https://badges.gitter.im/Join%20Chat.svg" style="max-width:100%;"></a></p>
+
+<p><a href="https://saucelabs.com/u/nuclearjs"><img src="https://camo.githubusercontent.com/b29a069ada3c971b6253165f0d214549e8b769f5/68747470733a2f2f73617563656c6162732e636f6d2f62726f777365722d6d61747269782f6e75636c6561726a732e737667" alt="Sauce Test Status" data-canonical-src="https://saucelabs.com/browser-matrix/nuclearjs.svg" style="max-width:100%;"></a></p>
+
+<p>Traditional Flux architecture built with ImmutableJS data structures.</p>
+
+<p><a href="http://developers.optimizely.com/nuclear-js/docs/">Why you should use NuclearJS</a>.</p>
+
+<h2><a id="user-content-how-nuclearjs-differs-from-other-flux-implementations" class="anchor" href="#how-nuclearjs-differs-from-other-flux-implementations" aria-hidden="true"><span class="octicon octicon-link"></span></a>How NuclearJS differs from other Flux implementations</h2>
+
+<ol>
+<li><p>All app state is in a singular immutable map, think Om.  In development you can see your entire application state at every point in time thanks to awesome debugging tools built into NuclearJS.</p></li>
+<li><p>State is not spread out through stores, instead stores are a declarative way of describing some top-level domain of your app state. For each key in the app state map a store declares the initial state of that key and how that piece of the app state reacts over time to actions dispatched on the flux system.</p></li>
+<li><p>Stores are not reference-able nor have any <code>getX</code> methods on them.  Instead Nuclear uses a functional lens concept called <strong>getters</strong>. In fact, the use of getters obviates the need for any store to know about another store, eliminating the confusing <code>store.waitsFor</code> method found in other flux implementations.</p></li>
+<li><p>NuclearJS is insanely efficient - change detection granularity is infinitesimal, you can even observe computed state where several pieces of the state map are combined together and run through a transform function.  Nuclear is smart enough to know when the value of any computed changes and only call its observer if and only if its value changed in a way that is orders of magnitude more efficient than traditional dirty checking.  It does this by leveraging ImmutableJS data structure and using a <code>state1 !== state2</code> reference comparison which runs in constant time.</p></li>
+<li><p>Automatic data observation / rendering -- automatic re-rendering is built in for React in the form a very lightweight mixin.  It is also easily possible to build the same functionality for any UI framework such as VueJS, AngularJS and even Backbone.</p></li>
+<li><p>NuclearJS is not a side-project, it's used as the default Flux implementation that powers all of Optimizely.  It is well tested and will continue to be maintained for the foreseeable future. Our current codebase has over dozens of stores, actions and getters, we even share our prescribed method of large scale code organization and testing strategies.</p></li>
+</ol>
+
+<h2><a id="user-content-design-philosophy" class="anchor" href="#design-philosophy" aria-hidden="true"><span class="octicon octicon-link"></span></a>Design Philosophy</h2>
+
+<ul>
+<li><p><strong>Simple over Easy</strong> - The purpose of NuclearJS isn't to write the most expressive TodoMVC anyone's ever seen.  The goal of NuclearJS is to provide a way to model data that is easy to reason about and decouple at very large scale.</p></li>
+<li><p><strong>Immutable</strong> - A means for less defensive programming, more predictability and better performance</p></li>
+<li><p><strong>Functional</strong> - The framework should be implemented functionally wherever appropriate.  This reduces incidental complexity and pairs well with Immutability.</p></li>
+<li><p><strong>Smallest Amount of State Possible</strong> - Using Nuclear should encourage the modelling of your application state in the most minimal way possible.</p></li>
+<li><p><strong>Decoupled</strong> - A NuclearJS system should be able to function without any sort of UI or frontend.  It should be backend/frontend agnostic and be able to run on a NodeJS server.</p></li>
+</ul>
+
+<h2><a id="user-content-installation" class="anchor" href="#installation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation</h2>
+
+<p>NuclearJS can be downloaded from npm.</p>
+
+<pre><code>npm install nuclear-js
+</code></pre>
+
+<h2><a id="user-content-lets-see-some-examples" class="anchor" href="#lets-see-some-examples" aria-hidden="true"><span class="octicon octicon-link"></span></a>Let's see some examples</h2>
+
+<p>Let's see what the original <a href="https://github.com/facebook/flux/tree/master/examples/flux-chat">Flux Chat Example</a> looks like in NuclearJS.</p>
+
+<p>All of the above code lives in <a href="/optimizely/nuclear-js/blob/master/examples/flux-chat">examples/flux-chat</a></p>
+
+<h5><a id="user-content-fluxjs" class="anchor" href="#fluxjs" aria-hidden="true"><span class="octicon octicon-link"></span></a><code>flux.js</code></h5>
+
+<div class="highlight highlight-js"><pre><span class="pl-c">// create the Nuclear reactor instance, this will act as our dispatcher and interface for data fetching</span>
+<span class="pl-k">var</span> Nuclear <span class="pl-k">=</span> <span class="pl-c1">require</span>(<span class="pl-s"><span class="pl-pds">'</span>nuclear-js<span class="pl-pds">'</span></span>)
+
+<span class="pl-c1">module</span>.exports <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-en">Nuclear.Reactor</span>({
+  debug<span class="pl-k">:</span> <span class="pl-c1">true</span>,
+})</pre></div>
+
+<h3><a id="user-content-modules" class="anchor" href="#modules" aria-hidden="true"><span class="octicon octicon-link"></span></a>Modules</h3>
+
+<p>The prescribed way of code organization in NuclearJS is to group all stores, actions and getters of the same domain in a module.</p>
+
+<h5><a id="user-content-example-module-file-structure" class="anchor" href="#example-module-file-structure" aria-hidden="true"><span class="octicon octicon-link"></span></a>Example Module File Structure</h5>
+
+<p>For the flux-chat example we will create a chat module that holds all of the domain logic for the chat aspect.  For smaller projects there may only need to be one module, but for larger projects using many modules can decouple your codebase and make it much easier to manage.</p>
+
+<div class="highlight highlight-js"><pre>modules/chat
+├── stores/
+    └── thread<span class="pl-k">-</span>store.js
+    └── current<span class="pl-k">-</span>thread<span class="pl-k">-</span>id<span class="pl-k">-</span>store.js
+├── actions.js <span class="pl-c">// exports functions that call flux.dispatch</span>
+├── action<span class="pl-k">-</span>types.js <span class="pl-c">// constants for the flux action types</span>
+├── getters.js <span class="pl-c">// getters exposed by the module providing read access to module's stores</span>
+├── index.js <span class="pl-c">// MAIN ENTRY POINT - facade that exposes a public api for the module</span>
+└── tests.js <span class="pl-c">// module unit tests that test the modules stores, getters, and actions</span></pre></div>
+
+<h5><a id="user-content-moduleschatindexjs" class="anchor" href="#moduleschatindexjs" aria-hidden="true"><span class="octicon octicon-link"></span></a><code>modules/chat/index.js</code></h5>
+
+<div class="highlight highlight-js"><pre><span class="pl-k">var</span> flux <span class="pl-k">=</span> <span class="pl-c1">require</span>(<span class="pl-s"><span class="pl-pds">'</span>../../flux<span class="pl-pds">'</span></span>)
+
+flux.registerStores({
+  currentThreadID<span class="pl-k">:</span> <span class="pl-c1">require</span>(<span class="pl-s"><span class="pl-pds">'</span>./stores/current-thread-id-store<span class="pl-pds">'</span></span>),
+  threads<span class="pl-k">:</span> <span class="pl-c1">require</span>(<span class="pl-s"><span class="pl-pds">'</span>./stores/thread-store<span class="pl-pds">'</span></span>),
+})
+
+<span class="pl-c1">module</span>.exports <span class="pl-k">=</span> {
+  actions<span class="pl-k">:</span> <span class="pl-c1">require</span>(<span class="pl-s"><span class="pl-pds">'</span>./actions<span class="pl-pds">'</span></span>),
+
+  getters<span class="pl-k">:</span> <span class="pl-c1">require</span>(<span class="pl-s"><span class="pl-pds">'</span>./getters<span class="pl-pds">'</span></span>),
+}</pre></div>
+
+<ul>
+<li><p>Modules expose a single public API, the <code>index.js</code> file.  It is improper for an outside piece of code to require any file within the module except the <code>index.js</code> file.</p></li>
+<li><p>Stores are registered lazily through the module's index.js.  This may seem weird at first, but in NuclearJS stores are more of an implementation detail and not ever directly referenceable.</p></li>
+<li><p>Data access to the module's store values is done entirely through the getters it exposes.  This provides a decoupling between the store implementation and how the outside world references the state that a module manages.  A getter is a contract between the outside world and the module that a particular piece of information is accessible.  The evaluator of a getter does not care about the underlying store representation.</p></li>
+</ul>
+
+<h3><a id="user-content-stores" class="anchor" href="#stores" aria-hidden="true"><span class="octicon octicon-link"></span></a>Stores</h3>
+
+<h5><a id="user-content-moduleschatstoresthread-storejs" class="anchor" href="#moduleschatstoresthread-storejs" aria-hidden="true"><span class="octicon octicon-link"></span></a><code>modules/chat/stores/thread-store.js</code></h5>
+
+<div class="highlight highlight-js"><pre><span class="pl-k">var</span> Nuclear <span class="pl-k">=</span> <span class="pl-c1">require</span>(<span class="pl-s"><span class="pl-pds">'</span>nuclear-js<span class="pl-pds">'</span></span>)
+<span class="pl-k">var</span> toImmutable <span class="pl-k">=</span> Nuclear.toImmutable
+<span class="pl-k">var</span> actionTypes <span class="pl-k">=</span> <span class="pl-c1">require</span>(<span class="pl-s"><span class="pl-pds">'</span>../action-types<span class="pl-pds">'</span></span>)
+
+<span class="pl-c1">module</span>.exports <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-en">Nuclear.Store</span>({
+  <span class="pl-en">getInitialState</span>() {
+    <span class="pl-c">// for Nuclear to be so efficient all state must be immutable data</span>
+    <span class="pl-c">// mapping of threadID =&gt; Thread</span>
+    <span class="pl-k">return</span> toImmutable({})
+  },
+
+  <span class="pl-en">initialize</span>() {
+    <span class="pl-c">// all action handlers are pure functions that take the current state and payload</span>
+    <span class="pl-v">this</span>.on(actionTypes.ADD_MESSAGE, addMessage)
+    <span class="pl-v">this</span>.on(actionTypes.CLICK_THREAD, setMessagesRead)
+  }
+})
+
+<span class="pl-c">/**</span>
+<span class="pl-c"> * <span class="pl-k">@type</span> Message</span>
+<span class="pl-c"> * id {GUID}</span>
+<span class="pl-c"> * threadID {GUID}</span>
+<span class="pl-c"> * threadName {GUID}</span>
+<span class="pl-c"> * authorName {String}</span>
+<span class="pl-c"> * text {String}</span>
+<span class="pl-c"> * isRead {Boolean}</span>
+<span class="pl-c"> * timestamp {Timestamp}</span>
+<span class="pl-c"> */</span>
+
+<span class="pl-c">/**</span>
+<span class="pl-c"> * <span class="pl-k">@param</span> {Immutable.Map}</span>
+<span class="pl-c"> * <span class="pl-k">@param</span> {Object} payload</span>
+<span class="pl-c"> * <span class="pl-k">@param</span> {Message} payload.message</span>
+<span class="pl-c"> */</span>
+<span class="pl-k">function</span> <span class="pl-en">addMessage</span>(<span class="pl-smi">state</span>, { <span class="pl-smi">message</span> }) {
+  <span class="pl-k">var</span> msg <span class="pl-k">=</span> toImmutable(message)
+  <span class="pl-k">var</span> threadID <span class="pl-k">=</span> msg.get(<span class="pl-s"><span class="pl-pds">'</span>threadID<span class="pl-pds">'</span></span>)
+
+  <span class="pl-k">return</span> state.withMutations(threads <span class="pl-k">=&gt;</span> {
+    <span class="pl-c">// use standard ImmutableJS methods to transform state when handling an action</span>
+    <span class="pl-k">if</span> (<span class="pl-k">!</span>threads.has(threadID)) {
+      threads.set(threadID, toImmutable({
+        threadID<span class="pl-k">:</span> threadID,
+        threadName<span class="pl-k">:</span> msg.get(<span class="pl-s"><span class="pl-pds">'</span>threadName<span class="pl-pds">'</span></span>),
+        messages<span class="pl-k">:/span> toImmutable([]),
+      }))
+    }
+
+    <span class="pl-c">// push new message into thread and sort by message timestamp</span>
+    threads.update(threadID, thread <span class="pl-k">=&gt;</span> {
+      <span class="pl-k">var</span> sortedMessages <span class="pl-k">=</span> thread.get(<span class="pl-s"><span class="pl-pds">'</span>messages<span class="pl-pds">'</span></span>)
+        .<span class="pl-c1">push</span>(msg)
+        .sortBy(msg <span class="pl-k">=&gt;</span> msg.get(<span class="pl-s"><span class="pl-pds">'</span>timestamp<span class="pl-pds">'</span></span>))
+
+      <span class="pl-k">return</span> thread.set(<span class="pl-s"><span class="pl-pds">'</span>messages<span class="pl-pds">'</span></span>, sortedMessages)
+    })
+  })
+}
+
+<span class="pl-c">/**</span>
+<span class="pl-c"> * Mark all messages for a thread as "read"</span>
+<span class="pl-c"> * <span class="pl-k">@param</span> {Immutable.Map}</span>
+<span class="pl-c"> * <span class="pl-k">@param</span> {Object} payload</span>
+<span class="pl-c"> * <span class="pl-k">@param</span> {GUID} payload.threadID</span>
+<span class="pl-c"> */</span>
+<span class="pl-k">function</span> <span class="pl-en">setMessagesRead</span>(<span class="pl-smi">state</span>, { <span class="pl-smi">threadID</span> }) {
+  <span class="pl-k">return</span> state.updateIn([threadID, <span class="pl-s"><span class="pl-pds">'</span>messages<span class="pl-pds">'</span></span>], messages <span class="pl-k">=&gt;</span> {
+    <span class="pl-k">return</span> messages.map(msg <span class="pl-k">=&gt;</span> msg.set(<span class="pl-s"><span class="pl-pds">'</span>isRead<span class="pl-pds">'</span></span>, <span class="pl-c1">true</span>))
+  })
+}</pre></div>
+
+<h5><a id="user-content-modulesmessagestorescurrent-thread-id-storejs" class="anchor" href="#modulesmessagestorescurrent-thread-id-storejs" aria-hidden="true"><span class="octicon octicon-link"></span></a><code>modules/message/stores/current-thread-id-store.js</code></h5>
+
+<div class="highlight highlight-js"><pre><span class="pl-k">var</span> Nuclear <span class="pl-k">=</span> <span class="pl-c1">require</span>(<span class="pl-s"><span class="pl-pds">'</span>nuclear-js<span class="pl-pds">'</span></span>)
+<span class="pl-k">var</span> toImmutable <span class="pl-k">=</span> Nuclear.toImmutable
+<span class="pl-k">var</span> actionTypes <span class="pl-k">=</span> <span class="pl-c1">require</span>(<span class="pl-s"><span class="pl-pds">'</span>../action-types<span class="pl-pds">'</span></span>)
+
+<span class="pl-c1">module</span>.exports <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-en">Nuclear.Store</span>({
+  <span class="pl-en">getInitialState</span>() {
+    <span class="pl-c">// only keeps track of the current threadID</span>
+    <span class="pl-k">return</span> <span class="pl-c1">null</span>
+  },
+
+  <span class="pl-en">initialize</span>() {
+    <span class="pl-c">// all action handlers are pure functions that take the current state and payload</span>
+    <span class="pl-v">this</span>.on(actionTypes.CLICK_THREAD, setCurrentThreadID)
+  }
+})
+
+<span class="pl-k">function</span> <span class="pl-en">setCurrentThreadID</span>(<span class="pl-smi">state</span>, { <span class="pl-smi">threadID</span> }) {
+  <span class="pl-c">// return the new value of the store's state</span>
+  <span class="pl-k">return</span> threadID
+}</pre></div>
+
+<p>At this point defined how our application manages state over time by creating and registering the thread store and currentThreadID store. When defining stores there is no need to worry about computable state like the most recent message in each thread, this is all handled through getters.</p>
+
+<h3><a id="user-content-getters" class="anchor" href="#getters" aria-hidden="true"><span class="octicon octicon-link"></span></a>Getters</h3>
+
+<p>Getters can take 2 forms:</p>
+
+<ol>
+<li>A KeyPath such as <code>['messages']</code> which equates to a <code>state.getIn(['messages'])</code> on the app state <code>Immutable.Map</code>.</li>
+<li>An array with the form <code>[  [keypath | getter], [keypath | getter], ..., tranformFunction]</code></li>
+</ol>
+
+<h5><a id="user-content-moduleschatgettersjs" class="anchor" href="#moduleschatgettersjs" aria-hidden="true"><span class="octicon octicon-link"></span></a><code>modules/chat/getters.js</code></h5>
+
+<div class="highlight highlight-js"><pre><span class="pl-c">// it is idiomatic to facade all data access through getters, that way a component only has to subscribe to a getter making it agnostic</span>
+<span class="pl-c">// to the underlying stores / data transformation that is taking place</span>
+<span class="pl-c1">exports</span>.threadsMap <span class="pl-k">=</span> [<span class="pl-s"><span class="pl-pds">'</span>threads<span class="pl-pds">'</span></span>]
+
+<span class="pl-c1">exports</span>.threads <span class="pl-k">=</span> [
+  <span class="pl-c1">exports</span>.threadsMap,
+  threadsMap <span class="pl-k">=&gt;</span> threadsMap.toList()
+]
+
+<span class="pl-c1">exports</span>.currentThread <span class="pl-k">=</span> [
+  [<span class="pl-s"><span class="pl-pds">'</span>currentThreadID<span class="pl-pds">'</span></span>],
+  <span class="pl-c1">exports</span>.threadsMap,
+  (<span class="pl-smi">currentThreadID</span>, <span class="pl-smi">threadsMap</span>)<span class="pl-k"> =&gt;</span> threadsMap.get(currentThreadID)
+]
+
+<span class="pl-c1">exports</span>.latestThread <span class="pl-k">=</span> [
+  <span class="pl-c1">exports</span>.threads,
+  threads <span class="pl-k">=&gt;</span> {
+    <span class="pl-k">return</span> threads
+      .sortBy(thread <span class="pl-k">=&gt;</span> {
+        thread.get(<span class="pl-s"><span class="pl-pds">'</span>messages<span class="pl-pds">'</span></span>).last().get(<span class="pl-s"><span class="pl-pds">'</span>timestamp<span class="pl-pds">'</span></span>)
+      })
+      .last()
+  }
+]
+
+<span class="pl-c1">exports</span>.currentThreadID <span class="pl-k">=</span> [
+  <span class="pl-c1">exports</span>.currentThread,
+  thread <span class="pl-k">=&gt;</span> thread <span class="pl-k">?</span> thread.get(<span class="pl-s"><span class="pl-pds">'</span>threadID<span class="pl-pds">'</span></span>) <span class="pl-k">:</span> <span class="pl-c1">null</span>
+]
+
+<span class="pl-c1">exports</span>.unreadCount <span class="pl-k">=</span> [
+  <span class="pl-c1">exports</span>.threads,
+  threads <span class="pl-k">=&gt;</span> {
+    <span class="pl-k">return</span> threads.reduce((<span class="pl-smi">accum</span>, <span class="pl-smi">thread</span>)<span class="pl-k"> =&gt;</span> {
+      <span class="pl-k">if</span> (<span class="pl-k">!</span>thread.get(<span class="pl-s"><span class="pl-pds">'</span>messages<span class="pl-pds">'</span></span>).last().get(<span class="pl-s"><span class="pl-pds">'</span>isRead<span class="pl-pds">'</span></span>)) {
+        accum<span class="pl-k">++</span>
+      }
+      <span class="pl-k">return</span> accum
+    }, <span class="pl-c1">0</span>)
+  }
+]</pre></div>
+
+<p>Since stores are registered on the Nuclear Reactor by the module's index file, then a module is the only part of the system that knows the store ids, if this information need to be made public, the module will export a getter of the form <code>[&lt;storeId&gt;]</code></p>
+
+<h3><a id="user-content-actions" class="anchor" href="#actions" aria-hidden="true"><span class="octicon octicon-link"></span></a>Actions</h3>
+
+<h5><a id="user-content-modulechatactionsjs" class="anchor" href="#modulechatactionsjs" aria-hidden="true"><span class="octicon octicon-link"></span></a><code>module/chat/actions.js</code></h5>
+
+<div class="highlight highlight-js"><pre><span class="pl-k">var</span> flux <span class="pl-k">=</span> <span class="pl-c1">require</span>(<span class="pl-s"><span class="pl-pds">'</span>../../flux<span class="pl-pds">'</span></span>)
+<span class="pl-k">var</span> actionTypes <span class="pl-k">=</span> <span class="pl-c1">require</span>(<span class="pl-s"><span class="pl-pds">'</span>./action-types<span class="pl-pds">'</span></span>)
+<span class="pl-k">var</span> getters <span class="pl-k">=</span> <span class="pl-c1">require</span>(<span class="pl-s"><span class="pl-pds">'</span>./getters<span class="pl-pds">'</span></span>)
+
+<span class="pl-c">/**</span>
+<span class="pl-c"> * Handles the receiving of messages into the flux system</span>
+<span class="pl-c"> * <span class="pl-k">@param</span> {Message[]} messages</span>
+<span class="pl-c"> */</span>
+<span class="pl-c1">exports</span>.<span class="pl-en">receiveAll</span> <span class="pl-k">=</span> <span class="pl-k">function</span>(<span class="pl-smi">messages</span>) {
+  messages.forEach(message <span class="pl-k">=&gt;</span> {
+    flux.dispatch(actionTypes.ADD_MESSAGE, { message })
+  })
+}
+
+<span class="pl-c">/**</span>
+<span class="pl-c"> * Creates a message</span>
+<span class="pl-c"> * <span class="pl-k">@param</span> {String} text</span>
+<span class="pl-c"> * <span class="pl-k">@param</span> {GUID} threadName</span>
+<span class="pl-c"> */</span>
+<span class="pl-c1">exports</span>.<span class="pl-en">createMessage</span> <span class="pl-k">=</span> <span class="pl-k">function</span>(<span class="pl-smi">text</span>, <span class="pl-smi">threadID</span>) {
+  <span class="pl-k">var</span> timestamp <span class="pl-k">=</span> <span class="pl-c1">Date</span>.now()
+  <span class="pl-k">var</span> id <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">'</span>m_<span class="pl-pds">'</span></span> <span class="pl-k">+</span> timestamp
+  <span class="pl-k">var</span> threadName <span class="pl-k">=</span> flux.evaluate([
+    getters.threadsMap,
+    threadsMap <span class="pl-k">=&gt;</span> threadsMap.getIn([threadID, <span class="pl-s"><span class="pl-pds">'</span>threadName<span class="pl-pds">'</span></span>])
+  ])
+  <span class="pl-k">var</span> authorName <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">'</span>Jordan<span class="pl-pds">'</span></span>
+
+  flux.dispatch(actionTypes.ADD_MESSAGE, {
+    message<span class="pl-k">:</span> { id, threadID, threadName, authorName, timestamp, text }
+  })
+}
+
+<span class="pl-c1">exports</span>.<span class="pl-en">clickThread</span> <span class="pl-k">=</span> <span class="pl-k">function</span>(<span class="pl-smi">threadID</span>) {
+  flux.dispatch(actionTypes.CLICK_THREAD, { threadID })
+}</pre></div>
+
+<h3><a id="user-content-hooking-it-up-to-a-component" class="anchor" href="#hooking-it-up-to-a-component" aria-hidden="true"><span class="octicon octicon-link"></span></a>Hooking it up to a component</h3>
+
+<h6><a id="user-content-componentsthreadsectionreactjs" class="anchor" href="#componentsthreadsectionreactjs" aria-hidden="true"><span class="octicon octicon-link"></span></a><code>components/ThreadSection.react.js</code></h6>
+
+<div class="highlight highlight-js"><pre><span class="pl-k">var</span> React <span class="pl-k">=</span> <span class="pl-c1">require</span>(<span class="pl-s"><span class="pl-pds">'</span>react<span class="pl-pds">'</span></span>);
+<span class="pl-k">var</span> flux <span class="pl-k">=</span> <span class="pl-c1">require</span>(<span class="pl-s"><span class="pl-pds">'</span>../flux<span class="pl-pds">'</span></span>);
+<span class="pl-k">var</span> Chat <span class="pl-k">=</span> <span class="pl-c1">require</span>(<span class="pl-s"><span class="pl-pds">'</span>../modules/chat<span class="pl-pds">'</span></span>);
+
+<span class="pl-k">var</span> ThreadListItem <span class="pl-k">=</span> <span class="pl-c1">require</span>(<span class="pl-s"><span class="pl-pds">'</span>./ThreadListItem.react<span class="pl-pds">'</span></span>);
+
+<span class="pl-k">var</span> ThreadSection <span class="pl-k">=</span> React.createClass({
+  mixins<span class="pl-k">:</span> [flux.ReactMixin],
+
+  <span class="pl-en">getDataBindings</span>() {
+    <span class="pl-k">return</span> {
+      threads<span class="pl-k">:</span> Chat.getters.threads,
+      unreadCount<span class="pl-k">:</span> Chat.getters.unreadCount,
+      currentThreadID<span class="pl-k">:</span> Chat.getters.currentThreadID,
+    }
+  },
+
+  <span class="pl-en">render</span>: <span class="pl-k">function</span>() {
+    <span class="pl-k">var</span> threadListItems <span class="pl-k">=</span> <span class="pl-v">this</span>.state.threads.map(thread <span class="pl-k">=&gt;</span> {
+      <span class="pl-k">return</span> (
+        <span class="pl-k">&lt;</span>ThreadListItem
+          key<span class="pl-k">=</span>{thread.get(<span class="pl-s"><span class="pl-pds">'</span>threadID<span class="pl-pds">'</span></span>)}
+          thread<span class="pl-k">=</span>{thread}
+          currentThreadID<span class="pl-k">=</span>{<span class="pl-v">this</span>.state.currentThreadID}
+        /<span class="pl-k">&gt;</span>
+      );
+    }, <span class="pl-v">this</span>);
+    <span class="pl-k">var</span> unread <span class="pl-k">=</span>
+      <span class="pl-v">this</span>.state.unreadCount <span class="pl-k">===</span> <span class="pl-c1">0</span> <span class="pl-k">?</span>
+      null <span class="pl-k">:</span>
+      <span class="pl-k">&lt;</span>span<span class="pl-k">&gt;</span>Unread threads<span class="pl-k">:</span> {<span class="pl-v">this</span>.state.unreadCount}<span class="pl-k">&lt;</span>/span<span class="pl-k">&gt;</span>;
+    <span class="pl-k">return</span> (
+      <span class="pl-k">&lt;</span>div className<span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">"</span>thread-section<span class="pl-pds">"</span></span><span class="pl-k">&gt;</span>
+        <span class="pl-k">&lt;</span>div className<span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">"</span>thread-count<span class="pl-pds">"</span></span><span class="pl-k">&gt;</span>
+          {unread}
+        <span class="pl-k">&lt;</span>/div<span class="pl-k">&gt;</span>
+        <span class="pl-k">&lt;</span>ul className<span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">"</span>thread-list<span class="pl-pds">"</span></span><span class="pl-k">&gt;</span>
+          {threadListItems}
+          <span class="pl-k">&lt;</span>/ul<span class="pl-k">&gt;</span>
+      <span class="pl-k">&lt;</span>/div<span class="pl-k">&gt;</span>
+    );
+  },
+});
+
+<span class="pl-c1">module</span>.exports <span class="pl-k">=</span> ThreadSection;</pre></div>
+
+<p><code>flux.ReactMixin</code> handles all of the pub/sub between the flux system and component and will only render the component via a <code>setState</code> call whenever any of the subscribed getters' value changes.  The mixin will also automatically unsubscribe from observation when the component is unmounted.</p>
+
+<h5><a id="user-content-threadlistitemreactjs" class="anchor" href="#threadlistitemreactjs" aria-hidden="true"><span class="octicon octicon-link"></span></a><code>ThreadListItem.react.js</code></h5>
+
+<div class="highlight highlight-js"><pre><span class="pl-k">var</span> React <span class="pl-k">=</span> <span class="pl-c1">require</span>(<span class="pl-s"><span class="pl-pds">'</span>react<span class="pl-pds">'</span></span>);
+<span class="pl-k">var</span> Chat <span class="pl-k">=</span> <span class="pl-c1">require</span>(<span class="pl-s"><span class="pl-pds">'</span>../modules/chat<span class="pl-pds">'</span></span>);
+<span class="pl-k">var</span> cx <span class="pl-k">=</span> <span class="pl-c1">require</span>(<span class="pl-s"><span class="pl-pds">'</span>react/lib/cx<span class="pl-pds">'</span></span>);
+
+<span class="pl-k">var</span> ReactPropTypes <span class="pl-k">=</span> React.PropTypes;
+
+<span class="pl-k">var</span> ThreadListItem <span class="pl-k">=</span> React.createClass({
+
+  propTypes<span class="pl-k">:</span> {
+    thread<span class="pl-k">:</span> ReactPropTypes.<span class="pl-c1">object</span>,
+    currentThreadID<span class="pl-k">:</span> ReactPropTypes.string
+  },
+
+  <span class="pl-en">render</span>: <span class="pl-k">function</span>() {
+    <span class="pl-k">var</span> thread <span class="pl-k">=</span> <span class="pl-v">this</span>.props.thread;
+    <span class="pl-k">var</span> lastMessage <span class="pl-k">=</span> thread.get(<span class="pl-s"><span class="pl-pds">'</span>messages<span class="pl-pds">'</span></span>).last();
+    <span class="pl-k">var</span> dateString <span class="pl-k">=</span> (<span class="pl-k">new</span> <span class="pl-en">Date</span>(lastMessage.get(<span class="pl-s"><span class="pl-pds">'</span>timestamp<span class="pl-pds">'</span></span>))).toLocaleTimeString()
+    <span class="pl-k">return</span> (
+      <span class="pl-k">&lt;</span>li
+        className<span class="pl-k">=</span>{cx({
+          <span class="pl-s"><span class="pl-pds">'</span>thread-list-item<span class="pl-pds">'</span></span><span class="pl-k">:</span> <span class="pl-c1">true</span>,
+          <span class="pl-s"><span class="pl-pds">'</span>active<span class="pl-pds">'</span></span><span class="pl-k">:</span> thread.get(<span class="pl-s"><span class="pl-pds">'</span>threadID<span class="pl-pds">'</span></span>) <span class="pl-k">===</span> <span class="pl-v">this</span>.props.currentThreadID
+        })}
+        <span class="pl-c1">onClick</span><span class="pl-k">=</span>{<span class="pl-v">this</span>._onClick}<span class="pl-k">&gt;</span>
+        <span class="pl-k">&lt;</span>h5 className<span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">"</span>thread-name<span class="pl-pds">"</span></span><span class="pl-k">&gt;</span>{thread.get(<span class="pl-s"><span class="pl-pds">'</span>threadName<span class="pl-pds">'</span></span>)}<span class="pl-k">&lt;</span>/h5<span class="pl-k">&gt;</span>
+        <span class="pl-k">&lt;</span>div className<span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">"</span>thread-time<span class="pl-pds">"</span></span><span class="pl-k">&gt;</span>
+          {dateString}
+        <span class="pl-k">&lt;</span>/div<span class="pl-k">&gt;</span>
+        <span class="pl-k">&lt;</span>div className<span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">"</span>thread-last-message<span class="pl-pds">"</span></span><span class="pl-k">&gt;</span>
+          {lastMessage.get(<span class="pl-s"><span class="pl-pds">'</span>text<span class="pl-pds">'</span></span>)}
+        <span class="pl-k">&lt;</span>/div<span class="pl-k">&gt;</span>
+      <span class="pl-k">&lt;</span>/li<span class="pl-k">&gt;</span>
+    );
+  },
+
+  <span class="pl-en">_onClick</span>: <span class="pl-k">function</span>() {
+    <span class="pl-k">var</span> threadID <span class="pl-k">=</span> <span class="pl-v">this</span>.props.thread.get(<span class="pl-s"><span class="pl-pds">'</span>threadID<span class="pl-pds">'</span></span>)
+    <span class="pl-k">if</span> (<span class="pl-v">this</span>.props.currentThreadID <span class="pl-k">!==</span> threadID) {
+      Chat.actions.clickThread(threadID);
+    }
+  }
+
+});
+
+<span class="pl-c1">module</span>.exports <span class="pl-k">=</span> ThreadListItem;</pre></div>
+
+<h2><a id="user-content-core-concepts" class="anchor" href="#core-concepts" aria-hidden="true"><span class="octicon octicon-link"></span></a>Core Concepts</h2>
+
+<p>The easiest way to think about how NuclearJS is modelling the state of your system is to imagine it all as a single map (or JavaScript object).  If you are familiar with Om then the concept of a singular App State is very familiar already.</p>
+
+<p>Each entry in this top level map contains a portion of the entire app state for a specific domain and are managed by <strong>stores</strong>.</p>
+
+<p>Imagine modelling a shopping cart.  Our app state would look like:</p>
+
+<div class="highlight highlight-js"><pre>{
+  items<span class="pl-k">:</span> [
+    { name<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">'</span>Soap<span class="pl-pds">'</span></span>, price<span class="pl-k">:</span> <span class="pl-c1">5</span>, quantity<span class="pl-k">:</span> <span class="pl-c1">2</span> },
+    { name<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">'</span>The Adventures of Pluto Nash DVD<span class="pl-pds">'</span></span>, price<span class="pl-k">:</span> <span class="pl-c1">10</span>, quantity<span class="pl-k">:</span> <span class="pl-c1">1</span> },
+    { name<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">'</span>Fig Bar<span class="pl-pds">'</span></span>, price<span class="pl-k">:</span> <span class="pl-c1">3</span>, quantity<span class="pl-k">:</span> <span class="pl-c1">10</span> },
+  ],
+
+  taxPercent<span class="pl-k">:</span> <span class="pl-c1">5</span>
+}</pre></div>
+
+<p>In this example we would have an <code>itemStore</code> and a <code>taxPercentStore</code> to model this state.  Notice a few important things
+are left out in this model of our application state, such as the subtotal, the amount of tax and the total.  This doesn't
+live in our app state because those are all examples of <strong>computable state</strong>, and we have a very elegant solution for calculating them that we will touch on momentarily.</p>
+
+<h3><a id="user-content-but-first-lets-go-over-some-nuclearjs-vocabulary" class="anchor" href="#but-first-lets-go-over-some-nuclearjs-vocabulary" aria-hidden="true"><span class="octicon octicon-link"></span></a>But first let's go over some NuclearJS Vocabulary</h3>
+
+<h4><a id="user-content-reactor" class="anchor" href="#reactor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Reactor</h4>
+
+<p>In Nuclear a Reactor is the container that holds your app state, it's where you register stores, dispatch actions and read the current state of your system.  Reactor's are the only stateful part of Nuclear and have only 3 API methods you REALLY need to know: <code>dispatch</code>, <code>get</code>, and <code>observe</code>. Don't worry extensive API docs will be provided for all of these methods.</p>
+
+<h4><a id="user-content-stores-1" class="anchor" href="#stores-1" aria-hidden="true"><span class="octicon octicon-link"></span></a>Stores</h4>
+
+<p>Stores define how a portion of the application state will behave over time, they also provide the initial state. Once a store has been attached to a Reactor you will never reference it directly.  Calling <code>reactor.dispatch(actionType, payload)</code> will ensure that all stores receive the action and get a chance to update themselves.  Stores are a self-managing state, providing a single canonical place to define the behavior a domain of your application over time.</p>
+
+<h4><a id="user-content-keypaths" class="anchor" href="#keypaths" aria-hidden="true"><span class="octicon octicon-link"></span></a>KeyPaths</h4>
+
+<p>KeyPaths are a pointer to some piece of your application state.  They can be represented as a <code>Array&lt;String&gt;</code></p>
+
+<p><code>['foo', 'bar']</code> is an example of a valid keypath, analogous to <code>state['foo']['bar']</code> in JavaScript.</p>
+
+<h4><a id="user-content-getters-1" class="anchor" href="#getters-1" aria-hidden="true"><span class="octicon octicon-link"></span></a>Getters</h4>
+
+<p>As described above, the state of a reactor is hidden away internally behind the <a href="#stores">Stores</a> abstraction. In order to get a hold of part of that state, you need to ask the <a href="#reactor">Reactor</a> for it using a simple protocol referred to, informally, as a Getter.</p>
+
+<p>Getters can take 2 forms:</p>
+
+<ol>
+<li>A <a href="#keypaths">KeyPath</a> as described above</li>
+<li>An array with the form <code>[  [keypath | getter], [keypath | getter], ..., tranformFunction]</code>
+Note - Often you'll pass the Getter to <code>reactor.evaluate</code> to get its value, but we'll touch on the reactor API later.</li>
+</ol>
+
+<p>If you've used <a href="https://angularjs.org/">AngularJS</a>, the 2nd form will seem familiar.  It's essentially a way of specifying
+which app values get injected into the transform function at the end.  Here's an example of the form itself, but keep in mind that it may make more sense in the context of the examples below,</p>
+
+<div class="highlight highlight-js"><pre><span class="pl-c">// Our first getter takes in the `items` portion of the app state and</span>
+<span class="pl-c">// returns (presumably) the sum of `item.price * item.quantity` for all the items</span>
+<span class="pl-k">var</span> subtotalGetter <span class="pl-k">=</span> [
+  <span class="pl-c">// a KeyPath</span>
+  [<span class="pl-s"><span class="pl-pds">'</span>items<span class="pl-pds">'</span></span>],
+  <span class="pl-c">// and a transform function</span>
+  <span class="pl-k">function</span>(<span class="pl-smi">items</span>) { ... }
+]
+
+<span class="pl-c">// This getter requests 2 values be passed into its transform function - the result</span>
+<span class="pl-c">// of the subtotalGetter and the `taxPercent` value from the app state.</span>
+<span class="pl-k">var</span> totalGetter <span class="pl-k">=</span> [
+  <span class="pl-c">// A Getter</span>
+  subtotalGetter,
+  <span class="pl-c">// A KeyPath</span>
+  [<span class="pl-s"><span class="pl-pds">'</span>taxPercent<span class="pl-pds">'</span></span>],
+  <span class="pl-c">// Composition Function</span>
+  <span class="pl-k">function</span>(<span class="pl-smi">subtotal</span>, <span class="pl-smi">taxPercent</span>) {
+    <span class="pl-k">return</span> (subtotal <span class="pl-k">*</span> taxPercent) <span class="pl-k">+</span> subtotal
+  }
+]</pre></div>
+
+<p>Notice that you can use getters as dependencies to other getters.  This is an extremely powerful abstraction, and one that you'll undoubtedly want to become familiar with in your nuclear journey.</p>
+
+<p>But you need to know one thing about getter transform functions - they MUST be pure functions (that is, a given set input values results in a <a href="http://en.wikipedia.org/wiki/Deterministic_algorithm">deterministic</a> output). By making the transform functions pure, you can test Getters easier, compose them easier, and nuclear can <a href="http://en.wikipedia.org/wiki/Memoization">memoize</a> calls to them, making Getter dependency resolution very performant.</p>
+
+<p><strong>For the astute reader</strong> - You probably already noticed if you have experience in functional languages, but because Getters
+are simply arrays full of strings and pure functions, they are serializable. Since JS can stringify pure functions, your getters are nothing more than data that could be stored, sent over the wire, etc.</p>
+
+<h2><a id="user-content-back-to-our-example" class="anchor" href="#back-to-our-example" aria-hidden="true"><span class="octicon octicon-link"></span></a>Back To Our Example</h2>
+
+<p>First lets create the <code>itemStore</code> and <code>taxPercentStore</code> and hook it up to our reactor.</p>
+
+<div class="highlight highlight-js"><pre><span class="pl-k">var</span> Map <span class="pl-k">=</span> <span class="pl-c1">require</span>(<span class="pl-s"><span class="pl-pds">'</span>immutable<span class="pl-pds">'</span></span>).Map
+<span class="pl-k">var</span> List <span class="pl-k">=</span> <span class="pl-c1">require</span>(<span class="pl-s"><span class="pl-pds">'</span>immutable<span class="pl-pds">'</span></span>).List
+<span class="pl-k">var</span> Nuclear <span class="pl-k">=</span> <span class="pl-c1">require</span>(<span class="pl-s"><span class="pl-pds">'</span>nuclear-js<span class="pl-pds">'</span></span>)
+
+<span class="pl-k">var</span> itemStore <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-en">Nuclear.Store</span>({
+  <span class="pl-c">// the parameter is optional, if not supplied will default to an `Immutable.Map({})`</span>
+  <span class="pl-c">// Store state must be an ImmutableJS data structure or an immutable JavaScript primitive</span>
+  <span class="pl-c">// like Number or String</span>
+  <span class="pl-en">getInitialState</span>: <span class="pl-k">function</span>() {
+    <span class="pl-k">return</span> List()
+  },
+
+  <span class="pl-en">initialize</span>: <span class="pl-k">function</span>() {
+    <span class="pl-c">// register a handler for `reactor.dispatch('addItem', payload)`</span>
+    <span class="pl-v">this</span>.on(<span class="pl-s"><span class="pl-pds">'</span>addItem<span class="pl-pds">'</span></span>, <span class="pl-k">function</span>(<span class="pl-smi">state</span>, <span class="pl-smi">payload</span>) {
+      <span class="pl-c">// a handler is passed the current state and the action payload</span>
+      <span class="pl-c">// it performs an immutable transformation of the store's underlying state</span>
+      <span class="pl-c">// in response to the action and returns the new state</span>
+      <span class="pl-k">return</span> state.<span class="pl-c1">push</span>(Map({
+        name<span class="pl-k">:</span> payload.<span class="pl-c1">name</span>,
+        price<span class="pl-k">:</span> payload.price,
+        quantity<span class="pl-k">:</span> payload.quantity <span class="pl-k">||</span> <span class="pl-c1">1</span>,
+      }))
+    })
+  }
+})
+
+<span class="pl-k">var</span> taxPercentStore <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-en">Nuclear.Store</span>({
+  <span class="pl-en">getInitialState</span>: <span class="pl-k">function</span>() {
+    <span class="pl-k">return</span> <span class="pl-c1">0</span>
+  },
+
+  <span class="pl-en">initialize</span>: <span class="pl-k">function</span>() {
+    <span class="pl-c">// this will get called via `reactor.dispatch('setTaxPercent', 10)`</span>
+    <span class="pl-c">// where the payload is a primitive value (number)</span>
+    <span class="pl-v">this</span>.on(<span class="pl-s"><span class="pl-pds">'</span>setTaxPercent<span class="pl-pds">'</span></span>, <span class="pl-k">function</span>(<span class="pl-smi">oldPercent</span>, <span class="pl-smi">newPercent</span>) {
+      <span class="pl-k">return</span> newPercent
+    })
+  }
+})
+
+<span class="pl-k">var</span> reactor <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-en">Nuclear.Reactor</span>()
+reactor.registerStores({
+  items<span class="pl-k">:</span> itemStore,
+  taxPercent<span class="pl-k">:</span> taxPercentStore,
+})
+
+<span class="pl-c">// Let's use a Getter (the first form, a [KeyPath](#keypaths)) to retrieve parts of the app state</span>
+<span class="pl-en">console</span><span class="pl-c1">.log</span>(reactor.evaluate([<span class="pl-s"><span class="pl-pds">'</span>items<span class="pl-pds">'</span></span>])) <span class="pl-c">// List []</span>
+<span class="pl-en">console</span><span class="pl-c1">.log</span>(reactor.evaluate([<span class="pl-s"><span class="pl-pds">'</span>taxPercent<span class="pl-pds">'</span></span>])) <span class="pl-c">// 0</span>
+
+reactor.dispatch(<span class="pl-s"><span class="pl-pds">'</span>addItem<span class="pl-pds">'</span></span>, {
+  name<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">'</span>Soap<span class="pl-pds">'</span></span>,
+  price<span class="pl-k">:</span> <span class="pl-c1">5</span>,
+  quantity<span class="pl-k">:</span> <span class="pl-c1">2</span>,
+})
+
+<span class="pl-en">console</span><span class="pl-c1">.log</span>(reactor.evaluate([<span class="pl-s"><span class="pl-pds">'</span>items<span class="pl-pds">'</span></span>])) <span class="pl-c">// List [ Map { name: 'Soap', price:5, quantity: 2 } ]</span></pre></div>
+
+<h3><a id="user-content-computing-subtotal-tax-and-total" class="anchor" href="#computing-subtotal-tax-and-total" aria-hidden="true"><span class="octicon octicon-link"></span></a>Computing Subtotal, Tax and Total</h3>
+
+<div class="highlight highlight-js"><pre><span class="pl-k">var</span> subtotalGetter <span class="pl-k">=</span> [
+  [<span class="pl-s"><span class="pl-pds">'</span>items<span class="pl-pds">'</span></span>],
+  <span class="pl-k">function</span>(<span class="pl-smi">items</span>) {
+    <span class="pl-c">// items is of type `Immutable.List`</span>
+    <span class="pl-k">return</span> items.reduce(<span class="pl-k">function</span>(<span class="pl-smi">total</span>, <span class="pl-smi">item</span>) {
+      <span class="pl-k">return</span> total <span class="pl-k">+</span> (item.get(<span class="pl-s"><span class="pl-pds">'</span>price<span class="pl-pds">'</span></span>) <span class="pl-k">*</span> item.get(<span class="pl-s"><span class="pl-pds">'</span>quantity<span class="pl-pds">'</span></span>))
+    }, <span class="pl-c1">0</span>)
+  }
+]
+
+<span class="pl-k">var</span> taxGetter <span class="pl-k">=</span> [
+  subtotalGetter,
+  [<span class="pl-s"><span class="pl-pds">'</span>taxPercent<span class="pl-pds">'</span></span>],
+  <span class="pl-k">function</span>(<span class="pl-smi">subtotal</span>, <span class="pl-smi">taxPercent</span>) {
+    <span class="pl-k">return</span> subtotal <span class="pl-k">*</span> (taxPercent / <span class="pl-c1">100</span>)
+  }
+]
+
+<span class="pl-k">var</span> totalGetter <span class="pl-k">=</span> [
+  subtotalGetter,
+  taxGetter,
+  <span class="pl-k">function</span>(<span class="pl-smi">subtotal</span>, <span class="pl-smi">tax</span>) {
+    <span class="pl-k">return</span> subtotal <span class="pl-k">+</span> tax
+  }
+]
+
+<span class="pl-en">console</span><span class="pl-c1">.log</span>(reactor.evaluate(subtotalGetter)) <span class="pl-c">// 10</span>
+<span class="pl-en">console</span><span class="pl-c1">.log</span>(reactor.evaluate(taxGetter)) <span class="pl-c">// 0</span>
+<span class="pl-en">console</span><span class="pl-c1">.log</span>(reactor.evaluate(totalGetter)) <span class="pl-c">// 10</span>
+
+reactor.dispatch(<span class="pl-s"><span class="pl-pds">'</span>setTaxPercent<span class="pl-pds">'</span></span>, <span class="pl-c1">10</span>)
+
+<span class="pl-en">console</span><span class="pl-c1">.log</span>(reactor.evaluate(subtotalGetter)) <span class="pl-c">// 11</span>
+<span class="pl-en">console</span><span class="pl-c1">.log</span>(reactor.evaluate(taxGetter)) <span class="pl-c">// 1</span>
+<span class="pl-en">console</span><span class="pl-c1">.log</span>(reactor.evaluate(totalGetter)) <span class="pl-c">// 11</span></pre></div>
+
+<h3><a id="user-content-lets-do-something-more-interesting" class="anchor" href="#lets-do-something-more-interesting" aria-hidden="true"><span class="octicon octicon-link"></span></a>Lets do something more interesting...</h3>
+
+<p>Imagine we want to know any time the total is over 100.  Let's use <code>reactor.observe</code></p>
+
+<div class="highlight highlight-js"><pre><span class="pl-k">var</span> over100Getter <span class="pl-k">=</span> [
+  totalGetter,
+  <span class="pl-k">function</span>(<span class="pl-smi">total</span>) {
+    <span class="pl-k">return</span> total <span class="pl-k">&gt;</span> <span class="pl-c1">100</span>
+  }
+]
+
+reactor.observe(over100Getter, <span class="pl-k">function</span>(<span class="pl-smi">isOver100</span>) {
+  <span class="pl-k">if</span> (isOver100) {
+    <span class="pl-c1">alert</span>(<span class="pl-s"><span class="pl-pds">'</span>Shopping cart over 100!<span class="pl-pds">'</span></span>)
+  }
+})</pre></div>
+
+<p>Actually that wasn't that interesting... lets make the threshold dynamic</p>
+
+<div class="highlight highlight-js"><pre><span class="pl-k">var</span> budgetStore <span class="pl-k">=</span> Nuclear.Store({
+  <span class="pl-en">getInitialState</span>: <span class="pl-k">function</span>() {
+    <span class="pl-k">return</span> <span class="pl-c1">Infinity</span>
+  },
+  <span class="pl-en">initialize</span>: <span class="pl-k">function</span>() {
+    <span class="pl-v">this</span>.on(<span class="pl-s"><span class="pl-pds">'</span>setBudget<span class="pl-pds">'</span></span>, <span class="pl-k">function</span>(<span class="pl-smi">currentBudget</span>, <span class="pl-smi">newBudget</span>) {
+      <span class="pl-k">return</span> newBudget
+    }
+  }
+})
+
+<span class="pl-c">// stores can be attached at any time</span>
+reactor.registerStores({
+  budget<span class="pl-k">:</span> budgetStore,
+})
+
+<span class="pl-k">var</span> isOverBudget <span class="pl-k">=</span> [
+  totalGetter,
+  [<span class="pl-s"><span class="pl-pds">'</span>budget<span class="pl-pds">'</span></span>],
+  <span class="pl-k">function</span>(<span class="pl-smi">total</span>, <span class="pl-smi">budget</span>) {
+    <span class="pl-k">return</span> total <span class="pl-k">&gt;</span> budget
+  }
+]
+
+reactor.observe(isOverBudget, <span class="pl-k">function</span>(<span class="pl-smi">isOver</span>) {
+  <span class="pl-c">// this will be automatically re-evaluated only when the total or budget changes</span>
+  <span class="pl-k">if</span> (isOver) {
+    <span class="pl-k">var</span> budget <span class="pl-k">=</span> reactor.evaluate([<span class="pl-s"><span class="pl-pds">'</span>budget<span class="pl-pds">'</span></span>])
+    <span class="pl-c1">alert</span>(<span class="pl-s"><span class="pl-pds">'</span>Is over budget of <span class="pl-pds">'</span></span> <span class="pl-k">+</span> budget)
+  }
+})</pre></div>
+
+<p><strong>By using this pattern of composing Getters together, the majority of your system becomes purely functional transforms.</strong></p>
+
+<h3><a id="user-content-hooking-up-a-ui-react" class="anchor" href="#hooking-up-a-ui-react" aria-hidden="true"><span class="octicon octicon-link"></span></a>Hooking up a UI: React</h3>
+
+<p>Syncing reactor stores and React component state is effortless using <code>reactor.ReactMixin</code></p>
+
+<div class="highlight highlight-js"><pre><span class="pl-k">var</span> React <span class="pl-k">=</span> <span class="pl-c1">require</span>(<span class="pl-s"><span class="pl-pds">'</span>react<span class="pl-pds">'</span></span>)
+
+<span class="pl-k">var</span> ShoppingCart <span class="pl-k">=</span> React.createClass({
+  mixins<span class="pl-k">:</span> [reactor.ReactMixin],
+
+  <span class="pl-c">// simply implement this function to keep a components state</span>
+  <span class="pl-c">// in sync with a Nuclear Reactor</span>
+  <span class="pl-en">getDataBindings</span>() {
+    <span class="pl-k">return</span> {
+      <span class="pl-c">// can reference a reactor KeyPath</span>
+      items<span class="pl-k">:</span> [<span class="pl-s"><span class="pl-pds">'</span>items<span class="pl-pds">'</span></span>],
+      taxPercent<span class="pl-k">:</span> [<span class="pl-s"><span class="pl-pds">'</span>taxPercent<span class="pl-pds">'</span></span>],
+      <span class="pl-c">// or reference a Getter</span>
+      subtotal<span class="pl-k">:</span> getSubtotal,
+      tax<span class="pl-k">:</span> getTax,
+      total<span class="pl-k">:</span> getTotal,
+      <span class="pl-c">// or inline a getter</span>
+      expensiveItems<span class="pl-k">:</span> [<span class="pl-s"><span class="pl-pds">'</span>items<span class="pl-pds">'</span></span>, items <span class="pl-k">=&gt;</span> {
+        <span class="pl-k">return</span> items.filter(item <span class="pl-k">=&gt;</span> item <span class="pl-k">&gt;</span> <span class="pl-c1">100</span>)
+      }]
+    }
+  },
+
+  <span class="pl-en">render</span>() {
+    <span class="pl-k">var</span> itemRows <span class="pl-k">=</span> <span class="pl-v">this</span>.state.items.map(<span class="pl-k">function</span>(<span class="pl-smi">item</span>) {
+      <span class="pl-k">return</span> (
+        <span class="pl-k">&lt;</span>tr<span class="pl-k">&gt;</span>
+          <span class="pl-k">&lt;</span>td<span class="pl-k">&gt;</span>{item.get(<span class="pl-s"><span class="pl-pds">'</span>quantity<span class="pl-pds">'</span></span>)}<span class="pl-k">&lt;</span>/td<span class="pl-k">&gt;</span>
+          <span class="pl-k">&lt;</span>td<span class="pl-k">&gt;</span>{item.get(<span class="pl-s"><span class="pl-pds">'</span>name<span class="pl-pds">'</span></span>)}<span class="pl-k">&lt;</span>/td<span class="pl-k">&gt;</span>
+          <span class="pl-k">&lt;</span>td<span class="pl-k">&gt;</span>{item.get(<span class="pl-s"><span class="pl-pds">'</span>price<span class="pl-pds">'</span></span>)}<span class="pl-k">&lt;</span>/td<span class="pl-k">&gt;</span>
+        <span class="pl-k">&lt;</span>/tr<span class="pl-k">&gt;</span>
+      )
+    })
+    <span class="pl-k">return</span> (
+      <span class="pl-k">&lt;</span>div<span class="pl-k">&gt;</span>
+        <span class="pl-k">&lt;</span>table<span class="pl-k">&gt;</span>
+          <span class="pl-k">&lt;</span>tr<span class="pl-k">&gt;</span>
+            <span class="pl-k">&lt;</span>td<span class="pl-k">&gt;</span>Quantity<span class="pl-k">:&lt;</span>/td<span class="pl-k">&gt;</span>
+            <span class="pl-k">&lt;</span>td<span class="pl-k">&gt;</span>Name<span class="pl-k">:&lt;</span>/td<span class="pl-k">&gt;</span>
+            <span class="pl-k">&lt;</span>td<span class="pl-k">&gt;</span>Price<span class="pl-k">:&lt;</span>/td<span class="pl-k">&gt;</span>
+          <span class="pl-k">&lt;</span>/tr<span class="pl-k">&gt;</span>
+          {itemRows}
+          <span class="pl-k">&lt;</span>tr<span class="pl-k">&gt;</span>
+            <span class="pl-k">&lt;</span>td colspan<span class="pl-k">=</span><span class="pl-c1">2</span><span class="pl-k">&gt;</span>subtotal<span class="pl-k">:&lt;</span>/td<span class="pl-k">&gt;</span>
+            <span class="pl-k">&lt;</span>td<span class="pl-k">&gt;</span>{<span class="pl-v">this</span>.state.subtotal}<span class="pl-k">&lt;</span>/td<span class="pl-k">&gt;</span>
+          <span class="pl-k">&lt;</span>/tr<span class="pl-k">&gt;</span>
+          <span class="pl-k">&lt;</span>tr<span class="pl-k">&gt;</span>
+            <span class="pl-k">&lt;</span>td colspan<span class="pl-k">=</span><span class="pl-c1">2</span><span class="pl-k">&gt;</span>tax @ {<span class="pl-v">this</span>.state.taxPercent}<span class="pl-k">%&lt;</span>/td<span class="pl-k">&gt;</span>
+            <span class="pl-k">&lt;</span>td<span class="pl-k">&gt;</span>{<span class="pl-v">this</span>.state.taxPercent}<span class="pl-k">&lt;</span>/td<span class="pl-k">&gt;</span>
+          <span class="pl-k">&lt;</span>/tr<span class="pl-k">&gt;</span>
+          <span class="pl-k">&lt;</span>tr<span class="pl-k">&gt;</span>
+            <span class="pl-k">&lt;</span>td colspan<span class="pl-k">=</span><span class="pl-c1">2</span><span class="pl-k">&gt;</span>total<span class="pl-k">:&lt;</span>/td<span class="pl-k">&gt;</span>
+            <span class="pl-k">&lt;</span>td<span class="pl-k">&gt;</span>{<span class="pl-v">this</span>.state.total}<span class="pl-k">&lt;</span>/td<span class="pl-k">&gt;</span>
+          <span class="pl-k">&lt;</span>/tr<span class="pl-k">&gt;</span>
+        <span class="pl-k">&lt;</span>/table<span class="pl-k">&gt;</span>
+      <span class="pl-k">&lt;</span>/div<span class="pl-k">&gt;</span>
+    )
+  }
+})</pre></div>
+
+<p>Whenever any of the reactor values being observed from <code>getDataBindings()</code> changes then <code>setState()</code> will be called with the updated value and the component will be re-rendered. Thus your React components always stay in sync with your app state!</p>
+
+<h3><a id="user-content-hooking-up-a-ui-vuejs" class="anchor" href="#hooking-up-a-ui-vuejs" aria-hidden="true"><span class="octicon octicon-link"></span></a>Hooking up a UI: VueJS</h3>
+
+<p>Syncing reactor stores to VueJS components is simple using the <a href="https://github.com/jordangarcia/nuclear-vue-mixin">NuclearVueMixin</a>.</p>
+
+<div class="highlight highlight-js"><pre><span class="pl-k">var</span> Vue <span class="pl-k">=</span> <span class="pl-c1">require</span>(<span class="pl-s"><span class="pl-pds">'</span>vue<span class="pl-pds">'</span></span>)
+<span class="pl-k">var</span> NuclearVueMixin <span class="pl-k">=</span> <span class="pl-c1">require</span>(<span class="pl-s"><span class="pl-pds">'</span>nuclear-vue-mixin<span class="pl-pds">'</span></span>)
+
+<span class="pl-k">var</span> ShoppingCart <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-en">Vue</span>({
+  mixins<span class="pl-k">:</span> [NuclearVueMixin(reactor)],
+
+  <span class="pl-en">getDataBindings</span>: <span class="pl-k">function</span>() {
+    <span class="pl-k">return</span> {
+      <span class="pl-c">// can reference a reactor KeyPath</span>
+      items<span class="pl-k">:</span> [<span class="pl-s"><span class="pl-pds">'</span>items<span class="pl-pds">'</span></span>],
+      taxPercent<span class="pl-k">:</span> [<span class="pl-s"><span class="pl-pds">'</span>taxPercent<span class="pl-pds">'</span></span>],
+      <span class="pl-c">// or reference a Getter</span>
+      subtotal<span class="pl-k">:</span> getSubtotal,
+      tax<span class="pl-k">:</span> getTax,
+      total<span class="pl-k">:</span> getTotal,
+    }
+  },
+
+  template<span class="pl-k">:</span> <span class="pl-c1">require</span>(<span class="pl-s"><span class="pl-pds">'</span>text!./shopping-cart.html<span class="pl-pds">'</span></span>),
+})</pre></div>
+
+<p>In <code>shopping-cart.html</code></p>
+
+<div class="highlight highlight-html"><pre>&lt;<span class="pl-ent">table</span>&gt;
+  &lt;<span class="pl-ent">tr</span>&gt;
+    &lt;<span class="pl-ent">td</span>&gt;Quantity:&lt;/<span class="pl-ent">td</span>&gt;
+    &lt;<span class="pl-ent">td</span>&gt;Name:&lt;/<span class="pl-ent">td</span>&gt;
+    &lt;<span class="pl-ent">td</span>&gt;Price:&lt;/<span class="pl-ent">td</span>&gt;
+  &lt;/<span class="pl-ent">tr</span>&gt;
+  &lt;<span class="pl-ent">tr</span> <span class="pl-e">v-repeat</span>=<span class="pl-s"><span class="pl-pds">"</span>item: items<span class="pl-pds">"</span></span>&gt;
+    &lt;<span class="pl-ent">td</span>&gt;{{ item.quantity }}&lt;/<span class="pl-ent">td</span>&gt;
+    &lt;<span class="pl-ent">td</span>&gt;{{ item.name }}&lt;/<span class="pl-ent">td</span>&gt;
+    &lt;<span class="pl-ent">td</span>&gt;{{ item.price | currency }}&lt;/<span class="pl-ent">td</span>&gt;
+  &lt;/<span class="pl-ent">tr</span>&gt;
+  &lt;<span class="pl-ent">tr</span>&gt;
+    &lt;<span class="pl-ent">td</span> <span class="pl-e">colspan</span>=<span class="pl-s">2</span>&gt;subtotal:&lt;/<span class="pl-ent">td</span>&gt;
+    &lt;<span class="pl-ent">td</span>&gt;{{ subtotal }}&lt;/<span class="pl-ent">td</span>&gt;
+  &lt;/<span class="pl-ent">tr</span>&gt;
+  &lt;<span class="pl-ent">tr</span>&gt;
+    &lt;<span class="pl-ent">td</span> <span class="pl-e">colspan</span>=<span class="pl-s">2</span>&gt;tax @ {{ taxPercent }}%&lt;/<span class="pl-ent">td</span>&gt;
+    &lt;<span class="pl-ent">td</span>&gt;{{ tax }}&lt;/<span class="pl-ent">td</span>&gt;
+  &lt;/<span class="pl-ent">tr</span>&gt;
+  &lt;<span class="pl-ent">tr</span>&gt;
+    &lt;<span class="pl-ent">td</span> <span class="pl-e">colspan</span>=<span class="pl-s">2</span>&gt;total:&lt;/<span class="pl-ent">td</span>&gt;
+    &lt;<span class="pl-ent">td</span>&gt;{{ total }}&lt;/<span class="pl-ent">td</span>&gt;
+  &lt;/<span class="pl-ent">tr</span>&gt;
+&lt;/<span class="pl-ent">table</span>&gt;</pre></div>
+
+<h2><a id="user-content-performance" class="anchor" href="#performance" aria-hidden="true"><span class="octicon octicon-link"></span></a>Performance</h2>
+
+<p>Getters are only calculated whenever their dependencies change. So if the dependency is a keypath then it will only recalculate when that path in the app state map has changed (which can be done as a simple <code>state.getIn(keyPath) !== oldState.getIn(keyPath)</code> which is an <code>O(log32(n))</code> operation. The other case is when a getter is dependent on other getters. Since every getter is a pure function, Nuclear will only recompute the getter if the values of its dependencies change.</p>
+
+<p>You can read more of the implementation here: <a href="/optimizely/nuclear-js/blob/master/src/evaluator.js">src/evaluator.js</a></p>
+
+<h2><a id="user-content-api-documentation" class="anchor" href="#api-documentation" aria-hidden="true"><span class="octicon octicon-link"></span></a>API Documentation</h2>
+
+<h3><a id="user-content-reactor-1" class="anchor" href="#reactor-1" aria-hidden="true"><span class="octicon octicon-link"></span></a>Reactor</h3>
+
+<h4><a id="user-content-reactordispatchmessagetype-messagepayload" class="anchor" href="#reactordispatchmessagetype-messagepayload" aria-hidden="true"><span class="octicon octicon-link"></span></a><code>Reactor#dispatch(messageType, messagePayload)</code></h4>
+
+<p>Dispatches a message to all registered Stores. This process is done synchronously, all registered <code>Store</code>s are passed this message and all components are re-evaluated (efficiently).  After a dispatch, a Reactor will emit the new state on the <code>reactor.changeEmitter</code></p>
+
+<p>ex: <code>reactor.dispatch('addUser', { name: 'jordan' })</code></p>
+
+<h4><a id="user-content-reactorevaluategetter--keypath" class="anchor" href="#reactorevaluategetter--keypath" aria-hidden="true"><span class="octicon octicon-link"></span></a><code>Reactor#evaluate(Getter | KeyPath)</code></h4>
+
+<p>Returns the immutable value for some KeyPath or Getter in the reactor state. Returns <code>undefined</code> if a keyPath doesn't have a value.</p>
+
+<div class="highlight highlight-js"><pre>reactor.evaluate([<span class="pl-s"><span class="pl-pds">'</span>users<span class="pl-pds">'</span></span>, <span class="pl-s"><span class="pl-pds">'</span>active<span class="pl-pds">'</span></span>])
+reactor.evaluate([
+  [<span class="pl-s"><span class="pl-pds">'</span>users<span class="pl-pds">'</span></span>, <span class="pl-s"><span class="pl-pds">'</span>active<span class="pl-pds">'</span></span>],
+  [<span class="pl-s"><span class="pl-pds">'</span>filters<span class="pl-pds">'</span></span>, <span class="pl-s"><span class="pl-pds">'</span>username<span class="pl-pds">'</span></span>],
+  <span class="pl-c">/**</span>
+<span class="pl-c">   * <span class="pl-k">@param</span> {Immutable.List} activeUsers</span>
+<span class="pl-c">   * <span class="pl-k">@param</span> {String} usernameFilter</span>
+<span class="pl-c">   * <span class="pl-k">@return</span> {Immutable.List}</span>
+<span class="pl-c">   */</span>
+  <span class="pl-k">function</span>(<span class="pl-smi">activeUsers</span>, <span class="pl-smi">usernameFilter</span>) {
+    <span class="pl-k">return</span> activeUsers.filter(<span class="pl-k">function</span>(<span class="pl-smi">user</span>) {
+      <span class="pl-k">return</span> user.get(<span class="pl-s"><span class="pl-pds">'</span>username<span class="pl-pds">'</span></span>).<span class="pl-c1">indexOf</span>(usernameFilter) <span class="pl-k">!==</span> <span class="pl-k">-</span><span class="pl-c1">1</span>
+    }
+  },
+])</pre></div>
+
+<h4><a id="user-content-reactorevaluatetojskeypath-transformfn" class="anchor" href="#reactorevaluatetojskeypath-transformfn" aria-hidden="true"><span class="octicon octicon-link"></span></a><code>Reactor#evaluateToJS(...keyPath, [transformFn])</code></h4>
+
+<p>Same as <code>evaluate</code> but coerces the value to a plain JS before returning</p>
+
+<h4><a id="user-content-reactorobservekeypathorgetter-handlerfn" class="anchor" href="#reactorobservekeypathorgetter-handlerfn" aria-hidden="true"><span class="octicon octicon-link"></span></a><code>Reactor#observe(keyPathOrGetter, handlerFn)</code></h4>
+
+<p>Takes a getter or keyPath and calls the handlerFn with the evaluated value whenever the getter or keyPath changes.</p>
+
+<p><strong>Note</strong>:  You cannot call <code>flux.dispatch</code> within the handle function of a <code>flux.observe</code>.  This violates one of the fundamental design patterns in Flux architecture, which forbids cascading dispatches on the system which cause highly unpredictive systems.</p>
+
+<div class="highlight highlight-js"><pre>reactor.observe([
+  [<span class="pl-s"><span class="pl-pds">'</span>items<span class="pl-pds">'</span></span>]
+  <span class="pl-k">function</span>(<span class="pl-smi">items</span>) {
+    <span class="pl-en">console</span><span class="pl-c1">.log</span>(<span class="pl-s"><span class="pl-pds">'</span>items changed<span class="pl-pds">'</span></span>);
+  }
+])</pre></div>
+
+<h4><a id="user-content-reactorregisterstoresstores" class="anchor" href="#reactorregisterstoresstores" aria-hidden="true"><span class="octicon octicon-link"></span></a><code>Reactor#registerStores(stores)</code></h4>
+
+<p><code>stores</code> - an object of storeId =&gt; store instance</p>
+
+<div class="highlight highlight-js"><pre>reactor.registerStores({
+  <span class="pl-s"><span class="pl-pds">'</span>threads<span class="pl-pds">'</span></span><span class="pl-k">:</span> <span class="pl-c1">require</span>(<span class="pl-s"><span class="pl-pds">'</span>./stores/thread-store<span class="pl-pds">'</span></span>),
+  <span class="pl-s"><span class="pl-pds">'</span>currentThreadID<span class="pl-pds">'</span></span><span class="pl-k">:</span> <span class="pl-c1">require</span>(<span class="pl-s"><span class="pl-pds">'</span>./stores/current-thread-id-store<span class="pl-pds">'</span></span>),
+})</pre></div>
+
+<h4><a id="user-content-reactorreset" class="anchor" href="#reactorreset" aria-hidden="true"><span class="octicon octicon-link"></span></a><code>Reactor#reset()</code></h4>
+
+<p>Causes all stores to be reset to their initial state.  Extremely useful for testing, just put a <code>reactor.reset()</code> call in your <code>afterEach</code> blocks.</p>
+
+<h4><a id="user-content-reactorreactmixin" class="anchor" href="#reactorreactmixin" aria-hidden="true"><span class="octicon octicon-link"></span></a><code>Reactor#ReactMixin</code></h4>
+
+<p>Exposes the ReactMixin to do automatic data binding.</p>
+
+<div class="highlight highlight-js"><pre><span class="pl-k">var</span> ThreadSection <span class="pl-k">=</span> React.createClass({
+  mixins<span class="pl-k">:</span> [flux.ReactMixin],
+
+  <span class="pl-en">getDataBindings</span>() {
+    <span class="pl-k">return</span> {
+      threads<span class="pl-k">:</span> Chat.getters.threads,
+      unreadCount<span class="pl-k">:</span> Chat.getters.unreadCount,
+      currentThreadID<span class="pl-k">:</span> Chat.getters.currentThreadID,
+    }
+  },
+
+  <span class="pl-en">render</span>: <span class="pl-k">function</span>() {
+    <span class="pl-k">var</span> threadListItems <span class="pl-k">=</span> <span class="pl-v">this</span>.state.threads.map(thread <span class="pl-k">=&gt;</span> {
+      <span class="pl-k">return</span> (
+        <span class="pl-k">&lt;</span>ThreadListItem
+          key<span class="pl-k">=</span>{thread.get(<span class="pl-s"><span class="pl-pds">'</span>threadID<span class="pl-pds">'</span></span>)}
+          thread<span class="pl-k">=</span>{thread}
+          currentThreadID<span class="pl-k">=</span>{<span class="pl-v">this</span>.state.currentThreadID}
+        /<span class="pl-k">&gt;</span>
+      );
+    }, <span class="pl-v">this</span>);
+    <span class="pl-k">var</span> unread <span class="pl-k">=</span>
+      <span class="pl-v">this</span>.state.unreadCount <span class="pl-k">===</span> <span class="pl-c1">0</span> <span class="pl-k">?</span>
+      null <span class="pl-k">:</span>
+      <span class="pl-k">&lt;</span>span<span class="pl-k">&gt;</span>Unread threads<span class="pl-k">:</span> {<span class="pl-v">this</span>.state.unreadCount}<span class="pl-k">&lt;</span>/span<span class="pl-k">&gt;</span>;
+    <span class="pl-k">return</span> (
+      <span class="pl-k">&lt;</span>div className<span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">"</span>thread-section<span class="pl-pds">"</span></span><span class="pl-k">&gt;</span>
+        <span class="pl-k">&lt;</span>div className<span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">"</span>thread-count<span class="pl-pds">"</span></span><span class="pl-k">&gt;</span>
+          {unread}
+        <span class="pl-k">&lt;</span>/div<span class="pl-k">&gt;</span>
+        <span class="pl-k">&lt;</span>ul className<span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">"</span>thread-list<span class="pl-pds">"</span></span><span class="pl-k">&gt;</span>
+          {threadListItems}
+          <span class="pl-k">&lt;</span>/ul<span class="pl-k">&gt;</span>
+      <span class="pl-k">&lt;</span>/div<span class="pl-k">&gt;</span>
+    );
+  },
+});</pre></div>
+
+<h3><a id="user-content-constructors" class="anchor" href="#constructors" aria-hidden="true"><span class="octicon octicon-link"></span></a>Constructors</h3>
+
+<h4><a id="user-content-nuclearreactor" class="anchor" href="#nuclearreactor" aria-hidden="true"><span class="octicon octicon-link"></span></a><code>Nuclear.Reactor</code></h4>
+
+<div class="highlight highlight-js"><pre><span class="pl-k">var</span> reactor <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-en">Nuclear.Reactor</span>(config)</pre></div>
+
+<p><strong>Configuration Options</strong></p>
+
+<p><code>config.debug</code> Boolean - if true it will log the entire app state for every dispatch.</p>
+
+<h4><a id="user-content-nuclearstore" class="anchor" href="#nuclearstore" aria-hidden="true"><span class="octicon octicon-link"></span></a><code>Nuclear.Store</code></h4>
+
+<div class="highlight highlight-js"><pre><span class="pl-c1">module</span>.exports <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-en">Nuclear.Store</span>({
+  <span class="pl-en">getInitialState</span>: <span class="pl-k">function</span>() {
+    <span class="pl-c">// method must return an immutable value for NuclearJS to take advantage of efficient equality checks</span>
+    <span class="pl-k">return</span> toImmutable({})
+  },
+
+  <span class="pl-en">initialize</span>: <span class="pl-k">function</span>() {
+    <span class="pl-c">// sets up action handlers via `this.on`</span>
+    <span class="pl-v">this</span>.on(<span class="pl-s"><span class="pl-pds">'</span>SOME_ACTION<span class="pl-pds">'</span></span>, <span class="pl-k">function</span>(<span class="pl-smi">state</span>, <span class="pl-smi">payload</span>) {
+      <span class="pl-c">// action handler takes state + payload and returns new state</span>
+    })
+  },
+})</pre></div>
+
+<h3><a id="user-content-utilities" class="anchor" href="#utilities" aria-hidden="true"><span class="octicon octicon-link"></span></a>Utilities</h3>
+
+<p>NuclearJS comes with several utility functions that are exposed on the <code>Nuclear</code> variable.</p>
+
+<h4><a id="user-content-nuclearimmutable" class="anchor" href="#nuclearimmutable" aria-hidden="true"><span class="octicon octicon-link"></span></a><code>Nuclear.Immutable</code></h4>
+
+<p>Provides access to the ImmutableJS <code>Immutable</code> object.</p>
+
+<h4><a id="user-content-nucleartoimmutablevalue" class="anchor" href="#nucleartoimmutablevalue" aria-hidden="true"><span class="octicon octicon-link"></span></a><code>Nuclear.toImmutable(value)</code></h4>
+
+<p>Coerces a value to its immutable counterpart, can be called on any type safely.  It will convert Objects to <code>Immutable.Map</code> and Arrays to <code>Immutable.List</code></p>
+
+<h4><a id="user-content-nucleartojsvalue" class="anchor" href="#nucleartojsvalue" aria-hidden="true"><span class="octicon octicon-link"></span></a><code>Nuclear.toJS(value)</code></h4>
+
+<p>Will coerce an Immutable value to its mutable counterpart.  Can be called on non-immutable values safely.</p>
+
+<h4><a id="user-content-nuclearisimmutablevalue--boolean" class="anchor" href="#nuclearisimmutablevalue--boolean" aria-hidden="true"><span class="octicon octicon-link"></span></a><code>Nuclear.isImmutable(value)</code> : Boolean</h4>
+
+<p>Returns true if the value is an ImmutableJS data structure.</p>
+
+<h4><a id="user-content-nucleariskeypathvalue--boolean" class="anchor" href="#nucleariskeypathvalue--boolean" aria-hidden="true"><span class="octicon octicon-link"></span></a><code>Nuclear.isKeyPath(value)</code> : Boolean</h4>
+
+<p>Returns true if the value is the format of a valid keyPath</p>
+
+<h4><a id="user-content-nuclearisgettervalue--boolean" class="anchor" href="#nuclearisgettervalue--boolean" aria-hidden="true"><span class="octicon octicon-link"></span></a><code>Nuclear.isGetter(value)</code> : Boolean</h4>
+
+<p>Returns true if the value is the format of a valid getter</p>
+</article>
+  </div>
+
+
+        </div>
+
+      </div><!-- /.repo-container -->
+      <div class="modal-backdrop"></div>
+    </div><!-- /.container -->
+  </div><!-- /.site -->
+
+
+    </div><!-- /.wrapper -->
+
+      <div class="container">
+  <div class="site-footer" role="contentinfo">
+    <ul class="site-footer-links right">
+        <li><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+      <li><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
+      <li><a href="https://shop.github.com" data-ga-click="Footer, go to shop, text:shop">Shop</a></li>
+        <li><a href="https://github.com/blog" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a href="https://github.com/about" data-ga-click="Footer, go to about, text:about">About</a></li>
+      <li><a href="https://help.github.com" data-ga-click="Footer, go to help, text:help">Help</a></li>
+
+    </ul>
+
+    <a href="https://github.com" aria-label="Homepage">
+      <span class="mega-octicon octicon-mark-github" title="GitHub"></span>
+</a>
+    <ul class="site-footer-links">
+      <li>&copy; 2015 <span title="0.04449s from github-fe124-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
+        <li><a href="https://github.com/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
+        <li><a href="https://github.com/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
+        <li><a href="https://github.com/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li><a href="https://github.com/contact" data-ga-click="Footer, go to contact, text:contact">Contact</a></li>
+    </ul>
+  </div>
+</div>
+
+
+    <div class="fullscreen-overlay js-fullscreen-overlay" id="fullscreen_overlay">
+  <div class="fullscreen-container js-suggester-container">
+    <div class="textarea-wrap">
+      <textarea name="fullscreen-contents" id="fullscreen-contents" class="fullscreen-contents js-fullscreen-contents" placeholder=""></textarea>
+      <div class="suggester-container">
+        <div class="suggester fullscreen-suggester js-suggester js-navigation-container"></div>
+      </div>
+    </div>
+  </div>
+  <div class="fullscreen-sidebar">
+    <a href="#" class="exit-fullscreen js-exit-fullscreen tooltipped tooltipped-w" aria-label="Exit Zen Mode">
+      <span class="mega-octicon octicon-screen-normal"></span>
+    </a>
+    <a href="#" class="theme-switcher js-theme-switcher tooltipped tooltipped-w"
+      aria-label="Switch themes">
+      <span class="octicon octicon-color-mode"></span>
+    </a>
+  </div>
+</div>
+
+
+
+    
+    
+
+    <div id="ajax-error-message" class="flash flash-error">
+      <span class="octicon octicon-alert"></span>
+      <a href="#" class="octicon octicon-x flash-close js-ajax-error-dismiss" aria-label="Dismiss error"></a>
+      Something went wrong with that request. Please try again.
+    </div>
+
+
+      <script crossorigin="anonymous" src="https://assets-cdn.github.com/assets/frameworks-dea2e78f4b34a1f3429ade94f98bd25fad6bbe8d28635a93d9caeb68e3c2d258.js"></script>
+      <script async="async" crossorigin="anonymous" src="https://assets-cdn.github.com/assets/github/index-f2bb67dd64e6f69f40f179e8bdddd466056de1bf6e2e88b013c8367c41ad703d.js"></script>
+      
+      
+  </body>
+</html>
+

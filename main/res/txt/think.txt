@@ -1,0 +1,1723 @@
+section of the site, and they used the
+elements on the page to tie them all
+Color coding of sections is a very
+count on everyone noticing it. Some
+and 1 out of 12 men〞particularly
+detect some color distinctions
+More importantly, from what I＊ve
+(perhaps as many as half ) just aren＊t
+cue, but you should never rely on it as the only cue. 
+miss. And since the inactive tabs were a neutral beige, there was a lot of
+active tab.
+street  s igns and breadcrumbs
+chapter 6
+when I enter a site (as on Quicken.com, for instance), I lose the impact of the
+Amazon has always had a tab selected on their Home page. For a long time, it
+Eventually, though, as the site became increasingly less book-centric, they gave
+Amazon had to create the Welcome tab so they could promote products from
+risk of alienating existing customers who still think of Amazon as primarily a
+interface problem is just a reflection of a deeper〞and harder to solve〞dilemma.
+www.amazon.com
+street  s igns and breadcrumbs
+Now that you have a feeling for all of the moving parts, you＊re ready to try my
+Imagine that you＊ve been blindfolded and locked in the trunk of a car, then
+bowels of a Web site. If the page is well designed, when your vision clears 
+> What site is this? (Site ID) 
+> What are the major sections of this site? (Sections)
+> Where am I in the scheme of things? (※You are here§ indicators)
+Why the Goodfellas motif? Because it＊s so easy to forget that the Web experience
+designing pages, it＊s tempting to think that people will reach them by starting at 
+is that we＊re often dropped down in the middle of a site with no idea where we 
+we＊ve never seen this site＊s navigation scheme before.17
+test isn＊t whether you can figure it out given enough time and close scrutiny. The
+matter whether you＊re looking closely or not. You want to be relying solely on the
+17 This is even truer today than it was five years ago, since for many people everything they do
+18 Tom Tullis of Fidelity Investments did an ingenious experiment along the same lines to
+nonsense text and asked people to identify the various elements like the page title and the 
+[ 86 ]
+Here＊s how you perform the trunk test:
+Step 2 Hold it at arm＊s length or squint so you can＊t really study it closely.
+(You won＊t find all of the items on every page.)
+Site ID
+Sections 
+Search
+2. Page name
+4. Local navigation
+6. Search
+[ 87 ]
+Now try it yourself on the four web pages below. Then compare your answers
+And when you＊ve finished, try the same exercise on a dozen random pages from
+what doesn＊t.
+1
+chapter 6
+Answers on page 91
+3
+street  s igns and breadcrumbs
+4
+chapter 6
+THIS PICTURE?
+the page name, but it＊s not.
+other plans first,§ but you
+there＊s no page name, and (b)
+in the list on the left.
+search button, which is amazing
+full of useful content) as
+※
+content space,
+the list on the left, and 
+Utilities list.
+< MY VERSION
+Site ID Section
+navigation
+[ 91 ]
+WHAT＊S WRONG WITH THIS
+The Site ID is below the navigation, and hard to
+next to it, and because the Site ID isn＊t in the
+The heading DVD is positioned above the link
+archy. And there＊s no search, which is baffling 
+< THEIR REVISED VERSION
+redesigned their site and did most of the right
+the Site ID to the top of the page and added a
+But as so often happens with redesigns, for
+instance, the Utilities went from one legible
+stacking underlined text links; they＊re very
+< MY VERSION
+name, so the visual hierarchy matches the
+little more prominent, and moved it flush left
+or right alignment is more effective than
+For the same reason, I moved the search
+centered below it.
+Sections
+Local 
+[ 92 ]
+WHAT＊S WRONG WITH THIS
+The navigation is spread out all over the page,
+what isn＊t. The navigation, ads, promos, and content
+There is no list of major sections. The list at the top
+sub-sites of CNET.com. What makes it particularly
+appear in that list.
+Builder.com is the Breadcrumbs.
+starts. This is one of those pages that seems to keep
+out what it is.
+This is one of those pages where you have to have
+There are underlying dilemmas here that need to be
+layout.
+make the content space easier to spot by adding a
+At the same time, I made sure that the page name
+content space.
+Page name
+Search
+street  s igns and breadcrumbs
+THIS PICTURE?
+trouble finding anything?
+< MY VERSION
+here.
+they used "Enter Keywords" here when
+everywhere else in the site.)
+worth adding the word "for" so it reads
+I also made the page name a little more
+between the content and navigation
+You are here
+Search
+Local navigation
+The first step 
+admitting that
+is beyond 
+designing the home page
+7123456 89
+esigning a Home page often reminds me
+Each contestant would listen patiently while
+had to perform. For instance, ※You have 45
+into the colander strapped to your head.§  
+with a little luck. 
+begin, Bud would always add, ※Oh, there＊s
+it...blindfolded.§ Or ※＃under water.§ Or ※＃in the fifth dimension.§ 
+bases, there＊s always just one＃more＃thing.
+> Site identity and mission. Right off the bat, the Home page has to tell me 
+not at some other site.
+to offer〞both content (※What can I find here?§) and features (※What can I do
+navigation.
+Home page.
+〞desi arnaz, as ricky ricardo 
+Bud Collyer offers words of encouragement to
+> Teases. Like the cover of a magazine, the
+of the ※good stuff§ inside. Content
+most popular pieces of content, like top
+invite me to explore additional sections
+personalization and email newsletters.
+depends on my coming back often, the
+content that gets updated frequently.
+visitors needs some signs of life〞even if
+to signal me that it＊s not moribund.
+allocated for whatever advertising, cross-
+been made.
+for instance) may deserve their own links on the Home page so people don＊t
+> Registration. If the site uses registration, the Home page needs links for new
+signed in (※Welcome back, Steve Krug§).
+abstract objectives:
+how to get to whatever I want〞assuming it＊s somewhere on the site.
+chapter 7
+Mission
+Promos
+cuts
+Feature
+Timely 
+Timely content
+Hierarchy
+Search
+Content promos
+expose me to some of the wonderful things the site has to offer that I might be
+> Show me where to start. There＊s nothing worse than encountering a new
+> Establish credibility and trust. For some visitors, the Home page will be
+And you have to do it＃blindfolded
+Some of the usual constraints:
+sees〞and the only page some visitors will see〞things that are prominently
+As a result, the Home page is the waterfront property of the Web: It＊s the most
+stake in the site wants a promo or a link to their section on the Home page, and
+And given the tendency of most users to scan down the page just far enough to
+fold§1 on the Home page is the choice waterfront property, even more fiercely
+> Too many cooks. Because the Home page is so important, it＊s the one page
+> One size fits all. Unlike lower-level pages, the Home page has to appeal to
+[ 97 ]
+1 A term inherited from newspapers, meaning the part of the page you can see without scrolling.
+The First Casualty of War
+the best Home page design can＊t do it all. Designing a Home page inevitably
+mounts to squeeze in just one more thing, some things inevitably get lost in the
+The one thing you can＊t afford to lose in the shuffle〞and the thing that most
+Home page design to look at, there＊s one thing I can almost always count on:
+Everybody wants to drop a line on the Home page.
+link) and a good location (above the fold).
+As quickly and clearly as possible, the Home page needs to answer the four
+I need to be able to answer these questions at a glance, correctly and
+If it＊s not clear to me what I＊m looking at in the first few seconds, interpreting
+misinterpret something and get frustrated. 
+on the page, which greatly improves my chances of having a satisfying, successful
+Don＊t get me wrong: Everything else is important. You do need to impress me,
+through the cracks; there will always be plenty of people〞inside and outside the
+has a vested interest in getting the main point across.
+the home page is  beyond your control
+www.essential.com
+have here?
+do here?
+here〞and not
+[ 100 ]
+2 From the Wall Street Journal, March 30, 2000: 
+※gerbils§ being shot out of a cannon. [These have been replaced by] staid spots in which
+technology, and electronic equipment). ※We could have told you that, but we shot gerbils out
+When you＊re involved in building a site, it＊s so obvious to you
+remember that it＊s not obvious to everybody.
+explanation of what it is every time they go there〞unless it
+what JAMA is, will you be o?ended by seeing ※Journal of the
+It＊s tempting to think that the people who don＊t ※get§ your site
+true. When testing sites, it＊s not at all unusual to have people
+clear what it was.§
+2
+time they get to your site will they remember exactly what it
+If the site is very complex or novel, a prominent ※New to this
+for spelling out the big picture in plain sight, since most people
+tough it out on their own. And by then, they may already be
+THE TOP FIVE PLAUSIBLE EXCUSES FOR 
+We don＊t need to.
+After people have
+tion once, they will
+Anybody who really
+will know what it is.
+advertising is for.
+a ※First time
+How to get the message across
+is. But there are two important places on the page where we expect to find explicit
+> The tagline. One of the most valuable bits of real estate is the space right next 
+know it＊s meant to be a tagline, and so we read it as a description of the whole
+> The Welcome blurb. The Welcome blurb is a terse description of the site,
+The point isn＊t that everyone will use these two elements〞or even that everyone 
+the overall content of the Home page. But if they can＊t guess, you want to have
+There is also a third possibility: You can use the entire space to the right of the 
+make sure that the visual cues make it clear that this whole area is a modifier for
+and are likely to ignore it.
+the home page is  beyond your control
+Tagline
+> Use as much space as necessary. The temptation is to not want to use any
+and (b) everyone＊s clamoring to use the Home page space for other purposes. 
+your own utility providers), Essential.com has a lot of ＊splainin＊ to do, so they
+helps explain or reinforce what the site is about.
+chapter 7
+2. Prominent but terse
+Why, How, and Plus are
+into a bulleted list so it
+long, imposing block of
+3. The heading Shop By
+clear that the point of
+buy something, not just
+4. The testimonial quote
+draws your eye to it) tells
+1
+4
+> ＃but don＊t use any more space than necessary. For most sites, there＊s no
+take up the entire Home page are usually too much for people to bother
+no longer. Don＊t feel compelled to mention every great feature, just the most
+> Don＊t use a mission statement as a Welcome blurb. Many sites fill their
+written by a Miss America finalist. ※XYZCorp offers world-class solutions in
+> It＊s one of the most important things to test. You can＊t trust your own
+your organization to tell you whether the design is getting this job done
+notice is missing.
+A tagline is a pithy phrase that characterizes the whole enterprise, summing up
+advertising, entertainment, and publishing: ※Thousands of VCRs at impossibly 
+Fit to Print,§4 for example.
+the home page is  beyond your control
+4 The New York Times. I have to admit a personal preference for the Mad magazine parody
+On a Web site, the tagline appears right below, above, or next to the Site ID.
+one place on the page where users most expect to find a concise statement of the
+Some attributes to look for when choosing a tagline:
+> Bad taglines are vague.
+enough to convey a full thought, but short enough to absorb easily.
+chapter 7
+on a Web site it doesn＊t tell me enough.
+※
+the business of running your
+opposite extreme: It＊s too long.
+www.computerunderground.com
+www.onvia.com
+> Bad taglines sound generic. 
+※You＊re in good hands,§ or ※To protect and to serve.§ A motto expresses a
+Mottoes are lofty and reassuring, but if I don＊t know what the thing is, a motto
+> Good taglines are personable, lively, and sometimes clever. Clever is good,
+[ 105 ]
+Saving time, money, and sanity are all clearly good
+Cradle and all§ is a very clever, engaging tagline. But it might give
+buying baby ※stu?,§ when in reality it＊s also an excellent source of
+Fortunately, BabyCenter had the sense
+works: almost short enough to read,
+make it scannable.
+www.netmarket.com
+Tagline? We don＊t need no stinking tagline 
+> The handful of sites that
+household word status.5
+well known from their 
+Personally, though, I＊d argue that even these sites would benefit from a tagline. 
+to tell people why they＊re better off at your site? And even if a site comes from a
+to explain the difference.
+Once I know what I＊m looking at, there＊s still one more important question that
+[ 106 ]
+5 Even Amazon had a tagline until as late as 1998, when it was 
+Where do I
+When I enter a new site, after a quick look around the Home page I should be
+> Here＊s where to start if I want to search. 
+> Here＊s where to start if I want to sample their best stuff. 
+for instance), the entry point for the process should leap out at me. And on sites
+places where I register or sign in should be prominent.
+supports this week＊s business model) sometimes obscures these entry points. 
+and ※No, click me first!§
+entry points (i.e., make the search box look like a search box, and the list of
+like ※Search,§ ※Browse by Category,§ ※Sign in,§ and ※Start here§ (for a step-by-
+Home page navigation can be unique
+Home page to be the same as on the rest of the site. For instance, if the persistent
+The answer is definitely ※Yes, it can be different. But not too different.§ 
+use the persistent navigation there. Typical differences include: 
+what lies below, you may want to add a descriptive phrase to each section name, or
+[ 107 ]
+> Different orientation. The Home page often requires a very different layout
+vertical navigation, or vice versa.
+in the persistent navigation, like the large sign over a store entrance, and it
+on every page.
+navigation and the persistent navigation need to have enough in common so
+same thing.
+order, the same wording, and the same grouping. It also helps to try to keep as
+capitalization. 
+execution, but there＊s too much of a disconnect between the navigation on the
+[ 108 ]
+Home page
+It doesn＊t matter that the navigation is vertical on the Home page and horizontal
+Carriers / Carrier and The Company / Company) are all right because it＊s
+What does matter is that once you leave the Home page
+> WildTalk disappears entirely
+> Even the names that are the same aren＊t in the same order
+all. When I leave the Home page, I have to figure out the site＊s navigation all over
+[ 109 ]
+Wildfire.com 
+All other pages
+chapter 7
+Since Home page real estate is in such short
+create more of it. One common approach is using
+pulldowns definitely save space.
+> You have to seek them out. You have to click on
+for items on the list to catch your eye as you scan
+Home page where you＊re trying to expose the 
+> They＊re hard to scan. If designers use the standard HTML pulldown menu,
+them more readable, and there＊s no really good way to divide the list into
+> They＊re twitchy. Somehow the fact that the list comes and goes so quickly
+Pulldowns are most effective for alphabetized lists of
+products, because there＊s no thought involved. If I＊m
+the V＊s. 
+know the name of the thing I＊m looking for, especially if
+scrolling. Good Not so good
+Pulldown menu
+menu, displayed
+[ 111 ]
+Unfortunately, since the main benefit of pulldowns is saving space, designers are
+Some users love pulldowns because they＊re efficient; others won＊t touch them. In
+Why Golden Geese make such tempting 
+There＊s something about the Home page that seems to inspire shortsighted
+phrase ※killing the golden goose§ running through my head.8
+everything.
+Anything with a prominent Home page link is guaranteed to get more traffic〞
+don＊t I have one?§
+page aren＊t shared equally. The section that＊s being promoted gets a huge gain in
+cluttered is shared by all sections.
+Giant did have a goose that laid golden eggs, but nobody tried to kill it. The senseless
+goose, man gets greedy, man kills goose, man gets no more eggs. Moral: ※Greed often
+It＊s a perfect example of the tragedy of the commons.9 The premise is simple: Any
+Take a town pasture, for example. For each animal a herdsman adds to the
+benefit of +1. But the negative impact of adding an animal〞its contribution to
+than 每1. 
+And another, and another〞preferably before someone else does. And since each
+Preserving the Home page from promotional overload requires constant
+just＃one＃more＃thing. 
+Home page, and offered other methods of driving traffic, like cross-promoting
+page.
+chapter 7
+Lloyd, was popularized in a classic essay on overpopulation by biologist Garrett Hardin
+[ 113 ]
+You be the judge
+at each one and answer these two questions, then compare your answers with mine.
+> Do you know where to start?
+[ 114 ]
+Answers on page 118 www.productopia.com
+the home page is  beyond your control
+OF THIS SITE? 
+me, at least) useful site with a simple
+are (by checking off categories like Travel,
+whisk you to another hand-picked, high-
+each time you clicked on their "Next Site"
+It was effortless, rewarding Web
+take eTour out for a spin every few weeks
+new out there.
+the point of the site by reducing their
+numbering them 1-2-3 to suggest that
+Their tagline ("Surf the Web Without
+it forced me to think about whether
+surfing difficult. But as taglines go it＊s
+Of course, eTour was luckier than most
+hierarchy that they have to make visible,
+the concept and the value proposition.
+other similar sites because they stuck to
+temptation to tout any of the site＊s other
+they understood that the only thing that
+Each click on eTour＊s
+opens another site.
+[ 116 ]
+DO YOU KNOW WHERE 
+Most of the people I＊ve shown eTour to were
+three graphics first. But when that didn＊t work
+big "Let＊s Go!" button at the bottom of the
+The Big Button works well for first-time
+big (and "Let＊s Go!" is so generic) that I clicked
+should have clicked was the understated
+fact, since a week or two elapsed between my
+third visit, too. And my fourth.
+The only changes I would make would be the
+I＊d make it clear that the Big Button is for new
+place to sign in right on the Home page.
+I always assumed that the three graphics
+text. But when I started looking at the page
+show sample sites from three categories.
+actually did tell the story. And I was surprised
+[ 117 ]
+it wasn＊t an improvement. In fact, overall it
+The moral? Things on a Web page don＊t always
+long as they seem to make sense.
+I also tried another version where I took out
+temptation to click on them. But I only
+better with them. They seem to work as a
+helps the user make sense out of the page.
+is a small price to pay if the numbers make
+THEIR REDESIGN 
+redesigned their Home page. As is often the
+forward＃
+and returning users by giving the Big
+("Sign Up") and adding a sign-in box for
+> They improved the tagline ("Your Personal
+to another tagline ("Discover Sites You＊ll
+...and a few steps back
+pulldown menu, giving users one more
+payo?.
+with an animated GIF and a block of text
+Animated GIF
+chapter 7
+Productopia was10 an excellent site, but you might not
+The problem is a flaw in the visual hierarchy. Because the
+inside the Yahoo-style directory panel, it comes across as a
+And since the tagline is bland and lacking any detail, it fails
+advice sites and ends up sounding like every other inflated
+At first glance, the only message I get is that the site has
+graphic style and the products pictured on the left strongly
+products〞designer furniture, not Chia Pets.
+reviews or reviews written by Productopia for specific
+o?ers advice on finding the best product in a category in a
+a product good in a given category.
+for a Dualit 2 Slice toaster, I was shocked to find myself on a
+about choosing a toaster.(There was a prominent link to the
+categories: Quality, Style, and Value.) Overall, the Home page
+It＊s unclear whether the area on the left is three promos
+blurb.(The text, "top form /shapely showoffs smack of luxe"
+10 Productopia met the same fate as eTour.
+the home page is  beyond your control
+experts provide you with the information
+it needs to come before them. And, as usual,
+crucial information: editors select products
+or advertisers.
+WHERE TO START?
+page:
+search box.
+Yahoo-style directory.
+products (if that＊s what they are).
+what the site is, how do I decide what  
+successful Home page has to tell me what
+[ 120 ]
+THEIR REVISED VERSION 
+redesigned their Home page, improving it
+They eliminated the stray tagline on the
+Help You Find the Products You＊ll Love") at
+And they shortened the crucial explanation
+you choose the product that＊s right for
+being read. But it＊s still buried at the
+products section.
+Policy, User Reviews, and so on) into a new
+lumped them together with promos like
+Cook?" It took me a while to figure out that
+[ 121 ]
+MY VERSION
+top of the page with the Site ID, making 
+entire site.
+promos, and make it more prominent.
+at the bottom of the page, grouping the
+them on the left side.
+most Web awards, these four are actually
+Productopia on a short list of e-commerce
+them up across the bottom of the page
+Site of the Day" icons. This is a case where
+convention.
+and the Cowman
+Friends§
+about usability are a waste of time, and
+chapter
+[ 123 ]
+issues over and over. 
+One man likes to push a plough 
+But that＊s no reason why they can't be friends
+Rick from
+Bob the
+Caroline the
+People don＊t  like
+won＊t even go near 
+pulldowns.
+Project
+featuring＃
+Caroline makes a suggestion＃
+pulldown menu for
+Well, I don＊t think most
+And they＊d save us a 
+I hate
+Besides, have
+better idea?
+I usually call these endless discussions ※religious debates,§ because they have a
+of people expressing strongly held personal beliefs about things that can＊t be
+chapter 8
+＃but Bob plays his developer＊s trump card
+any research data 
+Did we ever make 
+pulldowns?
+be a problem using
+ASP pages from our
+Rick attempts an appeal to a higher authority＃
+my life.
+everybody think?
+using pulldowns?
+important (whether it＊s attaining eternal peace, governing effectively, or just
+anyone involved changing his or her point of view. 
+team members, and can often prevent the team from making critical decisions. 
+these debates almost inevitable. In this chapter, I＊ll describe these forces, and
+Everybody likes ________.§
+users. And like all Web users, we tend to have strong feelings about what we like
+As individuals, we love Flash animations because they＊re cool; or we hate them
+each page because they＊re familiar and easy to use, or we hate them because they＊re
+And when we＊re working on a Web team, it turns out to be very hard to check
+The result is usually a room full of individuals with strong personal convictions
+And given the strength of
+human nature〞there＊s a
+these likes and dislikes onto
+that most Web users like the
+to think that most Web users
+the farmer and the cowman
+※
+They stink.
+about them?
+like pulldowns.
+downs. What＊s
+chapter 8
+It＊s not that we think that everyone is like us. We know there are some people out
+own Web team. But not sensible people. And there aren＊t many of them. 
+On top of this layer of personal passion, there＊s another layer: professional
+team have very different perspectives on what constitutes good Web design based
+Take designers and developers, for instance. Designers tend to think that most 
+visually interesting. In fact, they probably became designers because they enjoy
+understand.2
+features because they like sites with lots of cool features. 
+want to build sites with interesting, original, elegant features. I＊m not sure who＊s
+differences in perspective often lead to conflict〞and hard feelings〞when it
+1 In the play, the thrifty, God-fearing, family-oriented farmers are always at odds with the
+2 Yes, I＊m dealing in stereotypes here. But I think they＊re useful stereotypes.
+The ideal Web
+by someone
+At the same time, designers and programmers find themselves siding together in
+and craft.3
+development) is focused on making whatever promises are necessary to attract
+site, the burden of delivering on those promises lands on the shoulders of the
+This Internet version of the perennial struggle between art and commerce (or
+complexity to any discussions of usability issues〞often in the form of apparently
+the farmer and the cowman
+3 See ※Corporate Culture in Internet Time§ in strategy+business magazine 
+4 I once saw a particularly puzzling feature on the Home page of a prominent〞and otherwise
+dream, so we had to add it.§ True story.
+he wants everything to be
+＃in time for the trade
+The myth of the Average User
+average Web design meeting. But behind that belief lies another one, even more
+As soon as the clash of personal and professional opinions results in a stalemate,
+opinion, research, focus groups, or user tests) to determine what most users like
+problem is, there is no Average User.
+the opposite conclusion: all Web users are unique, and all Web use is 
+The more you watch users carefully and listen to them articulate their intentions,
+reactions to Web pages are based on so many variables that attempts to describe
+productive. Good design, on the other hand, takes this complexity into account.
+idea that good Web design is largely a matter of figuring out what people like. It＊s
+or they＊re bad (because most people don＊t). You should have links to everything in
+menus down the side. Frames, pages that scroll, etc. are either good or bad, black
+The problem is there are no simple ※right§ answers for most Web design
+design that fills a need〞carefully thought out, well executed, and tested. 
+really like Flash, and an equal percent will probably say they hate it. But what
+[ 128 ]
+(lowercase), the arbitrary use of whiz-bang features to make a site more interesting.
+long time to download and don＊t add any value. If you observe them carefully and
+sites that use small, hardworking, well-thought-out bits of Flash to add a
+That＊s not to say that there aren＊t some things you should never do, and some things
+wrong. It＊s just that they aren＊t the things that Web teams usually argue about. 
+The point is, it＊s not productive to ask questions like ※Do most people like
+these items and this wording in this context on this page create a good experience
+And there＊s really only one way to answer that kind of question: testing. You have 
+build some version of the thing (even a crude version), then watch ordinary
+There＊s no substitute for it. 
+testing tends to defuse arguments and break impasses by moving the discussion
+or doesn＊t work. And by opening our eyes to just how varied users＊ motivations,
+users are like us. 
+The next chapter explains how to test your own site.
+[ 129 ]
+on 10 cents a day
+chapter
+[ 131 ]
+As soon as I hear ※launching in two weeks§ (or even ※two months§) and ※usability
+burning-chemical-factory feeling, because I have a pretty good idea of what＊s 
+If it＊s two weeks, then it＊s almost certainly a request for a disaster check. The 
+says, ※Maybe we better do some usability testing.§
+internal debates〞usually about something very specific like color schemes. 
+like the sexy one, some like the elegant one. Finally someone with enough clout 
+some testing done to settle this.§
+〞what everyone says at some point during the
+A
+gave me your name.
+in two weeks and we want to do
+＃two weeks?
+thing it usually ends up doing is revealing that the things they were arguing
+best, only to learn that they forgot to put windows in the room. For instance, they
+horizontal navigation bar or the vertical menus if nobody understands the value
+Sadly, this is how most usability testing gets done: too little, too late, and for all
+Repeat after me: 
+Sometimes that initial phone call is even scarier:
+request originated in Marketing. When Web sites are being designed, the folks in
+ones who spend the most time trying to figure out who the site＊s audience is and
+hands-on control over how the site actually gets put together. 
+[ 132 ]
+two weeks and we want to do
+Focus group 
+As the launch date approaches, the Marketing people may feel that their only hope
+research they know is focus groups.
+usability testing, not focus groups. Here＊s the difference in a nutshell:
+react to ideas and designs that are shown to them. It＊s a group process, and much
+groups are good for quickly getting a sampling of users＊ opinions and feelings
+> In a usability test, one user at a time is shown something (whether it＊s a Web
+either (a) figure out what it is, or (b) try to use it to do a typical task.
+likes〞in the abstract. They＊re good for testing whether the idea behind the site
+to test the names you＊re using for features of your site, and to find out how people
+But they＊re not good for learning about whether your site works and how to improve it.
+learn early on, before you begin designing the site. Focus groups are for EARLY in
+check and fine-tune your message, but don＊t mistake them for usability testing. 
+Several true things about testing
+> If you want a great site, you＊ve got to test. After you＊ve worked on a site for
+only way to find out if it really works is to test it.
+[ 133 ]
+[ 134 ]
+know, uses the Web the way you do.
+a broadening experience. It reminds you how different〞and the same〞people
+But I finally realized that testing is really more like having friends visiting from
+things about your home town that you usually don＊t notice because you＊re so
+take for granted aren＊t obvious to everybody. 
+works, and even the worst test with the wrong user will show you important
+user test at my workshops so that people can see that it＊s very easy to do and it
+have him try to perform a task on a site belonging to one of the other attendees.
+usually scribbbles several pages of notes. And they always ask if they can have
+that after his team saw the recording, they made one change to their site which
+> Testing one user early in the project is better than testing 50 near the
+into a big deal, you won＊t do it early enough or often enough to get the most out
+it〞is almost always more valuable than a sophisticated test later.
+to go in and make changes. The truth is, it turns out that it＊s not that easy to
+almost any kind of change, and even apparently simple changes often turn out
+the first place is gravy.
+to do your testing with people who are like the people who will use your site,
+is ※Recruit loosely, and grade on a curve.§ 
+inform your judgment. People like to think, for instance, that they can use
+※b§, but you can＊t. No one has the resources to set up the kind of controlled
+which, taken together with your experience, professional judgment, and
+confidence〞between ※a§ and ※b.§
+You make something, test it, fix it, and test it again. 
+Brothers＊ movies are so wonderful is that before they started filming
+from the movie, doing five shows a day, improvising constantly and
+after they＊d settled on a line, Groucho
+see if it could be improved.
+sale usability testing
+simple: If you want to know whether your software or your Web site or your
+use it and note where they run into trouble. Then fix it, and test it again.
+had to have a usability lab with an observation room behind a one-way mirror,
+thing they were using. You had to recruit a lot of people so you could get results 
+[ 135 ]
+Dumont) and Rufus T. Firefly
+that were statistically significant. It was Science. It cost $20,000 to $50,000 a shot.
+But in 1989 Jakob Nielsen wrote a paper titled ※Usability Engineering at a
+chapter 9
+It＊s true that most Web development schedules seem to be based
+to everybody＊s to-do list, if you have to adjust development
+them, then it won＊t get done. That＊s why you have to make testing
+won＊t have to (a) argue endlessly, and (b) redo things at the end.
+a camcorder from home, you＊ll only need to spend about $300 for
+The least-known fact about usability testing is that it＊s incredibly
+I＊ve never seen a usability test fail to produce useful results, no
+You don＊t need one. All you really need is a room with a desk, a
+One of the nicest things about usability testing is that the
+The serious problems are hard to miss.
+We don＊t have
+We don＊t have 
+We don＊t have 
+We don＊t have a
+We wouldn＊t know
+the results.
+MA, Sept. 1989. 
+[ 137 ]
+USERS PER TEST 
+EFFORT
+WHO DOES 
+ADVANCE 
+PREPARATION
+DO YOU TEST?
+WHAT HAPPENS
+Usually eight or more to justify the 
+Select carefully to match target 
+A usability lab, with an observation
+An experienced usability professional
+advance to reserve a usability lab and
+Draft, discuss, and revise a test 
+Unless you have a huge budget, put all
+when the site is nearly complete
+A 20-page written report appears a
+meets to decide what changes to make
+Grab some people. Almost anybody who
+Any office or conference room
+Tests can be done almost any time, with
+Decide what you＊re going to show
+the development process
+for each user) or less
+stakeholders) debrief over lunch the
+TRADITIONAL TESTING LOST-OUR-LEASE TESTING 
+The idea of discount usability testing was a huge step forward. The only problem 
+someone to conduct a test still costs $5,000 to $15,000, and as a result it doesn＊t
+What I＊m going to commend to you in this chapter is something even more
+I＊m going to try to explain how to do your own testing when you have no money
+testing, by all means do it! But don＊t do it if it means you＊ll do less testing. 
+[ 138 ]
+In most cases, I tend to think the ideal number of users for each round of testing is
+The first three users are very likely to encounter nearly all of the most significant
+wring everything you can out of each round. Testing only three users helps
+Also, since you will have fixed the problems you uncovered in the first round, in
+since they won＊t be getting stuck on the first set of problems.
+same day, so you can take advantage of what you＊ve learned right away. Also,
+anyone has time to process〞many of them about things that are really ※nits,§
+In fact this is one of the reasons why I＊ve almost completely stopped generating
+reviews and for usability tests. I finally realized that for most Web teams their
+them, so it＊s important to stay focused on the most serious problems. Instead of
+entire Web team, which may last for an hour or two. By the end of the call, we＊ve
+them. 
+at www.useit.com for a good discussion of the topic. 
+test six or eight users since the additional cost per user will be comparatively low. But only if
+Recruit loosely and grade on a curve
+who they think will precisely reflect their target audience〞for instance, male
+experience who have recently purchased expensive shoes. 
+matter who you test. 
+know the basics.
+[ 139 ]
+FOUND: 5
+TOTAL PROBLEMS
+TWO TESTS WITH 3 USERS
+find more problems
+But the worst prob-
+keep them from
+to encounter 
+Three users may
+problems in a
+But in the
+with the first
+fixed, they＊ll
+they couldn＊t
+the first test.
+First test: 3 users
+reduce the number of rounds of testing that you do, then by all means be as
+tests, I recommend a different approach: 
+In other words, try to find users who reflect your audience, but don＊t get hung up
+you test and your audience. I favor this approach for three reasons: 
+someone who＊s muddling through〞just at a higher level. 
+audience can use it. If you design a site for accountants using terminology
+is that a small but not insignificant number of accountants won＊t know what
+well as experts anyway, and if your grandmother can use it, an expert can. 
+beginners. Everybody appreciates clarity. (True clarity, that is, and not just
+The exceptions: 
+it＊s no harder to recruit from that group, then do it. For instance, if your
+> If your audience is split between clearly defined groups with very
+at least once. For instance, if you＊re building a university site, for at least one
+school seniors, and two administrators. But for the other rounds, you can
+chapter 9
+> If using your site requires specific domain knowledge (e.g., a currency
+people with that domain knowledge for at least one round of tests. But don＊t do
+When you＊re recruiting:
+range from $50 for ※average§ Web users to several hundred dollars for
+offer people a little more than the going rate, since (a) it makes it clear that I
+participate. Remember, even if the session is only 30 minutes, people usually
+are curious about the process than people who are desperate for the money.
+site and give us some feedback. It＊s very easy, and would take about forty-five
+> Avoid discussing the site (or the organization behind the site)
+what it is from a standing start. (Of course, if they＊re coming to your office,
+> Don＊t be embarrassed to ask friends and neighbors. You don＊t have to feel
+enjoy the experience. It＊s fun to have someone take your opinion seriously and
+about the Web or computers in general.
+[ 141 ]
+All you really need is an office or conference room with two chairs, a PC or Mac
+video cable, and a tripod. 
+another office〞or even a cubicle〞nearby so everyone on the development team
+The camcorder needs to transmit what the user sees (the computer screen or the
+facilitator say.  In a usability lab, you＊ll often see a second camera used to show the
+conveys frustration pretty effectively.
+budget won＊t stretch that far, you can probably twist somebody＊s arm to bring in
+chapter 9
+Test subject (A) sits in front of computer monitor (B),
+tions. Camcorder (D) powered by squirrel (E) is pointed 
+Meanwhile, cable (F) carries signal from
+interested team members (H) can observe.
+click here＃
+click here＃
+you do next?
+darned!
+I don＊t recommend using the camcorder to videotape the sessions. In fact, I used to
+never used and it made the whole process more complicated and expensive.
+faster,  disk drives have gotten much larger, and screen recording software has
+the test PC and record everything that happens on the screen and everything the
+these files are very valuable because they＊re much easier to review quickly than
+always use a screen recorder during user tests. 
+Almost anyone can facilitate a usability test; all it really takes is the courage to try
+Try to choose someone who tends to be patient, calm, empathetic, a good listener,
+※definitely not a people person§ or ※the office crank.§ 
+Anybody who wants to. It＊s a good idea to encourage everyone〞team members,
+to attend. 
+organization should be investing in usability, my strongest recommendation
+usabil ity  testing on 10 cents a  day
+4 There are a number of screen recorders available, but I＊m partial to Camtasia, made 
+(http://www.techsmith.com). It＊s very reliable and has a number of extremely useful
+specifically designed for capturing usability tests〞sort of like Camtasia on steroids〞which
+chapter 9
+investment.§ The tactic that I think works best is getting management to observe
+and it would be great for the Web team＊s morale if they could just poke their head
+longer than they＊d planned, because it＊s the first time they＊ve seen their site in
+What do you test, and when do you test it?
+phase of Web development. 
+They may be actual competitors, or they may be sites that are similar in style,
+Use them yourself, then watch one or two other people use them and see what
+having someone build a working prototype for you for free.
+pressure-free chance to get the hang of it. It will also give you a chance to develop 
+personally when people don＊t get it. Testing someone else＊s site first will help you
+Since the comparable sites are ※live,§ you can do two kinds of testing: ※Get it§ testing
+> ※Get it§ testing is just what it sounds like: show them the site, and see if they
+organized, how it works, and so on.
+well they do.
+observe users doing tasks that they have a hand in choosing. It＊s much better, 
+recently§ than ※Find a cookbook for under $14.§ When people are doing made-
+of their personal knowledge.
+design ideas to users, beginning with your first rough sketches. Designers are 
+comment on something that looks unfinished, since they know you haven＊t got
+design, users won＊t be distracted by details of implementation and they can focus
+Later, as you begin building parts of the site or functioning prototypes, you can
+I also recommend doing what I call Cubicle tests: Whenever you build a new
+the person in the next cubicle and see if they can make sense out of it. This kind
+A sample test session
+is real, but it has since been redesigned. The participant＊s name is Janice, and
+usabil ity  testing on 10 cents a  day
+chapter 9
+5 A copy of the script is available on my Web site (www.sensible.com) so you can download it
+6 If you didn＊t work on the part that＊s being tested, you can also say, ※Don＊t worry about
+This whole first section is
+conduct tests.5
+front of me, and I don＊t
+but I find it＊s good to ad lib
+making mistakes. When the
+comfortable making
+pressure o? them.
+I＊m going to be walking you through 
+You probably already know, but let me explain
+testing a Web site that we＊re working on so we
+I want to make it clear right away that we＊re
+wrong here. In fact, this is probably the one
+about making mistakes.
+please don＊t worry that you＊re going to hurt
+need to know honestly what you think. 
+out loud, to tell me what＊s going through your
+INTRODUCTION
+[ 147 ]
+this, because it will seem
+questions as you go along.
+before you start that (a)
+(b) you＊ll try to answer
+want to know.
+will say something like, ※I＊m
+America＊s Funniest Home
+Give them the release and
+(if required) to sign. Both
+possible and written in
+7
+able to answer them right away, since we＊re
+have someone sitting next to them, but I will
+when we＊re done.
+keep us moving, but we＊ll try to make sure that
+You may have noticed the camera. With your
+screen and what you have to say. The recording
+improve the site, and it won＊t be seen by anyone
+also helps me, because I don＊t have to take as
+watching the screen in another room.
+something for us. It simply says that we have
+only be seen by the people working on the
+anybody about what we＊re showing you today,
+Do you have any questions before we begin?
+7 You＊ll find a sample recording consent form on my Web site.
+[ 148 ]
+just a few quick questions. First, what＊s your
+I＊m a router.
+router do, exactly?
+and send them to the right office.
+would you say you spend using the Internet,
+Oh, I don＊t know. Probably an hour a day at
+home. Mostly that＊s on the weekend. I＊m
+playing games sometimes.
+for instance, tell me what you do, at work and
+Well, at the office I spend most of my time
+lot of it＊s junk but I have to go through it
+something at work.
+with a few questions to get
+how they use the Internet.
+loosen up a little and gives
+you＊re going to be listening
+say〞and that there are no
+Don＊t hesitate to admit
+anything. Your role here 
+as an expert, but as a 
+Notice that she＊s not sure
+spends on the Internet.
+worry. Accurate answers
+main point here is just to
+thinking about how she
+give you a chance to gauge
+BACKGROUND QUESTIONS
+[ 149 ]
+Yahoo, I guess. I like Yahoo, and I use it all
+Snakes.com, because I have a pet snake.
+A python. He＊s about four feet long, but
+he＊s fully grown.
+anything on the Internet? How do you feel
+I＊ve bought some things recently. I didn＊t
+couldn＊t get things delivered. It was hard
+home during the day. But now one of my
+And what have you bought?
+and it worked out much better than I
+OK, great. We＊re done with the questions, and
+OK, I guess.
+and find out a little more
+you come back to the topic
+chapter 9
+First, I＊m just going to ask you to look at this
+strikes you about it, and what you think you
+For now, don＊t actually click on anything. Just
+And again, as much as possible, it will help us
+what you＊re thinking about.
+but minimized. At this
+click to maximize it.
+usabil ity  testing on 10 cents a  day
+Well, I guess the first thing I notice is that
+and I like the little picture of the sun [at
+Let＊s see. [Reads.] ※The global services
+your job done.§
+idea.
+Cool Stuff section on the left.] ※3D graphics
+marketplace.§
+just as likely that the
+she hates this shade of
+drawing is too simplistic.
+individual reactions to
+chapter 9
+This user is doing a good
+her own. If she wasn＊t, this
+her, ※What are you
+There＊s a lot going on here. But I have no
+If you had to take a guess, what do you think it
+Well, it seems to have something to do with
+[Looks around the page again.] Now that I
+category list halfway down the page], I guess
+creative...they all sound like services.
+selling services. Maybe like some kind of
+OK. Now, if you were at home, what would you
+usabil ity  testing on 10 cents a  day
+I ask this question because
+most users are going to
+pictures of the five steps,
+least look at them.
+I＊m interested in 3D graphics.
+question. What about these pictures near the
+What did you make of them?
+them out. I guess I thought they were telling
+Any reason why you didn＊t pay much
+No. I guess I just wasn＊t ready to start 
+to use it yet. I just wanted to look 
+OK. Great.
+[ 154 ]
+Can you think of something you might want to
+Hmm. Let me think. I think I saw ※Home
+thinking of building a deck. Maybe I would
+So if you were going to post the deck as a
+I guess I＊d click on one of the categories
+improvement.[Looks.] There it is, under
+So what would you do?
+two links under ※Family and Household.§]
+perform so we can see
+site for its intended
+Whenever possible, it＊s
+some say in choosing the
+TESTING A TASK
+[ 155 ]
+click on Home Improvement, so it looks like
+Price.§ But I don＊t know what the
+Fixed price I sort of understand; they＊ll
+stick to it. But I＊m not sure what RFPs is.
+Fixed price, I guess.
+As it turns out, she＊s
+this case) means services
+rate, while an RFP (or
+actually the choice that
+kind of misunderstanding
+people who built the site.
+while she tries to post a
+continue until either (a)
+she gets really frustrated,
+anything new by watching
+I＊d give her three or four
+should take not more than
+chapter 9
+Review the results right away
+development team to review everyone＊s observations and decide what to do next.
+debrief  over lunch.
+> Triage〞reviewing the problems people saw and deciding which ones need to 
+> Problem solving〞figuring out how to fix them.
+team members who＊ve been arguing about the right way to do things all along. So
+Just this: 
+testing usually just make sense. They tend to be
+Also, the experience of seeing your handiwork through someone else＊s eyes will
+new light.
+perfect solution. You just need to figure out what to try next.
+Here are the types of problems you＊re going to see most often when you test:
+or a page and they either don＊t know what to make of it, or they think they do
+> The words they＊re looking for aren＊t there. This usually means that either
+[ 157 ]
+would use, or (b) the categories are what they expect, but you＊re just not using
+> There＊s too much going on. Sometimes what they＊re looking for is right
+(a) reduce the overall noise on the page, or (b) turn up the volume on the things
+Some triage guidelines
+> Ignore ※kayak§ problems. In any test, you＊re likely to see several cases
+almost immediately without any help. It＊s kind of like rolling over in a kayak;
+fun. In basketball terms, no harm, no foul. 
+headed in the right direction quickly, and (b) they manage to recover without
+general, if the user＊s second guess about where to find things is always right,
+Of course, if there＊s an easy and obvious fix that won＊t break anything else,
+the development team. They＊re usually there because of some ambiguity for
+or two oddball items that don＊t fit perfectly into any of the top-level categories
+other half will look for them in Arts first. Whatever you do, half of them are
+guess, which is fine.8 
+for things to ※live§ in only one place in a hierarchy, with a prominent ※see also§ crosslink in
+chapter 9
+> Resist the impulse to add things. When it＊s obvious in testing that users
+an explanation or some instructions.
+obscuring the meaning, rather than adding yet another distraction.
+like it better if it could do x.§ It always pays to be suspicious of these requests for
+perfectly fine source for x and wouldn＊t be likely to switch; they＊re just telling
+> Grab the low-hanging fruit. The main thing you＊re looking for in each round
+> Head slappers. These are the surprises that show up
+were obvious to everyone the moment they saw the
+money, and you should fix them right away.
+(a) require almost no effort, or (b) require a little
+And finally, there＊s one last piece of advice about ※making changes§ that deserves
+Don＊t throw the baby out with the dishes 
+it＊s important to keep in mind that even a minor change can have a major impact.
+without breaking the parts that already work. 
+affected. In particular, when you＊re making something more prominent than it
+usabil ity  testing on 10 cents a  day
+One morning a month: that＊s all we ask 
+doing usability testing.
+When you leave lunch, the team will have decided what you＊re going to fix, and
+Doing it all in a morning also greatly increases the chances that most team
+is highly desirable.
+find some more advice about how to do it in a chapter called ※Usability testing:
+all about do-it-yourself usability testing, but I do not want you to wait for it before
+9 You can download the chapter for free at http://www.sensible.com/secondedition.
+common courtesy 
+chapter
+1 Mensch: a German-derived Yiddish word originally meaning ※human being.§ A person of
+[ 161 ]
+Concerned, I did what anyone would do: (a) Start checking Google News every
+what they were saying about it.
+strike on the airline＊s Home page, but there wasn＊t a word about it to be found
+FAQ lists. Nothing but business as usual. ※Strike? What strike?§
+really only one frequently asked question related to the site, and it＊s being asked
+What＊s going to happen to me? 
+Is there really going to be a strike?
+If there is a strike, what will happen?
+What will you do to help me?
+What was I to take away from this? 
+circumstances, (b) for some legal or business reason they didn＊t want to admit
+interested, or (d) they just couldn＊t be bothered. 
+If you can fake that, the rest is easy.
+chapter 10
+No matter what the real reason was, they did an outstanding job of depleting my
+spend hundreds of millions of dollars a year polishing〞had definitely lost some
+Most of this book has been about building clarity into Web sites: making sure that
+undue effort. Is it clear to people? Do they ※get it§?
+thing〞being considerate of the user. Besides ※Is my site clear?§ you also need 
+The Reservoir of Goodwill
+start out with a reservoir of goodwill. Each problem we encounter on the site
+site might have looked like:
+My goodwill is a little low,
+that their negotiations
+inconvenience me.
+days old.
+No promising links, but
+which is very annoying.
+sell me more tickets
+they're going to fly me
+I search for ※strike§ and find
+strike a year ago, and pages
+about a strike in the 1950s.
+leave, but they're the sole
+I look through their FAQ
+I glance around the
+It feels well organized,
+confident that if the
+be able to find it.
+the strike on the
+I don＊t like the fact
+business as usual.
+links to News stories 
+none are relevant.
+Releases link at the
+usabil ity  as  common courtesy
+The reservoir is limited, and if you treat users badly enough and exhaust it
+outcome; they may just not be as eager to use your site in the future, or they may
+There are a few things worth noting about this reservoir:
+reservoir, some small. Some people are more
+inherently more patient, trusting, or optimistic. The
+> It＊s situational. If I＊m in a huge hurry, or have 
+my expendable goodwill may already be low 
+a large reserve.
+that have diminished my goodwill, you can
+like you＊re looking out for my best interests.
+instance, just opening up a registration form with
+people＊s reserve to plunge instantly to zero.
+of here
+[ 164 ]
+Here are a few of the things that tend to make users feel like the people
+> Hiding information that I want. The most common things to hide are
+The whole point of hiding support phone numbers is to try to keep users 
+goodwill and ensure that they＊ll be even more annoyed when they do find 
+perhaps even on every page〞somehow knowing that they can call if they
+longer, increasing the chances that they＊ll solve the problem themselves.
+process that they＊ll feel vested in it by the time they experience the ※sticker
+like airports. Having seen a ※Wireless access available!§ sign and knowing
+to connect. But then you have to scan, read, and click your way through three
+before you get to a page that even hints at what it might cost you.  It feels like
+and keep throwing more of their marketing pitch at you, maybe they can
+Punishing me for not doing things your way. I should never have to think
+number, spaces in my credit card number, or parentheses in my phone
+when the spaces actually make it much easier to get the number right. Don＊t
+of code. 
+[ 165 ]
+skeptical of requests for personal information, and find it annoying if a site
+Shucking and jiving me. We're
+sincerity, and disingenuous
+care about me can be particularly
+through your head every time you
+Putting sizzle in my way. Having to wait through a long Flash intro, or
+that you don＊t understand〞or care〞that I＊m in a hurry. 
+disorganized, or unprofessional, like no effort has gone into making it
+Note that while people love to make comments about the appearance of sites〞
+a site just because it doesn＊t look great. (I tell people to ignore all comments
+people use a word like ※puke§ to describe the color scheme. Then it＊s worth
+There may be times when you＊ll choose to have your site do some of these user-
+exactly what the customer wants. For instance, uninvited pop-ups almost always
+more revenue by using pop-ups and you think it＊s worth annoying your users,
+rather than inadvertently.
+high call volume§ is keeping me 
+because my call is important 
+2 This actually happened once during a round of testing I facilitated. We changed the color.
+[ 166 ]
+The good news is that even if you make mistakes, it＊s possible to restore my
+Most of these are just the flip side of the other list: 
+them obvious and easy. It＊s usually not hard to figure out what people 
+everything else about their organization＊s site almost always give me the same
+do?§ The problem is, making those things easy doesn＊t always become the top
+mortgage, nothing should get in the way of making it dead easy to apply for 
+Tell me what I want to know. Be upfront about things like shipping costs,
+upfront about. You may lose points if your shipping rates are higher than 
+for me to make up the difference.
+shipping company＊s tracking number for my purchase, put a link in my email
+(As usual, Amazon was the first site to do this for me.)
+where it seems like an enormous amount of work has gone into (a) generating
+and useful, (c) presenting it clearly, and (d) organizing it so I can find it. I＊ve
+I＊ve been able to solve it on my own.
+[ 167 ]
+Asked Questions lists are enormously valuable, especially if 
+(also known as QWWPWAs: Questions We Wish People Would Ask). 
+easily give you a list of this week＊s five most frequently asked questions.
+> They＊re candid. Often people are looking in the FAQs for the answer to
+goes a long way to increasing goodwill.
+love being able to print stories that span multiple pages with a single click,
+additional effort. Drop the ads (the possibility of a banner ad having any
+space on paper), but don＊t drop the illustrations, photos, and figures.
+testing, you＊ll be able to spare me from many errors before they happen. 
+obvious way for me to recover. See Defensive Design for the Web in my
+When in doubt, apologize. Sometimes you can＊t help it: You just don＊t 
+university＊s library system requires separate passwords for each of your
+you can＊t do what they want, at least let them know that you know you＊re
+Accessibility,
+Sheets, and you
+by with buttered toast strapped to its back
+11 
+eople sometimes ask me, ※What about accessibility? Isn＊t that part of usability?§
+people with disabilities aren＊t part of your audience, you really can＊t say your site is
+At this point,1 everyone involved in Web design knows at least a little bit about Web
+And yet almost every site I go to fails my three-second accessibility test〞increasing
+Why is that?
+always lands with the buttered side facing down. I propose to strap buttered toast to
+buttered-cat array, a high-speed monorail could easily link New York with Chicago.
+P
+Browser 
+command
+1 2005 AD
+Section 508 of the 1988 Amendments to the Rehabilitation Act, which specifies accessibility
+wants to do business with the U.S. government.
+In most organizations, the people who end up being responsible for doing
+designers and the developers.
+they pick up inevitably list the same set of reasons why they need to make their
+There＊s a lot of truth in all of these. Unfortunately, there＊s also a lot that＊s unlikely
+accessibility.§ Two arguments in particular tend to make them skeptical:
+them to believe that a large percentage of the population actually needs help
+that people make when they＊re advocating for a worthy cause, but there＊s also a
+entitled to be skeptical about the rest.§ 
+benefits everyone. Some adaptations do, like the classic example, closed
+since this always seems to be the only example cited, it feels a little like arguing
+chapter 11
+not just a good
+Most accessibility
+everyone, not just
+It ＆s a huge potential
+population has a disability.
+It makes good business sense.
+the Web, and they have lots of
+Everyone should have
+and equal access 
+[ 171 ]
+that the space program was worthwhile because it gave us Tang.4 It＊s much
+adaptations are likely to make things worse for ※everyone else.§
+really only one reason that＊s important:
+And not just the right thing; it＊s profoundly the right thing to do, because the one
+extraordinarily better it makes some people＊s lives. Personally, I don＊t think
+computer can now read the daily newspaper on their own. Imagine that.
+by doing our job a little better? 
+there will be a legislative stick coming sooner or later. Count on it.
+As they learn more about accessibility, two fears tend to emerge:
+more complicated new thing to fit into an already impossible project schedule.
+with time-consuming reports, reviews, and task force meetings. 
+cats: places where good design for people with disabilities and good design for
+going to be forced to design sites that are less appealing〞and less useful〞for
+4 A powdered orange-flavored breakfast drink, invented for the astronauts (see also: freeze-
+[ 172 ]
+In an ideal world, accessibility would work like a sign I saw in the back of a
+way it caught the light made me take a closer look, and when I did, I realized 
+The sign was overlaid with a thin piece of Plexiglas, and the message was
+would have been half as large so they could both fit on the sign, but with this
+I think for some designers, though, accessibility conjures up an image something
+handicapping everyone.5
+a few years away
+of advice that sounds very promising:
+required by law to wear a ※mental handicap radio§ in his ear that blasts various loud noises
+The problem is, when they run their site through a validator, it turns out to be
+mistakes and oversights that are easy to fix, like missing alt text.6 But it also
+wrong, and a long list of recommendations of things for you to check which it
+This can be very discouraging for people who are just learning about
+an awful lot to learn. 
+After all, most designers and developers are not going to become accessibility
+easier to do. Screen readers and other adaptive technologies have to get smarter,
+to code correctly for accessibility, and the guidelines need to be improved. 
+accessibil ity,  cascading style  sheets,  and you
+example), which is essential for people using screen readers or browsing with images turned off.
+to make sure your 
+WCAG guidelines.
+checker for
+Real progress is going to require improvements on four different fronts, motivated
+to support mobile devices, which share some problems with accessibility.
+The fact that it＊s not a perfect world at the moment doesn＊t let any of us off the
+Even with current technology and standards, it＊s possible to make any site very
+the most impact. And they don＊t involve getting anywhere near a buttered cat.
+confuse everyone
+accessible makes them more usable for everyone§) is that it obscures the fact that
+the most effective ways to make them more effective for people with disabilities. 
+chapter 11
+technologies
+use of CSS
+developer 
+Better
+and best 
+examples
+508
+Smarter adaptive
+Universal 
+Better
+tools
+standards 
+practice
+[ 175 ]
+If something confuses most people who use your site, it＊s almost certain to
+remarkably smarter because they have a disability.) And it＊s very likely that
+For instance, think of the last time you had trouble using a Web site (running 
+imagine trying to solve that problem without being able to see the page.
+often, and continually smooth out the parts that confuse everyone. In fact, if you
+people with disabilities still won＊t be able to use it. If your site＊s not clear to begin
+a-pig metaphor here].
+As I hope you＊ve seen by now, the best way to learn how to make anything more
+at using adaptive technology, let alone watching other people use it. 
+blind Web users and spending a few hours with them observing how they
+Fortunately, someone has done the heavy lifting for you. Mary Theofanos and
+number of tasks on a variety of sites and reported what they observed in an
+Who Work with Screen Readers.§7
+example of the kinds of things they learned:
+from ACM, Ginny has made it available for personal use at http://redish.net/content/
+[ 176 ]
+Screen-reader users scan with their ears. Most blind users are just as impatient
+possible. They do not listen to every word on the page〞just as sighted users
+decide whether to listen further. Many set the voice to speak at an amazingly
+They listen to the first few words of a link or line of text. If it does not seem
+paragraph. Where a sighted user might find a keyword by scanning over the
+of a link or a line of text.
+accessibility. In 20 minutes, it will give you an appreciation for the problems
+#3. Read a book
+weekend) reading a book about Web accessibility. There are several good ones＃
+> Constructing Accessible Websites by Jim Thatcher et al.
+Slatin and Sharron Rush
+＃and I＊m sure there will be more in the near future.8
+now, you just need to get the big picture. 
+#4. Start using Cascading Style Sheets
+In the beginning, everything was text. When the first visual browsers arrived,
+everything, HTML〞which was really only intended to display research papers〞
+and it was very hard to position things precisely on a page. And even if you could,
+To wrestle back some control, designers
+control layout. For years, the only way
+Web page was to put them in tables...
+ended up seeming like a series of
+Unfortunately, this didn＊t work well with early
+slavishly line-by-line from left to right, like this:
+be used, to try to get more control over text styling. It was a messy world of
+[ 177 ]
+Advanced Common Sense can＊t 
+online home of web everything I
+[ 178 ]
+Fortunately, beginning in 1998 some very determined people got fed up with this
+standards that would give designers a consistent target. A group of designers
+nonviolent resistance: They simply stopped making their own sites backwardly
+encouraged others to do the same.
+different depending on which of the many designer-contributed style sheets you
+with CSS.
+doesn＊t make any sense to create a site without them, because the advantages are
+> Infinitely greater control of formatting.
+entire site, or automatically generate useful variations like printer-friendly pages. 
+ensure that your CSS works across all browers, but these will fall 
+And implementing CSS will make it easy for you to do two things that will
+> Serialize your content. Unlike table-based layout, with CSS you can put your
+user will hear it〞and still position things where you want them on the page.
+which is enormously helpful for low-vision users (and people old enough to
+9 www.csszengarden.com. See The Zen of CSS Design by Dave Shea and Molly Holzschlag
+[ 179 ]
+Probably the fastest way to learn CSS is to get someone who specializes in it to do
+and learn by watching them do it. When you＊re ready, there are also a number of
+#5. Go for the low-hanging fruit
+implementing specific changes in your HTML code.
+> Add appropriate alt text to every image.Add an alt attribute for images that
+the Web accessibility books have very good explanations of how to do this.
+using the HTML label element to associate the fields with their prompts, so
+> Create a ※Skip to Main Content§ link at the beginning of each page.
+navigation at the top of every page before you could look at the content, and
+> Make all content accessible by keyboard. Remember, not everyone can use
+> Don＊t use JavaScript without a good reason. Some adaptive technologies
+> Use client-side (not server-side) image maps. Alt tags don＊t work with
+That＊s it. You＊ll probably learn how to do a lot more as you go along, but even if
+Hopefully in five years I＊ll be able to just remove this chapter and use the space
+guidelines will all have matured and will be integrated to the point where people
+Help! My boss
+when bad design decisions happen to good people
+1 11 2
+W
+I＊ve noticed that a lot of the questions people ask take 
+Help! My boss (or ※My marketing manager,§ or 
+For instance, ※My marketing manager insists that we make people provide their
+Two of these questions about usability disasters imposed from above tend to come
+> My boss wants us to ask users for more personal information than we 
+> My boss wants our site to have more ※pizazz§ (read: splash pages, animation,
+I've reached the point where when people ask me either of these questions, I＊ll
+email (from a usability ※expert§〞with a book, no less) explaining why this is a
+Here are the emails. Feel free to use them as you see fit.
+〞geena davis in the fly
+chapter 12
+From: Steve Krug (skrug@sensible.com)
+At my recent Web usability workshop in [name of city], your Web [designer|developer|
+ask for on a registration form. I offered to send you email recapping my advice to him.
+email newsletter (or request a free sample, register a product, or create an acount).
+in return.
+quickly discover why. For no good reason, you're being asked to provide your mailing
+a project.
+bad idea.§
+given the uses you can put it to. The problem is that people filling in any kind of form
+information? Do they really need it to give me what I want?§ If the answer is no, then
+In most people's minds there are only are two possible explanations: either (a) you＊re so
+know, but you want the information badly for some other purpose, and you don＊t mind
+As a result, there are three serious downsides to asking for more than what you need:
+for more than you need, they feel completely justified in lying to you. I often tell my
+doesn't strike them as odd that 10% of their subscribers happen to be named
+- You get fewer completed forms. The formula is simple: the less data you ask for, the
+if the form looks even a little bit longer than they expect, many just won't bother.
+[ 183 ]
+whatever hoops they have to, but make no mistake: it will diminish their impression of
+need, you've established a relationship with them and can get more data later in
+Here are three guidelines:
+- Don＊t ask for a lot of optional information, either. Just the sight of a lot of fields is
+- Show me the value I'm going to receive in exchange for my information. Tell me
+I hope this is helpful. By the way, based on the brief chance I had to chat with [your
+have [him|her] on your team.
+Author of Don＊t Make Me Think! A Common Sense Approach to Web Usability
+From: Steve Krug (skrug@sensible.com)
+Your Web [designer|developer|manager],[your name], recently attended one of my Web
+visually interesting|more engaging] by adding [a splash page|some animation|large
+I told [him|her] I'd be happy to pass along some of the advice I give to my own executive
+Unfortunately, there's an inherent problem with the way executives are involved in Web
+solicited. But because of the way sites are developed, all you're really asked to comment
+have to go on, the only thing you can reasonably judge is ※Does it look good to me?§ and
+that's more visually appealing, something with more ※pizzazz§ or ※sizzle.§
+chapter 12
+sites don't really need much sizzle. Yes, looks do count. Yes, it has to look presentable,
+Most of the time on the Web, people don＊t want to be engaged; they just want to get
+are perceived as annoying, clueless, and the worst kind of hucksterism. And attempts to
+all the different forms of sizzle: Splash pages that signal you as several years behind the
+hotel room?) and leave less room on the page for what people are looking for. And
+Unless your site gives people the information they want and makes it easy for them to
+clueless about the Web, or you care more about your image than you do about them.
+where what you're selling is sizzle: entertainment sites (for music, movies, etc.), pure
+developers. But if your site isn't on that list, most sizzle is going to be
+The moral is, you can do as much as you want to make your site look good, but only if it's
+well.
+※flashy,§ or because they have content you want or need? Can you name a site that has
+interesting enough?
+By the way, you＊re lucky to have [your name]on your Web team.[He|she really knows
+Steve Krug
+[ 185 ]
+Never say never
+things. If there's one thing you learn by working on a lot of different Web sites,
+usable in the right circumstances, with enough effort. And almost any good
+implementation.
+shouldn't be doing any of them unless (a) you really know what you're doing, 
+you're done to make sure you've managed to make it work; you're not just going
+Also, realize that your boss is probably not just being perverse. There is almost
+bad design idea. Trying to understand that good intention is often the best way to
+That＊s all, folks
+hope you＊ll check in at my Web site www.sensible.com from time to time. 
+Web site is an enormous challenge, and anyone who gets it even half right has 
+And please don＊t take anything I＊ve said as being against breaking ※the rules§〞or
+to make people think, to puzzle or challenge them. Just be sure you know which
+bending them.
+reading
+T here are dozens of worthwhile usability-relatedbooks and Web sites I could recommend, but these are the ones that havereally influenced the way I think about the Web.
+World Wide Web
+Hands down, the single most useful book about Web site design.
+admirable clarity and practicality.
+Paco Underhill, Simon and Schuster, 2000 
+shoppers in their natural habitat. Even though the subject is the
+Web design: creating complex, engaging environments where people
+> Sources of Power: How People Make Decisions
+Klein＊s study of naturalistic decision making is another wonderful
+between the way we think we do things and the way we actually
+We Buy would both be in it.
+enjoyment of reading the original, obtainable at your school or public library. 
+of every classics illustrated comic book 
+recommended reading
+Dynamic Group Problem Solving
+I took a course in the Synectics method thirty-five years ago, 
+something I learned from it. Think of it as brainstorming on
+people work in groups. The book is out of print, but you can
+> Jakob Nielsen＊s Web site, useit.com (www.useit.com). Beginning with
+articulate and thought-provoking advocate. And since the advent of the Web,
+preaching the value of Web usability. 
+admire the way he says it. His site houses his
+admire him: a columnist who＊s smart enough to
+every week), and links to all of the best usability
+Also check out his Nielsen Norman Group reports
+pricey (typically $100-$300), but they contain reliable information you won't
+audience segments (like children, seniors, and people with disabilities). 
+u 
+is man?
+recommended reading
+Deconstructed
+The bad news about this book is that after you＊ve seen the
+The good news, though, is that the excellent set of 113 Home
+worth the price of the entire book.
+for Web-Based Software
+Susan and Victor have written the Junior Woodchucks Guidebook
+including tons of best practice examples, insights from years of
+or building Web applications, you'd be foolish not to have a copy.
+37 Signals, New Riders, 2004
+Other Crisis Points) says it all. An excellent, practical, short
+prevent user errors from happening, and to help them recover
+[ 190 ]
+> The Design of Everyday Things
+Originally published as The Psychology of Everyday Things,
+Psychology department of bookstores, this actually is a
+won＊t find any mention of the Web, but the principles are
+You＊ll never look at doorknobs the same way again.
+Joseph Dumas and Janice (Ginny) Redish, Intellect, 1999
+favorite〞at least until I write the one I keep scribbling 
+Ginny is also currently writing a book on writing for the
+In the same vein, Caroline Jarrett (www.formsthatwork.com/),
+writing the definitive book on, well...designing Web forms. If it hasn＊t appeared
+> Usability News
+This newsletter is my favorite source of usability research. Published twice a
+(SURL), it always contains several very nice, bite-sized pieces of well-thought-
+[ 191 ]
+> WebWord
+John Rhodes
+http://www.usabilityviews.com/
+These sites are currently the two best ways to keep up to date on
+WebWord is more of a true blog in that he comments on the articles he
+looking at. Between the two of them, you won＊t miss anything.
+guidelines
+This excellent set of Web design and
+National Cancer Institute (NCI), includes
+research each guideline is based on. 
+worth checking here first to see if they＊ve
+www.usability.gov
+＃and all i got was this lousy t-shirt
+Don＊t kid yourself. a book like this is largely thework of one person. There＊s no other single human being who＊s spentnearly as much time as I have thinking about it, perseverating over it,
+over and over. 
+less than bupkus. And even if I＊d had a million years to work on it, you＊d never be
+patience, generosity, and forbearance of many people. 
+I＊ve always heard horror stories about stormy farmer/cowman relationships
+where I＊ve gone astray. With a book〞just as with a Web site〞you don＊t have to
+fortunate enough to have the benefit of two editors:
+idea, always knew what I was trying to get at (even when I didn＊t), never
+around. If you write a book, you should be so lucky. I will miss not having an
+> Barbara Flanagan, a longtime friend and masterful copy editor who by her
+manuscript at several stages out of the goodness of her heart, in her copious
+myself into.
+or Barbara〞or both〞saying, ※Well, if you really insist....§
+cooperation this film would never have been made.
+[ 194 ]
+In designing this book, Allison Cecil knowingly took on a maniac＊s job.1
+book espousing his own design principles and insists that the book has to reflect
+had to be done in a nightmarishly small amount of time. She managed it only by
+grace, and (b) displaying talent equal to her patience. As with Karen and Barbara,
+only because I twisted her arm.
+Sandra Schroeder at Macmillan made major contributions to the design and
+Roger Black has generously encouraged my work for years now, and it＊s always a
+that form over his head. The only downside is that I all-too-rarely get to enjoy the
+suggestion that I do this book in the first place, and he and Jock Spivy saw to it
+Alexandra Anderson-Spivy (※Ally§) managed the project from Circle.com＊s end
+support from start to finish. 
+I relied on many people to tell me whether I was actually making any sense, or
+※stuffed full of wild blueberries.§ But I relied most heavily on my two best friends:
+fire, everybody runs out, you run in. It＊s a maniac＊s job.§
+[ 195 ]
+> Paul Shakespear spent many hours〞hours
+drafts that barely made sense, things I could
+what to complete and what to throw overboard.
+interesting than this book, as is always the case
+> Richard Gingras knows more about online publishing and creating a positive 
+enabled me to go on, as his friendship has made many things in my life
+Mitzi Trumbo, their daughter, Molly, and Mitzi＊s wonderful mother, Cleo, as
+says. Their companionship means more to me than I can say here.
+read and comment on various drafts: Sue Hay, Hilary Goodall, Peggy
+Wurman, Jeff Veen, Donna Slote, Matt Stark, Christine Bauer, Bob Gower,
+testing, their reactions and suggestions improved the end result enormously.
+and one of the most pleasant and interesting people〞made an outlandishly
+Gail Blumberg was my problem-solving ※lifeline§ through this whole process,
+politics and making me laugh while she did it. At this point, I owe her so many
+My next-door neighbor, graphic designer Courtney McGlynn〞who has
+whenever I＊ve needed to do a quick user test〞helped me think through some
+Little Wing 
+59" x 28"
+paulshakespear.com
+acknowledgments
+Dave Flanagan, John Kirsch, and Jon Hirschtick taught me by their example
+enabled me to be comfortable working as a consultant. John also dragged me
+standing by patiently while I learned to write something longer than a page〞a
+even looking at it〞just by showing me by his example over the years what really
+Clients, co-workers, clients-turned-friends,
+Much of what I know about Web usability came from working with many smart,
+Goecke, Jim Kent, Bill McCall, Dan Roam, James Caldwell, John Lyle
+Family
+years of holding me down and tickling me.
+meant turning down the sound on his computer while he played Midtown
+manuscript along to our local Barnes & Noble to see how it would look on the
+My wife Melanie Sokol has told me for a long time now that I＊d better not say
+supportive during the four months the book was supposed to take, and even
+it was little things, like the fact that I apparently had no idea when〞if ever〞I
+[ 197 ]
+Other
+feel like a nuisance in all the mornings I occupied a table for hours on end,
+into space.
+Hopefully, by the time you read this, your T-shirt will be in the mail.
+I consider myself very fortunate that when I went to round up the usual
+her!), Paul Shakespear, Barbara Flanagan and Roger Black〞they all
+Once again Harry and Melanie have put up with
+making it all worthwhile.
+knowledge with me, including Ginny Redish,
+Carol Barnum, and Lou Rosenfeld, my
+friend.
+Kim Lombardi, and the rest, and particularly to Rachel Charlton Tiley (and
+requests with great patience over the years.
+They have really good fruit salad〞firm grapes being the key〞and they＊ve been
+Finally, to everyone who＊s written me or said hello in person because of the book,
+Harry Krug, circa 2005
+index
+$25,000 Pyramid, 36
+508. See Section 508
+Accessibility, 169
+searching, 17
+Animal, vegetable, or mineral?, 41
+B
+big honking report, 3, 138
+browse-dominant users, 55
+Burma-Shave, 31
+Camtasia, 143
+clickability, 14, 37
+conventions, 34, 60
+D每E
+Home page, 95
+Dumas, Joseph, 190
+expert usability review, 3
+FAQ, 166
+Should Be Friends, The,§ 122
+forms, 63
+G
+muddling through, 27
+global navigation. See persistent navigation
+goodwill reservoir, 163每167
+Hansel and Gretel, 76
+[ 200 ]
+Hatch, Sen. Orrin, 37
+hierarchy, 95
+Home page
+different navigation on, 107
+I每K
+Jarrett, Caroline, 190
+Klein, Gary, 24, 187
+L
+lost-our-lease usability testing,  135, 137
+mensch, 160, 161, 162
+mission statement, 103
+muddling through, 26每29
+names, importance of, 14
+conventions, 60
+lower-level, 70
+revealing content, 59
+new feature requests, 158
+noise. See visual noise
+P每Q
+importance of, 71
+position on page, 72
+primary navigation. See Sections
+Prince, George M., 188
+promos
+feature promos, 96
+R
+registration, 96
+[ 201 ]
+religious debates, 124, 129
+Rosenfeld, Louis, 67, 187
+satisficing, 24每25
+search box, 38, 67
+options, 68
+search-dominant users, 54
+Section 508, 169
+Sections, 65
+sizzle, 184
+Spool, Jared, 7
+street signs, 72
+Synectics, 188
+tabs, 79
+importance of drawing correctly, 82
+Talking Heads, 51
+Theofanos, Mary, 175
+trunk test, 85
+Underhill, Paco, 187
+usability, defined, 5
+usability testing, 3, 135
+recruiting participants, 139, 141
+sample session, 146
+what to test, 144
+V每Z
+visual hierarchy, 31
+visual noise, 38
+White, E. B., 45
+※You are here§ indicator, 27
+STEVE KRUG
+near-total obscurity as a
+consultant until the
+almost twenty years making software and Web
+Netscape, AOL, Lexus, Excite@Home, and
+ROGER BLACK
+consultant. Over the past 
+teams at Rolling Stone, New
+MSNBC.com, and Discovery.com. Recently
+Nintendo Power magazine.
+ot
+Er
+Bu
+er
+using Microsoft Word, Adobe
+Layout and production were
+Files were passed among all 
+proofed using Adobe Acrobat. 
+designed by Christian Schwartz,
+and paragraph headings were set
+Spiekermann. All captions were
+designed by Albert Pinggera.

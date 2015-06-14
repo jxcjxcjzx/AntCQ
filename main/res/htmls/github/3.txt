@@ -1,0 +1,1175 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" class="">
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# object: http://ogp.me/ns/object# article: http://ogp.me/ns/article# profile: http://ogp.me/ns/profile#">
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Language" content="en">
+    
+    
+    <title>spine/spine ¡¤ GitHub</title>
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+    <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-144.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144.png">
+    <meta property="fb:app_id" content="1401488693436528">
+
+      <meta content="@github" name="twitter:site" /><meta content="summary" name="twitter:card" /><meta content="spine/spine" name="twitter:title" /><meta content="spine - Lightweight MVC library for building JavaScript applications" name="twitter:description" /><meta content="https://avatars1.githubusercontent.com/u/3267164?v=3&amp;s=400" name="twitter:image:src" />
+      <meta content="GitHub" property="og:site_name" /><meta content="object" property="og:type" /><meta content="https://avatars1.githubusercontent.com/u/3267164?v=3&amp;s=400" property="og:image" /><meta content="spine/spine" property="og:title" /><meta content="https://github.com/spine/spine" property="og:url" /><meta content="spine - Lightweight MVC library for building JavaScript applications" property="og:description" />
+      <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+    <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+    <link rel="assets" href="https://assets-cdn.github.com/">
+    
+    <meta name="pjax-timeout" content="1000">
+    
+
+    <meta name="msapplication-TileImage" content="/windows-tile.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="selected-link" value="repo_source" data-pjax-transient>
+      <meta name="google-analytics" content="UA-3769691-2">
+
+    <meta content="collector.githubapp.com" name="octolytics-host" /><meta content="collector-cdn.github.com" name="octolytics-script-host" /><meta content="github" name="octolytics-app-id" /><meta content="6FDE13B9:5FD7:24234B6:557BA894" name="octolytics-dimension-request_id" />
+    
+    <meta content="Rails, view, files#disambiguate" name="analytics-event" />
+    <meta class="js-ga-set" name="dimension1" content="Logged Out">
+    <meta name="is-dotcom" content="true">
+      <meta name="hostname" content="github.com">
+    <meta name="user-login" content="">
+
+      <link rel="icon" sizes="any" mask href="https://assets-cdn.github.com/pinned-octocat.svg">
+      <meta name="theme-color" content="#4078c0">
+      <link rel="icon" type="image/x-icon" href="https://assets-cdn.github.com/favicon.ico">
+
+
+    <meta content="authenticity_token" name="csrf-param" />
+<meta content="B6ggMfXsPUpX2XrjgW8HaqU9FXD6fsbR9bZU0o7lIfkMqfF+KAD1myZ1/b3kq3U0hbHMkSy9VYYaCKKk2yJQbw==" name="csrf-token" />
+
+    <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github/index-10789d1d56bfe8c960a6caf2954ab053c3fac748d581415395f986779781b4a7.css" media="all" rel="stylesheet" />
+    <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github2/index-8b4acc27f06d948d9a73d77849e0fe0b98d8636c85e2fe0e6c4b8762dec9fd3d.css" media="all" rel="stylesheet" />
+    
+    
+
+
+    <meta http-equiv="x-pjax-version" content="62b85260d6deaadccdaa2c3c0e0b0c94">
+
+      
+  <meta name="description" content="spine - Lightweight MVC library for building JavaScript applications">
+  <meta name="go-import" content="github.com/spine/spine git https://github.com/spine/spine.git">
+
+  <meta content="3267164" name="octolytics-dimension-user_id" /><meta content="spine" name="octolytics-dimension-user_login" /><meta content="1540246" name="octolytics-dimension-repository_id" /><meta content="spine/spine" name="octolytics-dimension-repository_nwo" /><meta content="true" name="octolytics-dimension-repository_public" /><meta content="false" name="octolytics-dimension-repository_is_fork" /><meta content="1540246" name="octolytics-dimension-repository_network_root_id" /><meta content="spine/spine" name="octolytics-dimension-repository_network_root_nwo" />
+  <link href="https://github.com/spine/spine/commits/dev.atom" rel="alternate" title="Recent Commits to spine:dev" type="application/atom+xml">
+
+  </head>
+
+
+  <body class="logged_out  env-production windows vis-public">
+    <a href="#start-of-content" tabindex="1" class="accessibility-aid js-skip-to-content">Skip to content</a>
+    <div class="wrapper">
+      
+      
+      
+
+
+        
+        <div class="header header-logged-out" role="banner">
+  <div class="container clearfix">
+
+    <a class="header-logo-wordmark" href="https://github.com/" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
+      <span class="mega-octicon octicon-logo-github"></span>
+    </a>
+
+    <div class="header-actions" role="navigation">
+        <a class="btn btn-primary" href="/join" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">Sign up</a>
+      <a class="btn" href="/login?return_to=%2Fspine%2Fspine" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign in</a>
+    </div>
+
+    <div class="site-search repo-scope js-site-search" role="search">
+      <form accept-charset="UTF-8" action="/spine/spine/search" class="js-site-search-form" data-global-search-url="/search" data-repo-search-url="/spine/spine/search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+  <label class="js-chromeless-input-container form-control">
+    <div class="scope-badge">This repository</div>
+    <input type="text"
+      class="js-site-search-focus js-site-search-field is-clearable chromeless-input"
+      data-hotkey="s"
+      name="q"
+      placeholder="Search"
+      data-global-scope-placeholder="Search GitHub"
+      data-repo-scope-placeholder="Search"
+      tabindex="1"
+      autocapitalize="off">
+  </label>
+</form>
+    </div>
+
+      <ul class="header-nav left" role="navigation">
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="/explore" data-ga-click="(Logged out) Header, go to explore, text:explore">Explore</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="/features" data-ga-click="(Logged out) Header, go to features, text:features">Features</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="https://enterprise.github.com/" data-ga-click="(Logged out) Header, go to enterprise, text:enterprise">Enterprise</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="/blog" data-ga-click="(Logged out) Header, go to blog, text:blog">Blog</a>
+          </li>
+      </ul>
+
+  </div>
+</div>
+
+
+
+      <div id="start-of-content" class="accessibility-aid"></div>
+          <div class="site" itemscope itemtype="http://schema.org/WebPage">
+    <div id="js-flash-container">
+      
+    </div>
+    <div class="pagehead repohead instapaper_ignore readability-menu">
+      <div class="container">
+
+        
+<ul class="pagehead-actions">
+
+  <li>
+      <a href="/login?return_to=%2Fspine%2Fspine"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to watch a repository" rel="nofollow">
+    <span class="octicon octicon-eye"></span>
+    Watch
+  </a>
+  <a class="social-count" href="/spine/spine/watchers">
+    129
+  </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Fspine%2Fspine"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to star a repository" rel="nofollow">
+    <span class="octicon octicon-star"></span>
+    Star
+  </a>
+
+    <a class="social-count js-social-count" href="/spine/spine/stargazers">
+      3,063
+    </a>
+
+  </li>
+
+    <li>
+      <a href="/login?return_to=%2Fspine%2Fspine"
+        class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+        aria-label="You must be signed in to fork a repository" rel="nofollow">
+        <span class="octicon octicon-repo-forked"></span>
+        Fork
+      </a>
+      <a href="/spine/spine/network" class="social-count">
+        397
+      </a>
+    </li>
+</ul>
+
+        <h1 itemscope itemtype="http://data-vocabulary.org/Breadcrumb" class="entry-title public">
+          <span class="mega-octicon octicon-repo"></span>
+          <span class="author"><a href="/spine" class="url fn" itemprop="url" rel="author"><span itemprop="title">spine</span></a></span><!--
+       --><span class="path-divider">/</span><!--
+       --><strong><a href="/spine/spine" data-pjax="#js-repo-pjax-container">spine</a></strong>
+
+          <span class="page-context-loader">
+            <img alt="" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </span>
+
+        </h1>
+      </div><!-- /.container -->
+    </div><!-- /.repohead -->
+
+    <div class="container">
+      <div class="repository-with-sidebar repo-container new-discussion-timeline with-full-navigation ">
+        <div class="repository-sidebar clearfix">
+            
+<nav class="sunken-menu repo-nav js-repo-nav js-sidenav-container-pjax js-octicon-loaders"
+     role="navigation"
+     data-pjax="#js-repo-pjax-container"
+     data-issue-count-url="/spine/spine/issues/counts">
+  <ul class="sunken-menu-group">
+    <li class="tooltipped tooltipped-w" aria-label="Code">
+      <a href="/spine/spine" aria-label="Code" class="selected js-selected-navigation-item sunken-menu-item" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches /spine/spine">
+        <span class="octicon octicon-code"></span> <span class="full-word">Code</span>
+        <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+</a>    </li>
+
+      <li class="tooltipped tooltipped-w" aria-label="Issues">
+        <a href="/spine/spine/issues" aria-label="Issues" class="js-selected-navigation-item sunken-menu-item" data-hotkey="g i" data-selected-links="repo_issues repo_labels repo_milestones /spine/spine/issues">
+          <span class="octicon octicon-issue-opened"></span> <span class="full-word">Issues</span>
+          <span class="js-issue-replace-counter"></span>
+          <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+</a>      </li>
+
+    <li class="tooltipped tooltipped-w" aria-label="Pull requests">
+      <a href="/spine/spine/pulls" aria-label="Pull requests" class="js-selected-navigation-item sunken-menu-item" data-hotkey="g p" data-selected-links="repo_pulls /spine/spine/pulls">
+          <span class="octicon octicon-git-pull-request"></span> <span class="full-word">Pull requests</span>
+          <span class="js-pull-replace-counter"></span>
+          <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+</a>    </li>
+
+      <li class="tooltipped tooltipped-w" aria-label="Wiki">
+        <a href="/spine/spine/wiki" aria-label="Wiki" class="js-selected-navigation-item sunken-menu-item" data-hotkey="g w" data-selected-links="repo_wiki /spine/spine/wiki">
+          <span class="octicon octicon-book"></span> <span class="full-word">Wiki</span>
+          <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+</a>      </li>
+  </ul>
+  <div class="sunken-menu-separator"></div>
+  <ul class="sunken-menu-group">
+
+    <li class="tooltipped tooltipped-w" aria-label="Pulse">
+      <a href="/spine/spine/pulse" aria-label="Pulse" class="js-selected-navigation-item sunken-menu-item" data-selected-links="pulse /spine/spine/pulse">
+        <span class="octicon octicon-pulse"></span> <span class="full-word">Pulse</span>
+        <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+</a>    </li>
+
+    <li class="tooltipped tooltipped-w" aria-label="Graphs">
+      <a href="/spine/spine/graphs" aria-label="Graphs" class="js-selected-navigation-item sunken-menu-item" data-selected-links="repo_graphs repo_contributors /spine/spine/graphs">
+        <span class="octicon octicon-graph"></span> <span class="full-word">Graphs</span>
+        <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+</a>    </li>
+  </ul>
+
+
+</nav>
+
+              <div class="only-with-full-nav">
+                  
+<div class="js-clone-url clone-url open"
+  data-protocol-type="http">
+  <h3><span class="text-emphasized">HTTPS</span> clone URL</h3>
+  <div class="input-group js-zeroclipboard-container">
+    <input type="text" class="input-mini input-monospace js-url-field js-zeroclipboard-target"
+           value="https://github.com/spine/spine.git" readonly="readonly">
+    <span class="input-group-button">
+      <button aria-label="Copy to clipboard" class="js-zeroclipboard btn btn-sm zeroclipboard-button tooltipped tooltipped-s" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+    </span>
+  </div>
+</div>
+
+  
+<div class="js-clone-url clone-url "
+  data-protocol-type="subversion">
+  <h3><span class="text-emphasized">Subversion</span> checkout URL</h3>
+  <div class="input-group js-zeroclipboard-container">
+    <input type="text" class="input-mini input-monospace js-url-field js-zeroclipboard-target"
+           value="https://github.com/spine/spine" readonly="readonly">
+    <span class="input-group-button">
+      <button aria-label="Copy to clipboard" class="js-zeroclipboard btn btn-sm zeroclipboard-button tooltipped tooltipped-s" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+    </span>
+  </div>
+</div>
+
+
+
+<div class="clone-options">You can clone with
+  <form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=http&amp;protocol_type=clone" class="inline-form js-clone-selector-form " data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="4VoxH2hzgumhqzvLU/diIz25gv3fGptC5Q+Bx0NU6BRAdN6XJRt0u/eMHkui69dt4XIWSEOhXNQ7yUeEIoVOvA==" /></div><button class="btn-link js-clone-selector" data-protocol="http" type="submit">HTTPS</button></form> or <form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=subversion&amp;protocol_type=clone" class="inline-form js-clone-selector-form " data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="e7MkU8oFYflS0nTSPsCpYFWUrpSW7Lv2fru96svzvlpF/ZDS0N3ltnC3FWlXm3LvtjO3DDJBcbFsHcPgeoIalQ==" /></div><button class="btn-link js-clone-selector" data-protocol="subversion" type="submit">Subversion</button></form>.
+  <a href="https://help.github.com/articles/which-remote-url-should-i-use" class="help tooltipped tooltipped-n" aria-label="Get help on which URL is right for you.">
+    <span class="octicon octicon-question"></span>
+  </a>
+</div>
+
+
+  <a href="https://windows.github.com" class="btn btn-sm sidebar-button" title="Save spine/spine to your computer and use it in GitHub Desktop." aria-label="Save spine/spine to your computer and use it in GitHub Desktop.">
+    <span class="octicon octicon-device-desktop"></span>
+    Clone in Desktop
+  </a>
+
+
+                <a href="/spine/spine/archive/dev.zip"
+                   class="btn btn-sm sidebar-button"
+                   aria-label="Download the contents of spine/spine as a zip file"
+                   title="Download the contents of spine/spine as a zip file"
+                   rel="nofollow">
+                  <span class="octicon octicon-cloud-download"></span>
+                  Download ZIP
+                </a>
+              </div>
+        </div><!-- /.repository-sidebar -->
+
+        <div id="js-repo-pjax-container" class="repository-content context-loader-container" data-pjax-container>
+
+          
+<span id="js-show-full-navigation"></span>
+
+<div class="repository-meta js-details-container ">
+    <div class="repository-description">
+      Lightweight MVC library for building JavaScript applications
+    </div>
+
+    <div class="repository-website">
+      <p><a href="http://spinejs.com" rel="nofollow">http://spinejs.com</a></p>
+    </div>
+
+
+</div>
+
+<div class="overall-summary overall-summary-bottomless">
+
+  <div class="stats-switcher-viewport js-stats-switcher-viewport">
+    <div class="stats-switcher-wrapper">
+    <ul class="numbers-summary">
+      <li class="commits">
+        <a data-pjax href="/spine/spine/commits/dev">
+            <span class="octicon octicon-history"></span>
+            <span class="num text-emphasized">
+              904
+            </span>
+            commits
+        </a>
+      </li>
+      <li>
+        <a data-pjax href="/spine/spine/branches">
+          <span class="octicon octicon-git-branch"></span>
+          <span class="num text-emphasized">
+            7
+          </span>
+          branches
+        </a>
+      </li>
+
+      <li>
+        <a data-pjax href="/spine/spine/releases">
+          <span class="octicon octicon-tag"></span>
+          <span class="num text-emphasized">
+            21
+          </span>
+          releases
+        </a>
+      </li>
+
+      <li>
+        
+  <a href="/spine/spine/graphs/contributors">
+    <span class="octicon octicon-organization"></span>
+    <span class="num text-emphasized">
+      72
+    </span>
+    contributors
+  </a>
+      </li>
+    </ul>
+
+      <div class="repository-lang-stats">
+        <ol class="repository-lang-stats-numbers">
+          <li>
+              <a href="/spine/spine/search?l=javascript">
+                <span class="color-block language-color" style="background-color:#f1e05a;"></span>
+                <span class="lang">JavaScript</span>
+                <span class="percent">79.9%</span>
+              </a>
+          </li>
+          <li>
+              <a href="/spine/spine/search?l=coffeescript">
+                <span class="color-block language-color" style="background-color:#244776;"></span>
+                <span class="lang">CoffeeScript</span>
+                <span class="percent">17.9%</span>
+              </a>
+          </li>
+          <li>
+              <a href="/spine/spine/search?l=html">
+                <span class="color-block language-color" style="background-color:#e44b23;"></span>
+                <span class="lang">HTML</span>
+                <span class="percent">2.0%</span>
+              </a>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+  <div class="repository-lang-stats-graph js-toggle-lang-stats" title="Click for language details">
+    <span class="language-color" aria-label="JavaScript 79.9%" style="width:79.9%; background-color:#f1e05a;" itemprop="keywords">JavaScript</span>
+    <span class="language-color" aria-label="CoffeeScript 17.9%" style="width:17.9%; background-color:#244776;" itemprop="keywords">CoffeeScript</span>
+    <span class="language-color" aria-label="HTML 2.0%" style="width:2.0%; background-color:#e44b23;" itemprop="keywords">HTML</span>
+  </div>
+
+<include-fragment src="/spine/spine/show_partial?partial=tree%2Frecently_touched_branches_list"></include-fragment>
+
+<div class="file-navigation in-mid-page">
+  <a href="/spine/spine/find/dev"
+        class="js-show-file-finder btn btn-sm empty-icon tooltipped tooltipped-s right"
+        data-pjax
+        data-hotkey="t"
+        aria-label="Quickly jump between files">
+    <span class="octicon octicon-list-unordered"></span>
+  </a>
+    <a href="/spine/spine/compare" aria-label="Compare, review, create a pull request" class="btn btn-sm btn-primary tooltipped tooltipped-se left compare-button" aria-label="Compare &amp; review" data-pjax data-ga-click="Repository, go to compare view, location:repo overview; icon:git-compare">
+      <span class="octicon octicon-git-compare"></span>
+    </a>
+
+  
+<div class="select-menu js-menu-container js-select-menu left">
+  <span class="btn btn-sm select-menu-button js-menu-target css-truncate" data-hotkey="w"
+    data-ref="dev"
+    title="dev"
+    role="button" aria-label="Switch branches or tags" tabindex="0" aria-haspopup="true">
+    <span class="octicon octicon-git-branch"></span>
+    <i>branch:</i>
+    <span class="js-select-button css-truncate-target">dev</span>
+  </span>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax aria-hidden="true">
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <span class="select-menu-title">Switch branches/tags</span>
+        <span class="octicon octicon-x js-menu-close" role="button" aria-label="Close"></span>
+      </div>
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="branches" data-filter-placeholder="Filter branches/tags" class="js-select-menu-tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="tags" data-filter-placeholder="Find a tag¡­" class="js-select-menu-tab">Tags</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/spine/spine/tree/550test"
+               data-name="550test"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <span class="select-menu-item-text css-truncate-target" title="550test">
+                550test
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/spine/spine/tree/ajaxSuccessItem"
+               data-name="ajaxSuccessItem"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <span class="select-menu-item-text css-truncate-target" title="ajaxSuccessItem">
+                ajaxSuccessItem
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open selected"
+               href="/spine/spine/tree/dev"
+               data-name="dev"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <span class="select-menu-item-text css-truncate-target" title="dev">
+                dev
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/spine/spine/tree/gh-pages"
+               data-name="gh-pages"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <span class="select-menu-item-text css-truncate-target" title="gh-pages">
+                gh-pages
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/spine/spine/tree/indexedDb"
+               data-name="indexedDb"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <span class="select-menu-item-text css-truncate-target" title="indexedDb">
+                indexedDb
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/spine/spine/tree/master"
+               data-name="master"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <span class="select-menu-item-text css-truncate-target" title="master">
+                master
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/spine/spine/tree/tweaking_ajax"
+               data-name="tweaking_ajax"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <span class="select-menu-item-text css-truncate-target" title="tweaking_ajax">
+                tweaking_ajax
+              </span>
+            </a>
+        </div>
+
+          <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/spine/spine/tree/v1.5.0"
+                 data-name="v1.5.0"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v1.5.0">v1.5.0</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/spine/spine/tree/v1.4.1"
+                 data-name="v1.4.1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v1.4.1">v1.4.1</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/spine/spine/tree/v1.4.0"
+                 data-name="v1.4.0"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v1.4.0">v1.4.0</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/spine/spine/tree/v.1.3.2"
+                 data-name="v.1.3.2"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v.1.3.2">v.1.3.2</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/spine/spine/tree/v1.3.1"
+                 data-name="v1.3.1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v1.3.1">v1.3.1</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/spine/spine/tree/v1.3.0"
+                 data-name="v1.3.0"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v1.3.0">v1.3.0</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/spine/spine/tree/v1.2.2"
+                 data-name="v1.2.2"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v1.2.2">v1.2.2</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/spine/spine/tree/v1.2.1"
+                 data-name="v1.2.1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v1.2.1">v1.2.1</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/spine/spine/tree/v1.2.0"
+                 data-name="v1.2.0"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v1.2.0">v1.2.0</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/spine/spine/tree/v1.1.0"
+                 data-name="v1.1.0"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v1.1.0">v1.1.0</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/spine/spine/tree/v1.0.9"
+                 data-name="v1.0.9"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v1.0.9">v1.0.9</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/spine/spine/tree/v1.0.8"
+                 data-name="v1.0.8"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v1.0.8">v1.0.8</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/spine/spine/tree/v1.0.7"
+                 data-name="v1.0.7"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v1.0.7">v1.0.7</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/spine/spine/tree/v1.0.6"
+                 data-name="v1.0.6"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v1.0.6">v1.0.6</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/spine/spine/tree/v1.0.5"
+                 data-name="v1.0.5"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v1.0.5">v1.0.5</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/spine/spine/tree/v1.0.3"
+                 data-name="v1.0.3"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v1.0.3">v1.0.3</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/spine/spine/tree/v1.0.2"
+                 data-name="v1.0.2"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v1.0.2">v1.0.2</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/spine/spine/tree/v1.0.1"
+                 data-name="v1.0.1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v1.0.1">v1.0.1</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/spine/spine/tree/v1.0.0"
+                 data-name="v1.0.0"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v1.0.0">v1.0.0</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/spine/spine/tree/v0.0.9"
+                 data-name="v0.0.9"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.0.9">v0.0.9</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/spine/spine/tree/1.0.9"
+                 data-name="1.0.9"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="1.0.9">1.0.9</a>
+            </div>
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+  <div class="breadcrumb"><span class="repo-root js-repo-root"><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/spine/spine" class="" data-branch="dev" data-pjax="true" itemscope="url"><span itemprop="title">spine</span></a></span></span><span class="separator">/</span>
+    <a class="btn-link disabled tooltipped tooltipped-e" href="#" aria-label="You must be signed in to make or propose changes">
+      <span class="octicon octicon-plus"></span>
+    </a>
+</div>
+</div>
+
+
+
+  
+  <div class="commit commit-tease js-details-container" >
+    <p class="commit-title ">
+        <a href="/spine/spine/commit/b423d7f013c732be33b60ea4e3cb12dc65141bbb" class="message" data-pjax="true" title="Merge pull request #592 from ning-github/patch-1
+
+typo fixes">Merge pull request</a> <a href="https://github.com/spine/spine/pull/592" class="issue-link" title="typo fixes">#592</a> <a href="/spine/spine/commit/b423d7f013c732be33b60ea4e3cb12dc65141bbb" class="message" data-pjax="true" title="Merge pull request #592 from ning-github/patch-1
+
+typo fixes">from ning-github/patch-1</a>
+        <span class="hidden-text-expander inline"><a href="#" class="js-details-target">¡­</a></span>
+    </p>
+      <div class="commit-desc"><pre>typo fixes</pre></div>
+    <div class="commit-meta">
+      <button aria-label="Copy SHA" class="js-zeroclipboard zeroclipboard-link tooltipped tooltipped-s" data-clipboard-text="b423d7f013c732be33b60ea4e3cb12dc65141bbb" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+      <a href="/spine/spine/commit/b423d7f013c732be33b60ea4e3cb12dc65141bbb" class="sha-block" data-pjax>latest commit <span class="sha">b423d7f013</span></a>
+
+      <div class="authorship">
+        <img alt="@aeischeid" class="avatar" height="20" src="https://avatars3.githubusercontent.com/u/60911?v=3&amp;s=40" width="20" />
+        <span class="author-name"><a href="/aeischeid" rel="contributor">aeischeid</a></span>
+        authored <time class="updated" datetime="2015-06-08T15:05:15Z" is="relative-time">Jun 8, 2015</time>
+
+      </div>
+    </div>
+  </div>
+
+  
+<div class="file-wrap">
+  <a href="/spine/spine/tree/b423d7f013c732be33b60ea4e3cb12dc65141bbb" class="hidden js-permalink-shortcut" data-hotkey="y">Permalink</a>
+
+  <table class="files" data-pjax>
+
+
+    <tbody>
+      <tr class="warning include-fragment-error">
+        <td class="icon"><span class="octicon octicon-alert"></span></td>
+        <td class="content" colspan="3">Failed to load latest commit information.</td>
+      </tr>
+
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-directory"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/spine/spine/tree/dev/lib" class="js-directory-link" id="e8acc63b1e238f3255c900eed37254b8-89a93edcef8383ba7694354803252296f4bc1e6c" title="lib">lib</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/spine/spine/commit/7accbda478ed06caa39986220bf4c962b01a6395" class="message" data-pjax="true" title="Collection ajax requests now accept `done()`/`fail()` callbacks
+
+Closes #502">Collection ajax requests now accept `done()`/`fail()` callbacks</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2015-06-01T01:56:24Z" is="time-ago">May 31, 2015</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-directory"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/spine/spine/tree/dev/src" class="js-directory-link" id="25d902c24283ab8cfbac54dfa101ad31-defaf8055a341d48da3e2daaa839aa47c44918cc" title="src">src</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/spine/spine/commit/7accbda478ed06caa39986220bf4c962b01a6395" class="message" data-pjax="true" title="Collection ajax requests now accept `done()`/`fail()` callbacks
+
+Closes #502">Collection ajax requests now accept `done()`/`fail()` callbacks</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2015-06-01T01:56:24Z" is="time-ago">Jun 1, 2015</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-directory"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/spine/spine/tree/dev/test" class="js-directory-link" id="098f6bcd4621d373cade4e832627b4f6-71a845a3120ea00d239314524322780ac85224f7" title="test">test</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/spine/spine/commit/7accbda478ed06caa39986220bf4c962b01a6395" class="message" data-pjax="true" title="Collection ajax requests now accept `done()`/`fail()` callbacks
+
+Closes #502">Collection ajax requests now accept `done()`/`fail()` callbacks</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2015-06-01T01:56:24Z" is="time-ago">Jun 1, 2015</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/spine/spine/blob/dev/.gitignore" class="js-directory-link" id="a084b794bc0759e7a6b77810e01874f2-9daa8247da451dcfc3b04d199e1cd71b8fffe3c6" title=".gitignore">.gitignore</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/spine/spine/commit/11846bdb016a77439e93d2533223838573165c92" class="message" data-pjax="true" title="Ignore node_modules.">Ignore node_modules.</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2011-07-06T11:20:31Z" is="time-ago">Jul 6, 2011</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/spine/spine/blob/dev/.travis.yml" class="js-directory-link" id="354f30a63fb0907d4ad57269548329e3-2e8418b38bfd3d950d8a5d655f2c40d10cbeb984" title=".travis.yml">.travis.yml</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/spine/spine/commit/c5e3bcc7238b39b624a24f783118529addbd8d9d" class="message" data-pjax="true" title="Travis CI no longer supports Node.js v0.6">Travis CI no longer supports Node.js v0.6</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2014-01-16T18:56:06Z" is="time-ago">Jan 16, 2014</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/spine/spine/blob/dev/Cakefile" class="js-directory-link" id="45f508b714a4ac328c10a4c5a0e09dca-81026b2cdd30de4f5f5531d36d77e4541278b8fc" title="Cakefile">Cakefile</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/spine/spine/commit/841b743876f79e849eb61dcc1d281d94e6449e37" class="message" data-pjax="true" title="Fix Cake task deprecation notices">Fix Cake task deprecation notices</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2015-05-26T00:09:59Z" is="time-ago">May 25, 2015</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/spine/spine/blob/dev/History.md" class="js-directory-link" id="e1bbd4f15e3b63427b4261e05b948ea8-6e2da712be53865ca39081d7bd67cf2d22c70df1" title="History.md">History.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/spine/spine/commit/27ad5a4a514b2fde4ad7278f447bbd210fd47caa" class="message" data-pjax="true" title="update history for pending 1.5.0 release">update history for pending 1.5.0 release</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2015-05-07T17:33:00Z" is="time-ago">May 7, 2015</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/spine/spine/blob/dev/LICENSE" class="js-directory-link" id="9879d6db96fd29134fc802214163b95a-4d2130a14b1f751c846ef53a2079aa2f3e8dc7f9" title="LICENSE">LICENSE</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/spine/spine/commit/8040b757b139728ae00e82d46bff0d116cbae414" class="message" data-pjax="true" title="add license">add license</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2011-04-04T21:58:01Z" is="time-ago">Apr 5, 2011</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/spine/spine/blob/dev/README.md" class="js-directory-link" id="04c6e90faac2675aa89e2176d2eec7d8-bf55e6d1b824c87730fa022ce3a1038aebe88eb9" title="README.md">README.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/spine/spine/commit/df12632a8a1fcec97045fb6ce9649ce56d64b5ff" class="message" data-pjax="true" title="typo fixes">typo fixes</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2015-06-07T00:05:57Z" is="time-ago">Jun 6, 2015</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/spine/spine/blob/dev/index.js" class="js-directory-link" id="168726dbe96b3ce427e7fedce31bb0bc-b0f3cbd647611ee85664eb8620c2372d6de93c72" title="index.js">index.js</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/spine/spine/commit/3408cf4b470c56ac60423fee795c3871fba2daea" class="message" data-pjax="true" title="add index.js file (for hem support)">add index.js file (for hem support)</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2011-09-17T11:08:03Z" is="time-ago">Sep 17, 2011</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/spine/spine/blob/dev/package.json" class="js-directory-link" id="b9cfc7f2cdf78a7f4b91a753d10865a2-f50a3942f9b98615a85109fa23e2815d7e4fc8de" title="package.json">package.json</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/spine/spine/commit/73a06262f8abe4094c6671ec1cc5f77cd086bc8e" class="message" data-pjax="true" title="Use NPM to install Jasmine, refactor Ajax tests to use jasmine-ajax library
+
+Also fixed a small bug with `promise.abort()` that wasn&#39;t previously getting caught by tests,
+and installed a local web server to make running browser tests easier.">Use NPM to install Jasmine, refactor Ajax tests to use jasmine-ajax l¡­</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2015-05-26T04:16:26Z" is="time-ago">May 25, 2015</time></span>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+</div>
+
+
+  <div id="readme" class="boxed-group flush clearfix announce instapaper_body md">
+    <h3>
+      <span class="octicon octicon-book"></span>
+      README.md
+    </h3>
+
+    <article class="markdown-body entry-content" itemprop="mainContentOfPage"><h1><a id="user-content-spine" class="anchor" href="#spine" aria-hidden="true"><span class="octicon octicon-link"></span></a>Spine</h1>
+
+<p><a href="https://gitter.im/spine/spine?utm_source=badge&amp;utm_medium=badge&amp;utm_campaign=pr-badge&amp;utm_content=badge"><img src="https://camo.githubusercontent.com/da2edb525cde1455a622c58c0effc3a90b9a181c/68747470733a2f2f6261646765732e6769747465722e696d2f4a6f696e253230436861742e737667" alt="Gitter" data-canonical-src="https://badges.gitter.im/Join%20Chat.svg" style="max-width:100%;"></a></p>
+
+<p><a href="http://travis-ci.org/spine/spine"><img src="https://camo.githubusercontent.com/d0826dee6382e4a7b3dad565dad187aacf1362f7/68747470733a2f2f7365637572652e7472617669732d63692e6f72672f7370696e652f7370696e652e706e67" alt="Build Status" data-canonical-src="https://secure.travis-ci.org/spine/spine.png" style="max-width:100%;"></a>
+<a href="https://bitdeli.com/free" title="Bitdeli Badge"><img src="https://camo.githubusercontent.com/5cca371f976bd0d58b35b0603ff2c49eaf7c37be/68747470733a2f2f64327765637a68766c38323376302e636c6f756466726f6e742e6e65742f7370696e652f7370696e652f7472656e642e706e67" alt="Bitdeli Badge" data-canonical-src="https://d2weczhvl823v0.cloudfront.net/spine/spine/trend.png" style="max-width:100%;"></a></p>
+
+<p>Spine is a lightweight MVC library for building JavaScript web applications. Spine gives you structure and then gets out of your way, allowing you to concentrate on the fun stuff: building awesome web applications.</p>
+
+<p>Spine is opinionated in its approach to web application architecture and design. Spine's architecture complements patterns such as de-coupled components and CommonJS modules, markedly helping with code quality and maintainability.</p>
+
+<p>The library is written in <a href="http://coffeescript.org">CoffeeScript</a>, and though it doesn't necessarily require CoffeeScript to develop applications - you can use whichever language you're most familiar with or prefer - the documentation and some associated tools like <a href="https://github.com/spine/hem">Hem</a> and <a href="https://github.com/spine/spine.app">spine.app</a> cater to those who prefer CoffeeScript's syntax.</p>
+
+<h2><a id="user-content-learn-it" class="anchor" href="#learn-it" aria-hidden="true"><span class="octicon octicon-link"></span></a>Learn it</h2>
+
+<p>Documentation is often incomplete or just lies waiting to happen. Approachable source code reduces knowledge dependencies. This is an area where Spine really excells compared to other MVC frameworks. Spine is tiny; the core library comes in at less than 700 lines of CoffeeScript code. It is written in such a way to prefer readability over terseness or clever tricks, and it is small enough that within a rather small timeframe you can understand how all the pieces work together. Expertise is achievable within days or weeks rather than months or years. For these reasons, remaining lightweight and simple is fundamental to Spine.</p>
+
+<p>For documentation, usage, and examples, see: <a href="http://spinejs.com">spinejs.com</a></p>
+
+<p>The test suite can also occasionally provide additional useful examples, especially if you are looking for non-coffeescript examples.</p>
+
+<h1><a id="user-content-contributing" class="anchor" href="#contributing" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contributing</h1>
+
+<h2><a id="user-content-reporting-issues" class="anchor" href="#reporting-issues" aria-hidden="true"><span class="octicon octicon-link"></span></a>Reporting issues</h2>
+
+<p>To file a bug report, please visit the <a href="https://github.com/spine/spine/issues">GitHub issues page</a>.  It's great if you can attach code (test cases and fixes for bugs, and test cases and a proposed implementation for features), but reproducible bug reports are also welcome. </p>
+
+<p>For support or help with using spine please use the <a href="https://groups.google.com/forum/#!forum/spinejs">Spine Google Group</a> and/or StackOverflow rather than opening an issue on Github. If you post in those places you are more likely to get more people to chime in, and others can benefit from it more readily.</p>
+
+<h2><a id="user-content-cloning-master-and-running-the-test-suite" class="anchor" href="#cloning-master-and-running-the-test-suite" aria-hidden="true"><span class="octicon octicon-link"></span></a>Cloning master and running the test suite</h2>
+
+<p>To get started contributing to Spine, first clone the repository and make sure you can run the test suite.  If you're not familiar with Git, visit the <a href="http://git-scm.com">Git homepage</a> to download Git for your platform.</p>
+
+<p>First, clone the repository:</p>
+
+<pre><code>$ git clone git://github.com/spine/spine.git
+$ cd spine
+</code></pre>
+
+<p>Next, You will need node and npm to pull in the testing libraries. Once you're all set with those then from within the Spine repo directory run </p>
+
+<pre><code>npm install .
+</code></pre>
+
+<p>This should bring in <a href="http://jasmine.github.io/">Jasmine</a>, Coffeescript, and a minimalist local server for running the tests a browser. You can also simply open <code>test/index.html</code> in a browser to run the <a href="http://jasmine.github.io/">Jasmine</a> test suite for spine core.  If you see all the tests passing, you're ready to contribute! A known issue is that some of the routing tests will fail if you are simply using a <code>file://</code> protocol in the browser. This has to do with browser security. You can avoid this by running the local server, <code>npm start</code>. Alternatively you can use a server like Apache or Nginx to serve the test files to the browser. </p>
+
+<p>If you have <a href="http://phantomjs.org/">phantom.js</a> available then a script is included to make running tests even slicker!</p>
+
+<pre><code>npm test
+</code></pre>
+
+<h2><a id="user-content-contributing-to-the-spine-documentation" class="anchor" href="#contributing-to-the-spine-documentation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contributing to the Spine documentation</h2>
+
+<p>Perhaps the easiest way to get started with contributing is through the docs.  If you find typos, bugs, or omissions in the docs, please submit a pull request to fix.  The Spine website <a href="http://spinejs.com">spinejs.com</a>, which is the primary documentation, is a very simple rails app <a href="https://github.com/spine/spine.site">spine.site</a>. You don't need to know Rails or Ruby to contribute. The vast majority of it is in Markdown</p>
+
+<h2><a id="user-content-contributing-to-the-spine-code" class="anchor" href="#contributing-to-the-spine-code" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contributing to the Spine code</h2>
+
+<p>This recommended contribution process is based on the <a href="http://edgeguides.rubyonrails.org/contributing_to_ruby_on_rails.html#contributing-to-the-rails-code">Ruby on Rails contribution guide</a>.  In general, please include tests with new features or bugfixes, work in a feature branch until you're ready to submit or discuss your code, then fork the repository, push to your fork, and issue a pull request.</p>
+
+<h3><a id="user-content-coffeescript" class="anchor" href="#coffeescript" aria-hidden="true"><span class="octicon octicon-link"></span></a>CoffeeScript</h3>
+
+<p>When submitting a pull request for code, please submit in CoffeeScript. Building the effected js files is required for testing sake, but submitting those js files is optional.</p>
+
+<p>Assuming you have Node.js and npm already installed then proceed by installing local dev dependencies:</p>
+
+<pre><code>$ npm install .
+</code></pre>
+
+<p>Then use the provided build scripts to compile your CoffeeScript files:</p>
+
+<pre><code>$ cake build
+$ cake watch
+</code></pre>
+
+<p>These tasks use a locally installed copy of CoffeeScript to ensure all contributors use the same version of the compiler.</p>
+
+<h3><a id="user-content-git" class="anchor" href="#git" aria-hidden="true"><span class="octicon octicon-link"></span></a>Git</h3>
+
+<p>Let's say I'm going to submit a patch to add someFeatureFix:</p>
+
+<pre><code>$ git checkout dev
+</code></pre>
+
+<p>Feature branches should start from <code>dev</code> <strong>not</strong> <code>master</code>. If you branch off of, or do builds on the master branch you will get CoffeeScript source map files, which are cool, but tend to ruin automatic merges with git.</p>
+
+<pre><code>$ git checkout -b someFeatureFix
+$ vim test/...
+  # (...add tests...)
+$ cake watch
+  # (...this should recompile and changes you make in your CoffeeScript...)
+
+-- figure out what spine module your changes belong in
+$ vim src/spine.coffee
+or
+$ vim src/[otherSpineComponent].coffee
+  # (...add the feature/fix...)
+$ open test/index.html
+  # (...make sure tests run for each component that was changed...)
+  # (...test in other browsers with various jquery versions if you feel like there is risk... )
+$ git commit -m "Add Some Feature Fix"
+</code></pre>
+
+<p>Then, <a href="https://github.com/spine/spine/fork">fork the Spine repository</a>, and push your branch to your fork:</p>
+
+<pre><code>$ git remote add &lt;your user name&gt; git@github.com:&lt;your user name&gt;/spine.git
+$ git push &lt;your user name&gt; someFeatureFix
+</code></pre>
+
+<p>Finally, issue a pull request from inside the GitHub interface to the <code>dev</code> branch of spine, and your contribution is ready for consideration, discussion, and (hopefully) merging in!</p>
+</article>
+  </div>
+
+
+        </div>
+
+      </div><!-- /.repo-container -->
+      <div class="modal-backdrop"></div>
+    </div><!-- /.container -->
+  </div><!-- /.site -->
+
+
+    </div><!-- /.wrapper -->
+
+      <div class="container">
+  <div class="site-footer" role="contentinfo">
+    <ul class="site-footer-links right">
+        <li><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+      <li><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
+      <li><a href="https://shop.github.com" data-ga-click="Footer, go to shop, text:shop">Shop</a></li>
+        <li><a href="https://github.com/blog" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a href="https://github.com/about" data-ga-click="Footer, go to about, text:about">About</a></li>
+      <li><a href="https://help.github.com" data-ga-click="Footer, go to help, text:help">Help</a></li>
+
+    </ul>
+
+    <a href="https://github.com" aria-label="Homepage">
+      <span class="mega-octicon octicon-mark-github" title="GitHub"></span>
+</a>
+    <ul class="site-footer-links">
+      <li>&copy; 2015 <span title="0.04095s from github-fe137-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
+        <li><a href="https://github.com/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
+        <li><a href="https://github.com/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
+        <li><a href="https://github.com/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li><a href="https://github.com/contact" data-ga-click="Footer, go to contact, text:contact">Contact</a></li>
+    </ul>
+  </div>
+</div>
+
+
+    <div class="fullscreen-overlay js-fullscreen-overlay" id="fullscreen_overlay">
+  <div class="fullscreen-container js-suggester-container">
+    <div class="textarea-wrap">
+      <textarea name="fullscreen-contents" id="fullscreen-contents" class="fullscreen-contents js-fullscreen-contents" placeholder=""></textarea>
+      <div class="suggester-container">
+        <div class="suggester fullscreen-suggester js-suggester js-navigation-container"></div>
+      </div>
+    </div>
+  </div>
+  <div class="fullscreen-sidebar">
+    <a href="#" class="exit-fullscreen js-exit-fullscreen tooltipped tooltipped-w" aria-label="Exit Zen Mode">
+      <span class="mega-octicon octicon-screen-normal"></span>
+    </a>
+    <a href="#" class="theme-switcher js-theme-switcher tooltipped tooltipped-w"
+      aria-label="Switch themes">
+      <span class="octicon octicon-color-mode"></span>
+    </a>
+  </div>
+</div>
+
+
+
+    
+    
+
+    <div id="ajax-error-message" class="flash flash-error">
+      <span class="octicon octicon-alert"></span>
+      <a href="#" class="octicon octicon-x flash-close js-ajax-error-dismiss" aria-label="Dismiss error"></a>
+      Something went wrong with that request. Please try again.
+    </div>
+
+
+      <script crossorigin="anonymous" src="https://assets-cdn.github.com/assets/frameworks-dea2e78f4b34a1f3429ade94f98bd25fad6bbe8d28635a93d9caeb68e3c2d258.js"></script>
+      <script async="async" crossorigin="anonymous" src="https://assets-cdn.github.com/assets/github/index-f2bb67dd64e6f69f40f179e8bdddd466056de1bf6e2e88b013c8367c41ad703d.js"></script>
+      
+      
+  </body>
+</html>
+

@@ -1,0 +1,1019 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" class="">
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# object: http://ogp.me/ns/object# article: http://ogp.me/ns/article# profile: http://ogp.me/ns/profile#">
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Language" content="en">
+    
+    
+    <title>mudcube/MIDI.js · GitHub</title>
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+    <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-144.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144.png">
+    <meta property="fb:app_id" content="1401488693436528">
+
+      <meta content="@github" name="twitter:site" /><meta content="summary" name="twitter:card" /><meta content="mudcube/MIDI.js" name="twitter:title" /><meta content="MIDI.js - Making life easy to create a MIDI-app on the web. Includes a library to program synesthesia into your app for memory recognition or for creating trippy effects. Convert soundfonts for Gui..." name="twitter:description" /><meta content="https://avatars0.githubusercontent.com/u/101564?v=3&amp;s=400" name="twitter:image:src" />
+      <meta content="GitHub" property="og:site_name" /><meta content="object" property="og:type" /><meta content="https://avatars0.githubusercontent.com/u/101564?v=3&amp;s=400" property="og:image" /><meta content="mudcube/MIDI.js" property="og:title" /><meta content="https://github.com/mudcube/MIDI.js" property="og:url" /><meta content="MIDI.js - Making life easy to create a MIDI-app on the web. Includes a library to program synesthesia into your app for memory recognition or for creating trippy effects. Convert soundfonts for Gui..." property="og:description" />
+      <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+    <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+    <link rel="assets" href="https://assets-cdn.github.com/">
+    
+    <meta name="pjax-timeout" content="1000">
+    
+
+    <meta name="msapplication-TileImage" content="/windows-tile.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="selected-link" value="repo_source" data-pjax-transient>
+      <meta name="google-analytics" content="UA-3769691-2">
+
+    <meta content="collector.githubapp.com" name="octolytics-host" /><meta content="collector-cdn.github.com" name="octolytics-script-host" /><meta content="github" name="octolytics-app-id" /><meta content="6FDE13B9:4E1B:16A3FC3:557BA9AC" name="octolytics-dimension-request_id" />
+    
+    <meta content="Rails, view, files#disambiguate" name="analytics-event" />
+    <meta class="js-ga-set" name="dimension1" content="Logged Out">
+    <meta name="is-dotcom" content="true">
+      <meta name="hostname" content="github.com">
+    <meta name="user-login" content="">
+
+      <link rel="icon" sizes="any" mask href="https://assets-cdn.github.com/pinned-octocat.svg">
+      <meta name="theme-color" content="#4078c0">
+      <link rel="icon" type="image/x-icon" href="https://assets-cdn.github.com/favicon.ico">
+
+
+    <meta content="authenticity_token" name="csrf-param" />
+<meta content="duVj5b8tRWelaIFH2yyh/mcBPVq3JMWuWhw+cjn89I7rzdqliJshV8JEEXmhOeCl/t7BpemzFynLWrV3rw/r4Q==" name="csrf-token" />
+
+    <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github/index-10789d1d56bfe8c960a6caf2954ab053c3fac748d581415395f986779781b4a7.css" media="all" rel="stylesheet" />
+    <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github2/index-8b4acc27f06d948d9a73d77849e0fe0b98d8636c85e2fe0e6c4b8762dec9fd3d.css" media="all" rel="stylesheet" />
+    
+    
+
+
+    <meta http-equiv="x-pjax-version" content="62b85260d6deaadccdaa2c3c0e0b0c94">
+
+      
+  <meta name="description" content="MIDI.js - Making life easy to create a MIDI-app on the web. Includes a library to program synesthesia into your app for memory recognition or for creating trippy effects. Convert soundfonts for Guitar, Bass, Drums, ect. into code that can be read by the browser. Supports multiple simultaneous instruments and perfect timing.">
+  <meta name="go-import" content="github.com/mudcube/MIDI.js git https://github.com/mudcube/MIDI.js.git">
+
+  <meta content="101564" name="octolytics-dimension-user_id" /><meta content="mudcube" name="octolytics-dimension-user_login" /><meta content="3457006" name="octolytics-dimension-repository_id" /><meta content="mudcube/MIDI.js" name="octolytics-dimension-repository_nwo" /><meta content="true" name="octolytics-dimension-repository_public" /><meta content="false" name="octolytics-dimension-repository_is_fork" /><meta content="3457006" name="octolytics-dimension-repository_network_root_id" /><meta content="mudcube/MIDI.js" name="octolytics-dimension-repository_network_root_nwo" />
+  <link href="https://github.com/mudcube/MIDI.js/commits/master.atom" rel="alternate" title="Recent Commits to MIDI.js:master" type="application/atom+xml">
+
+  </head>
+
+
+  <body class="logged_out  env-production windows vis-public">
+    <a href="#start-of-content" tabindex="1" class="accessibility-aid js-skip-to-content">Skip to content</a>
+    <div class="wrapper">
+      
+      
+      
+
+
+        
+        <div class="header header-logged-out" role="banner">
+  <div class="container clearfix">
+
+    <a class="header-logo-wordmark" href="https://github.com/" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
+      <span class="mega-octicon octicon-logo-github"></span>
+    </a>
+
+    <div class="header-actions" role="navigation">
+        <a class="btn btn-primary" href="/join" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">Sign up</a>
+      <a class="btn" href="/login?return_to=%2Fmudcube%2FMIDI.js" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign in</a>
+    </div>
+
+    <div class="site-search repo-scope js-site-search" role="search">
+      <form accept-charset="UTF-8" action="/mudcube/MIDI.js/search" class="js-site-search-form" data-global-search-url="/search" data-repo-search-url="/mudcube/MIDI.js/search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+  <label class="js-chromeless-input-container form-control">
+    <div class="scope-badge">This repository</div>
+    <input type="text"
+      class="js-site-search-focus js-site-search-field is-clearable chromeless-input"
+      data-hotkey="s"
+      name="q"
+      placeholder="Search"
+      data-global-scope-placeholder="Search GitHub"
+      data-repo-scope-placeholder="Search"
+      tabindex="1"
+      autocapitalize="off">
+  </label>
+</form>
+    </div>
+
+      <ul class="header-nav left" role="navigation">
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="/explore" data-ga-click="(Logged out) Header, go to explore, text:explore">Explore</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="/features" data-ga-click="(Logged out) Header, go to features, text:features">Features</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="https://enterprise.github.com/" data-ga-click="(Logged out) Header, go to enterprise, text:enterprise">Enterprise</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="/blog" data-ga-click="(Logged out) Header, go to blog, text:blog">Blog</a>
+          </li>
+      </ul>
+
+  </div>
+</div>
+
+
+
+      <div id="start-of-content" class="accessibility-aid"></div>
+          <div class="site" itemscope itemtype="http://schema.org/WebPage">
+    <div id="js-flash-container">
+      
+    </div>
+    <div class="pagehead repohead instapaper_ignore readability-menu">
+      <div class="container">
+
+        
+<ul class="pagehead-actions">
+
+  <li>
+      <a href="/login?return_to=%2Fmudcube%2FMIDI.js"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to watch a repository" rel="nofollow">
+    <span class="octicon octicon-eye"></span>
+    Watch
+  </a>
+  <a class="social-count" href="/mudcube/MIDI.js/watchers">
+    136
+  </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Fmudcube%2FMIDI.js"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to star a repository" rel="nofollow">
+    <span class="octicon octicon-star"></span>
+    Star
+  </a>
+
+    <a class="social-count js-social-count" href="/mudcube/MIDI.js/stargazers">
+      1,417
+    </a>
+
+  </li>
+
+    <li>
+      <a href="/login?return_to=%2Fmudcube%2FMIDI.js"
+        class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+        aria-label="You must be signed in to fork a repository" rel="nofollow">
+        <span class="octicon octicon-repo-forked"></span>
+        Fork
+      </a>
+      <a href="/mudcube/MIDI.js/network" class="social-count">
+        262
+      </a>
+    </li>
+</ul>
+
+        <h1 itemscope itemtype="http://data-vocabulary.org/Breadcrumb" class="entry-title public">
+          <span class="mega-octicon octicon-repo"></span>
+          <span class="author"><a href="/mudcube" class="url fn" itemprop="url" rel="author"><span itemprop="title">mudcube</span></a></span><!--
+       --><span class="path-divider">/</span><!--
+       --><strong><a href="/mudcube/MIDI.js" data-pjax="#js-repo-pjax-container">MIDI.js</a></strong>
+
+          <span class="page-context-loader">
+            <img alt="" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </span>
+
+        </h1>
+      </div><!-- /.container -->
+    </div><!-- /.repohead -->
+
+    <div class="container">
+      <div class="repository-with-sidebar repo-container new-discussion-timeline with-full-navigation ">
+        <div class="repository-sidebar clearfix">
+            
+<nav class="sunken-menu repo-nav js-repo-nav js-sidenav-container-pjax js-octicon-loaders"
+     role="navigation"
+     data-pjax="#js-repo-pjax-container"
+     data-issue-count-url="/mudcube/MIDI.js/issues/counts">
+  <ul class="sunken-menu-group">
+    <li class="tooltipped tooltipped-w" aria-label="Code">
+      <a href="/mudcube/MIDI.js" aria-label="Code" class="selected js-selected-navigation-item sunken-menu-item" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches /mudcube/MIDI.js">
+        <span class="octicon octicon-code"></span> <span class="full-word">Code</span>
+        <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+</a>    </li>
+
+      <li class="tooltipped tooltipped-w" aria-label="Issues">
+        <a href="/mudcube/MIDI.js/issues" aria-label="Issues" class="js-selected-navigation-item sunken-menu-item" data-hotkey="g i" data-selected-links="repo_issues repo_labels repo_milestones /mudcube/MIDI.js/issues">
+          <span class="octicon octicon-issue-opened"></span> <span class="full-word">Issues</span>
+          <span class="js-issue-replace-counter"></span>
+          <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+</a>      </li>
+
+    <li class="tooltipped tooltipped-w" aria-label="Pull requests">
+      <a href="/mudcube/MIDI.js/pulls" aria-label="Pull requests" class="js-selected-navigation-item sunken-menu-item" data-hotkey="g p" data-selected-links="repo_pulls /mudcube/MIDI.js/pulls">
+          <span class="octicon octicon-git-pull-request"></span> <span class="full-word">Pull requests</span>
+          <span class="js-pull-replace-counter"></span>
+          <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+</a>    </li>
+
+  </ul>
+  <div class="sunken-menu-separator"></div>
+  <ul class="sunken-menu-group">
+
+    <li class="tooltipped tooltipped-w" aria-label="Pulse">
+      <a href="/mudcube/MIDI.js/pulse" aria-label="Pulse" class="js-selected-navigation-item sunken-menu-item" data-selected-links="pulse /mudcube/MIDI.js/pulse">
+        <span class="octicon octicon-pulse"></span> <span class="full-word">Pulse</span>
+        <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+</a>    </li>
+
+    <li class="tooltipped tooltipped-w" aria-label="Graphs">
+      <a href="/mudcube/MIDI.js/graphs" aria-label="Graphs" class="js-selected-navigation-item sunken-menu-item" data-selected-links="repo_graphs repo_contributors /mudcube/MIDI.js/graphs">
+        <span class="octicon octicon-graph"></span> <span class="full-word">Graphs</span>
+        <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+</a>    </li>
+  </ul>
+
+
+</nav>
+
+              <div class="only-with-full-nav">
+                  
+<div class="js-clone-url clone-url open"
+  data-protocol-type="http">
+  <h3><span class="text-emphasized">HTTPS</span> clone URL</h3>
+  <div class="input-group js-zeroclipboard-container">
+    <input type="text" class="input-mini input-monospace js-url-field js-zeroclipboard-target"
+           value="https://github.com/mudcube/MIDI.js.git" readonly="readonly">
+    <span class="input-group-button">
+      <button aria-label="Copy to clipboard" class="js-zeroclipboard btn btn-sm zeroclipboard-button tooltipped tooltipped-s" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+    </span>
+  </div>
+</div>
+
+  
+<div class="js-clone-url clone-url "
+  data-protocol-type="subversion">
+  <h3><span class="text-emphasized">Subversion</span> checkout URL</h3>
+  <div class="input-group js-zeroclipboard-container">
+    <input type="text" class="input-mini input-monospace js-url-field js-zeroclipboard-target"
+           value="https://github.com/mudcube/MIDI.js" readonly="readonly">
+    <span class="input-group-button">
+      <button aria-label="Copy to clipboard" class="js-zeroclipboard btn btn-sm zeroclipboard-button tooltipped tooltipped-s" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+    </span>
+  </div>
+</div>
+
+
+
+<div class="clone-options">You can clone with
+  <form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=http&amp;protocol_type=clone" class="inline-form js-clone-selector-form " data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="TajBnNrL7ZsHC+HovU/uVhOpuzzgF5rsbHwJ75/FOW1p6O5sVMZ1Bmto9Sb5tkeJZhTfuXOD1EYHY6twNoGeVg==" /></div><button class="btn-link js-clone-selector" data-protocol="http" type="submit">HTTPS</button></form> or <form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=subversion&amp;protocol_type=clone" class="inline-form js-clone-selector-form " data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="L72LRq9F+YePIT/ZAsu+iWmCCe0ectl+mj58yd4gxnhk03qhGFc72SlNa5ujGP+q4cGsYkmsvz4GpnOgY7zu6Q==" /></div><button class="btn-link js-clone-selector" data-protocol="subversion" type="submit">Subversion</button></form>.
+  <a href="https://help.github.com/articles/which-remote-url-should-i-use" class="help tooltipped tooltipped-n" aria-label="Get help on which URL is right for you.">
+    <span class="octicon octicon-question"></span>
+  </a>
+</div>
+
+
+  <a href="https://windows.github.com" class="btn btn-sm sidebar-button" title="Save mudcube/MIDI.js to your computer and use it in GitHub Desktop." aria-label="Save mudcube/MIDI.js to your computer and use it in GitHub Desktop.">
+    <span class="octicon octicon-device-desktop"></span>
+    Clone in Desktop
+  </a>
+
+
+                <a href="/mudcube/MIDI.js/archive/master.zip"
+                   class="btn btn-sm sidebar-button"
+                   aria-label="Download the contents of mudcube/MIDI.js as a zip file"
+                   title="Download the contents of mudcube/MIDI.js as a zip file"
+                   rel="nofollow">
+                  <span class="octicon octicon-cloud-download"></span>
+                  Download ZIP
+                </a>
+              </div>
+        </div><!-- /.repository-sidebar -->
+
+        <div id="js-repo-pjax-container" class="repository-content context-loader-container" data-pjax-container>
+
+          
+<span id="js-show-full-navigation"></span>
+
+<div class="repository-meta js-details-container ">
+    <div class="repository-description">
+      Making life easy to create a MIDI-app on the web. Includes a library to program synesthesia into your app for memory recognition or for creating trippy effects. Convert soundfonts for Guitar, Bass, Drums, ect. into code that can be read by the browser. Supports multiple simultaneous instruments and perfect timing.
+    </div>
+
+    <div class="repository-website">
+      <p><a href="http://mudcu.be/midi-js/" rel="nofollow">http://mudcu.be/midi-js/</a></p>
+    </div>
+
+
+</div>
+
+<div class="overall-summary overall-summary-bottomless">
+
+  <div class="stats-switcher-viewport js-stats-switcher-viewport">
+    <div class="stats-switcher-wrapper">
+    <ul class="numbers-summary">
+      <li class="commits">
+        <a data-pjax href="/mudcube/MIDI.js/commits/master">
+            <span class="octicon octicon-history"></span>
+            <span class="num text-emphasized">
+              246
+            </span>
+            commits
+        </a>
+      </li>
+      <li>
+        <a data-pjax href="/mudcube/MIDI.js/branches">
+          <span class="octicon octicon-git-branch"></span>
+          <span class="num text-emphasized">
+            2
+          </span>
+          branches
+        </a>
+      </li>
+
+      <li>
+        <a data-pjax href="/mudcube/MIDI.js/releases">
+          <span class="octicon octicon-tag"></span>
+          <span class="num text-emphasized">
+            0
+          </span>
+          releases
+        </a>
+      </li>
+
+      <li>
+        
+  <a href="/mudcube/MIDI.js/graphs/contributors">
+    <span class="octicon octicon-organization"></span>
+    <span class="num text-emphasized">
+      20
+    </span>
+    contributors
+  </a>
+      </li>
+    </ul>
+
+      <div class="repository-lang-stats">
+        <ol class="repository-lang-stats-numbers">
+          <li>
+              <a href="/mudcube/MIDI.js/search?l=javascript">
+                <span class="color-block language-color" style="background-color:#f1e05a;"></span>
+                <span class="lang">JavaScript</span>
+                <span class="percent">68.5%</span>
+              </a>
+          </li>
+          <li>
+              <a href="/mudcube/MIDI.js/search?l=html">
+                <span class="color-block language-color" style="background-color:#e44b23;"></span>
+                <span class="lang">HTML</span>
+                <span class="percent">29.1%</span>
+              </a>
+          </li>
+          <li>
+              <a href="/mudcube/MIDI.js/search?l=ruby">
+                <span class="color-block language-color" style="background-color:#701516;"></span>
+                <span class="lang">Ruby</span>
+                <span class="percent">1.4%</span>
+              </a>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+  <div class="repository-lang-stats-graph js-toggle-lang-stats" title="Click for language details">
+    <span class="language-color" aria-label="JavaScript 68.5%" style="width:68.5%; background-color:#f1e05a;" itemprop="keywords">JavaScript</span>
+    <span class="language-color" aria-label="HTML 29.1%" style="width:29.1%; background-color:#e44b23;" itemprop="keywords">HTML</span>
+    <span class="language-color" aria-label="Ruby 1.4%" style="width:1.4%; background-color:#701516;" itemprop="keywords">Ruby</span>
+  </div>
+
+<include-fragment src="/mudcube/MIDI.js/show_partial?partial=tree%2Frecently_touched_branches_list"></include-fragment>
+
+<div class="file-navigation in-mid-page">
+  <a href="/mudcube/MIDI.js/find/master"
+        class="js-show-file-finder btn btn-sm empty-icon tooltipped tooltipped-s right"
+        data-pjax
+        data-hotkey="t"
+        aria-label="Quickly jump between files">
+    <span class="octicon octicon-list-unordered"></span>
+  </a>
+    <a href="/mudcube/MIDI.js/compare" aria-label="Compare, review, create a pull request" class="btn btn-sm btn-primary tooltipped tooltipped-se left compare-button" aria-label="Compare &amp; review" data-pjax data-ga-click="Repository, go to compare view, location:repo overview; icon:git-compare">
+      <span class="octicon octicon-git-compare"></span>
+    </a>
+
+  
+<div class="select-menu js-menu-container js-select-menu left">
+  <span class="btn btn-sm select-menu-button js-menu-target css-truncate" data-hotkey="w"
+    data-ref="master"
+    title="master"
+    role="button" aria-label="Switch branches or tags" tabindex="0" aria-haspopup="true">
+    <span class="octicon octicon-git-branch"></span>
+    <i>branch:</i>
+    <span class="js-select-button css-truncate-target">master</span>
+  </span>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax aria-hidden="true">
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <span class="select-menu-title">Switch branches/tags</span>
+        <span class="octicon octicon-x js-menu-close" role="button" aria-label="Close"></span>
+      </div>
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="branches" data-filter-placeholder="Filter branches/tags" class="js-select-menu-tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="tags" data-filter-placeholder="Find a tag…" class="js-select-menu-tab">Tags</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/mudcube/MIDI.js/tree/dev"
+               data-name="dev"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <span class="select-menu-item-text css-truncate-target" title="dev">
+                dev
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open selected"
+               href="/mudcube/MIDI.js/tree/master"
+               data-name="master"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <span class="select-menu-item-text css-truncate-target" title="master">
+                master
+              </span>
+            </a>
+        </div>
+
+          <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+  <div class="breadcrumb"><span class="repo-root js-repo-root"><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/mudcube/MIDI.js" class="" data-branch="master" data-pjax="true" itemscope="url"><span itemprop="title">MIDI.js</span></a></span></span><span class="separator">/</span>
+    <a class="btn-link disabled tooltipped tooltipped-e" href="#" aria-label="You must be signed in to make or propose changes">
+      <span class="octicon octicon-plus"></span>
+    </a>
+</div>
+</div>
+
+
+
+  
+  <div class="commit commit-tease js-details-container" >
+    <p class="commit-title ">
+        <a href="/mudcube/MIDI.js/commit/5330c732186ce84dfb5b74bce05fa483cd08687b" class="message" data-pjax="true" title="Merge pull request #129 from sinkswim/master
+
+Mostly fixed broken links">Merge pull request</a> <a href="https://github.com/mudcube/MIDI.js/pull/129" class="issue-link" title="Mostly fixed broken links">#129</a> <a href="/mudcube/MIDI.js/commit/5330c732186ce84dfb5b74bce05fa483cd08687b" class="message" data-pjax="true" title="Merge pull request #129 from sinkswim/master
+
+Mostly fixed broken links">from sinkswim/master</a>
+        <span class="hidden-text-expander inline"><a href="#" class="js-details-target">…</a></span>
+    </p>
+      <div class="commit-desc"><pre>Mostly fixed broken links</pre></div>
+    <div class="commit-meta">
+      <button aria-label="Copy SHA" class="js-zeroclipboard zeroclipboard-link tooltipped tooltipped-s" data-clipboard-text="5330c732186ce84dfb5b74bce05fa483cd08687b" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+      <a href="/mudcube/MIDI.js/commit/5330c732186ce84dfb5b74bce05fa483cd08687b" class="sha-block" data-pjax>latest commit <span class="sha">5330c73218</span></a>
+
+      <div class="authorship">
+        <img alt="@mudcube" class="avatar" height="20" src="https://avatars0.githubusercontent.com/u/101564?v=3&amp;s=40" width="20" />
+        <span class="author-name"><a href="/mudcube" rel="author">mudcube</a></span>
+        authored <time class="updated" datetime="2015-06-04T21:56:56Z" is="relative-time">Jun 4, 2015</time>
+
+      </div>
+    </div>
+  </div>
+
+  
+<div class="file-wrap">
+  <a href="/mudcube/MIDI.js/tree/5330c732186ce84dfb5b74bce05fa483cd08687b" class="hidden js-permalink-shortcut" data-hotkey="y">Permalink</a>
+
+  <table class="files" data-pjax>
+
+
+    <tbody>
+      <tr class="warning include-fragment-error">
+        <td class="icon"><span class="octicon octicon-alert"></span></td>
+        <td class="content" colspan="3">Failed to load latest commit information.</td>
+      </tr>
+
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-directory"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/mudcube/MIDI.js/tree/master/build" class="js-directory-link" id="b0da275520918e23dd615e2a747528f1-92919e972b83715aa01373430466656a16c332ad" title="build">build</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/mudcube/MIDI.js/commit/979aa1ba02b4961a8514ea50d688e91279cccb6c" class="message" data-pjax="true" title="fixed build">fixed build</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2015-05-23T19:24:28Z" is="time-ago">May 23, 2015</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-directory"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/mudcube/MIDI.js/tree/master/examples" class="js-directory-link" id="bfebe34154a0dfd9fc7b447fc9ed74e9-da917f10ec0484ebb42f7edbce63d93320eef19e" title="examples">examples</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/mudcube/MIDI.js/commit/c4ab722e2baec40d3bf91676d6e4e547dc0637f4" class="message" data-pjax="true" title="fixed broken links and a minor change">fixed broken links and a minor change</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2015-04-15T03:34:47Z" is="time-ago">Apr 14, 2015</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-directory"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/mudcube/MIDI.js/tree/master/generator" class="js-directory-link" id="dac9630aec642a428cd73f4be0a03569-c359db64cb34fabae67087ccf440bd0dd0004ec9" title="generator">generator</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/mudcube/MIDI.js/commit/b4876ff7eeaf6725a0f7617324834c69e5286b5f" class="message" data-pjax="true" title="update ruby build steps">update ruby build steps</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2015-03-25T03:22:47Z" is="time-ago">Mar 24, 2015</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-directory"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/mudcube/MIDI.js/tree/master/inc" class="js-directory-link" id="cf9f3fde7326f1d8e64205f0e07a3695-4e679c4c58a7a8b15d99861bc83e904cbaba0039" title="inc">inc</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/mudcube/MIDI.js/commit/e25827b85356d5e752939c08f6a7317889292216" class="message" data-pjax="true" title="remove extra include">remove extra include</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2015-03-25T03:33:08Z" is="time-ago">Mar 24, 2015</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-directory"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/mudcube/MIDI.js/tree/master/js" class="js-directory-link" id="32981a13284db7a021131df49e6cd203-8b69f8dbb68b5f87918d9ab4cafa998ca24bd12e" title="js">js</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/mudcube/MIDI.js/commit/04590183fc347dbd5f9a049192534c0c889db53e" class="message" data-pjax="true" title="small tab fix">small tab fix</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2015-05-23T19:27:25Z" is="time-ago">May 23, 2015</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/mudcube/MIDI.js/blob/master/.gitignore" class="js-directory-link" id="a084b794bc0759e7a6b77810e01874f2-05105d67d205a5c0c5b8fdf31a972d82c16735a8" title=".gitignore">.gitignore</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/mudcube/MIDI.js/commit/b141659f8f8e6431ce6fe797b4c50c526b64941c" class="message" data-pjax="true" title="Merge branch &#39;refs/heads/dev&#39;">Merge branch 'refs/heads/dev'</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2015-03-27T06:36:46Z" is="time-ago">Mar 26, 2015</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/mudcube/MIDI.js/blob/master/Gruntfile.js" class="js-directory-link" id="35b4a816e0441e6a375cd925af50752c-f79dd59e65cdd7932d325b0bb9af0305f559243e" title="Gruntfile.js">Gruntfile.js</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/mudcube/MIDI.js/commit/fe0ba5d4fd89003dcdbb761ddf616d973e96c399" class="message" data-pjax="true" title="cleanup notes">cleanup notes</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2015-03-25T03:37:36Z" is="time-ago">Mar 24, 2015</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/mudcube/MIDI.js/blob/master/LICENSE.txt" class="js-directory-link" id="61e0bdf7e1b43c5c93d9488b22e04170-0dca6fb84f2ada1cc0fbbd2d923e34052b0e5983" title="LICENSE.txt">LICENSE.txt</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/mudcube/MIDI.js/commit/9bbd59bb020e8d53b497349cf7e30d366a501991" class="message" data-pjax="true" title="update README w/ fantastic new demo by Borja Morales @reality3d">update README w/ fantastic new demo by Borja Morales</a> <a href="https://github.com/reality3d" class="user-mention">@reality3d</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2013-10-10T20:11:08Z" is="time-ago">Oct 10, 2013</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/mudcube/MIDI.js/blob/master/README.md" class="js-directory-link" id="04c6e90faac2675aa89e2176d2eec7d8-45755cb9752f6bcdf23e1779165e32e3ad242ef8" title="README.md">README.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/mudcube/MIDI.js/commit/c4ab722e2baec40d3bf91676d6e4e547dc0637f4" class="message" data-pjax="true" title="fixed broken links and a minor change">fixed broken links and a minor change</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2015-04-15T03:34:47Z" is="time-ago">Apr 15, 2015</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/mudcube/MIDI.js/blob/master/TODO" class="js-directory-link" id="b7b1e314614cf326c6e2b6eba1540682-1d7da63244f0caea4c5bfd9aa0cbbb74f84a3649" title="TODO">TODO</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/mudcube/MIDI.js/commit/fe0ba5d4fd89003dcdbb761ddf616d973e96c399" class="message" data-pjax="true" title="cleanup notes">cleanup notes</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2015-03-25T03:37:36Z" is="time-ago">Mar 25, 2015</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/mudcube/MIDI.js/blob/master/package.json" class="js-directory-link" id="b9cfc7f2cdf78a7f4b91a753d10865a2-f106be13329c03197320ace98b3fc8ae2a484251" title="package.json">package.json</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/mudcube/MIDI.js/commit/a2add6a1267b38f4504163f15d0440692b2043ec" class="message" data-pjax="true" title="Update gruntfile to v0.4">Update gruntfile to v0.4</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2013-02-28T23:51:19Z" is="time-ago">Feb 28, 2013</time></span>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+</div>
+
+
+  <div id="readme" class="boxed-group flush clearfix announce instapaper_body md">
+    <h3>
+      <span class="octicon octicon-book"></span>
+      README.md
+    </h3>
+
+    <article class="markdown-body entry-content" itemprop="mainContentOfPage"><h2><a id="user-content-code-examples---from-the-repo" class="anchor" href="#code-examples---from-the-repo" aria-hidden="true"><span class="octicon octicon-link"></span></a>Code examples - from the repo</h2>
+
+<ul>
+<li><a href="/mudcube/MIDI.js/blob/master/examples/Basic.html">Basic</a> - the most basic implementation.</li>
+<li><a href="/mudcube/MIDI.js/blob/master/examples/MIDIPlayer.html">MIDIPlayer</a> - how to parse MIDI files, and interact with the data stream.</li>
+<li><a href="/mudcube/MIDI.js/blob/master/examples/WhitneyMusicBox.html">WhitneyMusicBox</a> - a audio/visual experiment by Jim Bumgardner</li>
+</ul>
+
+<h2><a id="user-content-demos" class="anchor" href="#demos" aria-hidden="true"><span class="octicon octicon-link"></span></a>Demos</h2>
+
+<ul>
+<li><a href="http://mudcu.be/piano">Color Piano</a> by Michael Deal @mudcube</li>
+<li><a href="http://www.rgba.org/r3d/3d-piano-player/">3D Piano Player w/ Three.js</a> by Borja Morales @reality3d</li>
+<li><a href="http://labs.uxmonk.com/simon-says/">Simon Says</a> by Daniel Christopher @uxmonk</li>
+<li><a href="http://labs.uxmonk.com/brite-lite/">Brite Lite</a> by Daniel Christopher @uxmonk</li>
+<li><a href="http://qiao.github.com/euphony/">Euphony 3D Piano</a> by Xueqiao Xu @qiao</li>
+<li><a href="http://my.vexflow.com/articles/53">VexFlow</a> by Mohit Muthanna @11111110b</li>
+<li><a href="http://spiral.qet.me/">Spiral Keyboard</a> by Patrick Snels</li>
+<li><a href="http://online-compute.rhcloud.com/ragamroll/">Ragamroll</a> by Mani Balasubramanian</li>
+<li><a href="http://gbloink.com/alpha/">Gbloink!</a> by Phil Jones</li>
+</ul>
+
+<h2><a id="user-content-generating-base64-soundfonts" class="anchor" href="#generating-base64-soundfonts" aria-hidden="true"><span class="octicon octicon-link"></span></a>Generating Base64 Soundfonts</h2>
+
+<p>There is two generators for MIDI.js soundfonts:</p>
+
+<ul>
+<li>NodeJS package for creating soundfonts from WAV files - by Patrick Wolleb</li>
+<li>Ruby package for creating soundsfonts from SF2 files - by Mohit Muthanna</li>
+</ul>
+
+<p>To dive in quickly Benjamin Gleitzman has created a package of <a href="https://github.com/gleitz/midi-js-soundfonts">pre-rendered sound fonts</a>.</p>
+
+<h2><a id="user-content-api" class="anchor" href="#api" aria-hidden="true"><span class="octicon octicon-link"></span></a>API</h2>
+
+<h3><a id="user-content-midiloadpluginjs---decides-which-framework-is-best-to-use" class="anchor" href="#midiloadpluginjs---decides-which-framework-is-best-to-use" aria-hidden="true"><span class="octicon octicon-link"></span></a><a href="/mudcube/MIDI.js/blob/master/js/midi/loader.js">MIDI.loadPlugin.js</a> - Decides which framework is best to use</h3>
+
+<div class="highlight highlight-javascript"><pre><span class="pl-c">// interface to download soundfont, then execute callback;</span>
+<span class="pl-c1">MIDI</span>.loadPlugin(onsuccess);
+<span class="pl-c">// simple example to get started;</span>
+<span class="pl-c1">MIDI</span>.loadPlugin({
+    instrument<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">"</span>acoustic_grand_piano<span class="pl-pds">"</span></span>, <span class="pl-c">// or the instrument code 1 (aka the default)</span>
+    instruments<span class="pl-k">:</span> [ <span class="pl-s"><span class="pl-pds">"</span>acoustic_grand_piano<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>acoustic_guitar_nylon<span class="pl-pds">"</span></span> ], <span class="pl-c">// or multiple instruments</span>
+    <span class="pl-en">onsuccess</span>: <span class="pl-k">function</span>() { }
+});</pre></div>
+
+<h3><a id="user-content-midipluginjs---controls-midi-output" class="anchor" href="#midipluginjs---controls-midi-output" aria-hidden="true"><span class="octicon octicon-link"></span></a><a href="/mudcube/MIDI.js/blob/master/js/midi/plugin.webaudio.js">MIDI.Plugin.js</a> - Controls MIDI output</h3>
+
+<div class="highlight highlight-javascript"><pre><span class="pl-c1">MIDI</span>.noteOn(channel, note, velocity, delay);
+<span class="pl-c1">MIDI</span>.noteOff(channel, note, delay);
+<span class="pl-c1">MIDI</span>.chordOn(channel, [note, note, note], velocity, delay);
+<span class="pl-c1">MIDI</span>.chordOff(channel, [note, note, note], delay);
+<span class="pl-c1">MIDI</span>.keyToNote <span class="pl-k">=</span> object; <span class="pl-c">// A0 =&gt; 21</span>
+<span class="pl-c1">MIDI</span>.noteToKey <span class="pl-k">=</span> object; <span class="pl-c">// 21 =&gt; A0</span></pre></div>
+
+<h3><a id="user-content-midiplayerjs---plays-midi-stream" class="anchor" href="#midiplayerjs---plays-midi-stream" aria-hidden="true"><span class="octicon octicon-link"></span></a><a href="/mudcube/MIDI.js/blob/master/js/midi/player.js">MIDI.Player.js</a> - Plays MIDI stream</h3>
+
+<div class="highlight highlight-javascript"><pre><span class="pl-c1">MIDI</span>.Player.currentTime <span class="pl-k">=</span> integer; <span class="pl-c">// time we are at now within the song.</span>
+<span class="pl-c1">MIDI</span>.Player.endTime <span class="pl-k">=</span> integer; <span class="pl-c">// time when song ends.</span>
+<span class="pl-c1">MIDI</span>.Player.playing <span class="pl-k">=</span> boolean; <span class="pl-c">// are we playing? yes or no.</span>
+<span class="pl-c1">MIDI</span>.Player.loadFile(file, onsuccess); <span class="pl-c">// load .MIDI from base64 or binary XML request.</span>
+<span class="pl-c1">MIDI</span>.Player.<span class="pl-c1">start</span>(); <span class="pl-c">// start the MIDI track (you can put this in the loadFile callback)</span>
+<span class="pl-c1">MIDI</span>.Player.resume(); <span class="pl-c">// resume the MIDI track from pause.</span>
+<span class="pl-c1">MIDI</span>.Player.pause(); <span class="pl-c">// pause the MIDI track.</span>
+<span class="pl-c1">MIDI</span>.Player.<span class="pl-c1">stop</span>(); <span class="pl-c">// stops all audio being played, and resets currentTime to 0.</span></pre></div>
+
+<h3><a id="user-content-listener-for-when-notes-are-played" class="anchor" href="#listener-for-when-notes-are-played" aria-hidden="true"><span class="octicon octicon-link"></span></a>Listener for when notes are played</h3>
+
+<div class="highlight highlight-javascript"><pre><span class="pl-c1">MIDI</span>.Player.removeListener(); <span class="pl-c">// removes current listener.</span>
+<span class="pl-c1">MIDI</span>.Player.addListener(<span class="pl-k">function</span>(<span class="pl-smi">data</span>) { <span class="pl-c">// set it to your own function!</span>
+    <span class="pl-k">var</span> now <span class="pl-k">=</span> data.now; <span class="pl-c">// where we are now</span>
+    <span class="pl-k">var</span> end <span class="pl-k">=</span> data.end; <span class="pl-c">// time when song ends</span>
+    <span class="pl-k">var</span> channel <span class="pl-k">=</span> data.channel; <span class="pl-c">// channel note is playing on</span>
+    <span class="pl-k">var</span> message <span class="pl-k">=</span> data.message; <span class="pl-c">// 128 is noteOff, 144 is noteOn</span>
+    <span class="pl-k">var</span> note <span class="pl-k">=</span> data.note; <span class="pl-c">// the note</span>
+    <span class="pl-k">var</span> velocity <span class="pl-k">=</span> data.velocity; <span class="pl-c">// the velocity of the note</span>
+    <span class="pl-c">// then do whatever you want with the information!</span>
+});</pre></div>
+
+<h3><a id="user-content-smooth-animation-interpolating-between-onmidievent-calls" class="anchor" href="#smooth-animation-interpolating-between-onmidievent-calls" aria-hidden="true"><span class="octicon octicon-link"></span></a>Smooth animation interpolating between onMidiEvent calls</h3>
+
+<div class="highlight highlight-javascript"><pre><span class="pl-c1">MIDI</span>.Player.clearAnimation(); <span class="pl-c">// clears current animation.</span>
+<span class="pl-c1">MIDI</span>.Player.setAnimation(<span class="pl-k">function</span>(<span class="pl-smi">data</span>) {
+    <span class="pl-k">var</span> now <span class="pl-k">=</span> data.now; <span class="pl-c">// where we are now</span>
+    <span class="pl-k">var</span> end <span class="pl-k">=</span> data.end; <span class="pl-c">// time when song ends</span>
+    <span class="pl-k">var</span> events <span class="pl-k">=</span> data.events; <span class="pl-c">// all the notes currently being processed</span>
+    <span class="pl-c">// then do what you want with the information!</span>
+});</pre></div>
+
+<h3><a id="user-content-effects-available-for-webaudiocontext-via-tunajs" class="anchor" href="#effects-available-for-webaudiocontext-via-tunajs" aria-hidden="true"><span class="octicon octicon-link"></span></a>Effects available for WebAudioContext via Tuna.js</h3>
+
+<div class="highlight highlight-javascript"><pre><span class="pl-c1">MIDI</span>.setEffects([
+        {
+        type<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">"</span>MoogFilter<span class="pl-pds">"</span></span>,
+        bufferSize<span class="pl-k">:</span> <span class="pl-c1">4096</span>,
+        bypass<span class="pl-k">:</span> <span class="pl-c1">false</span>,
+        cutoff<span class="pl-k">:</span> <span class="pl-c1">0.065</span>,
+        resonance<span class="pl-k">:</span> <span class="pl-c1">3.5</span>
+    },
+    {
+        type<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">"</span>Bitcrusher<span class="pl-pds">"</span></span>,
+        bits<span class="pl-k">:</span> <span class="pl-c1">4</span>,
+        bufferSize<span class="pl-k">:</span> <span class="pl-c1">4096</span>,
+        bypass<span class="pl-k">:</span> <span class="pl-c1">false</span>,
+        normfreq<span class="pl-k">:</span> <span class="pl-c1">0.1</span>
+    },
+    {
+        type<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">"</span>Phaser<span class="pl-pds">"</span></span>,
+        rate<span class="pl-k">:</span> <span class="pl-c1">1.2</span>, <span class="pl-c">// 0.01 to 8 is a decent range, but higher values are possible</span>
+        depth<span class="pl-k">:</span> <span class="pl-c1">0.3</span>, <span class="pl-c">// 0 to 1</span>
+        feedback<span class="pl-k">:</span> <span class="pl-c1">0.2</span>, <span class="pl-c">// 0 to 1+</span>
+        stereoPhase<span class="pl-k">:</span> <span class="pl-c1">30</span>, <span class="pl-c">// 0 to 180</span>
+        baseModulationFrequency<span class="pl-k">:</span> <span class="pl-c1">700</span>, <span class="pl-c">// 500 to 1500</span>
+        bypass<span class="pl-k">:</span> <span class="pl-c1">0</span>
+    }, {
+        type<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">"</span>Chorus<span class="pl-pds">"</span></span>,
+        rate<span class="pl-k">:</span> <span class="pl-c1">1.5</span>,
+        feedback<span class="pl-k">:</span> <span class="pl-c1">0.2</span>,
+        delay<span class="pl-k">:</span> <span class="pl-c1">0.0045</span>,
+        bypass<span class="pl-k">:</span> <span class="pl-c1">0</span>
+    }, {
+        type<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">"</span>Delay<span class="pl-pds">"</span></span>,
+        feedback<span class="pl-k">:</span> <span class="pl-c1">0.45</span>, <span class="pl-c">// 0 to 1+</span>
+        delayTime<span class="pl-k">:</span> <span class="pl-c1">150</span>, <span class="pl-c">// how many milliseconds should the wet signal be delayed? </span>
+        wetLevel<span class="pl-k">:</span> <span class="pl-c1">0.25</span>, <span class="pl-c">// 0 to 1+</span>
+        dryLevel<span class="pl-k">:</span> <span class="pl-c1">1</span>, <span class="pl-c">// 0 to 1+</span>
+        cutoff<span class="pl-k">:</span> <span class="pl-c1">20</span>, <span class="pl-c">// cutoff frequency of the built in highpass-filter. 20 to 22050</span>
+        bypass<span class="pl-k">:</span> <span class="pl-c1">0</span>
+    }, {
+        type<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">"</span>Overdrive<span class="pl-pds">"</span></span>,
+        outputGain<span class="pl-k">:</span> <span class="pl-c1">0.5</span>, <span class="pl-c">// 0 to 1+</span>
+        drive<span class="pl-k">:</span> <span class="pl-c1">0.7</span>, <span class="pl-c">// 0 to 1</span>
+        curveAmount<span class="pl-k">:</span> <span class="pl-c1">1</span>, <span class="pl-c">// 0 to 1</span>
+        algorithmIndex<span class="pl-k">:</span> <span class="pl-c1">0</span>, <span class="pl-c">// 0 to 5, selects one of our drive algorithms</span>
+        bypass<span class="pl-k">:</span> <span class="pl-c1">0</span>
+    }, {
+        type<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">"</span>Compressor<span class="pl-pds">"</span></span>,
+        threshold<span class="pl-k">:</span> <span class="pl-c1">0.5</span>, <span class="pl-c">// -100 to 0</span>
+        makeupGain<span class="pl-k">:</span> <span class="pl-c1">1</span>, <span class="pl-c">// 0 and up</span>
+        attack<span class="pl-k">:</span> <span class="pl-c1">1</span>, <span class="pl-c">// 0 to 1000</span>
+        release<span class="pl-k">:</span> <span class="pl-c1">0</span>, <span class="pl-c">// 0 to 3000</span>
+        ratio<span class="pl-k">:</span> <span class="pl-c1">4</span>, <span class="pl-c">// 1 to 20</span>
+        knee<span class="pl-k">:</span> <span class="pl-c1">5</span>, <span class="pl-c">// 0 to 40</span>
+        automakeup<span class="pl-k">:</span> <span class="pl-c1">true</span>, <span class="pl-c">// true/false</span>
+        bypass<span class="pl-k">:</span> <span class="pl-c1">0</span>
+    }, {
+        type<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">"</span>Convolver<span class="pl-pds">"</span></span>,
+        highCut<span class="pl-k">:</span> <span class="pl-c1">22050</span>, <span class="pl-c">// 20 to 22050</span>
+        lowCut<span class="pl-k">:</span> <span class="pl-c1">20</span>, <span class="pl-c">// 20 to 22050</span>
+        dryLevel<span class="pl-k">:</span> <span class="pl-c1">1</span>, <span class="pl-c">// 0 to 1+</span>
+        wetLevel<span class="pl-k">:</span> <span class="pl-c1">1</span>, <span class="pl-c">// 0 to 1+</span>
+        level<span class="pl-k">:</span> <span class="pl-c1">1</span>, <span class="pl-c">// 0 to 1+, adjusts total output of both wet and dry</span>
+        impulse<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">"</span>./inc/tuna/impulses/impulse_rev.wav<span class="pl-pds">"</span></span>, <span class="pl-c">// the path to your impulse response</span>
+        bypass<span class="pl-k">:</span> <span class="pl-c1">0</span>
+    }, {
+        type<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">"</span>Filter<span class="pl-pds">"</span></span>,
+        frequency<span class="pl-k">:</span> <span class="pl-c1">20</span>, <span class="pl-c">// 20 to 22050</span>
+        Q<span class="pl-k">:</span> <span class="pl-c1">1</span>, <span class="pl-c">// 0.001 to 100</span>
+        gain<span class="pl-k">:</span> <span class="pl-c1">0</span>, <span class="pl-c">// -40 to 40</span>
+        bypass<span class="pl-k">:</span> <span class="pl-c1">1</span>, <span class="pl-c">// 0 to 1+</span>
+        filterType<span class="pl-k">:</span> <span class="pl-c1">0</span> <span class="pl-c">// 0 to 7, corresponds to the filter types in the native filter node: lowpass, highpass, bandpass, lowshelf, highshelf, peaking, notch, allpass in that order</span>
+    }, {
+        type<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">"</span>Cabinet<span class="pl-pds">"</span></span>,
+        makeupGain<span class="pl-k">:</span> <span class="pl-c1">1</span>, <span class="pl-c">// 0 to 20</span>
+        impulsePath<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">"</span>./inc/tuna/impulses/impulse_guitar.wav<span class="pl-pds">"</span></span>, <span class="pl-c">// path to your speaker impulse</span>
+        bypass<span class="pl-k">:</span> <span class="pl-c1">0</span>
+    }, {
+        type<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">"</span>Tremolo<span class="pl-pds">"</span></span>,
+        intensity<span class="pl-k">:</span> <span class="pl-c1">0.3</span>, <span class="pl-c">// 0 to 1</span>
+        rate<span class="pl-k">:</span> <span class="pl-c1">0.1</span>, <span class="pl-c">// 0.001 to 8</span>
+        stereoPhase<span class="pl-k">:</span> <span class="pl-c1">0</span>, <span class="pl-c">// 0 to 180</span>
+        bypass<span class="pl-k">:</span> <span class="pl-c1">0</span>
+    }, {
+        type<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">"</span>WahWah<span class="pl-pds">"</span></span>,
+        automode<span class="pl-k">:</span> <span class="pl-c1">true</span>, <span class="pl-c">// true/false</span>
+        baseFrequency<span class="pl-k">:</span> <span class="pl-c1">0.5</span>, <span class="pl-c">// 0 to 1</span>
+        excursionOctaves<span class="pl-k">:</span> <span class="pl-c1">2</span>, <span class="pl-c">// 1 to 6</span>
+        sweep<span class="pl-k">:</span> <span class="pl-c1">0.2</span>, <span class="pl-c">// 0 to 1</span>
+        resonance<span class="pl-k">:</span> <span class="pl-c1">10</span>, <span class="pl-c">// 1 to 100</span>
+        sensitivity<span class="pl-k">:</span> <span class="pl-c1">0.5</span>, <span class="pl-c">// -1 to 1</span>
+        bypass<span class="pl-k">:</span> <span class="pl-c1">0</span>
+    }
+]);</pre></div>
+
+<h2><a id="user-content-libraries" class="anchor" href="#libraries" aria-hidden="true"><span class="octicon octicon-link"></span></a>Libraries</h2>
+
+<ul>
+<li><a href="/mudcube/MIDI.js/blob/master/examples/inc/colorspace.js">colorspace.js</a>: Color conversions, music isn’t complete without!
+<pre>Color.Space(0xff0000, "HEX&gt;RGB&gt;HSL");</pre></li>
+<li><a href="/mudcube/MIDI.js/blob/master/js/util/dom_request_script.js">dom_request_script.js</a>: Loads scripts in synchronously, or asynchronously.
+<pre>DOMLoader.script.add(src, onsuccess);</pre></li>
+<li><a href="/mudcube/MIDI.js/blob/master/js/util/dom_request_xhr.js">dom_request_xhr.js</a>: Cross-browser XMLHttpd request.
+<pre>DOMLoader.sendRequest(src, onsuccess);</pre></li>
+<li><a href="/mudcube/MIDI.js/blob/master/js/midi/synesthesia.js">synesthesia.js</a>: Note-to-color mappings (from Isaac Newton onwards).</li>
+</ul>
+
+<h3><a id="user-content-many-thanks-to-the-authors-of-these-libraries" class="anchor" href="#many-thanks-to-the-authors-of-these-libraries" aria-hidden="true"><span class="octicon octicon-link"></span></a>Many thanks to the authors of these libraries</h3>
+
+<ul>
+<li><a href="http://webaudio.github.io/web-midi-api/">Web MIDI API</a>: W3C proposal by Jussi Kalliokoski &amp; Chris Wilson</li>
+<li><a href="https://dvcs.w3.org/hg/audio/raw-file/tip/webaudio/specification.html">Web Audio API</a>: W3C proposal by Chris Rogers</li>
+<li><a href="http://dev.w3.org/html5/spec/Overview.html">&lt;audio&gt;</a>: HTML5 specs</li>
+<li>Flash package: <a href="http://www.schillmania.com/projects/soundmanager2/">SoundManager2</a> by <a href="http://schillmania.com">Scott Schiller</a></li>
+<li><a href="https://github.com/gasman/jasmid">jasmid</a>: Reads MIDI file byte-code, and translats into a Javascript array.</li>
+<li><a href="http://blog.danguer.com/2011/10/24/base64-binary-decoding-in-javascript/">base642binary.js</a>: Cleans up XML base64-requests for Web Audio API.</li>
+</ul>
+</article>
+  </div>
+
+
+        </div>
+
+      </div><!-- /.repo-container -->
+      <div class="modal-backdrop"></div>
+    </div><!-- /.container -->
+  </div><!-- /.site -->
+
+
+    </div><!-- /.wrapper -->
+
+      <div class="container">
+  <div class="site-footer" role="contentinfo">
+    <ul class="site-footer-links right">
+        <li><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+      <li><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
+      <li><a href="https://shop.github.com" data-ga-click="Footer, go to shop, text:shop">Shop</a></li>
+        <li><a href="https://github.com/blog" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a href="https://github.com/about" data-ga-click="Footer, go to about, text:about">About</a></li>
+      <li><a href="https://help.github.com" data-ga-click="Footer, go to help, text:help">Help</a></li>
+
+    </ul>
+
+    <a href="https://github.com" aria-label="Homepage">
+      <span class="mega-octicon octicon-mark-github" title="GitHub"></span>
+</a>
+    <ul class="site-footer-links">
+      <li>&copy; 2015 <span title="0.03939s from github-fe137-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
+        <li><a href="https://github.com/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
+        <li><a href="https://github.com/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
+        <li><a href="https://github.com/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li><a href="https://github.com/contact" data-ga-click="Footer, go to contact, text:contact">Contact</a></li>
+    </ul>
+  </div>
+</div>
+
+
+    <div class="fullscreen-overlay js-fullscreen-overlay" id="fullscreen_overlay">
+  <div class="fullscreen-container js-suggester-container">
+    <div class="textarea-wrap">
+      <textarea name="fullscreen-contents" id="fullscreen-contents" class="fullscreen-contents js-fullscreen-contents" placeholder=""></textarea>
+      <div class="suggester-container">
+        <div class="suggester fullscreen-suggester js-suggester js-navigation-container"></div>
+      </div>
+    </div>
+  </div>
+  <div class="fullscreen-sidebar">
+    <a href="#" class="exit-fullscreen js-exit-fullscreen tooltipped tooltipped-w" aria-label="Exit Zen Mode">
+      <span class="mega-octicon octicon-screen-normal"></span>
+    </a>
+    <a href="#" class="theme-switcher js-theme-switcher tooltipped tooltipped-w"
+      aria-label="Switch themes">
+      <span class="octicon octicon-color-mode"></span>
+    </a>
+  </div>
+</div>
+
+
+
+    
+    
+
+    <div id="ajax-error-message" class="flash flash-error">
+      <span class="octicon octicon-alert"></span>
+      <a href="#" class="octicon octicon-x flash-close js-ajax-error-dismiss" aria-label="Dismiss error"></a>
+      Something went wrong with that request. Please try again.
+    </div>
+
+
+      <script crossorigin="anonymous" src="https://assets-cdn.github.com/assets/frameworks-dea2e78f4b34a1f3429ade94f98bd25fad6bbe8d28635a93d9caeb68e3c2d258.js"></script>
+      <script async="async" crossorigin="anonymous" src="https://assets-cdn.github.com/assets/github/index-f2bb67dd64e6f69f40f179e8bdddd466056de1bf6e2e88b013c8367c41ad703d.js"></script>
+      
+      
+  </body>
+</html>
+
