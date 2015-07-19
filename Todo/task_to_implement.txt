@@ -1,0 +1,28 @@
+// here are some basic tasks need to be 
+// implemented using ants strategy 
+
+1. translate one english book to Chinese 
+
+
+2. simulate a circuit running status for ten minutes 
+
+
+3. ant-git simulate for ten commits and ten revert and ten reset and ten checkout  
+
+
+4. pencil-sketch teaching teacher 
+
+
+5. auto-answer simple level 
+
+
+6. lisp-programs colllecter  (up to 100 pieces ) 
+
+
+7.  regex tool (simple one )
+
+
+8.  
+
+
+9. 

@@ -1,0 +1,1 @@
+// free to make reference from the Dojo or prototype Javascript framework 

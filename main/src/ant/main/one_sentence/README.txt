@@ -1,0 +1,1 @@
+// provides one good sentence everyday 

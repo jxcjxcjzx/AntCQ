@@ -1,0 +1,27 @@
+Full list of features
+
+Free and Open-source
+Very simple installation
+Works in any modern browser
+Server is deployable on any platform
+Can be built to run entirely in-browser without any server
+Dependency-free JavaScript frontend
+Easy to use APIs
+Customizable and easy to extend with custom code and modules etc.
+Virtual File System - Store your files across many different storage/cloud providers
+Desktop and Window Manager built to feel familiar to most users
+Drag-and-drop between applications
+Supports sessions so you can reload workspaces on any computer
+Localization and translations
+Comes with a small application suite
+Supports adding of packages via external repositories
+Comes with all the tools nesessry to build your own applications
+Client is written in Strict Mode JavaScript and uses ECMAScript 5.1 standards
+Follows industry standard style guides
+Comes with Google API Javascript Support
+Comes with Windows Live API Javascript Support
+Google Drive support
+Dropbox support
+OneDrive support
+Run native GTK+ 3.x Applications via Broadway (very experimental)
+Can be deployed using X11 to work as a full-fledged desktop solution

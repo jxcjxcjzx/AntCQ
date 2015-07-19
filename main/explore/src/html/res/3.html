@@ -1,0 +1,2598 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>凤凰资讯-凤凰网</title>
+ <meta name="keywords" content="新闻,时政,时事,评论,专题,大陆,国际,台湾,社会,香港,凤凰卫视,军事,深度,视频,图片,排行,调查" />
+  <meta name="description" content="凤凰网资讯、凤凰网新闻24小时提供大陆、台湾、香港、国际重大新闻资讯，军事、社会好玩好看，20个图集看不停，大学问、自由谈、凤凰网评提供大智慧和犀利观点。" />
+  <script>
+  	var sUserAgent = navigator.userAgent;
+  	if ((sUserAgent.match(/iPad/i))) {
+  		location = 'http://news.ifeng.com/ipad/';
+  	}
+  </script>
+  <link  rel="stylesheet" href="http://y1.ifengimg.com/css/min/basic_new_v2.css"/>
+  <link href="http://y1.ifengimg.com/9949a678442334cc/2013/1118/css.css" rel="stylesheet">
+  <script src="http://y1.ifengimg.com/BX/min/BX.1.0.1.U.js"></script>
+ <script src="http://y1.ifengimg.com/scripts/min/ifeng_common_v1.js"></script>
+  <script src="http://y0.ifengimg.com/base/jQuery/jquery-1.9.1.min.js"></script>
+  <script src="http://m0.ifengimg.com/keywords.js"></script>
+<script>var jq=jQuery.noConflict();</script>
+<script>
+var ltimeout=null;
+function classChg(){
+	document.getElementById('type_show').className="a_cl";
+	document.getElementById('selctId').style.display="block";
+}
+function classOut(){
+   if(ltimeout){
+    clearTimeout(ltimeout);
+  }
+  ltimeout = setTimeout("hideTpeshow()", 500);
+}
+ function classOver(){
+  if (ltimeout){
+    clearTimeout(ltimeout);
+  }
+}
+function hideTpeshow() {
+    document.getElementById('selctId').style.display="none";
+    document.getElementById('type_show').className="";
+ }
+function changeSearchType(obj){
+	var thisObj = jQuery(obj); 
+	var showObj = jQuery('#type_show');  
+	var nextType = thisObj.children('a').html();
+	if(nextType == '省份'){ 		
+		jQuery('#searchtype').val('p');
+		jQuery("#searchkey").val('请输入省份名称');
+		showObj.html(nextType);
+		thisObj.children('a').html('姓名');
+	} else if(nextType == '姓名'){		
+		jQuery('#searchtype').val('n');
+		jQuery("#searchkey").val('请输入人物姓名');
+		showObj.html(nextType);
+		thisObj.children('a').html('省份');
+	} else {
+	}
+	jQuery("#searchkey").css('color','#2b2b2b');
+	jQuery(".search .lb ul li").removeClass('sfhover');
+        jQuery("#type_show").removeClass('a_cl');
+        jQuery("#selctId").hide(1);
+	return false;
+}
+
+function changeShow(){ 
+	var type = jQuery('#searchtype').val();
+	var key = jQuery('#searchkey').val();
+	if(key==''){
+		if(type=='p'){
+			jQuery("#searchkey").val('请输入省份名称');
+		} else if(type=='n'){
+			jQuery("#searchkey").val('请输入人物姓名');
+		}
+		jQuery("#searchkey").css('color','#2b2b2b')
+	}
+	return false;
+}
+function checkForms(){ 
+	var searchkey =  jQuery('#searchkey').val();
+	var searchtype =  jQuery('#searchtype').val();
+	if(searchkey=='请输入人物姓名' || searchkey=='请输入省份名称' || searchkey == '' || searchkey == 'undefined'){
+		window.open('http://renwuku.news.ifeng.com');
+		return false;
+	}
+	return true;
+}
+
+</script>
+<script>
+if((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i))){ 
+    document.write('<link href="http://y2.ifengimg.com/e01ed39fc2da5d4a/2013/1023/ipo.css" rel="stylesheet" >'); 
+} 
+if(navigator.userAgent.match(/iPhone OS 7_/i)){
+	document.write('<link href="http://y2.ifengimg.com/e01ed39fc2da5d4a/2013/1101/iso7.css" rel="stylesheet">'); 
+}
+</script>
+</head>
+<body>
+<link rel="stylesheet" href="http://y0.ifengimg.com/9949a678442334cc/2013/1118/f.header.css" />
+<div class="h_mainNavNew cDGray" id="f-header">
+    <ul class="list_menu">
+        <li style="background:none; padding-left:2px;"><a href="http://www.ifeng.com" target="_blank">首页</a></li>
+        <li><a href="http://news.ifeng.com/" target="_blank">资讯</a></li>
+        <li><a href="http://finance.ifeng.com/" target="_blank">财经</a></li>
+        <li><a href="http://ent.ifeng.com/" target="_blank">娱乐</a></li>
+        <li><a href="http://sports.ifeng.com/" target="_blank">体育</a></li>
+        <li><a href="http://fashion.ifeng.com/" target="_blank">时尚</a></li>
+        <li><a href="http://auto.ifeng.com/" target="_blank">汽车</a></li>
+        <li><a href="http://house.ifeng.com/" target="_blank">房产</a></li>
+        <li><a href="http://tech.ifeng.com/" target="_blank">科技</a></li>
+        <li><a href="http://book.ifeng.com/" target="_blank">读书</a></li>
+        <li><a href="http://edu.ifeng.com/" target="_blank">教育</a></li>
+        <li><a href="http://culture.ifeng.com/" target="_blank">文化</a></li>
+        <li><a href="http://news.ifeng.com/history/" target="_blank">历史</a></li>
+        <li><a href="http://news.ifeng.com/mil/" target="_blank">军事</a></li>
+        <li><a href="http://blog.ifeng.com/" target="_blank">博客</a></li>
+        <li><a href="http://gongyi.ifeng.com/" target="_blank">公益</a></li>
+        <li><a href="http://fo.ifeng.com/" target="_blank">佛教</a></li>
+        <li><a href="http://phtv.ifeng.com/" target="_blank">凤凰卫视</a></li>
+    </ul>
+    <div class="morehNew" id="f-more">
+        <ul>
+            <li>
+                <a href="http://www.ifeng.com/daohang/" target="_blank">更多</a>
+                <ul id="f-more-box">
+                    <li><a href="http://v.ifeng.com/" target="_blank" title="视频">视频</a></li>
+                    <li><a href="http://fashion.ifeng.com/travel/" target="_blank" title="旅游">旅游</a></li>
+                    <li><a href="http://games.ifeng.com/" target="_blank" title="游戏">游戏</a></li>
+                    <li><a href="http://digi.ifeng.com/" target="_blank" title="数码">数码</a></li>
+                    <li><a href="http://fashion.ifeng.com/health/" target="_blank" title="健康">健康</a></li>
+                    <li><a href="http://fashion.ifeng.com/baby/" target="_blank" title="亲子">亲子</a></li>
+                    <li><a href="http://home.ifeng.com/" target="_blank" title="家居">家居</a></li>
+                    <li><a href="http://bbs.ifeng.com/" target="_blank" title="论坛">论坛</a></li>
+                    <li><a href="http://astro.ifeng.com/" target="_blank" title="星座">星座</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="login" id="f-login-none">
+        <a href="http://my.ifeng.com/?_c=register&_a=new-account" target="_blank">注册</a><a class="f-login" style="cursor:pointer;">登录</a>
+    </div>
+    <div class="login" id="f-login-detail" style="display:none;"></div>
+    <div class="h_indexLogin" id="f-login-box" style="display:none;">
+        <div class="h_close cGray2"><a class="f-login-close" style="cursor:pointer;">关闭</a></div>
+        <div class="clear"></div>
+        <form action="http://my.ifeng.com/?_c=index&_a=login" method="post" id="f-login-form" name="l_f">
+            <ul>
+                <li><label for="f-login-name">账号 </label><input name="uname" type="text" class="h_text" id="f-login-name" /></li>
+                <li><label for="f-login-pass">密码 </label><input name="pass" type="password" class="h_text" id="f-login-pass" /></li>
+                <li><input name="Submit" type="button" class="h_btn04" /></li>
+            </ul>
+            <div class="h_indexReg">没有账号？<br>
+                <a href="http://my.ifeng.com/?_c=register&_a=new-account" target="_blank">立即注册</a>
+            </div>
+            <input type="hidden" name="backurl" id="h_backurl" value="http://sports.ifeng.com/">
+        </form>
+    </div>
+</div>
+<script src="http://m1.ifengimg.com/ifeng/sources/inice_v1.js" ></script>
+<script src="http://y1.ifengimg.com/e01ed39fc2da5d4a/2013/0924/f.header.js"></script>
+<div class="col_w1000">
+  <div class="ad08">
+  
+<!--s_news_index_ad_banner_top_1000x90 2014.03.15 09:17:15-->
+<script type="text/javascript">try{aptracker.add(536);}catch(e){}</script>
+
+
+<script language="javascript" type="text/javascript">
+window.Ifeng_Sc_RichMedia_Sleep = 15;
+window.Ifeng_Sc_FloatMedia_A_zindex = 2147483647;
+window.Ifeng_Sc_FloatMedia_B_zindex = 2147483640;
+window.Ifeng_Sc_RichMedia_zindex =2147483646;
+</script>
+<div id="Ap536" style="display:none;">
+<!--17806,1281,黄娟,B1--><code>
+<!--BOF
+<script type="text/javascript">
+var a = 'http://dol.deliver.ifeng.com/c?cb82d9d95MluuVuLEVCrlk7CiF1N5piUjVsuTNmWaw1nose1ZFLj3o8Fdzc7lfNp6El8jKA28EWCfPS5I6aEhPDx+ifnh1cbwdla4D+brMspHn1ueWGDFl71orgKLc/BQCbHp4v2PZDjcKGcrxzlwAVSvpBJWOamtNvTifFq9ftLlFHXhQ8dTSHK24lOYbkUW6jhgOSidOBxe0gDLD8SWQJQCOmrYdqoXVWOjjiI';
+var ad = 'http://y2.ifengimg.com/mappa/2014/03/12/e3a3a0cecfd80240f3f3e4b219d7f399.jpg';
+var w = '1000';var h = '90';var isActive = 0;
+</script>
+<script type="text/javascript" src="http://h0.ifengimg.com/ifeng/sources/yingguang-20140307.js"></script>
+EOF-->
+</code>
+
+<!--13841,1281,邢钊,8--><code>
+<!--BOF
+<script>;(function(b, c) {
+    function g() {
+        var a = b.getElementById("cont-tanx-a-" + h);
+        if (5 < i && ("undefined" === typeof c.tanxssp_show)) {
+            try {
+                a.removeChild(b.getElementById("tanx-a-" + h))
+            } catch (d) {}
+            a.innerHTML = j
+        } else "undefined" !== typeof c.tanxssp_show || (i++, setTimeout(g, 100))
+    }
+    var a = b.createElement("script"),
+        d = b.getElementsByTagName("head")[0],
+        j = "\x3Ca href\x3D\x27http\x3A\x2F\x2Fredirect.simba.taobao.com\x2Frd\x3Fc\x3Dun\x26w\x3Dchannel\x26f\x3Dhttp\x253A\x252F\x252Fqin.taobao.com\x252F\x253Frefpid\x253Dmm\x5F12229823\x5F1573806\x5F8666134\x2526unid\x253D\x26k\x3D42fb32372ced8135\x26p\x3Dmm\x5F12229823\x5F1573806\x5F8666134\x27 target\x3D\x5Fblank\x3E\x3Cimg src\x3D\x27http\x3A\x2F\x2Fy1.ifengimg.com\x2F89df2be17e58f8ab\x2F2013\x2F1226\x2Ftaobaopudi\x2F1000x90.gif\x27 border\x3D0 \x2F\x3E\x3C\x2Fa\x3E",
+        i = 0,
+        h = "mm_12229823_1573806_8666134";
+    b.write("<span id='cont-tanx-a-" + h + "'><a style='display:none;' id='tanx-a-" + h + "'></a></span>");
+    (a.src = "http://p.tanx.com/ex?i=" + h, d.insertBefore(a, d.firstChild));
+    setTimeout(g, 3E3)
+})(document, window);</script>
+EOF-->
+</code>
+
+<!--0,0,NULL,fixture--><cite>
+<!--BOF
+<a href="http://dolphin.deliver.ifeng.com/c?z=ifeng&la=0&si=2&cg=1&c=1&ci=2&or=1174&l=7515&bg=7515&b=7510&u=http://renwuku.news.ifeng.com/" target="_blank"><img src="http://y0.ifengimg.com/mappa/2013/12/03/60fa817d8826a9cd1f4a983ff770eaa8.jpg" width="1000" height="90" border="0" /></a>
+EOF-->
+</cite>
+</div>
+<script language="javascript">
+new AdRotator({maxTimes : 2, identifier : 'Ap536'});
+</script>
+<!--/s_news_index_ad_banner_top_1000x90-->
+
+  </div>
+</div>
+<style>
+.h_searchDiv{width:1000px;margin:0 auto;height:35px; padding-top:25px;}
+.h_theLogo{float:left;font-size:12px}
+.h_theLogo img{float:left;}
+.h_theLogo .ad00{width:120px; margin-left:30px; float:left;}
+#h_f_logo{width:128px;height:25px;}
+.h_find{ width:300px; float:right;}
+</style>
+<div class="h_searchDiv">
+  <div class="h_theLogo">
+     <a href="http://news.ifeng.com/" target="_blank"><img src="http://y2.ifengimg.com/e01ed39fc2da5d4a/2013/1023/t_logo.gif" width="128" height="25" title="凤凰网资讯" alt="凤凰网资讯"></a>
+	 <div class="ad00">
+	  
+<!--s_news_index_130927_ad_label_pdgm 2014.03.15 09:18:39-->
+
+
+<!--0,0,NULL,fixture-->
+
+<!--/s_news_index_130927_ad_label_pdgm-->
+
+	</div> 
+     <div id="h_adpic"><script src="http://m1.ifengimg.com/sc_ifeng/js/s_news_index_ad_label_pdgm_180x25.js"></script></div>
+  </div>
+  <!--131023a begin-->
+  <div class="h_find">
+      <div class="search clearfix">
+        <form id="search_form" method="get" action="http://search.ifeng.com/sofeng/search.action" target="_blank">
+        <div class="lb" id="searchFormOption">
+         <ul class="u_bg" >
+           <li><a id="loginUl" onclick="header_search.show_option()" onmouseout="header_search.out_option()" onmouseover="header_search.over_option()"  style="cursor: default;">站内</a>
+              <ul id="loginFldselectop" onmouseout="header_search.out_option()" onmouseover="header_search.over_option()">
+                <li id="ra1"><a onclick="header_search.select_option('站内')">站内</a></li>
+                <li id="ra2"><a onclick="header_search.select_option('站外')">站外</a></li>
+                <li id="ra3"><a onclick="header_search.select_option('证券')">证券</a></li>
+                <li id="ra4"><a onclick="header_search.select_option('汽车')">汽车</a></li>
+                <li id="ra0"><a onclick="header_search.select_option('视频')">视频</a></li>
+              </ul>
+           </li>
+         </ul>
+        </div>
+        <div class="t_btn clearfix">
+         <div class="text_bg"  id="suggest_list">  
+		 <input id="keyword" type="text" name="q" value="" class="text01" autocomplete="off" onclick="header_search.clean_default(this.value)" onblur="header_search.set_default(this.value)" />
+		<input id="param1" type="hidden" name="c" value="1" />
+        <input id="param2" type="hidden" name="" value="" disabled="disabled" />
+		</div>
+         <div class="btn_bg"><input name="" type="submit"  id="btnSearch1" class="btn01" value=""/></div>
+        </div>
+        </form>
+	<script  src="http://y1.ifengimg.com/38716b164e0f5e63/2014/0302/newSearch.js"></script>
+      </div>	  
+  </div>
+  <!--131023a end-->
+</div>
+<!--头部 end-->
+<!--导航 begin-->
+<div class="col_wbf bg01" id="col_wbf">
+  <div class="col_w1000">
+    <div class="col_nav">
+  <ul class="clearfix">
+	<li class="pa01"><a href="http://news.ifeng.com/" target="_blank" title="资讯首页">资讯首页</a></li>
+	<li><a href="http://news.ifeng.com/rt-channel/rtlist_0/index.shtml" target="_blank" title="即时">即时</a></li>
+	<li><a href="http://news.ifeng.com/mainland/" target="_blank" title="大陆">大陆</a></li>
+	<li><a href="http://news.ifeng.com/world/" target="_blank" title="国际">国际</a></li>
+	<li><a href="http://news.ifeng.com/taiwan/" target="_blank" title="台湾">台湾</a></li>
+	<li><a href="http://news.ifeng.com/hongkong/" target="_blank" title="港澳">港澳</a></li>
+	<li><a href="http://news.ifeng.com/mil/" target="_blank" title="军事">军事</a></li>
+	<li><a href="http://news.ifeng.com/society/" target="_blank" title="社会">社会</a></li>
+	<li><a href="http://news.ifeng.com/photo/being/#tag" target="_blank" title="图片">图片</a></li>
+	<li><a href="http://news.ifeng.com/opinion/" target="_blank" title="评论">评论</a></li>
+	<li><a href="http://news.ifeng.com/shendu/" target="_blank" title="深度">深度</a></li>
+	<li><a href="http://news.ifeng.com/history/" target="_blank" title="历史">历史</a></li>
+	<li><a href="http://culture.ifeng.com/" target="_blank" title="文化">文化</a></li>
+	<li><a href="http://news.ifeng.com/special/" target="_blank" title="专题">专题</a></li>
+	<li><a href="http://news.ifeng.com/hotnews/" target="_blank" title="排行">排行</a></li>
+  </ul>
+</div>
+    <div class="col_subnav">
+  <ul class="clearfix">
+	<li><a href="http://dxw.ifeng.com/" target="_blank" title="大学问">大学问</a></li>
+
+	<li><a href="http://news.ifeng.com/opinion/special/list_0/1.shtml" target="_blank" title="自由谈">自由谈</a></li>
+		<li><a href="http://news.ifeng.com/photo/zairenjian/list_0/0.shtml" target="_blank" title="在人间">在人间</a></li>
+	<li><a href="http://news.ifeng.com/photo/weeklypicture/list_0/0.shtml" target="_blank" title="一周图片">一周图片</a></li>
+
+<li><a href="http://news.ifeng.com/society/yiwen/list_0/0.shtml" target="_blank" title="异闻录">异闻录</a></li>
+
+	<li><a href="http://renwuku.news.ifeng.com/" target="_blank" title="中国高官">中国高官</a></li>
+
+
+  </ul>
+</div>
+  </div>
+</div>
+<!--导航 end-->
+<!--第一屏 begin-->
+<div class="col_w1000 mt01 clearfix">
+  <div class="col_l">
+   <div class="box_01">
+<div class="box_hots">
+
+<h2> <a  href="http://news.ifeng.com/mainland/detail_2014_03/15/34799156_0.shtml" target="_blank" title="习近平担任中央军委深化改革领导小组组长 ">习近平担任中央军委深化改革领导小组组长 </a></h2>
+
+<h3> <a href="http://news.ifeng.com/mainland/special/xijinpingfangou/content-3/detail_2014_03/15/34787592_0.shtml" target="_blank" title="中国元首40年来首访欧盟总部">中国元首40年来首访欧盟总部</a>|<a href="http://news.ifeng.com/shendu/jjgcb/detail_2014_03/15/34792735_0.shtml" target="_blank" title="李克强答卷">李克强答卷</a></h3>
+
+<h3> <a href="http://news.ifeng.com/mainland/special/2014lianghui/content-2/detail_2014_03/15/34792653_0.shtml" target="_blank" title="李克强：简政放权开弓哪有回头箭">李克强：简政放权开弓哪有回头箭</a>|<a href="http://news.ifeng.com/mainland/special/2014lianghui/content-2/detail_2014_03/15/34792630_0.shtml" target="_blank" title="底气和信心">底气和信心</a></h3>
+
+</div>
+
+
+
+<div class="box_hots">
+
+<h2> <a  href="http://news.ifeng.com/world/special/malaixiyakejishilian/content-4/detail_2014_03/15/34802082_0.shtml" target="_blank" title="马来西亚公布MH370最后已知的可能位置">马来西亚公布MH370最后已知的可能位置</a></h2>
+
+<h3> <a href="http://news.ifeng.com/world/special/malaixiyakejishilian/content-5/detail_2014_03/15/34795932_0.shtml" target="_blank" title="最离奇的失踪—MH370上究竟发生了些什么">最离奇的失踪—MH370上究竟发生了些什么</a>|<a href="http://news.ifeng.com/world/special/malaixiyakejishilian/" target="_blank" title="马航客机失联">专题</a></h3>
+
+
+<h3> <a href="http://news.ifeng.com/mil/forum/duanping/detail_2014_03/15/34802393_0.shtml" target="_blank" title="MH370飞印度洋需过美印两道雷达防线">MH370飞印度洋需过美印两道雷达防线</a>|<a href="http://news.ifeng.com/world/special/malaixiyakejishilian/content-4/detail_2014_03/15/34802914_0.shtml" target="_blank" title="马方披露MH370失联过程详情">越南停止搜寻</a></h3>
+
+</div>
+
+
+
+
+
+<div class="box_hots">
+
+<h2> <a  href="http://news.ifeng.com/world/detail_2014_03/14/34783689_0.shtml" target="_blank" title="中央巡视组将巡视京津等10处 专项巡视复旦大学等
+">中央巡视组将巡视京津等10省份和新疆兵团</a></h2>
+
+
+<h3> <a href="http://news.ifeng.com/mainland/special/zhongyangxunshizu/content-3/detail_2014_03/02/34326827_0.shtml" target="_blank" title="中央第2轮巡视10个巡视点中8个发现干部贪腐行为">中央第2轮巡视10个巡视点中8个发现干部贪腐行为
+</a>
+</h3>
+
+<h3><a href="http://news.ifeng.com/mainland/special/zhongyangxunshizu/content-3/detail_2014_02/24/34102136_0.shtml" target="_blank" title="中央首轮巡视整改报告：干部超职数配备成普遍性问题
+">中央首轮巡视整改报告：干部超职数配备成普遍性问题
+</a></h3>
+
+</div>
+<div class="box_hots">
+
+<h2> <a  href="http://news.ifeng.com/special/society/changshakansha/content-3/detail_2014_03/15/34803595_0.shtml" target="_blank" title="长沙警方通报“致5人死亡砍杀案件”调查处置情况">长沙通报“致5死砍杀案件”调查处置情况</a> </h2>
+
+
+<h3> <a  href="http://news.ifeng.com/special/society/changshakansha/content-3/detail_2014_03/14/34784344_0.shtml" target="_blank" title="长沙书记看望街头砍杀事件受害者家属(图)">长沙书记看望街头砍杀事件受害者家属(图)</a> </h3>
+
+<h3> <a href="http://news.ifeng.com/mainland/detail_2014_03/15/34787416_0.shtml" target="_blank" title="长沙砍人事件目击者：行凶那伙有四五人 都是卖烤馕的">长沙砍人事件目击者：行凶者是卖烤馕的</a></h3>
+
+</div>
+
+
+
+
+ 
+  </div>
+   <div class="box_02">
+<style>
+.list_tdnews li .Function {
+float: right;width: 40px;padding: 0;}
+.list_tdnews li .Function .sys_time {
+margin: 0;font: normal 11px/24px Arial;}
+.list_tdnews li span {float: right;color: #999;font: normal 11px/24px Arial;}
+.sys_time {padding: 0 0 0 3px;height: 13px;color: #666;}
+.list_tdnews li h4 {float: left;width: 330px;font-size: 14px;font-weight: normal;overflow: hidden;height: 24px;}
+</style>
+  <div class="td_title"><img src="http://y2.ifengimg.com/e01ed39fc2da5d4a/2013/1023/td_news.gif" width="84" height="20" /><span id="todayDate">2013-08-20</span></div>
+  <script>
+    var todayDate= new Date();
+	var timenow = todayDate.getFullYear()+'-'+(todayDate.getMonth()+1)+'-'+todayDate.getDate();
+  document.getElementById("todayDate").innerHTML=timenow;
+  </script>
+  <ul class="list_tdnews">
+
+
+<li>
+<h4> <a class="sys_url" href="http://news.ifeng.com/mainland/detail_2014_03/15/34802907_0.shtml" target="_blank" title="乌鲁木齐警察训练对付斧头劈砍(图) "><b>乌鲁木齐警察训练对付斧头劈砍(图)  </b></a> </h4>
+		  <div class="Function">
+            <span class="sys_time">17:27</span>
+          </div>
+	</li>
+
+
+<li> <h4>
+<a class="sys_url" href="http://news.ifeng.com/mainland/detail_2014_03/15/34787023_0.shtml
+" target="_blank" title="周强：依法从重从快处理暴力恐怖犯罪">周强：依法从重从快处理暴力恐怖犯罪</a></h4>
+		  <div class="Function">
+            <span class="sys_time">01:31</span>
+          </div>
+	</li>
+
+<li> <h4><a class="sys_url" href="http://news.ifeng.com/society/1/detail_2014_03/15/34803935_0.shtml" target="_blank" title="海口警方：网传“6名可疑新疆人登岛”消息不实">海口警方：网传“6名可疑新疆人登岛”消息不实</a></h4>
+		  <div class="Function">
+            <span class="sys_time">19:33</span>
+          </div>
+	</li>
+
+<li> <h4><a class="sys_url" href="http://news.ifeng.com/mainland/detail_2014_03/15/34802841_0.shtml" target="_blank" title="新型护卫舰威海舰加入中国海军战斗序列 ">新型护卫舰威海舰加入中国海军战斗序列 </a></h4>
+		  <div class="Function">
+            <span class="sys_time">17:13</span>
+          </div>
+	</li>
+
+<li> <h4>
+<a class="sys_url"  href="http://news.ifeng.com/mainland/detail_2014_03/15/34802829_0.shtml" target="_blank"  title="千龙网等共同建立京津冀重点新闻网站协同报道机制">千龙网等共同建立京津冀重点新闻网站协同报道机制</a></h4>
+<div class="Function">
+            <span class="sys_time">17:17</span>
+          </div>
+	</li>
+
+<li> <h4> <a class="sys_url" href="http://news.ifeng.com/mainland/detail_2014_03/15/34791436_0.shtml" title="河南桐柏教师性侵学生案：县政府以没钱为由拒赔   ">河南桐柏教师性侵学生案：县政府以没钱为由拒赔</a></h4>
+		  <div class="Function">
+            <span class="sys_time">08:16</span>
+          </div>
+	</li>
+			 </ul>
+  <ul class="list_tdnews">
+
+<li>
+<h4><a class="sys_url" href="http://news.ifeng.com/society/2/detail_2014_03/15/34792948_0.shtml" target="_blank" title="女子与村干部同居被捉奸在床 丈夫盼其回家(图)"><b>女子与村干部同居被捉奸在床 丈夫盼其回家(图)</b></a>  </h4>
+		  <div class="Function">
+            <span class="sys_time">09:52</span>
+          </div>
+	</li>
+
+<li> <h4>
+<a class="sys_url"  href="http://news.ifeng.com/society/2/detail_2014_03/15/34790190_0.shtml" target="_blank"  title="大学老师另类打分法：坐教室后四排倒扣十分 
+">大学老师另类打分法：坐教室后四排倒扣十分</a></h4>
+		  <div class="Function">
+            <span class="sys_time">07:11</span>
+          </div>
+	</li>
+
+<li>
+		<h4>
+		<a class="sys_url"  href="http://news.ifeng.com/society/1/detail_2014_03/15/34795196_0.shtml" target="_blank" title="海南一男子街头扒窃85块5毛 一审获刑7个月  ">海南一男子街头扒窃85块5毛 一审获刑7个月  </a></h4>
+		  <div class="Function">
+            <span class="sys_time">12:10</span>
+          </div>
+	</li>
+
+
+<li><h4><a class="sys_url" href="http://news.ifeng.com/society/1/detail_2014_03/15/34789844_0.shtml" target="_blank" title="乌坎一村委副主任涉嫌在工程项目中受贿被拘 ">乌坎一村委副主任涉嫌在工程项目中受贿被拘</a></h4>
+		  <div class="Function">
+            <span class="sys_time">07:01</span>
+          </div>
+	</li>
+
+<li>
+		<h4>
+		<a class="sys_url"  href="http://news.ifeng.com/society/1/detail_2014_03/15/34803207_0.shtml" target="_blank" title="北京：入室盗窃团伙专选老式防盗门 涉案70余起  
+">北京：入室盗窃团伙专选老式防盗门 涉案70余起 </a></h4>
+		  <div class="Function">
+            <span class="sys_time">17:57</span>
+          </div>
+	</li>
+<li>
+<h4><a class="sys_url" href="http://news.ifeng.com/society/1/detail_2014_03/15/34794203_0.shtml" target="_blank" title="陕西咸阳破获一盗掘战国秦墓案 ">陕西咸阳破获一盗掘战国秦墓案 </a></h4>
+		  <div class="Function">
+            <span class="sys_time">11:03</span>
+          </div>
+	</li>
+
+
+
+
+
+  </ul>
+ <ul class="list_tdnews bbn">
+
+<li>
+		<h4>
+		<a class="sys_url"  href="http://news.ifeng.com/world/special/wukelanshiwei/content-3/detail_2014_03/15/34804829_0.shtml" target="_blank" title="安理会未通过有关乌克兰问题决议草案
+"><b>安理会未通过有关乌克兰问题决议草案
+</b></a></h4>
+		  <div class="Function">
+            <span class="sys_time">23:33</span>
+          </div>
+	</li>
+
+<li> <h4>
+		<a class="sys_url" href="http://news.ifeng.com/world/special/wukelanshiwei/content-3/detail_2014_03/15/34792840_0.shtml" target="_blank" title="美国否认无人侦察机在克里米亚被俄罗斯截获">美国否认无人侦察机在克里米亚被俄罗斯截获</a></h4>
+		  <div class="Function">
+            <span class="sys_time">09:42</span>
+          </div>
+	</li>
+
+<li><h4>
+		<a class="sys_url" href="http://news.ifeng.com/world/detail_2014_03/15/34795719_0.shtml" target="_blank" title="一架东京飞台北航班起飞后发动机停止 迫降成功">一架东京飞台北航班起飞后发动机停止 迫降成功</a></h4>
+		  <div class="Function">
+            <span class="sys_time">12:59</span>
+          </div>
+	</li>
+
+<li> <h4><a class="sys_url" href="http://news.ifeng.com/world/detail_2014_03/15/34794971_0.shtml" target="_blank" title="美国高中生付钱希望停止播放贾斯汀·比伯成名曲 
+">美国高中生付钱希望停止播放贾斯汀·比伯成名曲</a> </h4>
+		  <div class="Function">
+            <span class="sys_time">12:09</span>
+          </div>
+	</li>
+
+<li> <h4>
+		<a class="sys_url"  href="http://news.ifeng.com/world/detail_2014_03/15/34793602_0.shtml" target="_blank" title="法国巴黎遭严重雾霾袭击 公交免费三天应对(图) ">法国巴黎遭严重雾霾袭击 公交免费三天应对(图) </a></h4>
+		  <div class="Function">
+            <span class="sys_time">10:19</span>
+          </div>
+	</li>
+
+<li id="todayNewsAd"><h4>
+		<a class="sys_url" href="http://innovation.ifeng.com/picture/detail_2013_11/07/1430538_0.shtml" target="_blank" title="英微观摄影大赛展示神奇大自然(组图)">英微观摄影大赛展示神奇大自然(组图)</a>
+		</h4>
+		  <div class="Function">
+            <span class="sys_time">09:55</span>
+          </div>
+	</li>
+
+</ul>
+</div>
+   
+<!--s_news_index_130927_ad_jryw16 2014.03.15 09:18:40-->
+
+
+<!--0,0,NULL,fixture-->
+
+<!--/s_news_index_130927_ad_jryw16-->
+ 
+    <div class="box_03 mt19">
+	  
+	  <div class="title01">
+	  <h5><a href="http://news.ifeng.com/mainland/" target="_blank" title="大陆">大陆</a></h5>
+		<span>
+		
+<!--s_news_index_130927_ad_label_dlbk 2014.03.15 09:18:39-->
+
+
+<!--0,0,NULL,fixture-->
+
+<!--/s_news_index_130927_ad_label_dlbk-->
+
+	    </span>
+		</div>
+	  <div class="pictxt">
+<dl class="clearfix">
+  <dt><a href="http://news.ifeng.com/society/2/detail_2014_03/15/34792922_0.shtml" target="_blank" title="广州：小偷被抓大喊“有人砍人” 市民四散奔逃">
+  <img src="http://y2.ifengimg.com/f04c9b92453d105f/2014/0315/xes_3be5ef66023a955d84b8e954a377e284.jpg"
+ title="广州：小偷被抓大喊“有人砍人” 市民四散奔逃" alt="广州：小偷被抓大喊“有人砍人” 市民四散奔逃"></a></dt>
+  <dd><h6><a href="http://news.ifeng.com/society/2/detail_2014_03/15/34792922_0.shtml" target="_blank" title="广州：小偷被抓大喊“有人砍人” 市民四散奔逃">广州：小偷被抓大喊“有人砍人” 市民四散奔逃</a></h6></dd>
+</dl>
+<p>【小偷一句话引起恐慌】广州警方刚刚通报：今天（3月15日）上午8时30分许，在广州沙河大街某服装城的保安员<span>[<a href="http://news.ifeng.com/society/2/detail_2014_03/15/34792922_0.shtml" target="_blank">详细</a>]</span></p>
+</div>
+      <ul class="list01">
+<li><a href="http://news.ifeng.com/mainland/detail_2014_03/15/34802907_0.shtml" target="_blank" title="乌鲁木齐警察训练对付斧头劈砍(组图)">乌鲁木齐警察训练对付斧头劈砍(组图)</a></li>
+<li><a href="http://news.ifeng.com/mainland/detail_2014_03/15/34802841_0.shtml" target="_blank" title="新型护卫舰威海舰加入中国海军战斗序列">新型护卫舰威海舰加入中国海军战斗序列</a></li>
+<li><a href="http://news.ifeng.com/mainland/detail_2014_03/15/34802395_0.shtml" target="_blank" title="吉林幼儿园涉给幼儿服用病毒灵：孩子用后腿痛皮肤痒">吉林幼儿园涉给幼儿服用病毒灵：孩子用后腿痛皮肤痒</a></li>
+<li><a href="http://news.ifeng.com/mainland/detail_2014_03/15/34801558_0.shtml" target="_blank" title="北京今日气温突破20℃ 未来三天气温均高位运行">北京今日气温突破20℃ 未来三天气温均高位运行</a></li>
+<li><a href="http://news.ifeng.com/mainland/detail_2014_03/15/34799156_0.shtml" target="_blank" title="习近平担任中央军委深化国防和军队改革领导小组组长">习近平担任中央军委深化国防和军队改革领导小组组长</a></li>
+<li><a href="http://news.ifeng.com/mainland/detail_2014_03/15/34795769_0.shtml" target="_blank" title="吉林一幼儿园涉嫌给幼儿服“病毒灵” 嫌疑人已被控制">吉林一幼儿园涉嫌给幼儿服“病毒灵” 嫌疑人已被控制</a></li>
+<li><a href="http://news.ifeng.com/mainland/detail_2014_03/15/34795416_0.shtml" target="_blank" title="昆明原国企员工堵工厂大门质疑其改制及经营">昆明原国企员工堵工厂大门质疑其改制及经营</a></li>
+<li><a href="http://news.ifeng.com/mainland/detail_2014_03/15/34794420_0.shtml" target="_blank" title="陕西全省排查幼儿服用预防性药品">陕西全省排查幼儿服用预防性药品</a></li>
+<li><a href="http://news.ifeng.com/mainland/detail_2014_03/15/34794392_0.shtml" target="_blank" title="《新消法》七亮点解读：非现场购物有后悔权">《新消法》七亮点解读：非现场购物有后悔权</a></li>
+<li><a href="http://news.ifeng.com/mainland/detail_2014_03/15/34789693_0.shtml" target="_blank" title="吉林被爆也有幼儿园给孩子乱喂药 警方介入调查">吉林被爆也有幼儿园给孩子乱喂药 警方介入调查</a></li>
+</ul>
+      <div class="more"><a href="http://news.ifeng.com/mainland/" target="_blank" title="进入大陆频道">进入大陆频道</a></div>
+    </div>
+  </div>
+  <div class="col_m">
+    <div class="box_05">
+    <div class="pictxt00 mb004">
+   <div class="pic">
+	<span><a href="http://news.ifeng.com/photo/hdsociety/detail_2014_03/15/34793478_0.shtml#p=1" target="_blank" title="广州人群逃散事件">&nbsp;</a></span>
+	<a href="http://news.ifeng.com/photo/hdsociety/detail_2014_03/15/34793478_0.shtml#p=1" target="_blank" title="广州人群逃散事件">
+	<img src="http://y3.ifengimg.com/1eafea81d5793b71/2014/0315/rdn_5323c44eab5d2.jpg" width="240" height="160" title="广州人群逃散事件" alt="广州人群逃散事件"></a>
+  </div>
+  <div class="txt01"><a href="http://news.ifeng.com/photo/hdsociety/detail_2014_03/15/34793478_0.shtml#p=1" target="_blank" title="广州人群逃散事件">广州人群逃散事件</a></div>
+  <div class="txt02">[全景社会] <span>11:10</span></div>
+ </div>
+    <div class="pictxt00 mb004">
+   <div class="pic">
+	<span><a href="http://news.ifeng.com/photo/hdsociety/detail_2014_03/15/34794154_0.shtml#p=1" target="_blank" title="台湾著名发型师与女友疑死于纵火">&nbsp;</a></span>
+	<a href="http://news.ifeng.com/photo/hdsociety/detail_2014_03/15/34794154_0.shtml#p=1" target="_blank" title="台湾著名发型师与女友疑死于纵火">
+	<img src="http://y2.ifengimg.com/1eafea81d5793b71/2014/0315/rdn_5323c46a29340.jpg" width="240" height="160" title="台湾著名发型师与女友疑死于纵火" alt="台湾著名发型师与女友疑死于纵火"></a>
+  </div>
+  <div class="txt01"><a href="http://news.ifeng.com/photo/hdsociety/detail_2014_03/15/34794154_0.shtml#p=1" target="_blank" title="台湾著名发型师与女友疑死于纵火">台湾著名发型师与女友疑死于纵火</a></div>
+  <div class="txt02">[全景社会] <span>11:09</span></div>
+ </div>
+   <div class="pictxt00 mb004"  id="picAdposition">
+   <div class="pic">
+	<span><a href="http://news.ifeng.com/photo/hdsociety/detail_2014_03/15/34791809_0.shtml#p=1" target="_blank" title="英男子“玩命”倒立">&nbsp;</a></span>
+	<a href="http://news.ifeng.com/photo/hdsociety/detail_2014_03/15/34791809_0.shtml#p=1" target="_blank" title="英男子“玩命”倒立">
+	<img src="http://y0.ifengimg.com/1eafea81d5793b71/2014/0315/rdn_5323c4eb15967.jpg" width="240" height="160" title="英男子“玩命”倒立" alt="英男子“玩命”倒立"></a>
+  </div>
+  <div class="txt01"><a href="http://news.ifeng.com/photo/hdsociety/detail_2014_03/15/34791809_0.shtml#p=1" target="_blank" title="英男子“玩命”倒立">英男子“玩命”倒立</a></div>
+  <div class="txt02">[全景社会] <span>11:11</span></div>
+ </div>
+ </div>
+	
+<!--s_news_index_130927_ad_xwt03 2014.03.15 09:18:40-->
+
+
+<!--0,0,NULL,fixture-->
+
+<!--/s_news_index_130927_ad_xwt03-->
+
+    <div class="box_05">
+    <div class="pictxt00">
+<div class="pic">
+<span><a title="美一客机起飞时出故障 机头触地" href="http://news.ifeng.com/photo/hdsociety/detail_2014_03/14/34769913_0.shtml" target="_blank">&nbsp;</a></span>
+<a href="http://news.ifeng.com/photo/hdsociety/detail_2014_03/14/34769913_0.shtml" title="美一客机起飞时出故障 机头触地" target="_blank">
+<img src="http://y0.ifengimg.com/f04c9b92453d105f/2014/0314/xes_ba9cd562fef9fe6aa2744f3b95b89843.jpg" width="240" height="160" title="美一客机起飞时出故障 机头触地" alt="美一客机起飞时出故障 机头触地"></a>
+</div>
+<div class="txt01"><a href="http://news.ifeng.com/photo/hdsociety/detail_2014_03/14/34769913_0.shtml" target="_blank" title="美一客机起飞时出故障 机头触地">美一客机起飞时出故障 机头触地</a></div>
+<div class="txt02">[全景社会] <span>09:59</span></div>
+</div>
+
+    </div>
+    <div class="ad03">
+	 
+<!--s_news_index_130927_ad_rectangle_02 2014.03.15 09:18:39-->
+<script type="text/javascript">try{aptracker.add(2710);}catch(e){}</script>
+
+
+<div id="AP2710" style="display:none;">
+<!--18125,8508,魏层层,4--><code>
+<!--BOF
+<script type="text/javascript">
+var a = 'http://dol.deliver.ifeng.com/c?cbb791385MluuVuLEVCrlk7CiF1N5piUjVsuTNmWaw1nose1ZFJUkJvduXZyoP8NlbvmntXneM4psBR2S9orrN9BU5UcWlcbwdla4D+bw/y46302AVclXClwtKpt01YWqv0huAwt0wfG8mbhA0iti1Xhj8+Y/w==';
+var ad = 'http://y0.ifengimg.com/mappa/2014/03/11/8e1e76a15b180b64bc452463286dff08.swf';
+var w = '240';var h = '400';var isActive = 0;
+</script>
+<script type="text/javascript" src="http://h0.ifengimg.com/ifeng/sources/yingguang-20140307.js"></script>
+EOF-->
+</code>
+
+<!--0,0,NULL,fixture--><cite>
+<!--BOF
+<a href="http://dolphin.deliver.ifeng.com/c?z=ifeng&la=0&si=2&cg=1&c=1&ci=2&or=1174&l=6406&bg=6406&b=6401&u=http://chaogu.ifeng.com/" target="_blank"><img src="http://y0.ifengimg.com/mappa/2014/01/23/6d1977b476d1de3199c9839bf05a9fd9.jpg" width="240" height="400" border="0" /></a>
+EOF-->
+</cite>
+</div>
+<script language="javascript">
+try{
+var defaultAdRotatorConfig = {maxTimes : 2, saleMode : "CPD"};
+new adRotatorFactory({identifier : "AP2710"});
+}catch(e){}
+</script>
+<!--/s_news_index_130927_ad_rectangle_02-->
+
+        <p>广告</p>
+	</div>	
+   <div class="box_05">
+<div class="pictxt00 mb003">
+<div class="pic">
+<span><a title="学生跪操场接受老师体罚" href="http://news.ifeng.com/photo/hdsociety/detail_2014_03/14/34768382_0.shtml" target="_blank">&nbsp;</a></span>
+<a href="http://news.ifeng.com/photo/hdsociety/detail_2014_03/14/34768382_0.shtml" title="学生跪操场接受老师体罚" target="_blank">
+<img src="http://y1.ifengimg.com/f04c9b92453d105f/2014/0314/xes_a6553652763bde22d7fbb72a69600be2.jpg" width="240" height="160" title="学生跪操场接受老师体罚" alt="学生跪操场接受老师体罚"></a>
+</div>
+<div class="txt01"><a href="http://news.ifeng.com/photo/hdsociety/detail_2014_03/14/34768382_0.shtml" target="_blank" title="学生跪操场接受老师体罚">学生跪操场接受老师体罚</a></div>
+</div>
+ 
+</div>
+  </div>
+  <div class="col_r">
+    <div class="ad01">
+		
+<!--s_news_index_130927_ad_rectangle_01 2014.03.15 09:18:39-->
+
+<div id="AP2709" style="display:none;">
+<!--17000,8507,宋斯文,B1--><code>
+<!--BOF
+<script type="text/javascript">
+var a = 'http://dolphin.deliver.ifeng.com/c?z=ifeng&la=0&si=2&cg=1&c=1&ci=2&or=2988&l=9849&bg=9849&b=9845&u=http://clk.pagechoice.net/clk/iv-6143/st-42/cr-2/oi-144070/or-2127/adv-105/pcon-0/http://www.mbmpv.com.cn/';
+var ad = 'http://y0.ifengimg.com/mappa/2014/01/16/7fc083b049daab144f07dec1b4e76c18.swf';
+var w = '300';var h = '600';var isActive = 0;
+</script>
+<script type="text/javascript" src="http://y0.ifengimg.com/ifeng/sources/130922-yingguang.js"></script>
+EOF-->
+</code>
+
+<!--17909,8507,谢婷婷,B1--><code>
+<!--BOF
+<script type="text/javascript">
+var a = 'http://dol.deliver.ifeng.com/c?5c3e7b595MluuVuLEVCrlk7CiF1N5piUjVsuTNmWaw1nose1ZFIm6oWBQ8KEtkRb2VKl3rHbCIa93S+m9/T/5zUNau3ZPFcbwdla4D+bZXg2ErovEY1Z5tI7702rsPo0b8xFvk6PG3GnIrUYRZCzCb6WoPesfqt6camAtxMOTgTYFJX7e4oB4nBxkf3esKE1CsR87XGvIK+r8Fayav6ah+7wYxNNuA9f/pMFdAfYEOsD5vSjoiL0Bs1WUIGj2K2xJkg8PoRw1bbjddClspeoxlQZSBvgvjdNyxSusvWIMqWMqvM0F+J0atv+u2cn8JrKnySS5/3bws61NyAE5dutMIDwPmAgl3OT7lLXdFfzrYtV4Y/PmP8=';
+var ad = 'http://y1.ifengimg.com/mappa/2014/03/14/936557fa57478b852443273a6b182d24.swf';
+var w = '300';var h = '600';var isActive = 0;
+</script>
+<script type="text/javascript" src="http://h0.ifengimg.com/ifeng/sources/yingguang-20140307.js"></script>
+EOF-->
+</code>
+
+<!--0,0,NULL,fixture--><cite>
+<!--BOF
+<a href="http://dolphin.deliver.ifeng.com/c?z=ifeng&la=0&si=2&cg=1&c=1&ci=2&or=1174&l=6404&bg=6404&b=6399&u=http://news.ifeng.com/app/special-api/new-list/ifeng/ifeng_client_spread/" target="_blank"><img src="http://y0.ifengimg.com/mappa/2013/11/01/7d383a6e06830ed4cf9b2bd42bb2a55f.jpg" width="300" height="600" border="0" /></a>
+EOF-->
+</cite>
+</div>
+<script language="javascript">
+try{
+var defaultAdRotatorConfig = {maxTimes : 3, saleMode : "CPD"};
+new adRotatorFactory({identifier : "AP2709"});
+}catch(e){}
+</script>
+<!--/s_news_index_130927_ad_rectangle_01-->
+
+	</div>
+	<div class="box_04 mt09">
+    <div class="title02">
+	 <h5><a href="http://dxw.ifeng.com/" target="_blank" title="大学问">大学问</a></h5>
+	<span>
+		
+<!--s_news_index_130927_ad_label_dxwbk 2014.03.15 09:18:39-->
+
+
+<!--0,0,NULL,fixture-->
+
+<!--/s_news_index_130927_ad_label_dxwbk-->
+
+	</span>
+	 </div>
+    <div class="box_04_1">
+	<div class="pictxt clearfix">
+	  <div class="pic"><a href="http://news.ifeng.com/mainland/special/2014lianghui/riji/detail_2014_03/11/34642495_0.shtml" target="_blank"><img src="http://y1.ifengimg.com/2014/03/11/09175432.gif" width="104" height="105" title="郑新立" alt="郑新立"/></a>
+<p class="p1">两会特刊</p></div>
+	  <div class="txt">
+		<p>王长江：</p>
+		<h6><a href="http://news.ifeng.com/mainland/special/2014lianghui/riji/detail_2014_03/11/34642495_0.shtml" target="_blank" title="郑新立">学术研究不应有禁区</a></h6>
+	  </div>
+	</div>
+	<p class="p0">学术研究实践中如果都统起来，变成一种声音，那不叫繁荣，相反会产生许多“南郭先生”。<span>[<a href="http://news.ifeng.com/mainland/special/2014lianghui/riji/detail_2014_03/11/34642495_0.shtml" target="_blank">详细</a>]</span></p>
+  </div>
+	</div>  
+	<div class="box_04 mt03">
+    <div class="title02">
+	<h5><a href="http://news.ifeng.com/opinion/wangping/list_0/0.shtml" target="_blank" title="凤凰网评">凤凰网评</a></h5>
+	<span>
+	
+<!--s_news_index_130927_ad_label_fhwpbk 2014.03.15 09:18:40-->
+
+
+<!--0,0,NULL,fixture-->
+
+<!--/s_news_index_130927_ad_label_fhwpbk-->
+
+	</span>
+	</div>
+    <div>
+
+<div class="box_04_2">
+<p class="p1">第118期</p>
+<h6><a href="http://news.ifeng.com/opinion/wangping/crimea1/" target="_blank" title="中国不会支持克里米亚公投独立">中国不会支持克里米亚公投独立</a></h6>
+<p class="p0">俄罗斯既不想独占乌克兰，但是也不能接受西方完全把乌克兰拿走这样一个事实。<span>[<a href="http://news.ifeng.com/opinion/wangping/crimea1/" target="_blank">详细</a>]</span></p>
+</div>
+
+<ul>
+
+<li><a href="http://news.ifeng.com/opinion/wangping/yisilanjiaoyi/" target="_blank" title="第117期：伊斯兰教义反对任何恐怖主义">第117期：伊斯兰教义反对任何恐怖主义</a></li>
+
+<li><a href="http://news.ifeng.com/opinion/wangping/ukrainejapan/" target="_blank" title="第116期：乌克兰风波：美俄对立要了日本的命">第116期：乌克兰风波：美俄对立要了日本的命</a></li>
+
+<li><a href="http://news.ifeng.com/opinion/wangping/wukelan/" target="_blank" title="第115期：乌克兰政治危机背后的经济因素解析">第115期：乌克兰政治危机背后的经济因素解析</a></li>
+
+<li><a href="http://news.ifeng.com/opinion/wangping/nidongde/" target="_blank" title="第114期：你懂的时候，我懂了">第114期：你懂的时候，我懂了</a></li>
+
+<li><a href="http://news.ifeng.com/opinion/wangping/kunmingkongbuxiji/" target="_blank" title="第113期：内地反恐斗争将进入长期化 政府应教育公众应对">第113期：反恐斗争将长期化 政府应教公众应对</a></li>
+
+</ul>
+</div>
+	</div>
+	<div class="box_04">
+    <div class="title02">
+	<h5><a href="http://news.ifeng.com/opinion/special/list_0/1.shtml" target="_blank" title="自由谈">自由谈</a></h5>
+	<span>
+	
+<!--s_news_index_130927_ad_label_zytbk 2014.03.15 09:18:40-->
+
+
+<!--0,0,NULL,fixture-->
+
+<!--/s_news_index_130927_ad_label_zytbk-->
+
+	</span>
+	</div>
+    <div>
+<div class="box_04_3">
+<div class="pictxt clearfix">
+<div class="pic"><a href="http://news.ifeng.com/opinion/special/lianggaobaogao/" target="_blank"><img src="http://y1.ifengimg.com/2014/03/14/09152632.jpg" width="120" height="80" title="司法改革：公平正义如何让民众感受到？" alt="司法改革：公平正义如何让民众感受到？"></a></div>
+<div class="txt">
+<p class="p1">第699期</p>
+<h6><a href="http://news.ifeng.com/opinion/special/lianggaobaogao/" target="_blank" title="司法改革：公平正义如何让民众感受到？">司法改革：公平正义如何让民众感受到？</a></h6>
+</div>
+</div>
+<p class="p0">一次错误的判决，有甚于十次犯罪。法官除了法律就没有别的上司。<span>[<a href="http://news.ifeng.com/opinion/special/lianggaobaogao/" target="_blank">详细</a>]</span></p>
+</div>
+
+<ul>
+
+<li><a href="http://news.ifeng.com/opinion/special/caichangongkai/" target="_blank" title="第698期 先谈财产公开，再说公务员涨薪">第698期 先谈财产公开，再说公务员涨薪</a></li>
+
+<li><a href="http://news.ifeng.com/opinion/special/xinlingjitang/" target="_blank" title="第697期 灾难面前，心灵鸡汤为何总是惹人厌？">第697期 灾难面前，心灵鸡汤为何总是惹人厌？</a></li>
+
+<li><a href="http://news.ifeng.com/opinion/special/liudongrenkou/" target="_blank" title="第696期 流动人口，你要到哪里去？">第696期 流动人口，你要到哪里去？</a></li>
+
+<li><a href="http://news.ifeng.com/opinion/special/fangjia/" target="_blank" title="第695期 “要降房价先降税”对不对？">第695期 “要降房价先降税”对不对？</a></li>
+
+<li><a href="http://news.ifeng.com/opinion/special/zhengfugongzuobaogao/" target="_blank" title="第694期 总理为何要做“政府工作报告”？">第694期 总理为何要做“政府工作报告”？</a></li>
+
+<li><a href="http://news.ifeng.com/opinion/special/wumai2014/" target="_blank" title="第693期 比雾霾更可怕的，是我们正变得麻木">第693期 比雾霾更可怕的，是我们正变得麻木</a></li>
+
+</ul>
+</div>
+	</div>
+  </div>
+</div>
+<!--第一屏 end-->
+<!--第二屏 begin-->
+<div class="col_w1000 mt07 clearfix">
+  <div class="col_l">
+    <div class="box_03">
+	<div class="title01">
+	<h5><a href="http://news.ifeng.com/world/" target="_blank" title="国际">国际</a></h5>
+	<span>
+	 
+<!--s_news_index_130927_ad_label_gjbk 2014.03.15 09:18:49-->
+
+
+<!--0,0,NULL,fixture-->
+
+<!--/s_news_index_130927_ad_label_gjbk-->
+	 
+	</span>
+       </div>
+    <div class="pictxt">
+<dl class="clearfix">
+  <dt><a href="http://news.ifeng.com/world/special/malaixiyakejishilian/content-4/detail_2014_03/15/34787559_0.shtml" target="_blank" title="美方谈失联客机搜救难度加大：从一张棋盘到足球场">
+  <img src="http://y2.ifengimg.com/f04c9b92453d105f/2014/0315/xes_b06423de05ac3d1270b907dfb3e5a8e4.jpg"
+ title="美方谈失联客机搜救难度加大：从一张棋盘到足球场" alt="美方谈失联客机搜救难度加大：从一张棋盘到足球场"></a></dt>
+  <dd><h6><a href="http://news.ifeng.com/world/special/malaixiyakejishilian/content-4/detail_2014_03/15/34787559_0.shtml" target="_blank" title="美方谈失联客机搜救难度加大：从一张棋盘到足球场">美方谈失联客机搜救难度加大：从一张棋盘到足球场</a></h6></dd>
+</dl>
+<p>美国海军第七舰队指挥官威廉说，转向印度洋搜索难度加大，仿佛是“从一张棋盘到足球场”。
+<span>[<a href="http://news.ifeng.com/world/special/malaixiyakejishilian/content-4/detail_2014_03/15/34787559_0.shtml" target="_blank">详细</a>]</span></p>
+</div>	 
+    <ul class="list01">
+<li><a href="http://news.ifeng.com/world/detail_2014_03/15/34803069_0.shtml" target="_blank" title="秘鲁南部沿海发生6.2级地震 震源深度9.9公里">秘鲁南部沿海发生6.2级地震 震源深度9.9公里</a></li>
+<li><a href="http://news.ifeng.com/world/detail_2014_03/15/34802038_0.shtml" target="_blank" title="日自民党将设直属安倍修宪机构 石破茂任负责人">日自民党将设直属安倍修宪机构 石破茂任负责人</a></li>
+<li><a href="http://news.ifeng.com/world/detail_2014_03/15/34795719_0.shtml" target="_blank" title="一架东京飞台北航班起飞后发动机停止 迫降成功">一架东京飞台北航班起飞后发动机停止 迫降成功</a></li>
+<li><a href="http://news.ifeng.com/world/detail_2014_03/15/34794971_0.shtml" target="_blank" title="美国高中生付钱希望停止播放贾斯汀·比伯成名曲">美国高中生付钱希望停止播放贾斯汀·比伯成名曲</a></li>
+<li><a href="http://news.ifeng.com/world/detail_2014_03/15/34794950_0.shtml" target="_blank" title="朝鲜画家：作品画好交给国家出售 收入全部上缴国库">朝鲜画家：作品画好交给国家出售 收入全部上缴国库</a></li>
+<li><a href="http://news.ifeng.com/world/detail_2014_03/15/34794687_0.shtml" target="_blank" title="英国一女子用微波炉烘烤猫咪 被判14周拘禁">英国一女子用微波炉烘烤猫咪 被判14周拘禁</a></li>
+<li><a href="http://news.ifeng.com/world/detail_2014_03/15/34793602_0.shtml" target="_blank" title="法国巴黎遭严重雾霾袭击 公交免费三天应对(图)">法国巴黎遭严重雾霾袭击 公交免费三天应对(图)</a></li>
+<li><a href="http://news.ifeng.com/world/detail_2014_03/15/34792518_0.shtml" target="_blank" title="奥巴马为妻女挑衣服 女店员：你本人更帅">奥巴马为妻女挑衣服 女店员：你本人更帅</a></li>
+<li><a href="http://news.ifeng.com/world/detail_2014_03/15/34789776_0.shtml" target="_blank" title="印度女子生下双头婴 医生：婴儿生存机会渺茫">印度女子生下双头婴 医生：婴儿生存机会渺茫</a></li>
+</ul>
+    <div class="more"><a href="http://news.ifeng.com/world/" target="_blank" title="进入国际频道">进入国际频道</a></div>
+    </div>
+    <div class="ad04">
+	
+<!--s_news_index_130927_ad_rectangle_03 2014.03.15 09:18:39-->
+
+<div id="AP2711" style="display:none;">
+<!--0,0,NULL,fixture--><cite>
+<!--BOF
+<a href="http://dolphin.deliver.ifeng.com/c?z=ifeng&la=0&si=2&cg=1&c=1&ci=2&or=1174&l=6408&bg=6408&b=6403&u=http://dxw.ifeng.com/" target="_blank"><img src="http://y2.ifengimg.com/mappa/2013/11/01/cc723e0e48710c4e01fb4f94d36c520e.jpg" width="400" height="200" border="0" /></a>
+EOF-->
+</cite>
+</div>
+<script language="javascript">
+try{
+var defaultAdRotatorConfig = {maxTimes : 2, saleMode : "CPD"};
+new adRotatorFactory({identifier : "AP2711"});
+}catch(e){}
+</script>
+<!--/s_news_index_130927_ad_rectangle_03-->
+
+    </div>
+    <div class="box_03 mt09">
+	 <div class="title01">
+	 <h5><a href="http://news.ifeng.com/taiwan/" target="_blank" title="台湾">台湾</a></h5>
+	 </div>
+      <div class="pictxt">
+<dl class="clearfix">
+  <dt><a href="http://news.ifeng.com/taiwan/1/detail_2014_03/15/34794385_0.shtml" target="_blank" title="蔡宣布参选党主席强调民进党要勇敢转型">
+  <img src="http://y0.ifengimg.com/f04c9b92453d105f/2014/0315/xes_4bcd9f2a1fadc33f53d477940174e4cd.jpg"
+ title="蔡宣布参选党主席强调民进党要勇敢转型" alt="蔡宣布参选党主席强调民进党要勇敢转型"></a></dt>
+  <dd><h6><a href="http://news.ifeng.com/taiwan/1/detail_2014_03/15/34794385_0.shtml" target="_blank" title="蔡宣布参选党主席强调民进党要勇敢转型">蔡宣布参选党主席强调民进党要勇敢转型</a></h6></dd>
+</dl>
+<p>蔡英文强调，她宣布参选，是希望让人民再一次地相信政党，将社会、家庭、甚至自己的希望，都放在民进党上面<span>[<a href="http://news.ifeng.com/taiwan/1/detail_2014_03/15/34794385_0.shtml" target="_blank">详细</a>]</span></p>
+</div>
+      <ul class="list01">
+<li><a href="http://news.ifeng.com/taiwan/1/detail_2014_03/15/34795217_0.shtml" target="_blank" title="国民党台中市长民调结果出炉 胡志强出线">国民党台中市长民调结果出炉 胡志强出线</a></li>
+<li><a href="http://news.ifeng.com/taiwan/1/detail_2014_03/15/34792664_0.shtml" target="_blank" title="连胜文：若当选台北市长绝对不民粹反商">连胜文：若当选台北市长绝对不民粹反商</a></li>
+<li><a href="http://news.ifeng.com/taiwan/1/detail_2014_03/15/34792395_0.shtml" target="_blank" title="蔡英文上午10点将宣布参选民进党主席">蔡英文上午10点将宣布参选民进党主席</a></li>
+<li><a href="http://news.ifeng.com/taiwan/1/detail_2014_03/15/34791846_0.shtml" target="_blank" title="金溥聪25日接任台“国安会秘书长”">金溥聪25日接任台“国安会秘书长”</a></li>
+<li><a href="http://news.ifeng.com/taiwan/3/detail_2014_03/15/34790389_0.shtml" target="_blank" title="苏贞昌两岸政策智囊：民进党不该再挑衅大陆">苏贞昌两岸政策智囊：民进党不该再挑衅大陆</a></li>
+<li><a href="http://news.ifeng.com/taiwan/2/detail_2014_03/15/34786736_0.shtml" target="_blank" title="少女称遭数名亲戚性侵 家人知情后强迫其堕胎">少女称遭数名亲戚性侵 家人知情后强迫其堕胎</a></li>
+<li><a href="http://news.ifeng.com/taiwan/1/detail_2014_03/15/34786639_0.shtml" target="_blank" title="谢系人马：“逢中必反”民进党内早知道 只是没人讲">谢系人马：“逢中必反”民进党内早知道 只是没人讲</a></li>
+<li><a href="http://news.ifeng.com/taiwan/special/2014taiwanxuanju/content-3/detail_2014_03/14/34786112_0.shtml" target="_blank" title="柯文哲：若办辩论会 只想单挑连胜文">柯文哲：若办辩论会 只想单挑连胜文</a></li>
+<li><a href="http://news.ifeng.com/taiwan/2/detail_2014_03/14/34786091_0.shtml" target="_blank" title="台高铁发生转辙器故障 1400名旅客行程延误">台高铁发生转辙器故障 1400名旅客行程延误</a></li>
+<li><a href="http://news.ifeng.com/taiwan/1/detail_2014_03/14/34786090_0.shtml" target="_blank" title="颜大和被提名出任检察总长 曾经办陈水扁家族弊案">颜大和被提名出任检察总长 曾经办陈水扁家族弊案</a></li>
+</ul>
+       <div class="more"><a href="http://news.ifeng.com/taiwan/" target="_blank" title="进入台湾频道">进入台湾频道</a></div>
+    </div>
+    <div class="box_03 mt21">
+      <div class="title01"><h5><a href="http://news.ifeng.com/hongkong/" target="_blank" title="港澳">港澳</a></h5></div>
+      <div class="pictxt">
+<dl class="clearfix">
+  <dt><a href="http://news.ifeng.com/hongkong/detail_2014_03/12/34707934_0.shtml" target="_blank" title="梁振英：全体特区立法会议员将前往上海交流">
+  <img src="http://y2.ifengimg.com/f04c9b92453d105f/2014/0314/xes_cf6a2f0c62a5e850905ffc6dbb092a33.jpg"
+ title="梁振英：全体特区立法会议员将前往上海交流" alt="梁振英：全体特区立法会议员将前往上海交流"></a></dt>
+  <dd><h6><a href="http://news.ifeng.com/hongkong/detail_2014_03/12/34707934_0.shtml" target="_blank" title="梁振英：全体特区立法会议员将前往上海交流">梁振英：全体特区立法会议员将前往上海交流</a></h6></dd>
+</dl>
+<p>梁振英今日表示，中央通知安排全体特区立法会议员前往上海进行访问交流，访问期定于4月12日至13日。<span>[<a href="http://news.ifeng.com/hongkong/detail_2014_03/12/34707934_0.shtml" target="_blank">详细</a>]</span></p>
+</div>
+      <ul class="list01">
+<li><a href="http://news.ifeng.com/hongkong/detail_2014_03/15/34800522_0.shtml" target="_blank" title="香港官员：中央政府有诚意推动香港政改">香港官员：中央政府有诚意推动香港政改</a></li>
+<li><a href="http://news.ifeng.com/hongkong/detail_2014_03/15/34796009_0.shtml" target="_blank" title="香港国际机场两客机怀疑漏油 事件很快得以解决">香港国际机场两客机怀疑漏油 事件很快得以解决</a></li>
+<li><a href="http://news.ifeng.com/hongkong/detail_2014_03/15/34795239_0.shtml" target="_blank" title="一巴基斯坦人在港假扮滑倒索赔敲诈港铁 官司败诉">一巴基斯坦人在港假扮滑倒索赔敲诈港铁 官司败诉</a></li>
+<li><a href="http://news.ifeng.com/hongkong/detail_2014_03/15/34792810_0.shtml" target="_blank" title="刘进图遇袭案在港被捕9人中再有7人获准保释">刘进图遇袭案在港被捕9人中再有7人获准保释</a></li>
+<li><a href="http://news.ifeng.com/hongkong/detail_2014_03/15/34791226_0.shtml" target="_blank" title="香港正义联盟周日发起行动表达对驱蝗不满">香港正义联盟周日发起行动表达对驱蝗不满</a></li>
+<li><a href="http://news.ifeng.com/hongkong/detail_2014_03/14/34771826_0.shtml" target="_blank" title="内地女子涉嫌在香港洗钱100亿潜逃">内地女子涉嫌在香港洗钱100亿潜逃</a></li>
+<li><a href="http://news.ifeng.com/hongkong/detail_2014_03/14/34758471_0.shtml" target="_blank" title="港澳通行证改通行卡广东或试点先行">港澳通行证改通行卡广东或试点先行</a></li>
+<li><a href="http://news.ifeng.com/hongkong/detail_2014_03/13/34750347_0.shtml" target="_blank" title="港府：访上海期间将会与中央官员讨论政改">港府：访上海期间将会与中央官员讨论政改</a></li>
+<li><a href="http://news.ifeng.com/hongkong/detail_2014_03/13/34745254_0.shtml" target="_blank" title="澳门双体船撞上码头 消息称有3人受伤">澳门双体船撞上码头 消息称有3人受伤</a></li>
+<li><a href="http://news.ifeng.com/hongkong/detail_2014_03/13/34741195_0.shtml" target="_blank" title="香港警方再拘捕两名涉刘进图遇袭案嫌犯">香港警方再拘捕两名涉刘进图遇袭案嫌犯</a></li>
+<li><a href="http://news.ifeng.com/hongkong/detail_2014_03/13/34735310_0.shtml" target="_blank" title="香港月薪1.6万港元难请洗碗工 内地人想去不易">香港月薪1.6万港元难请洗碗工 内地人想去不易</a></li>
+</ul>
+      <div class="more"><a href="http://news.ifeng.com/hongkong/" target="_blank" title="进入港澳频道">进入港澳频道</a></div>
+    </div>
+    <div class="box_03 mt27">
+      <div class="title01"><h5><a href="#" target="_blank" title="军事">军事</a></h5></div>
+      <div class="pictxt">
+<dl class="clearfix">
+  <dt><a href="http://news.ifeng.com/mil/4/detail_2014_03/15/34792546_0.shtml" target="_blank" title="美称找到中国剽窃技术新证据：新歼20改得很像F35">
+  <img src="http://y2.ifengimg.com/f04c9b92453d105f/2014/0315/xes_f813279a47f3155e3efdfc313ff4e291.jpg"
+ title="美称找到中国剽窃技术新证据：新歼20改得很像F35" alt="美称找到中国剽窃技术新证据：新歼20改得很像F35"></a></dt>
+  <dd><h6><a href="http://news.ifeng.com/mil/4/detail_2014_03/15/34792546_0.shtml" target="_blank" title="美称找到中国剽窃技术新证据：新歼20改得很像F35">美称找到中国剽窃技术新证据：新歼20改得很像F35</a></h6></dd>
+</dl>
+<p>“我们发现了中国窃取美国F-35战斗机相关技术的最新证据，因为在中国新推出的歼-20试验机上，有很多地方与F-<span>[<a href="http://news.ifeng.com/mil/4/detail_2014_03/15/34792546_0.shtml" target="_blank">详细</a>]</span></p>
+</div>
+      <ul class="list01">
+<li><a href="http://news.ifeng.com/mil/4/detail_2014_03/15/34792666_0.shtml" target="_blank" title="专家质疑飞向印度洋一说 众多雷达难道是吃素的？">专家质疑飞向印度洋一说 众多雷达难道是吃素的？</a></li>
+<li><a href="http://news.ifeng.com/mil/4/detail_2014_03/15/34792582_0.shtml" target="_blank" title="中国专家：南海问题各怀鬼胎 各送美菲一句话">中国专家：南海问题各怀鬼胎 各送美菲一句话</a></li>
+<li><a href="http://news.ifeng.com/mil/4/detail_2014_03/15/34792453_0.shtml" target="_blank" title="克里米亚公投似乎没悬念 西方谋划如何阻止普京">克里米亚公投似乎没悬念 西方谋划如何阻止普京</a></li>
+<li><a href="http://news.ifeng.com/mil/2/detail_2014_03/14/34782020_0.shtml" target="_blank" title="飞行员袁星：驾改装型歼-8 成就最年轻“金头盔”">飞行员袁星：驾改装型歼-8 成就最年轻“金头盔”</a></li>
+<li><a href="http://news.ifeng.com/mil/4/detail_2014_03/14/34780093_0.shtml" target="_blank" title="张召忠：中国卫星可测到“零下700度以上物体”">张召忠：中国卫星可测到“零下700度以上物体”</a></li>
+<li><a href="http://news.ifeng.com/mil/2/detail_2014_03/14/34775473_0.shtml" target="_blank" title="中国军人参演“金色眼镜蛇”：泰国华人套近乎">中国军人参演“金色眼镜蛇”：泰国华人套近乎</a></li>
+<li><a href="http://news.ifeng.com/mil/2/detail_2014_03/14/34774803_0.shtml" target="_blank" title="美媒曝中国理想单兵武器 榴弹含碎片杀伤力更强">美媒曝中国理想单兵武器 榴弹含碎片杀伤力更强</a></li>
+<li><a href="http://news.ifeng.com/mil/4/detail_2014_03/14/34772065_0.shtml" target="_blank" title="简氏关注：中国海军陆战队赴北方训练 极不寻常">简氏关注：中国海军陆战队赴北方训练 极不寻常</a></li>
+<li><a href="http://news.ifeng.com/mil/2/detail_2014_03/14/34769390_0.shtml" target="_blank" title="潘建伟团队建世界首个城域量子通信网 节点46个">潘建伟团队建世界首个城域量子通信网 节点46个</a></li>
+<li><a href="http://news.ifeng.com/mil/4/detail_2014_03/14/34769022_0.shtml" target="_blank" title="唐驳虎：马航失联航班MH370真的飞了5小时？">唐驳虎：马航失联航班MH370真的飞了5小时？</a></li>
+<li><a href="http://news.ifeng.com/mil/2/detail_2014_03/14/34768939_0.shtml" target="_blank" title="总设计师吴希明：直10令中国直升机整体跨越20年">总设计师吴希明：直10令中国直升机整体跨越20年</a></li>
+</ul>
+      <div class="more"><a href="http://news.ifeng.com/mil/" target="_blank" title="进入军事频道">进入军事频道</a></div>
+    </div>
+  </div>
+  <div class="col_m">
+   <div class="box_05 mt12">
+<div class="pictxt00 mb004">
+ <div class="pic">
+<span><a title="马来西亚穆斯林为失联航班祈福" href="http://news.ifeng.com/photo/hdnews/detail_2014_03/14/34765885_0.shtml" target="_blank">&nbsp;</a></span>
+<a href="http://news.ifeng.com/photo/hdnews/detail_2014_03/14/34765885_0.shtml" title="马来西亚穆斯林为失联航班祈福" target="_blank">
+<img src="http://y3.ifengimg.com/f04c9b92453d105f/2014/0314/xes_fdcc6745970a4b611e226eaded0df5d6.jpg" width="240" height="160" title="马来西亚穆斯林为失联航班祈福" alt="马来西亚穆斯林为失联航班祈福"></a>
+</div>
+<div class="txt01"><a href="http://news.ifeng.com/photo/hdnews/detail_2014_03/14/34765885_0.shtml" target="_blank" title="马来西亚穆斯林为失联航班祈福">马来西亚穆斯林为失联航班祈福</a></div>
+  <div class="txt02">[聚焦时事] <span>08:38</span></div>
+  </div>
+<div class="pictxt00 mb002">
+ <div class="pic">
+<span><a title="俄罗斯坦克现俄乌边界" href="http://news.ifeng.com/photo/hdnews/detail_2014_03/14/34762965_0.shtml" target="_blank">&nbsp;</a></span>
+<a href="http://news.ifeng.com/photo/hdnews/detail_2014_03/14/34762965_0.shtml" title="俄罗斯坦克现俄乌边界" target="_blank">
+<img src="http://y3.ifengimg.com/f04c9b92453d105f/2014/0314/xes_29ce83959996ad17c633f5ba2b4b17e9.jpg" width="240" height="160" title="俄罗斯坦克现俄乌边界" alt="俄罗斯坦克现俄乌边界"></a>
+</div>
+<div class="txt01"><a href="http://news.ifeng.com/photo/hdnews/detail_2014_03/14/34762965_0.shtml" target="_blank" title="俄罗斯坦克现俄乌边界">俄罗斯坦克现俄乌边界</a></div>
+  <div class="txt02">[聚焦时事] <span>07:29</span></div>
+  </div>
+<div class="pictxt00 mb002">
+<div class="pic pic_t">
+<span><a title="深圳警方喷“辣椒水”抓黄牛" href="http://news.ifeng.com/photo/hdsociety/detail_2014_03/13/34750060_0.shtml" target="_blank">&nbsp;</a></span>
+<a href="http://news.ifeng.com/photo/hdsociety/detail_2014_03/13/34750060_0.shtml" title="深圳警方喷“辣椒水”抓黄牛" target="_blank">
+<img src="http://y2.ifengimg.com/f04c9b92453d105f/2014/0314/xes_842981604bfff91b2cd749bfcbf7d24e.jpg" width="240" height="200" title="深圳警方喷“辣椒水”抓黄牛" alt="深圳警方喷“辣椒水”抓黄牛">
+</a>
+</div>
+<div class="txt01"><a href="http://news.ifeng.com/photo/hdsociety/detail_2014_03/13/34750060_0.shtml" target="_blank" title="深圳警方喷“辣椒水”抓黄牛">深圳警方喷“辣椒水”抓黄牛</a></div>
+  <div class="txt02">[全景社会] <span>21:57</span></div>
+  </div>
+<div class="pictxt00">
+<div class="pic">
+<span><a title="村民路遇大熊猫" href="http://news.ifeng.com/photo/hdsociety/detail_2014_03/13/34744126_0.shtml" target="_blank">&nbsp;</a></span>
+<a href="http://news.ifeng.com/photo/hdsociety/detail_2014_03/13/34744126_0.shtml" title="村民路遇大熊猫" target="_blank">
+<img src="http://y3.ifengimg.com/f04c9b92453d105f/2014/0314/xes_df1abe603f8dd257504dc668ec624477.jpg" width="240" height="160" title="村民路遇大熊猫" alt="村民路遇大熊猫"></a>
+</div>
+<div class="txt01"><a href="http://news.ifeng.com/photo/hdsociety/detail_2014_03/13/34744126_0.shtml" target="_blank" title="村民路遇大熊猫">村民路遇大熊猫</a></div>
+  <div class="txt02">[全景社会] <span>15:45</span></div>
+  </div>
+<div class="pictxt00">
+<div class="pic">
+<span><a title="北京天通苑一商场全部封锁" href="http://news.ifeng.com/photo/hdsociety/detail_2014_03/13/34740185_0.shtml" target="_blank">&nbsp;</a></span>
+<a href="http://news.ifeng.com/photo/hdsociety/detail_2014_03/13/34740185_0.shtml" title="北京天通苑一商场全部封锁" target="_blank">
+<img src="http://y2.ifengimg.com/f04c9b92453d105f/2014/0314/xes_d631fc480621740e3fbe7069b7fe1c7b.jpg" width="240" height="160" title="北京天通苑一商场全部封锁" alt="北京天通苑一商场全部封锁"></a>
+</div>
+<div class="txt01"><a href="http://news.ifeng.com/photo/hdsociety/detail_2014_03/13/34740185_0.shtml" target="_blank" title="北京天通苑一商场全部封锁">北京天通苑一商场全部封锁</a></div>
+  <div class="txt02">[全景社会] <span>14:17</span></div>
+  </div>
+<div class="pictxt00">
+<div class="pic">
+<span><a title="中国再公布一张卫星拍摄图像" href="http://news.ifeng.com/photo/hdnews/detail_2014_03/13/34739459_0.shtml" target="_blank">&nbsp;</a></span>
+<a href="http://news.ifeng.com/photo/hdnews/detail_2014_03/13/34739459_0.shtml" title="中国再公布一张卫星拍摄图像" target="_blank">
+<img src="http://y3.ifengimg.com/f04c9b92453d105f/2014/0314/xes_f441363c36602f73ceae0ab70a12da10.jpg" width="240" height="160" title="中国再公布一张卫星拍摄图像" alt="中国再公布一张卫星拍摄图像"></a>
+</div>
+<div class="txt01"><a href="http://news.ifeng.com/photo/hdnews/detail_2014_03/13/34739459_0.shtml" target="_blank" title="中国再公布一张卫星拍摄图像">中国再公布一张卫星拍摄图像</a></div>
+  <div class="txt02">[聚焦时事] <span>13:58</span></div>
+  </div>
+<div class="pictxt00">
+<div class="pic">
+<span><a title="特写:李克强总理的手势" href="http://news.ifeng.com/photo/special/2014lianghui/news/detail_2014_03/13/34735474_0.shtml" target="_blank">&nbsp;</a></span>
+<a href="http://news.ifeng.com/photo/special/2014lianghui/news/detail_2014_03/13/34735474_0.shtml" title="特写:李克强总理的手势" target="_blank">
+<img src="http://y0.ifengimg.com/f04c9b92453d105f/2014/0314/xes_3cddc3819dfa8de7d90fa34ab534e12f.jpg" width="240" height="160" title="特写:李克强总理的手势" alt="特写:李克强总理的手势"></a>
+</div>
+<div class="txt01"><a href="http://news.ifeng.com/photo/special/2014lianghui/news/detail_2014_03/13/34735474_0.shtml" target="_blank" title="特写:李克强总理的手势">特写:李克强总理的手势</a></div>
+  <div class="txt02">[2014两会] <span>11:38</span></div>
+  </div>
+ 
+</div>
+    <div class="ad02 mb03">
+	
+<!--s_news_index_130927_ad_rectangle_05 2014.03.15 09:18:39-->
+
+<div id="AP2713" style="display:none;">
+<!--18130,8514,魏层层,6--><code>
+<!--BOF
+<script type="text/javascript">
+var a = 'http://dol.deliver.ifeng.com/c?fa2096485MluuVuLEVCrlk7CiF1N5piUjVsuTNmWaw1nose1ZFKUUjLDKLTrwGTL2kf7+7+J7D78sO4CFTRpJTOU1hnPKFcbwdla4D+b9SxsvmKvwSX1wYxDZ1erhIDvZdI03dsM/P2lRUX+1U3xuEPKHHj/xhi+W2lVO4fEllmiMtYUCt0=';
+var ad = 'http://y1.ifengimg.com/mappa/2014/03/11/50d49e323d860d37a839da346563c188.jpg';
+var w = '240';var h = '160';var isActive = 0;
+</script>
+<script type="text/javascript" src="http://h0.ifengimg.com/ifeng/sources/yingguang-20140307.js"></script>
+EOF-->
+</code>
+</div>
+<script language="javascript">
+try{
+var defaultAdRotatorConfig = {maxTimes : 1, saleMode : "CPD"};
+new adRotatorFactory({identifier : "AP2713"});
+}catch(e){}
+</script>
+<!--/s_news_index_130927_ad_rectangle_05-->
+
+      <p>广告</p>
+    </div>
+    <div class="box_05">
+<div class="pictxt00">
+<div class="pic">
+<span><a title="乌克兰举行大规模军事演习" href="http://news.ifeng.com/mil/bigpicture/detail_2014_03/15/34794630_0.shtml" target="_blank">&nbsp;</a></span>
+<a href="http://news.ifeng.com/mil/bigpicture/detail_2014_03/15/34794630_0.shtml" title="乌克兰举行大规模军事演习" target="_blank">
+<img src="http://y2.ifengimg.com/f04c9b92453d105f/2014/0315/xes_32234e24c93bb5724e98d498f88c57d1.jpg" width="240" height="160" title="乌克兰举行大规模军事演习" alt="乌克兰举行大规模军事演习"></a>
+</div>
+<div class="txt01"><a href="http://news.ifeng.com/mil/pictitle/detail_2014_03/15/34794670_0.shtml" target="_blank" title="乌克兰举行大规模军事演习">乌克兰举行大规模军事演习</a></div>
+<div class="txt02">[头条图片] <span>11:42</span></div>
+</div>
+<div class="pictxt00">
+<div class="pic">
+<span><a title="陆战队与陆军王牌对抗场景曝光" href="http://news.ifeng.com/mil/bigpicture/detail_2014_03/15/34793404_0.shtml" target="_blank">&nbsp;</a></span>
+<a href="http://news.ifeng.com/mil/bigpicture/detail_2014_03/15/34793404_0.shtml" title="陆战队与陆军王牌对抗场景曝光" target="_blank">
+<img src="http://y1.ifengimg.com/f04c9b92453d105f/2014/0315/xes_c9b827d50e3b6665581d5c4d1106cb4a.jpg" width="240" height="160" title="陆战队与陆军王牌对抗场景曝光" alt="陆战队与陆军王牌对抗场景曝光"></a>
+</div>
+<div class="txt01"><a href="http://news.ifeng.com/mil/pictitle/detail_2014_03/15/34793533_0.shtml" target="_blank" title="陆战队与陆军王牌对抗场景曝光">陆战队与陆军王牌对抗场景曝光</a></div>
+<div class="txt02">[头条图片] <span>10:25</span></div>
+</div>
+ 
+</div>
+  </div>
+  <div class="col_r">
+   <div class="box_06 mt08">
+  <div class="title02"><h5><a href="http://news.ifeng.com/exclusive/elite/list_0/1.shtml" target="_blank" title="凤凰客">凤凰客</a></h5></div>
+  <div class="box_06_1">
+	  <ul class="list12" id="ul01">
+
+
+
+ <li class="current">
+
+				  <div><a href="http://news.ifeng.com/mainland/special/2014lianghui/shengyin/detail_2014_03/13/34738542_0.shtml" target="_blank"><img src="http://y1.ifengimg.com/2014/03/13/14563932.jpg" width="300" height="164" title="范徐丽泰" alt="范徐丽泰"></a></div>
+		  <p>时局观|范徐丽泰解读香港内地摩擦</p>
+		</li>
+
+
+
+   <li>
+
+
+	  <div><a href="http://news.ifeng.com/mainland/special/2014lianghui/shengyin/detail_2014_03/12/34707802_0.shtml" target="_blank"><img src="http://y0.ifengimg.com/2014/03/12/19351532.jpg" width="300" height="164" title="尹卓" alt="尹卓"></a></div>
+		  <p>专家谈|尹卓：我为何提议尽快为反恐立法</p>
+		</li>
+
+<li>
+		  <div><a href="http://news.ifeng.com/mainland/special/2014lianghui/fangtan/detail_2014_03/11/34666713_0.shtml" target="_blank"><img src="http://y0.ifengimg.com/2014/03/12/15510732.jpg" width="300" height="164" title="孟学农" alt="孟学农"></a></div>
+		  <p>时局观|孟学农：非典辞任北京市长幕后故事</p>
+		</li>
+
+
+
+<li>
+		  <div><a href="http://news.ifeng.com/mainland/special/2014lianghui/fangtan/detail_2014_03/11/34656451_0.shtml" target="_blank"><img src="http://y2.ifengimg.com/2014/03/12/00384732.jpg" width="300" height="164" title="陈锡文" alt="陈锡文"></a></div>
+		  <p>专家谈|陈锡文：大城市如何疏散人口</p>
+		</li>
+
+	 
+		
+
+	  </ul>
+	  <script>
+		var x=0;
+		 jq("#ul01 li p").each(function(i){
+			jq(this).click(function(){
+				jq(this).parent().addClass("current").siblings().removeClass("current");
+				jq("#ul01 li").eq(i).find("div").animate({"height":"164px"},400);
+				for(n=0;n<=3;n++){
+					if(jq("#ul01 li").eq(n).find("div").height()==164&&i!=n){jq("#ul01 li").eq(n).find("div").animate({"height":"0px"},400);}
+					}
+				});
+			 })
+		
+	  </script>
+	</div>
+</div>
+   <div class="box_04 mt17">
+<div class="title02"><h5>直播回顾</h5></div>
+<div class="box_04_3">
+<div class="pictxt clearfix">
+  <div class="pic"><a href="http://news.ifeng.com/mainland/special/shanxidababaozha/zhibo.shtml" target="_blank"><img src="http://y3.ifengimg.com/7b28ede2da65d6e2/2014/0116/rdn_52d75331bde1b.jpg" width="120" height="80" title="陕西蒲城大巴车爆炸案" alt="陕西蒲城大巴车爆炸案"></img></a></div>
+  <div class="txt">
+	<h6><a href="http://news.ifeng.com/mainland/special/shanxidababaozha/zhibo.shtml" target="_blank" title="陕西蒲城大巴车爆炸案">陕西蒲城大巴车爆炸案</a></h6>
+	<p class="p2">2014-01-05</p>
+  </div>
+</div>
+<p class="p0">1月5日，一辆从西安开往蒲城的大巴车在蒲城县发生爆炸，造成5人死亡、24人受伤……<span>[<a href="http://news.ifeng.com/mainland/special/shanxibaozha/zhibo.shtml" target="_blank">详细</a>]</span></p>
+</div>
+<ul class="u_z">
+
+
+<li><span>12-20</span><a href="http://news.ifeng.com/mainland/special/maozedong120/zhibo.shtml" target="_blank" title="毛泽东诞辰120周年">毛泽东诞辰120周年</a></li>
+
+<li><span>12-12</span><a href="http://news.ifeng.com/mainland/special/zhejiangfeijizhuihui/zhibo.shtml" target="_blank" title="浙江安吉一飞机坠毁">浙江安吉一飞机坠毁</a></li>
+
+<li><span>12-06</span><a href="http://news.ifeng.com/world/special/mandela/zhibo.shtml" target="_blank" title="南非前总统曼德拉逝世">南非前总统曼德拉逝世</a></li>
+
+<li><span>11-27</span><a href="http://news.ifeng.com/mainland/special/fdtoudu/zhibo.shtml" target="_blank" title="复旦研究生疑遭室友投毒死亡">复旦研究生疑遭室友投毒死亡</a></li>
+
+
+</ul>
+</div>
+   <div class="box_07 mt18">
+  <div class="title02"><h5><a href="http://renwuku.news.ifeng.com" target="_blank" title="中国政要资料库">中国政要资料库</a></h5></div>
+  <div class="search clearfix">
+	<form name="theform" action="http://renwuku.news.ifeng.com" method="get" target="_blank" onsubmit="return checkForms();">
+	<div class="lb" id="lb">
+	 <ul class="u_bg">
+	   <li><a href="javascript:void(0)" id="type_show"  onclick="classChg()" onmouseout="classOut()" onmouseover="classOver()" style="cursor: default;">姓名</a>
+		  <ul id="selctId" onmouseout="classOut()" onmouseover="classOver()">
+			<li onclick="changeSearchType(this)"><a href="javascript:void(0)">省份</a></li>
+		  </ul>
+	   </li>
+	 </ul>
+	 <input id="searchtype" type="hidden" name="t" value="n"/>
+	</div>
+	<div class="t_btn clearfix">
+	 <div class="text_bg"><input id="searchkey" type="text" name="k" value="习近平" onfocus="if (value =='习近平'){value =''}" onblur="if (value ==''){value='习近平'}" class="text01"/></div>
+	 <div class="btn_bg"><input name="" type="submit" class="btn01" value=""/></div>
+	</div>
+	</form>
+  </div>
+  <div class="rs">热搜人物：<a href="http://renwuku.news.ifeng.com/index/detail/920/wangxiaohui" target="_blank" title="王晓晖">王晓晖</a>&nbsp;&nbsp;<a href="http://renwuku.news.ifeng.com/index/detail/719/yangxiaodu" target="_blank" title="杨晓渡">杨晓渡</a></div>
+</div>
+    <div class="ad05 mt28">
+	
+<!--s_news_index_ad_hzh 2014.03.15 09:17:15-->
+<script type="text/javascript">try{aptracker.add(549);}catch(e){}</script>
+
+
+<div id="AP549" style="display:none;">
+<!--17806,7506,黄娟,B1--><code>
+<!--BOF
+<script type="text/javascript">
+var a = 'http://dol.deliver.ifeng.com/c?8510aebb5MluuVuLEVCrlk7CiF1N5piUjVsuTNmWaw1nose1ZFLj3o8Fdzc7lc2BcY1RCebh79IRtJSnK7lIOcE6wfvGvVcbwdla4D+brMspHn1ueWGDFl71orgKLc/BQCbHp4v2PZDjcKGcrxzlwAVSvpBJWOamtNvTifFq9ftLlFHXhQ8dTSHK24lOYbkUW6jhgOSidOBxe0gDLD8SWQJQCOmrYdqoXVWOjjiI';
+var ad = 'http://y0.ifengimg.com/mappa/2014/03/12/a33aa1dbd037d2a6899b9afbddc4f195.jpg';
+var w = '300';var h = '250';var isActive = 0;
+</script>
+<script type="text/javascript" src="http://h0.ifengimg.com/ifeng/sources/yingguang-20140307.js"></script>
+EOF-->
+</code>
+
+<!--0,0,NULL,fixture--><cite>
+<!--BOF
+<script type="text/javascript">
+var a = 'http://dolphin.deliver.ifeng.com/c?z=ifeng&la=0&si=2&cg=1&c=1&ci=2&or=1174&l=7516&bg=7516&b=7511&u=http://news.ifeng.com/app/special-api/new-list/ifeng/ifeng_client_spread/';
+var ad = 'http://y1.ifengimg.com/mappa/2013/11/01/0e2abb65848910780ee91c97cbd88908.jpg';
+var w = '300';var h = '250';var isActive = 0;
+</script>
+<script type="text/javascript" src="http://y0.ifengimg.com/ifeng/sources/130922-yingguang.js"></script>
+EOF-->
+</cite>
+</div>
+<script language="javascript">
+try{
+var defaultAdRotatorConfig = {maxTimes : 2, saleMode : "CPD"};
+new adRotatorFactory({identifier : "AP549"});
+}catch(e){}
+</script>
+<!--/s_news_index_ad_hzh-->
+
+    </div>
+    <div class="box_08 mt08">
+   
+<!--s_news_index_131009_ad_text01all 2014.03.15 09:18:40-->
+      <ul>
+
+<li>
+<!--0,0,NULL,fixture--><a href="http://bc.ifeng.com/main/c?db=ifeng&bid=3428,3296,729&cid=1262,45,1&sid=7939&advid=314&camid=792&show=ignore&url=http://finance.ifeng.com/" target="_blank">全球新主流财经门户</a>
+</li>
+
+
+<li>
+<!--0,0,NULL,fixture--><a href="http://bc.ifeng.com/main/c?db=ifeng&bid=3429,3297,729&cid=1262,45,1&sid=7941&advid=314&camid=792&show=ignore&url=http://data.auto.ifeng.com/price" target="_blank">最新最全的车讯信息</a>
+</li>
+
+
+<li>
+<!--0,0,NULL,fixture--><a href="http://bc.ifeng.com/main/c?db=ifeng&bid=3430,3298,729&cid=1262,45,1&sid=7943&advid=314&camid=792&show=ignore&url=http://news.ifeng.com/sports/" target="_blank">上凤凰看不同的新闻</a>
+</li>
+
+
+<li>
+<!--0,0,NULL,fixture--><a href="http://bc.ifeng.com/main/c?db=ifeng&bid=3431,3299,729&cid=1262,45,1&sid=7945&advid=314&camid=792&show=ignore&url=http://auto.ifeng.com/buycar/test/index.shtml" target="_blank">凤凰最牛的汽车评测</a>
+</li>
+
+
+<li>
+<!--0,0,NULL,fixture--><a href="http://bc.ifeng.com/main/c?db=ifeng&bid=3562,3418,729&cid=1262,45,1&sid=8220&advid=314&camid=792&show=ignore&url=http://edu.ifeng.com/official/" target="_blank">教育频道及面试攻略</a>
+</li>
+
+
+<li>
+<!--0,0,NULL,fixture--><a href="http://bc.ifeng.com/main/c?db=ifeng&bid=3564,3420,729&cid=1262,45,1&sid=8223&advid=314&camid=792&show=ignore&url=http://news.ifeng.com/" target="_blank">来凤凰网了解新资讯</a>
+</li>
+
+
+<li>
+<!--0,0,NULL,fixture--><a href="http://bc.ifeng.com/main/c?db=ifeng&bid=3565,3421,729&cid=1262,45,1&sid=8225&advid=314&camid=792&show=ignore&url=http://news.ifeng.com/mil/" target="_blank">军事最新情报来凤凰</a>
+</li>
+
+
+<li>
+<!--0,0,NULL,fixture--><a href="http://bc.ifeng.com/main/c?db=ifeng&bid=3566,3422,729&cid=1262,45,1&sid=8227&advid=314&camid=792&show=ignore&url=http://app.tech.ifeng.com/mobile/index.php" target="_blank">选手机就要上凤凰网</a>
+</li>
+
+
+<li>
+<!--0,0,NULL,fixture--><a href="http://bc.ifeng.com/main/c?db=ifeng&bid=3567,3423,729&cid=1262,45,1&sid=8229&advid=314&camid=792&show=ignore&url=http://edu.ifeng.com/official/" target="_blank">国考查分和面试攻略</a>
+</li>
+
+
+<li>
+<!--0,0,NULL,fixture--><a href="http://bc.ifeng.com/main/c?db=ifeng&bid=3568,3424,729&cid=1262,45,1&sid=8231&advid=314&camid=792&show=ignore&url=http://edu.ifeng.com/official/" target="_blank">教育频道及面试攻略</a>
+</li>
+
+      </ul>
+<!--/s_news_index_131009_ad_text01all-->
+
+    </div>
+   <div class="box_09 mt24">
+  <div class="title02" style="position:relative">
+		<h5><a href="http://v.ifeng.com/" target="_blank" title="精彩视频">精彩视频</a></h5>
+		<div style="position:absolute; top:0px; right:0px; width:80px; height:30px; text-align:right"><a href="http://v.ifeng.com/fhlbt/special/" target="_blank" style="font:normal 14px/30px 'microsoft yahei'; color:#2b2b2b">凤凰联播台</a></div>
+	</div>
+  <ul>
+          	<li class="pictxt01">
+		  <div class="pic"><a href="http://v.ifeng.com/news/world/2014003/01478372-8b78-4924-be43-5e937310ffea.shtml" target="_blank"><img src="http://y1.ifengimg.com/f3a08b5109ae154b/2014/0315/rdn_5323b37a5b75c.jpg" width="120" height="80" title="马航M370疑遭人操控 蓄意偏离航道" alt="马航M370疑遭人操控 蓄意偏离航道" /></a><a href="http://v.ifeng.com/news/world/2014003/01478372-8b78-4924-be43-5e937310ffea.shtml" target="_blank" class="video">&nbsp;</a></div>
+	  <div class="txt">
+		<h6><a href="http://v.ifeng.com/news/world/2014003/01478372-8b78-4924-be43-5e937310ffea.shtml" target="_blank" title="马航M370疑遭人操控 蓄意偏离航道">马航M370疑遭人操控 蓄意偏离航道</a></h6>
+		<p>播放数：<span id="playsum_content0"></span></p>
+	  </div>
+	</li>
+	<script>
+	function playsum_callback0(json){
+		if(json){
+			var strContent = json.browse;
+		    if(document.getElementById('playsum_content0')){
+			    document.getElementById('playsum_content0').innerHTML = strContent;
+		    }
+		}
+	}
+	getScript_cds("http://survey.news.ifeng.com/getaccumulator_weight.php?key=01478372-8b78-4924-be43-5e937310ffea&format=js&serverid=2&var=play&callback=playsum_callback0");
+    </script>
+	       	<li class="pictxt01">
+		  <div class="pic"><a href="http://v.ifeng.com/special/ukraine/" target="_blank"><img src="http://y3.ifengimg.com/f3a08b5109ae154b/2014/0315/rdn_5323b3c10459b.jpg" width="120" height="80" title="俄集结8万精锐可2小时闪击乌克兰首都" alt="俄集结8万精锐可2小时闪击乌克兰首都" /></a><a href="http://v.ifeng.com/special/ukraine/" target="_blank" class="video">&nbsp;</a></div>
+	  <div class="txt">
+		<h6><a href="http://v.ifeng.com/special/ukraine/" target="_blank" title="俄集结8万精锐可2小时闪击乌克兰首都">俄集结8万精锐可2小时闪击乌克兰首都</a></h6>
+		<p>播放数：<span id="playsum_content1"></span></p>
+	  </div>
+	</li>
+	<script>
+	function playsum_callback1(json){
+		if(json){
+			var strContent = json.browse;
+		    if(document.getElementById('playsum_content1')){
+			    document.getElementById('playsum_content1').innerHTML = strContent;
+		    }
+		}
+	}
+	getScript_cds("http://survey.news.ifeng.com/getaccumulator_weight.php?key=&format=js&serverid=2&var=play&callback=playsum_callback1");
+    </script>
+	       	<li class="pictxt01">
+		  <div class="pic"><a href="http://v.ifeng.com/news/mainland/2014003/01a59eaa-150d-4fc0-be40-a1faa7e76530.shtml" target="_blank"><img src="http://y3.ifengimg.com/f3a08b5109ae154b/2014/0315/rdn_5323b3e96368f.jpg" width="120" height="80" title="周滨之妻首曝光 与黑社会刘汉合作赚千万" alt="周滨之妻首曝光 与黑社会刘汉合作赚千万" /></a><a href="http://v.ifeng.com/news/mainland/2014003/01a59eaa-150d-4fc0-be40-a1faa7e76530.shtml" target="_blank" class="video">&nbsp;</a></div>
+	  <div class="txt">
+		<h6><a href="http://v.ifeng.com/news/mainland/2014003/01a59eaa-150d-4fc0-be40-a1faa7e76530.shtml" target="_blank" title="周滨之妻首曝光 与黑社会刘汉合作赚千万">周滨之妻首曝光 与黑社会刘汉合作赚千万</a></h6>
+		<p>播放数：<span id="playsum_content2"></span></p>
+	  </div>
+	</li>
+	<script>
+	function playsum_callback2(json){
+		if(json){
+			var strContent = json.browse;
+		    if(document.getElementById('playsum_content2')){
+			    document.getElementById('playsum_content2').innerHTML = strContent;
+		    }
+		}
+	}
+	getScript_cds("http://survey.news.ifeng.com/getaccumulator_weight.php?key=01a59eaa-150d-4fc0-be40-a1faa7e76530&format=js&serverid=2&var=play&callback=playsum_callback2");
+    </script>
+	       	<li class="pictxt01">
+		  <div class="pic"><a href="http://v.ifeng.com/ent/mingxing/2014003/012ecb81-3dc8-46e9-a523-d404176256a9.shtml" target="_blank"><img src="http://y0.ifengimg.com/e8443f4081b12d2b/2014/0314/rdn_53227c2b4d6a7.jpg" width="120" height="80" title="成龙两会期间“偷吻”宋祖英 女神面露尴尬" alt="成龙两会期间“偷吻”宋祖英 女神面露尴尬" /></a><a href="http://v.ifeng.com/ent/mingxing/2014003/012ecb81-3dc8-46e9-a523-d404176256a9.shtml" target="_blank" class="video">&nbsp;</a></div>
+	  <div class="txt">
+		<h6><a href="http://v.ifeng.com/ent/mingxing/2014003/012ecb81-3dc8-46e9-a523-d404176256a9.shtml" target="_blank" title="成龙两会期间“偷吻”宋祖英 女神面露尴尬">成龙两会期间“偷吻”宋祖英 女神面露尴尬</a></h6>
+		<p>播放数：<span id="playsum_content3"></span></p>
+	  </div>
+	</li>
+	<script>
+	function playsum_callback3(json){
+		if(json){
+			var strContent = json.browse;
+		    if(document.getElementById('playsum_content3')){
+			    document.getElementById('playsum_content3').innerHTML = strContent;
+		    }
+		}
+	}
+	getScript_cds("http://survey.news.ifeng.com/getaccumulator_weight.php?key=012ecb81-3dc8-46e9-a523-d404176256a9&format=js&serverid=2&var=play&callback=playsum_callback3");
+    </script>
+	          <li class="pictxt01 mb004" id="veidoshowAd">
+   	  <div class="pic"><a href="http://v.ifeng.com/mil/mainland/2014003/01b51045-6fab-4e12-bc3a-3043d39f9944.shtml" target="_blank"><img src="http://y0.ifengimg.com/956b87334e06aa68/2014/0315/rdn_5323c44a6a18b.jpg" width="120" height="80" title="中国图-154侦察机飞赴钓岛 日本战机紧急升空" alt="中国图-154侦察机飞赴钓岛 日本战机紧急升空" /></a><a href="http://v.ifeng.com/mil/mainland/2014003/01b51045-6fab-4e12-bc3a-3043d39f9944.shtml" target="_blank" class="video">&nbsp;</a></div>
+	  <div class="txt">
+		<h6><a href="http://v.ifeng.com/mil/mainland/2014003/01b51045-6fab-4e12-bc3a-3043d39f9944.shtml" target="_blank" title="中国图-154侦察机飞赴钓岛 日本战机紧急升空">中国图-154侦察机飞赴钓岛 日本战机紧急升空</a></h6>
+		<p>播放数：<span id="playsum_content4"></span></p>
+	  </div>
+	</li>
+	<script>
+	function playsum_callback4(json){
+		if(json){
+			var strContent = json.browse;
+		    if(document.getElementById('playsum_content4')){
+			    document.getElementById('playsum_content4').innerHTML = strContent;
+		    }
+		}
+	}
+	getScript_cds("http://survey.news.ifeng.com/getaccumulator_weight.php?key=01b51045-6fab-4e12-bc3a-3043d39f9944&format=js&serverid=2&var=play&callback=playsum_callback4");
+    </script>
+	  </ul>
+</div>
+    
+<!--s_news_index_130927_ad_jcsp06 2014.03.15 09:18:40-->
+
+
+<!--0,0,NULL,fixture-->
+
+<!--/s_news_index_130927_ad_jcsp06-->
+
+   <div class="box_04 mt29">
+  <div class="title02"><h5><a href="http://news.ifeng.com/special/" target="_blank" title="热点专题">热点专题</a></h5></div>
+  <div class="box_04_4">
+	<h6><a href="http://news.ifeng.com/mainland/special/2014lianghui/" target="_blank" title="2014全国两会">2014全国两会专题</a></h6>
+	<div class="pic"><a href="http://news.ifeng.com/mainland/special/2014lianghui/" target="_blank"><img src="http://y0.ifengimg.com/2014/03/12/13390832.jpg" width="300" height="130" title="2014全国两会" alt="2014全国两会"></img></a></div>
+	<p class="p0">一分部署，九分落实。改革蓝图有了，看蓝图如何变为现实——一切尽在凤凰网2014全国两会报道。 <span>[<a href="http://news.ifeng.com/mainland/special/2014lianghui/" target="_blank">详细</a>]</span></p>
+  </div>
+
+  <ul class="u_z">
+
+<li><span>2014-03-08</span><a href="http://news.ifeng.com/world/special/malaixiyakejishilian/" target="_blank" title="马航客机失联">马航客机失联</a></li>
+        <li><span>2014-01-14</span><a href="http://news.ifeng.com/mainland/special/wlxcdahuo/" target="_blank" title="浙江温岭鞋厂大火">浙江温岭鞋厂大火</a></li>
+	<li><span>2014-01-11</span><a href="http://news.ifeng.com/mainland/special/xianggeliladahuo/" target="_blank" title="香格里拉古城大火">香格里拉古城大火</a></li>
+	<li><span>2014-01-05</span><a href="http://news.ifeng.com/mainland/special/shanxidababaozha/" target="_blank" title="陕西大巴车爆炸">陕西大巴车爆炸</a></li>
+	<li><span>2014-01-04</span><a href="http://news.ifeng.com/mainland/special/xuelonghaobeikunnanji/" target="_blank" title="“雪龙号”被困南极">“雪龙号”被困南极</a></li>
+	<li><span>2014-01-02</span><a href="http://news.ifeng.com/world/special/jiujinshanzonghuo/"  target="_blank"  title="旧金山总领馆遭纵火">旧金山总领馆遭纵火</a></li>
+	<li><span>2014-01-02</span><a href="http://news.ifeng.com/mainland/special/hgqxs/" target="_blank" title="贺国强新书出版">贺国强新书出版</a></li>
+	<li><span>2013-12-31</span><a href="http://news.ifeng.com/mainland/special/maozedong120/" target="_blank" title="毛泽东诞辰120周年">毛泽东诞辰120周年</a></li>
+  </ul>
+</div>
+  </div>
+</div>
+<!--第二屏 end-->
+<!--第三屏 begin-->
+<div class="col_w1000 clearfix">
+  <div class="col_l">
+    <div class="ad06">
+	
+<!--s_news_index_130927_ad_rectangle_06 2014.03.15 09:18:39-->
+
+<div id="AP2714" style="display:none;">
+<!--18041,8515,孙斌,7--><code>
+<!--BOF
+<script type="text/javascript">
+var a = 'http://dolphin.deliver.ifeng.com/c?z=ifeng&la=0&si=2&cg=1&c=1&ci=2&or=3371&l=11648&bg=11648&b=11650&u=http://v.ifeng.com/special/2014lianghui/';
+var ad = 'http://y0.ifengimg.com/mappa/2014/03/07/88c4faa6b4cfdabf469f1c8ab32f7c1d.jpg';
+var w = '400';var h = '150';var isActive = 0;
+</script>
+<script type="text/javascript" src="http://y0.ifengimg.com/ifeng/sources/130922-yingguang.js"></script>
+EOF-->
+</code>
+</div>
+<script language="javascript">
+try{
+var defaultAdRotatorConfig = {maxTimes : 1, saleMode : "CPD"};
+new adRotatorFactory({identifier : "AP2714"});
+}catch(e){}
+</script>
+<!--/s_news_index_130927_ad_rectangle_06-->
+
+    </div>
+    <div class="box_03 mt01">
+      <div class="title01"><h5><a href="http://news.ifeng.com/society/" target="_blank" title="社会">社会</a></h5></div>
+      <div class="pictxt">
+<dl class="clearfix">
+  <dt><a href="http://news.ifeng.com/society/2/detail_2014_03/15/34792922_0.shtml" target="_blank" title="广州：小偷被抓大喊“有人砍人” 市民四散奔逃">
+  <img src="http://y2.ifengimg.com/f04c9b92453d105f/2014/0315/xes_3be5ef66023a955d84b8e954a377e284.jpg"
+ title="广州：小偷被抓大喊“有人砍人” 市民四散奔逃" alt="广州：小偷被抓大喊“有人砍人” 市民四散奔逃"></a></dt>
+  <dd><h6><a href="http://news.ifeng.com/society/2/detail_2014_03/15/34792922_0.shtml" target="_blank" title="广州：小偷被抓大喊“有人砍人” 市民四散奔逃">广州：小偷被抓大喊“有人砍人” 市民四散奔逃</a></h6></dd>
+</dl>
+<p>【小偷一句话引起恐慌】广州警方刚刚通报：今天（3月15日）上午8时30分许，在广州沙河大街某服装城的保安员<span>[<a href="http://news.ifeng.com/society/2/detail_2014_03/15/34792922_0.shtml" target="_blank">详细</a>]</span></p>
+</div>
+      <ul class="list01">
+<li><a href="http://news.ifeng.com/society/2/detail_2014_03/15/34792948_0.shtml" target="_blank" title="女子与村干部同居被捉奸在床 丈夫盼其回家(图)">女子与村干部同居被捉奸在床 丈夫盼其回家(图)</a></li>
+<li><a href="http://news.ifeng.com/society/2/detail_2014_03/15/34790816_0.shtml" target="_blank" title="南京大学现直径2.4米蛋糕 制作花费4个小时(图)">南京大学现直径2.4米蛋糕 制作花费4个小时(图)</a></li>
+<li><a href="http://news.ifeng.com/society/2/detail_2014_03/15/34790822_0.shtml" target="_blank" title="天津地铁站查逃票 两小时发现百起逃票行为">天津地铁站查逃票 两小时发现百起逃票行为</a></li>
+<li><a href="http://news.ifeng.com/society/2/detail_2014_03/15/34789373_0.shtml" target="_blank" title="北漂群演的生活：上万元培训班 住农村小院常被人训">北漂群演的生活：上万元培训班 住农村小院常被人训</a></li>
+<li><a href="http://news.ifeng.com/society/1/detail_2014_03/15/34788603_0.shtml" target="_blank" title="江苏无锡法院网上拍卖兰博基尼 以179万成交(图)">江苏无锡法院网上拍卖兰博基尼 以179万成交(图)</a></li>
+<li><a href="http://news.ifeng.com/society/1/detail_2014_03/15/34788286_0.shtml" target="_blank" title="甘肃：高中生用铁锤杀死母亲 转移尸体时被发现">甘肃：高中生用铁锤杀死母亲 转移尸体时被发现</a></li>
+<li><a href="http://news.ifeng.com/society/2/detail_2014_03/15/34787427_0.shtml" target="_blank" title="郑州：2公里路两侧种658棵法桐 市民调侃“种墙”(图)">郑州：2公里路两侧种658棵法桐 市民调侃“种墙”(图)</a></li>
+<li><a href="http://news.ifeng.com/society/1/detail_2014_03/15/34787130_0.shtml" target="_blank" title="违章司机开车拖拽交警100多米 车内女子大呼劝停">违章司机开车拖拽交警100多米 车内女子大呼劝停</a></li>
+</ul>      
+      <div class="more"><a href="http://news.ifeng.com/society/" target="_blank" title="进入社会频道">进入社会频道</a></div>
+    </div>
+    <div class="box_03 mt20">
+     <div class="title01">
+      <h5><a href="http://news.ifeng.com/shendu/" target="_blank" title="深度">深度</a></h5>
+      <span>
+         
+<!--s_news_index_130927_ad_label_sdbk 2014.03.15 09:18:39-->
+
+
+<!--0,0,NULL,fixture-->
+
+<!--/s_news_index_130927_ad_label_sdbk-->
+
+      </span>
+    </div>
+     <div>
+			  
+<div class="pictxt">
+<div class="cls clearfix">
+  <div class="pic"><a  href="http://news.ifeng.com/shendu/nfzm/index.shtml" target="_blank">
+  <img src="http://y0.ifengimg.com/f20df4313ba9783e/2013/1101/rdn_5273864f1a68e.jpg" width="85" height="18" title="南方周末" alt="南方周末"></a></div>
+  <div class="date">2014-03-14</div>
+</div>
+<h6 class="mt11"><a href="http://news.ifeng.com/shendu/nfzm/detail_2014_03/14/34768339_0.shtml" target="_blank" title="卞仲耘丈夫：宋彬彬没参与打人 但她是一伙儿的">卞仲耘丈夫：宋彬彬没参与打人 但她是一伙儿的</a></h6>
+<p>他从未通过法律追究那些女学生，她们是被唆使的，却对宋彬彬的责任判断明晰：“她没打人但是一伙儿的。”<span>[<a href="http://news.ifeng.com/shendu/nfzm/detail_2014_03/14/34768339_0.shtml" target="_blank">详细</a>]</span></p>
+</div>
+			  
+<div class="pictxt">
+<div class="cls clearfix">
+  <div class="pic"><a  href="http://news.ifeng.com/shendu/nfzm/index.shtml" target="_blank">
+  <img src="http://y0.ifengimg.com/f20df4313ba9783e/2013/1101/rdn_5273864f1a68e.jpg" width="85" height="18" title="南方周末" alt="南方周末"></a></div>
+  <div class="date">2014-03-13</div>
+</div>
+<h6 class="mt11"><a href="http://news.ifeng.com/shendu/nfzm/detail_2014_03/13/34741443_0.shtml" target="_blank" title="宋彬彬：实际上我从1967年就开始道歉了">宋彬彬：实际上我从1967年就开始道歉了</a></h6>
+<p>她记得我念检查时穿一个蓝布小棉袄，头发都剪短了，说向全国人民道歉。实际上我从那时候就开始道歉了。
+<span>[<a href="http://news.ifeng.com/shendu/nfzm/detail_2014_03/13/34741443_0.shtml" target="_blank">详细</a>]</span></p>
+</div>
+</div>
+     <ul class="list01">
+<li><a href="http://news.ifeng.com/shendu/zgjyb/detail_2014_03/15/34789100_0.shtml" target="_blank" title="媒体称北京部分公务员工资已上涨 城区多郊区少">媒体称北京部分公务员工资已上涨 城区多郊区少</a></li>
+<li><a href="http://news.ifeng.com/shendu/lwxwzk/detail_2014_03/15/34788296_0.shtml" target="_blank" title="揭假立功减刑内幕">揭假立功减刑内幕</a></li>
+<li><a href="http://news.ifeng.com/shendu/sdzb/detail_2014_03/13/34733097_0.shtml" target="_blank" title="废旧套套去处揭秘：翻新再造成玩具 甚至食品袋">废旧套套去处揭秘：翻新再造成玩具 甚至食品袋</a></li>
+<li><a href="http://news.ifeng.com/shendu/dycjrb/detail_2014_03/13/34725257_0.shtml" target="_blank" title="政协常委：若养老并轨后待遇仍有差距 民众会更觉不公">政协常委：若养老并轨后待遇仍有差距 民众会更觉不公</a></li>
+</ul>
+      <div class="more"><a href="http://news.ifeng.com/shendu/" target="_blank" title="进入深度频道">进入深度频道</a></div>
+    </div>
+    <div class="ad06 mt06">
+	
+<!--s_news_index_130927_ad_rectangle_10 2014.03.15 09:18:39-->
+
+<div id="AP2718" style="display:none;">
+<!--0,0,NULL,fixture--><cite>
+<!--BOF
+<a href="http://dolphin.deliver.ifeng.com/c?z=ifeng&la=0&si=2&cg=1&c=1&ci=2&or=1174&l=6421&bg=6421&b=6416&u=http://book.ifeng.com/yuanchuang/#_bookch=ycpd1" target="_blank"><img src="http://y1.ifengimg.com/mappa/2013/09/27/99780ac381ec69adac5f330e24b8702e.jpg" width="400" height="150" border="0" /></a>
+EOF-->
+</cite>
+</div>
+<script language="javascript">
+try{
+var defaultAdRotatorConfig = {maxTimes : 1, saleMode : "CPD"};
+new adRotatorFactory({identifier : "AP2718"});
+}catch(e){}
+</script>
+<!--/s_news_index_130927_ad_rectangle_10-->
+
+    </div>
+    <div class="box_03 mt01">
+      <div class="title01"><h5><a href="#" target="_blank" title="历史">历史</a></h5></div>
+      <div class="pictxt">
+<dl class="clearfix">
+  <dt><a href="http://news.ifeng.com/history/shixueyuan/detail_2014_03/15/34799125_0.shtml" target="_blank" title="史景迁谈历史：中国爱宏大叙事 国外更关注个体">
+  <img src="http://y2.ifengimg.com/f04c9b92453d105f/2014/0315/xes_6c1832b206a8071e5c7c663319e331ce.jpg"
+  title="史景迁谈历史：中国爱宏大叙事 国外更关注个体" alt="史景迁谈历史：中国爱宏大叙事 国外更关注个体"></a></dt>
+  <dd><h6><a href="http://news.ifeng.com/history/shixueyuan/detail_2014_03/15/34799125_0.shtml" target="_blank" title="史景迁谈历史：中国爱宏大叙事 国外更关注个体" border="0">史景迁谈历史：中国爱宏大叙事 国外更关注个体</a></h6></dd>
+</dl>
+<p>历史有各种各样的讲法，在中国经常宏观地大叙事；在国外，整个学习的是对某个历史当中个体的关注。<span>[<a href="http://news.ifeng.com/history/shixueyuan/detail_2014_03/15/34799125_0.shtml" target="_blank">详细</a>]</span></p>
+</div>
+      <ul class="list01">
+<li><a href="http://news.ifeng.com/history/zhongguojindaishi/detail_2014_03/15/34798031_0.shtml" target="_blank" title="加拿大碧玉清朝一度成为贡品 曾获慈禧挚爱">加拿大碧玉清朝一度成为贡品 曾获慈禧挚爱</a></li>
+<li><a href="http://news.ifeng.com/history/zhongguogudaishi/detail_2014_03/15/34797385_0.shtml" target="_blank" title="口头禅“一亩三分地”源于皇帝“亲耕”的耤田">口头禅“一亩三分地”源于皇帝“亲耕”的耤田</a></li>
+<li><a href="http://news.ifeng.com/history/zhongguojindaishi/detail_2014_03/15/34796687_0.shtml" target="_blank" title="民国长沙交通混乱 1929年立“行人靠右”标识">民国长沙交通混乱 1929年立“行人靠右”标识</a></li>
+<li><a href="http://news.ifeng.com/history/shijieshi/detail_2014_03/15/34796542_0.shtml" target="_blank" title="美国发现7000万年前侏儒恐龙化石 头颅约0.6米">美国发现7000万年前侏儒恐龙化石 头颅约0.6米</a></li>
+<li><a href="http://news.ifeng.com/history/zhiqing/xiaohua/detail_2014_03/15/34794717_0.shtml" target="_blank" title="老知青：知青的恋情被回城知青选择集体遗忘">老知青：知青的恋情被回城知青选择集体遗忘</a></li>
+<li><a href="http://news.ifeng.com/history/zhiqing/detail_2014_03/14/34780870_0.shtml" target="_blank" title="文革中工宣队：把盐叫氯化钠 资产阶级臭显摆">文革中工宣队：把盐叫氯化钠 资产阶级臭显摆</a></li>
+<li><a href="http://news.ifeng.com/history/shijieshi/detail_2014_03/13/34747120_0.shtml" target="_blank" title="前苏军揭83年击落韩国客机:美国导演骗局">前苏军揭83年击落韩国客机:美国导演骗局</a></li>
+<li><a href="http://news.ifeng.com/history/shijieshi/detail_2014_03/13/34746943_0.shtml" target="_blank" title="英女子沙滩散步“偶遇”800年前僧侣骸骨">英女子沙滩散步“偶遇”800年前僧侣骸骨</a></li>
+<li><a href="http://news.ifeng.com/history/zhongguoxiandaishi/detail_2014_03/13/34746668_0.shtml" target="_blank" title="毛泽东评“水浒”：梁山好汉都是敢于反抗的英雄">毛泽东评“水浒”：梁山好汉都是敢于反抗的英雄</a></li>
+</ul>
+      <div class="more"><a href="http://news.ifeng.com/history/" target="_blank" title="进入历史频道">进入历史频道</a></div> 
+    </div>
+  </div>
+  <div class="col_m">
+   <div class="box_05">
+ 
+<div class="pictxt00">
+<div class="pic pic_t02">
+<span><a title="总理记者会女翻译" href="http://news.ifeng.com/photo/special/2014lianghui/news/detail_2014_03/13/34734682_0.shtml" target="_blank">&nbsp;</a></span>
+<a href="http://news.ifeng.com/photo/special/2014lianghui/news/detail_2014_03/13/34734682_0.shtml" title="总理记者会女翻译" target="_blank">
+<img src="http://y1.ifengimg.com/f04c9b92453d105f/2014/0314/xes_af1fee2fdc71a4b695044650895a0fdf.jpg" width="240" height="160" title="总理记者会女翻译" alt="总理记者会女翻译"></a>
+</div>
+<div class="txt01"><a href="http://news.ifeng.com/photo/special/2014lianghui/news/detail_2014_03/13/34734682_0.shtml" target="_blank" title="总理记者会女翻译">总理记者会女翻译</a></div>
+<div class="txt02">[2014两会] <span>11:26</span></div>
+</div>
+<div class="pictxt00">
+<div class="pic">
+<span><a title="“被扰”的委员代表" href="http://news.ifeng.com/photo/special/2014lianghui/news/detail_2014_03/13/34732239_0.shtml" target="_blank">&nbsp;</a></span>
+<a href="http://news.ifeng.com/photo/special/2014lianghui/news/detail_2014_03/13/34732239_0.shtml" title="“被扰”的委员代表" target="_blank">
+<img src="http://y3.ifengimg.com/f04c9b92453d105f/2014/0314/xes_b195b4626df702249c2d50381cb4c1c2.jpg" width="240" height="160" title="“被扰”的委员代表" alt="“被扰”的委员代表"></a>
+</div>
+<div class="txt01"><a href="http://news.ifeng.com/photo/special/2014lianghui/news/detail_2014_03/13/34732239_0.shtml" target="_blank" title="“被扰”的委员代表">“被扰”的委员代表</a></div>
+<div class="txt02">[2014两会] <span>10:48</span></div>
+</div>
+<div class="pictxt00">
+<div class="pic">
+<span><a title="李克强总理记者会" href="http://news.ifeng.com/photo/special/2014lianghui/news/detail_2014_03/13/34731804_0.shtml" target="_blank">&nbsp;</a></span>
+<a href="http://news.ifeng.com/photo/special/2014lianghui/news/detail_2014_03/13/34731804_0.shtml" title="李克强总理记者会" target="_blank">
+<img src="http://y3.ifengimg.com/f04c9b92453d105f/2014/0313/xes_2b8e4aaf7144a93b5b68465086eca9e4.jpg" width="240" height="160" title="李克强总理记者会" alt="李克强总理记者会"></a>
+</div>
+<div class="txt01"><a href="http://news.ifeng.com/photo/special/2014lianghui/news/detail_2014_03/13/34731804_0.shtml" target="_blank" title="李克强总理记者会">李克强总理记者会</a></div>
+<div class="txt02">[2014两会] <span>10:40</span></div>
+</div>
+ 
+</div>
+    <div class="ad02 mb04">
+	
+<!--s_news_index_130927_ad_rectangle_09 2014.03.15 09:18:39-->
+
+<div id="AP2717" style="display:none;">
+<!--0,0,NULL,fixture--><cite>
+<!--BOF
+<a href="http://dolphin.deliver.ifeng.com/c?z=ifeng&la=0&si=2&cg=1&c=1&ci=2&or=1174&l=6420&bg=6420&b=6415&u=http://book.ifeng.com/shidahaoshu/special/2013nian8yue/#_bookch=hsbpd" target="_blank"><img src="http://y2.ifengimg.com/mappa/2013/09/27/57f0ba65cd42044ad44ded62930516c9.jpg" width="240" height="160" border="0" /></a>
+EOF-->
+</cite>
+</div>
+<script language="javascript">
+try{
+var defaultAdRotatorConfig = {maxTimes : 1, saleMode : "CPD"};
+new adRotatorFactory({identifier : "AP2717"});
+}catch(e){}
+</script>
+<!--/s_news_index_130927_ad_rectangle_09-->
+
+      <p>广告</p>
+    </div>
+   <div class="box_05">
+ 
+<div class="pictxt00">
+<div class="pic">
+<span><a title="两会：委员返程行李" href="http://news.ifeng.com/photo/special/2014lianghui/news/detail_2014_03/13/34728062_0.shtml" target="_blank">&nbsp;</a></span>
+<a href="http://news.ifeng.com/photo/special/2014lianghui/news/detail_2014_03/13/34728062_0.shtml" title="两会：委员返程行李" target="_blank">
+<img src="http://y2.ifengimg.com/f04c9b92453d105f/2014/0313/xes_5356bd00fc17e92609dbfb0a4c911a40.jpg" width="240" height="160" title="两会：委员返程行李" alt="两会：委员返程行李"></a>
+</div>
+<div class="txt01"><a href="http://news.ifeng.com/photo/special/2014lianghui/news/detail_2014_03/13/34728062_0.shtml" target="_blank" title="两会：委员返程行李">两会：委员返程行李</a></div>
+<div class="txt02">[2014两会] <span>09:32</span></div>
+</div>
+<div class="pictxt00">
+<div class="pic pic_t02">
+<span><a title="郑州停车场大火后的场景" href="http://news.ifeng.com/photo/hdsociety/detail_2014_03/13/34722848_0.shtml" target="_blank">&nbsp;</a></span>
+<a href="http://news.ifeng.com/photo/hdsociety/detail_2014_03/13/34722848_0.shtml" title="郑州停车场大火后的场景" target="_blank">
+<img src="http://y0.ifengimg.com/f04c9b92453d105f/2014/0313/xes_050813bb93f27cc14ebf1a9dc83fc5a5.jpg" width="240" height="160" title="郑州停车场大火后的场景" alt="郑州停车场大火后的场景"></a>
+</div>
+<div class="txt01"><a href="http://news.ifeng.com/photo/hdsociety/detail_2014_03/13/34722848_0.shtml" target="_blank" title="郑州停车场大火后的场景">郑州停车场大火后的场景</a></div>
+<div class="txt02">[全景社会] <span>07:55</span></div>
+</div>
+ 
+</div> 
+   <div class="box_05">
+
+<div class="pictxt00">
+  <div class="pic">
+	<span><a href="http://news.ifeng.com/history/gaoqing/detail_2014_03/12/34698843_0.shtml#p=1" target="_blank">&nbsp;</a></span>
+	<a href="http://news.ifeng.com/history/gaoqing/detail_2014_03/12/34698843_0.shtml#p=1" target="_blank"><img src="http://y1.ifengimg.com/2014/03/12/17321832.jpg" width="240" height="160"/>
+ title="1993年马来西亚巫师剥皮案" alt="1993年马来西亚巫师剥皮案"></a>
+  </div>
+  <div class="txt01"><a href="http://news.ifeng.com/history/gaoqing/detail_2014_03/12/34698843_0.shtml#p=1" target="_blank" title="1993年马来西亚巫师剥皮案">1993年马来西亚巫师剥皮案</a></div>
+  <div class="txt02">[历史映像室] <span>16:30</span></div>
+ </div>
+
+
+
+ <div class="pictxt00">
+  <div class="pic">
+	<span><a href="http://news.ifeng.com/history/gaoqing/detail_2014_03/12/34678647_0.shtml#p=1" target="_blank">&nbsp;</a></span>
+	<a href="http://news.ifeng.com/history/gaoqing/detail_2014_03/12/34678647_0.shtml#p=1" target="_blank"><img src="http://y1.ifengimg.com/2014/03/12/17352432.jpg" height="160" />
+title="美军首位华裔军官逝世：曾骗杀志愿军" alt="美军首位华裔军官逝世：曾骗杀志愿军"></a>
+  </div>
+  <div class="txt01"><a href="http://news.ifeng.com/history/gaoqing/detail_2014_03/12/34678647_0.shtml#p=1" target="_blank" title="美军首位华裔军官逝世：曾骗杀志愿军">美军首位华裔军官逝世：曾骗杀志愿军</a></div>
+  <div class="txt02">[历史映像室] <span>16:30</span></div>
+ </div>
+ </div>
+  </div>
+  <div class="col_r">
+    <div class="ad07">
+	 
+<!--s_news_index_130927_ad_rectangle_07 2014.03.15 09:19:04-->
+
+
+<!--0,0,NULL,fixture-->
+<script type="text/javascript">
+try{
+	var thisPosition = 'news07';
+	var news07Provs = {'cn010':'bj','cn021':'sh','cn022':'tj','cn0898':'hn'};
+	var news07Citys = {'0755':'gd_sz','020':'gd_gz','0311':'sjz','0351':'ty','0531':'jn','0532':'qd','0631':'wh','0536':'wf','0546':'dy','0535':'yt','0533':'zb','0539':'ly','024':'sy','0411':'dl','0431':'cc','0451':'heb','0571':'hz','028':'cd','0771':'nn','029':'xian','025':'nj','0512':'suzhou','0519':'cz','0510':'wx','0769':'gd_dg','0752':'huizhou','0371':'zhengzhou','0315':'tangshan','027':'wuhan','0871':'kunming','0851':'guiyang','0731':'changsha'};
+	var currentProv = INice.getCookie('prov');
+	var currentCity = INice.getCookie('city');
+	var houseJsPath = 'http://m0.ifengimg.com/houseWholeYear2014/';
+	var houseJsUrl = '';
+	var houseJsFile = thisPosition + '_';
+	if(typeof news07Provs[currentProv] != 'undefined'){
+		houseJsFile += currentProv ;
+	}else if(typeof news07Citys[currentCity] != 'undefined'){
+		houseJsFile += currentCity ;
+	}else{
+		houseJsFile += 'cn010';
+	}
+	houseJsUrl = houseJsPath + houseJsFile + '.js';
+	document.write('<script type="text/javascript" src="' + houseJsUrl + '"></s' + 'cript>');
+	
+}catch(e){}
+</script>
+<script>
+	try{
+		var a ='',ad ='';
+		var w = '300';var h = '90';var isActive = 0;
+		var currentData = eval("(" + thisPosition + "Data" + ")");		
+		if(typeof(currentData) != 'undefined'){
+			a = currentData['click'];ad = currentData['source'];
+			if(a == '' || ad == ''){
+				document.write('<script type="text/javascript" src="' + houseJsPath + thisPosition + '_cn010' + '.js"></s' + 'cript>');
+			}
+		}
+	}catch(e){}
+</script>
+<script>
+	try{
+		currentData = eval("(" + thisPosition + "Data" + ")");		
+		if(typeof(currentData) != 'undefined'){
+			a = currentData['click'];ad = currentData['source'];
+		}
+	}catch(e){}
+</script>
+<script type="text/javascript" src="http://y0.ifengimg.com/ifeng/sources/130922-yingguang.js"></script>
+<!--/s_news_index_130927_ad_rectangle_07-->
+ 
+	</div>
+    <div class="ad05 mt26">
+	 
+<!--s_news_index_130927_ad_rectangle_08 2014.03.15 09:18:39-->
+
+<div id="AP2716" style="display:none;">
+<!--0,0,NULL,fixture--><cite>
+<!--BOF
+<a href="http://bc.ifeng.com/main/c?db=ifeng&bid=5901,5686,729&cid=1262,45,1&sid=13017&advid=314&camid=792&show=ignore&url=http://culture.ifeng.com/niandaifang/special/clist_0/1.shtml" target="_blank"><img src="http://y3.ifengimg.com/mappa/2013/09/25/a1a3298c7d128be8efce0e8872023058.jpg" width="300" height="250" border="0" /></a>
+EOF-->
+</cite>
+</div>
+<script language="javascript">
+try{
+var defaultAdRotatorConfig = {maxTimes : 1, saleMode : "CPD"};
+new adRotatorFactory({identifier : "AP2716"});
+}catch(e){}
+</script>
+<!--/s_news_index_130927_ad_rectangle_08-->
+ 
+    </div>
+    <div class="box_10 mt26">
+  <div class="title02"><h5><a href="http://news.ifeng.com/shendu/" target="_blank" title="封面故事">封面故事</a></h5></div>
+  <ul>
+
+
+
+
+
+
+
+<li class="clearfix" style="border:0; padding-bottom:22px;">
+	  <div class="pic"><a href="http://news.ifeng.com/shendu/hqrw/list_0/0.shtml"><img src="http://y1.ifengimg.com/2014/02/28/08512132.jpg" 
+width="100" height="140" title="环球人物" alt="环球人物"/></a></div>
+	  <div class="txt">
+		<p class="p1">环球人物 第 <span>242</span> 期</p>
+		<h6><a href="http://news.ifeng.com/shendu/hqrw/detail_2014_02/27/34242493_0.shtml" target="_blank" title="国防大学教授：共产党员绝对不能变成先富起来的人 ">国防大学教授：共产党员绝对不能变成先富起来的人
+  </a></h6>
+		<p>“共产党绝不能变成为家族利益集团利益服务的政党，不能变成‘先富起来’的人。”
+
+
+<span>[<a href="http://news.ifeng.com/shendu/hqrw/detail_2014_02/27/34242493_0.shtml" target="_blank">详细</a>]</span></p>
+	  </div>
+	</li>
+
+
+	
+
+
+
+ <li class="clearfix">
+	  <div class="pic"><a href="http://news.ifeng.com/shendu/nfrwzk/list_0/0.shtml" target="_blank"><img src="http://y1.ifengimg.com/2014/02/28/08024432.jpg"
+width="100" height="140" title="南方人物周刊" alt="南方人物周刊"/></a></div>
+	  <div class="txt">
+		<p class="p1">南方人物周刊 第 <span>378</span> 期</p>
+		<h6><a href="http://news.ifeng.com/shendu/nfrwzk/detail_2014_02/24/34123270_0.shtml" target="_blank" title="潘绥铭：研究红灯区最大的危险是被小姐爱上
+">潘绥铭：研究红灯区最大的危险是被小姐爱上
+</a></h6>
+		<p>最大的危险是小姐会爱上你。为什么？你平等对待她，别说很平等，能跟她坐下来聊就够了。
+<span>[<a href="http://news.ifeng.com/shendu/nfrwzk/detail_2014_02/24/34123270_0.shtml" target="_blank">详细</a>]</span></p>
+	  </div>
+	</li>
+
+
+
+
+
+
+<li class="clearfix">
+	  <div class="pic"><a href="http://news.ifeng.com/shendu/lzlw/list_0/0.shtml" target="_blank"><img src="http://y3.ifengimg.com/2014/02/28/08095332.jpg" 
+width="100" height="140" title="廉政瞭望" alt="廉政瞭望"/></a></div>
+	  <div class="txt">
+		<p class="p1">廉政瞭望 第 <span>376</span> 期</p>
+		<h6><a href="http://news.ifeng.com/shendu/lzlw/detail_2014_02/26/34203007_0.shtml" target="_blank" title="反腐报告学问：河北福建等多省市未点贪官姓名
+">反腐报告学问：河北福建等多省市未点贪官姓名
+</a></h6>
+		<p>报告中是否点贪官姓名，点谁，是门学问。河北重庆福建等多省市，未在报告中点贪官姓名。
+
+<span>[<a href="http://news.ifeng.com/shendu/lzlw/detail_2014_02/26/34203007_0.shtml" target="_blank">详细</a>]</span></p>
+	  </div>
+	</li>
+
+
+
+
+
+
+
+<li class="clearfix">
+	  <div class="pic"><a href="http://news.ifeng.com/shendu/lwdfzk/" target="_blank"><img src="http://y3.ifengimg.com/2014/02/28/08120932.jpg" 
+width="100" height="140" title="瞭望东方周刊" alt="瞭望东方周刊"/></a></div>
+	  <div class="txt">
+		<p class="p1">瞭望东方周刊 第 <span>530</span> 期</p>
+		<h6><a href="http://news.ifeng.com/shendu/lwdfzk/detail_2014_02/24/34120022_0.shtml" target="_blank" title="傻子瓜子创办者：当时钱用麻袋装 雨天得晒防发霉">傻子瓜子创办者：当时钱用麻袋装 雨天得晒防发霉</a></h6>
+		<p>“当时我家钱多得用麻袋装。”年广九说。下雨要把麻袋扛出来晾晒，防止钞票发霉。
+
+ <span>[<a href="http://news.ifeng.com/shendu/lwdfzk/detail_2014_02/24/34120022_0.shtml" target="_blank">详细</a>]</span></p>
+	  </div>
+	</li>
+
+
+	
+	
+
+
+ </ul>
+</div>
+
+
+
+
+	<div class="box_11 mt13">
+  <div class="title02"><h5>媒体合作</h5></div>
+  <ul>
+
+
+	<li><a href="http://theory.rmlt.com.cn/mingrentang/special/shidasixiangrenwu/index.shtml" target="_blank" title="中国故事之思想的力量">中国故事之思想的力量</a></li>
+
+
+	<li><a href="http://www.bjo.gov.hk" target="_blank" title="香港特别行政区政府驻北京办事处">香港特别行政区政府驻北京办事处</a></li>
+
+	<li><a href="http://www.tibet.cn/newtppd/zt/2013/xjx/" target="_blank" title="第二届和美西藏美术作品大赛">第二届和美西藏美术作品大赛</a></li>
+
+	<li><a href="http://zhuanti.inewsweek.cn/zhuanti/hwzq/" target="_blank" title="中国信息安全主题论坛">中国信息安全主题论坛</a></li>
+
+	<li><a href="http://www.wrating.com/survey/index.php?c=114" target="_blank" title="移动互联网有奖调查">移动互联网有奖调查</a></li>
+
+	<li><a href="http://zhekou.hao123.com/cuxiao/?hmsr=fhw&hmmd=&hmpl=&hmkw=&hmci=" target="_blank" title="Hao123&百度团购，全网独享价1折起">Hao123&amp;百度团购，全网独享价1折起</a></li>
+  </ul>
+</div>
+    <div class="ad05 mt22">
+	 
+<!--s_news_index_130927_ad_rectangle_11 2014.03.15 09:18:39-->
+
+<div id="AP2719" style="display:none;">
+<!--0,0,NULL,fixture--><cite>
+<!--BOF
+<a href="http://dolphin.deliver.ifeng.com/c?z=ifeng&la=0&si=2&cg=1&c=1&ci=2&or=1174&l=3557&bg=3557&b=3555&u=http://chaogu.ifeng.com/" target="_blank"><img src="http://y0.ifengimg.com/mappa/2014/01/23/fc9e597ee36416edf0fd3116d33c0ba6.jpg" width="300" height="250" border="0" /></a>
+EOF-->
+</cite>
+</div>
+<script language="javascript">
+try{
+var defaultAdRotatorConfig = {maxTimes : 1, saleMode : "CPD"};
+new adRotatorFactory({identifier : "AP2719"});
+}catch(e){}
+</script>
+<!--/s_news_index_130927_ad_rectangle_11-->
+
+   </div>
+  </div>
+</div>
+<!--第三屏 end-->
+<!--视频精选 begin-->
+<div class="col_w1000 mt13">
+  <div class="title01 bg02"><h5><a href="http://v.ifeng.com/" target="_blank" title="视频精选">视频精选</a></h5></div>
+  <div class="box_12 clearfix">
+          <div class="col_l">
+      <div class="vi_pictxt">
+        <div class="pic">
+          <a href="http://v.ifeng.com/news/world/2014003/0145a867-73ac-408b-b5b9-112b1673aab7.shtml" target="_blank"><img src="http://y1.ifengimg.com/f3a08b5109ae154b/2014/0315/rdn_5323b4aed8d51.jpg" width="400" height="310" title="传马航MH370失联后曾多次调整高度 动向诡异" alt="传马航MH370失联后曾多次调整高度 动向诡异" /></a>
+          <a href="http://v.ifeng.com/news/world/2014003/0145a867-73ac-408b-b5b9-112b1673aab7.shtml" target="_blank" class="video">&nbsp;</a>
+        </div>
+        <div class="txt"><a href="http://v.ifeng.com/news/world/2014003/0145a867-73ac-408b-b5b9-112b1673aab7.shtml" target="_blank" title="传马航MH370失联后曾多次调整高度 动向诡异">传马航MH370失联后曾多次调整高度 动向诡异</a></div>
+      </div>
+    </div>
+    <div class="col_mr">
+      <ul>
+	  		           <li>
+          <div class="pic">
+            <a href="http://v.ifeng.com/news/opinion/2014003/012c4868-7e8d-4f21-b757-a0774c3e7a29.shtml" target="_blank"><img src="http://y2.ifengimg.com/f3a08b5109ae154b/2014/0315/rdn_5323b55e5302c.jpg" width="170" height="120" title="中国少将：马航或遭劫持 失事可能性变小" alt="中国少将：马航或遭劫持 失事可能性变小" /></a>
+            <a href="http://v.ifeng.com/news/opinion/2014003/012c4868-7e8d-4f21-b757-a0774c3e7a29.shtml" target="_blank" class="video">&nbsp;</a>
+          </div>
+          <div class="txt"><a href="http://v.ifeng.com/news/opinion/2014003/012c4868-7e8d-4f21-b757-a0774c3e7a29.shtml" target="_blank" title="中国少将：马航或遭劫持 失事可能性变小">中国少将：马航或遭劫持 失事可能性变小</a></div>
+        </li>
+				           <li>
+          <div class="pic">
+            <a href="http://v.ifeng.com/news/world/2014003/01f65618-2617-4a30-a94c-e4bec07fd74a.shtml" target="_blank"><img src="http://y2.ifengimg.com/f3a08b5109ae154b/2014/0315/rdn_5323b96743c2d.jpg" width="170" height="120" title="金正恩妹妹首次公开露面 疑成朝鲜新二号" alt="金正恩妹妹首次公开露面 疑成朝鲜新二号" /></a>
+            <a href="http://v.ifeng.com/news/world/2014003/01f65618-2617-4a30-a94c-e4bec07fd74a.shtml" target="_blank" class="video">&nbsp;</a>
+          </div>
+          <div class="txt"><a href="http://v.ifeng.com/news/world/2014003/01f65618-2617-4a30-a94c-e4bec07fd74a.shtml" target="_blank" title="金正恩妹妹首次公开露面 疑成朝鲜新二号">金正恩妹妹首次公开露面 疑成朝鲜新二号</a></div>
+        </li>
+				           <li>
+          <div class="pic">
+            <a href="http://v.ifeng.com/news/society/2014003/013825da-154b-41ac-b635-3078afc8f689.shtml" target="_blank"><img src="http://y2.ifengimg.com/f3a08b5109ae154b/2014/0315/rdn_5323b9c39a3ac.jpg" width="170" height="120" title="东莞男老师讲台上猥亵二年级女童 称逗着玩" alt="东莞男老师讲台上猥亵二年级女童 称逗着玩" /></a>
+            <a href="http://v.ifeng.com/news/society/2014003/013825da-154b-41ac-b635-3078afc8f689.shtml" target="_blank" class="video">&nbsp;</a>
+          </div>
+          <div class="txt"><a href="http://v.ifeng.com/news/society/2014003/013825da-154b-41ac-b635-3078afc8f689.shtml" target="_blank" title="东莞男老师讲台上猥亵二年级女童 称逗着玩">东莞男老师讲台上猥亵二年级女童 称逗着玩</a></div>
+        </li>
+				           <li>
+          <div class="pic">
+            <a href="http://v.ifeng.com/mil/mainland/2014003/0158033f-98e5-403a-9b19-7ee46a49b071.shtml" target="_blank"><img src="http://y0.ifengimg.com/956b87334e06aa68/2014/0315/rdn_5323c4c8df7e2.jpg" width="170" height="120" title="央视揭秘克里米亚民团 配图却是纳粹德军坦克" alt="央视揭秘克里米亚民团 配图却是纳粹德军坦克" /></a>
+            <a href="http://v.ifeng.com/mil/mainland/2014003/0158033f-98e5-403a-9b19-7ee46a49b071.shtml" target="_blank" class="video">&nbsp;</a>
+          </div>
+          <div class="txt"><a href="http://v.ifeng.com/mil/mainland/2014003/0158033f-98e5-403a-9b19-7ee46a49b071.shtml" target="_blank" title="央视揭秘克里米亚民团 配图却是纳粹德军坦克">央视揭秘克里米亚民团 配图却是纳粹德军坦克</a></div>
+        </li>
+				           <li>
+          <div class="pic">
+            <a href="http://v.ifeng.com/ent/mingxing/2014003/010bb05b-fa86-4aff-9725-4317c5edd1c5.shtml" target="_blank"><img src="http://y3.ifengimg.com/d99b7f20686aba37/2014/0315/rdn_532411abbc46b.jpg" width="170" height="120" title="熊黛林深V美腿秀性感 真空无惧走光" alt="熊黛林深V美腿秀性感 真空无惧走光" /></a>
+            <a href="http://v.ifeng.com/ent/mingxing/2014003/010bb05b-fa86-4aff-9725-4317c5edd1c5.shtml" target="_blank" class="video">&nbsp;</a>
+          </div>
+          <div class="txt"><a href="http://v.ifeng.com/ent/mingxing/2014003/010bb05b-fa86-4aff-9725-4317c5edd1c5.shtml" target="_blank" title="熊黛林深V美腿秀性感 真空无惧走光">熊黛林深V美腿秀性感 真空无惧走光</a></div>
+        </li>
+				           <li>
+          <div class="pic">
+            <a href="http://v.ifeng.com/ent/mingxing/2014003/014662ca-6c64-47cc-bde4-f3e97d9ecea4.shtml" target="_blank"><img src="http://y0.ifengimg.com/e8443f4081b12d2b/2014/0314/rdn_53227ca8130d2.jpg" width="170" height="120" title="男友酒后醉骂 张惠妹再遭电扇砸" alt="男友酒后醉骂 张惠妹再遭电扇砸" /></a>
+            <a href="http://v.ifeng.com/ent/mingxing/2014003/014662ca-6c64-47cc-bde4-f3e97d9ecea4.shtml" target="_blank" class="video">&nbsp;</a>
+          </div>
+          <div class="txt"><a href="http://v.ifeng.com/ent/mingxing/2014003/014662ca-6c64-47cc-bde4-f3e97d9ecea4.shtml" target="_blank" title="男友酒后醉骂 张惠妹再遭电扇砸">男友酒后醉骂 张惠妹再遭电扇砸</a></div>
+        </li>
+				      </ul>
+    </div>
+  </div>
+</div>
+<!--视频精选 end-->
+
+<div class="col_w1000 mt04">
+  <div class="ad08">
+  
+<!--s_news_index_130927_ad_banner_01 2014.03.15 09:18:39-->
+
+
+<!--17806,8521,黄娟,B1--><script type="text/javascript">
+var a = 'http://dol.deliver.ifeng.com/c?2a0dd8615MluuVuLEVCrlk7CiF1N5piUjVsuTNmWaw1nose1ZFLj3o8Fdzc7lbGIJDnJiktau7W/qdR48AtnYqq+6uA4LVcbwdla4D+brMspHn1ueWGDFl71orgKLc/BQCbHp4v2PZDjcKGcrxzlwAVSvpBJWOamtNvTifFq9ftLlFHXhQ8dTSHK24lOYbkUW6jhgOSidOBxe0gDLD8SWQJQCOmrYdqoXVWOjjiI';
+var ad = 'http://y1.ifengimg.com/mappa/2014/03/13/6aa7367a981bb9f657d2c74aa9f90b2f.jpg';
+var w = '1000';var h = '90';var isActive = 0;
+</script>
+<script type="text/javascript" src="http://h0.ifengimg.com/ifeng/sources/yingguang-20140307.js"></script>
+
+<!--/s_news_index_130927_ad_banner_01-->
+
+ </div>
+</div>
+
+<!--底部开始 begin-->
+<div class="col_wbf bg03 mt15">
+  <div class="col_w1000 bg03">
+    <div class="space01">&nbsp;</div>
+    <div class="box_13 clearfix">
+     <div class="col_lm">
+<div class="box_13_1">
+  <div class="title03">合作媒体</div>
+  <ul class="list_hz">
+	<li><a href="http://www.news.cn/comments/" target="_blank" title="新华网评">新华网评</a><span>|</span><a href="http://news.people.com.cn/" target="_blank" title="人民网">人民网</a><span>|</span><a href="http://www.cnr.cn/" target="_blank" title="中国广播网">中国广播网</a><span>|</span><a href="http://gb.cri.cn/news/" target="_blank" title="国际在线">国际在线</a><span>|</span><a href="http://news.china.com.cn/" target="_blank" title="中国网新闻">中国网新闻</a><span>|</span><a href="http://www.taiwan.cn/" target="_blank" title="中国台湾网">中国台湾网</a><span>|</span><a href="http://www.ce.cn/" target="_blank" title="中国经济网">中国经济网</a><span>|</span><a href="http://www.youth.cn/" target="_blank" title="中国青年网">中国青年网</a><span>|</span><a href="http://www.qianlong.com/" target="_blank" title="千龙网">千龙网</a><span>|</span><a href="http://www.bjd.com.cn/" target="_blank" title="京报网">京报网</a></li>
+	<li><a href="http://china.huanqiu.com/" target="_blank" title="环球网">环球网</a><span>|</span><a href="http://www.hsw.cn/" target="_blank" title="华商网">华商网</a><span>|</span><a href="http://www.ycwb.com/" target="_blank" title="金羊网">金羊网</a><span>|</span><a href="http://www.oeeee.com/" target="_blank" title="奥一网">奥一网</a><span>|</span><a href="http://cn.msn.com/" target="_blank" title="MSN中文网">MSN中文网</a><span>|</span><a href="http://news.21cn.com/" target="_blank" title="21cn新闻中心">21cn新闻中心</a><span>|</span><a href="http://news.china.com/" target="_blank" title="中华网">中华网</a><span>|</span><a href="http://www.gmw.cn/" target="_blank" title="光明网">光明网</a><span>|</span><a href="http://www.huaxia.com/" target="_blank" title="华夏经纬网">华夏经纬网</a><span>|</span><a href="http://www.eastday.com/" target="_blank" title="东方网">东方网</a><span>|</span><a href="http://www.southcn.com/" target="_blank" title="南方网">南方网</a></li>
+	<li><a href="http://www.rednet.cn/" target="_blank" title="红网">红网</a><span>|</span><a href="http://www.cqnews.net/" target="_blank" title="华龙网">华龙网</a><span>|</span><a href="http://www.cnwest.com/" target="_blank" title="西部网">西部网</a><span>|</span><a href="http://www.hebei.com.cn/" target="_blank" title="长城网">长城网</a><span>|</span><a href="http://www.nen.com.cn/" target="_blank" title="东北新闻网">东北新闻网</a><span>|</span><a href="http://www.ts.cn/" target="_blank" title="天山网">天山网</a><span>|</span><a href="http://www.cnhubei.com/" target="_blank" title="荆楚网">荆楚网</a><span>|</span><a href="http://www.jxcn.cn/" target="_blank" title="中国江西网">中国江西网</a><span>|</span><a href="http://www.zjol.com.cn/" target="_blank" title="浙江在线">浙江在线</a><span>|</span><a href="http://www.sxrb.com/" target="_blank" title="山西新闻网">山西新闻网</a><span>|</span><a href="http://365jilin.com/" target="_blank" title="吉和网">吉和网</a></li>
+<li><a href="http://www.anhuinews.com/" target="_blank" title="中安在线">中安在线</a><span>|</span><a href="http://www.ahwang.cn/" target="_blank" title="安徽网">安徽网</a><span>|</span><a href="http://www.hinews.cn/" target="_blank" title="南海网">南海网</a><span>|</span><a href="http://www.xinjiangnet.com.cn/" target="_blank" title="新疆网">新疆网</a><span>|</span><a href="http://www.jxnews.com.cn/" target="_blank" title="大江网">大江网</a><span>|</span><a href="http://www.sxgov.cn/" target="_blank" title="黄河新闻网">黄河新闻网</a><span>|</span><a href="http://news.iyaxin.com/" target="_blank" title="亚心网">亚心网</a><span>|</span><a href="http://www.dayoo.com/" target="_blank" title="大洋网">大洋网 </a><span>|</span><a href="http://www.enorth.com.cn/" target="_blank" title="北方网">北方网</a><span>|</span><a href="http://www.dili360.com/" target="_blank" title="中国国家地理">中国国家地理</a><span>|</span><a href="http://www.cqcb.com/" target="_blank" title="重庆晨报">重庆晨报</a></li>
+	<li><a href="http://www.bjnews.com.cn/" target="_blank" title="新京报">新京报</a><span>|</span><a href="http://www.fawan.com/" target="_blank" title="法制晚报">法制晚报</a><span>|</span><a href="http://www.time-weekly.com/" target="_blank" title="时代周报">时代周报</a><span>|</span><a href="http://www.xkb.com.cn/" target="_blank" title="新快网">新快网</a><span>|</span><a href="http://www.morningpost.com.cn/" target="_blank" title="北京晨报网">北京晨报网 </a><span>|</span><a href="http://www.fjsen.com/" target="_blank" title="东南网">东南网</a><span>|</span><a href="http://www.voc.com.cn/" target="_blank" title="华声在线">华声在线</a><span>|</span><a href="http://www.changsha.cn/" target="_blank" title="星辰在线">星辰在线</a><span>|</span><a href="http://www.cnhan.com/" target="_blank" title="汉网">汉网</a><span>|</span><a href="http://www.cqwb.com.cn/" target="_blank" title="重庆晚报第一眼">重庆晚报第一眼</a></li>
+	<li><a href="http://www.inewsweek.cn/" target="_blank" title="中国新闻周刊">中国新闻周刊</a><span>|</span><a href="http://www.jinghua.cn/" target="_blank" title="京华网">京华网</a><span>|</span><a href="http://www.hsxiang.com/" target="_blank" title="华商响网">华商响网</a><span>|</span><a href="http://www.xiancity.cn/" target="_blank" title="西安网">西安网</a><span>|</span><a href="http://www.fabao365.com/" target="_blank" title="法邦网">法邦网</a><span>|</span><a href="http://365jia.cn/" target="_blank" title="万家热线">万家热线</a><span>|</span><a href="http://www.qhnews.com/" target="_blank" title="青海新闻网">青海新闻网</a><span>|</span><a href="http://www.ccwb.cn/" target="_blank" title="春城壹网">春城壹网</a></li>
+
+
+
+  </ul>
+</div>
+</div>
+     <div class="col_r">
+<div class="box_13_2 clearfix">
+  <div class="box_con">
+	<div class="b_logo"><img src="http://y2.ifengimg.com/e01ed39fc2da5d4a/2013/1023/b_logo.gif" width="128" height="25" title="凤凰资讯" alt="凤凰资讯"/></div>
+	<ul>
+	  <li>凤凰新媒体 资讯频道</li>
+	  <li class="clearfix"><span>邮箱：</span><a href="mailTo:news@ifeng.com" target="_blank"><img src="http://y2.ifengimg.com/e01ed39fc2da5d4a/2013/1023/mail.gif" width="83" height="26"/></a></li>
+		  <li></li>
+
+	  <li>凤凰网官方微博：</li>
+	  <li><a href="http://weibo.com/phoenixnewmedia" target="_blank" title="凤凰网官方微博">http://weibo.com/phoenixnewmedia</a></li>
+	</ul>
+	
+	<style>
+.sel{float:left;background:url(http://res.img.ifeng.com/8cbe73a7378dafdb/2011/0401/n_02.jpg) no-repeat top left;width:72px;height:18px;line-height:18px;padding-left:6px;margin-top:-75px;position:relative}/*20110601*/
+.sel h3{font-weight:normal;color:#004276;font-size:12px;padding-top:1px;cursor:pointer}
+.Calendar{float:left;background:#fff;width:162px;position:absolute;z-index:10;right:0px;padding:1px;border:1px solid #aaa}
+.Calendar .bord001{float:left;width:148px;background:#ddd;padding:7px}
+.Calendartitle{float:left;width:148px;background:#fff;padding-top:3px;text-align:center}
+#idCalendarPre{cursor:pointer;float:left;padding:3px 10px 0 9px}
+#idCalendarNext{cursor:pointer;float:right;padding:3px 9px 0 0}
+#idCalendarYear,#idCalendarMonth{font-weight:bold}
+.CalendarDate{width:148px}
+.CalendarDate th{text-align:center;background:#666666;color:#fff}
+.CalendarDate td{text-align:center;height:20px;font-family:Arial}
+.CalendarDate .cred03,.CalendarDate .cred03 a{color:#ba2636}
+.CalendarDate .current{background:#ba2636;color:#fff}
+.CalendarDate .current a{color:#fff}
+.CalendarDate td:hover{background:#999}
+.CalendarDate td:hover a{color:#fff}
+.CalendarDate th td:hover{background:#666}
+</style>
+    <div class="sel" id="calendarBox">
+        <h3 id="btnCalendar">每日要闻</h3>
+        <div class="Calendar" id="calendar" style="display:none">
+          <div class="bord001">
+            <div class="Calendartitle cDGray">
+              <div id="idCalendarNext"><img src="http://res.img.ifeng.com/8cbe73a7378dafdb/2011/0401/n_15.gif" width="12" height="11" /></div>
+              <div id="idCalendarPre"><img src="http://res.img.ifeng.com/8cbe73a7378dafdb/2011/0401/n_14.gif" width="12" height="11" /></div>
+              <span id="idCalendarYear"></span>年<span id="idCalendarMonth"></span>月
+              <table width="100%" border="1" cellpadding="0" cellspacing="0" bordercolor="#dddddd" bgcolor="#FFFFFF" class="CalendarDate">
+                <tr>
+                  <th colspan="7">
+                    <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                      <tr>
+                        <td>日</td>
+                        <td>一</td>
+                        <td>二</td>
+                        <td>三</td>
+                        <td>四</td>
+                        <td>五</td>
+                        <td>六</td>
+                      </tr>
+                    </table>
+                  </th>
+                </tr>
+                <tbody id="idCalendar"></tbody>
+              </table>
+              <table width="100%" border="0" bgcolor="#dddddd">
+                <tr>
+                  <td align="right" style="padding-top: 5px; *padding-top: 1px;">
+                    <span style="float:left; padding-top:0;*padding-top:3px;_padding-top:3px;"><a href="javascript:swapCalendar();">[退出]</a></span>
+                    <input name="timeCheck" id="timeCheck" type="radio" value="10" checked="checked" onclick="cale.Draw();" onselect="cale.Draw();" />
+                    10点
+                    <input name="timeCheck" type="radio" value="22" onclick="cale.Draw();" onselect="cale.Draw();" />
+                    22点
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+        <script type="text/javascript">
+          function swapCalendar() {
+            if($("calendar").style.display == "none"){
+              $("calendar").style.display = "block";
+              $("calendarBox").style.backgroundImage="url(http://res.img.ifeng.com/8cbe73a7378dafdb/2011/0401/n_002.jpg)"
+            }else{$("calendar").style.display = "none";
+              $("calendarBox").style.backgroundImage="url(http://res.img.ifeng.com/8cbe73a7378dafdb/2011/0401/n_02.jpg)";
+            }
+          }
+          $("btnCalendar").onclick = function () {
+            swapCalendar();
+          }
+          var lastDateCalendar = "2006-10-18";
+          var Class = {
+            create: function () {
+              return function () {
+                this.initialize.apply(this, arguments);
+              }
+            }
+          }
+          var Extend = function (destination, source) {
+            for (var property in source) {
+              destination[property] = source[property];
+            }
+            return destination;
+          }
+          var Calendar = Class.create();
+          Calendar.prototype = {
+            initialize: function (container, options) {
+              this.Container = $(container); //容器(table结构)
+              this.Days = []; //日期对象列表
+              this.SetOptions(options);
+              this.Year = this.options.Year || new Date().getFullYear();
+              this.Month = this.options.Month || new Date().getMonth() + 1;
+              this.SelectDay = this.options.SelectDay ? new Date(this.options.SelectDay) : null;
+              this.onSelectDay = this.options.onSelectDay;
+              this.onToday = this.options.onToday;
+              this.onFinish = this.options.onFinish;
+              this.Draw();
+            },
+            //设置默认属性
+            SetOptions: function (options) {
+              this.options = {//默认值
+                Year: 0, //显示年
+                Month: 0, //显示月
+                SelectDay: null, //选择日期
+                onSelectDay: function () { }, //在选择日期触发
+                onToday: function () { }, //在当天日期触发
+                onFinish: function () { } //日历画完后触发
+              };
+              Extend(this.options, options || {});
+            },
+            //当前月
+            NowMonth: function () {
+              this.PreDraw(new Date());
+            },
+            //上一月
+            PreMonth: function () {
+              this.PreDraw(new Date(this.Year, this.Month - 2, 1));
+            },
+            //下一月
+            NextMonth: function () {
+              this.PreDraw(new Date(this.Year, this.Month, 1));
+            },
+            //上一年
+            PreYear: function () {
+              this.PreDraw(new Date(this.Year - 1, this.Month - 1, 1));
+            },
+            //下一年
+            NextYear: function () {
+              this.PreDraw(new Date(this.Year + 1, this.Month - 1, 1));
+            },
+            //根据日期画日历
+            PreDraw: function (date) {
+              //再设置属性
+              this.Year = date.getFullYear(); this.Month = date.getMonth() + 1;
+              //重新画日历
+              this.Draw();
+            },
+            //画日历
+            Draw: function () {
+              //用来保存日期列表
+              var arr = [];
+              //用当月第一天在一周中的日期值作为当月离第一天的天数
+              for (var i = 1, firstDay = new Date(this.Year, this.Month - 1, 1).getDay(); i <= firstDay; i++) { arr.push(0); }
+              //用当月最后一天在一个月中的日期值作为当月的天数
+              for (var i = 1, monthDay = new Date(this.Year, this.Month, 0).getDate(); i <= monthDay; i++) { arr.push(i); }
+              //清空原来的日期对象列表
+              this.Days = [];
+              //插入日期
+              var frag = document.createDocumentFragment();
+              while (arr.length) {
+                //每个星期插入一个tr
+                var row = document.createElement("tr");
+                //每个星期有7天
+                for (var i = 1; i <= 7; i++) {
+                  var cell = document.createElement("td");
+                  cell.innerHTML = "&nbsp;";
+                  if (i == 1 || i == 7) {
+                    cell.className = "cred03";
+                  }
+                  if (arr.length) {
+                    var d = arr.shift();
+                    if (d) {
+                      cell.innerHTML = d;
+                      this.Days[d] = cell;
+                      var on = new Date(this.Year, this.Month - 1, d);
+                      //判断是否今日
+                      this.IsSame(on, new Date()) && this.onToday(cell);
+                      //判断是否选择日期
+                      this.SelectDay && this.IsSame(on, this.SelectDay) && this.onSelectDay(cell);
+                    }
+                  }
+                  row.appendChild(cell);
+                }
+                frag.appendChild(row);
+              }
+              //先清空内容再插入(ie的table不能用innerHTML)
+              while (this.Container.hasChildNodes()) { this.Container.removeChild(this.Container.firstChild); }
+              this.Container.appendChild(frag);
+              //附加程序
+              this.onFinish();
+            },
+            //判断是否同一日
+            IsSame: function (d1, d2) {
+              return (d1.getFullYear() == d2.getFullYear() && d1.getMonth() == d2.getMonth() && d1.getDate() == d2.getDate());
+            }
+          }
+          var myDate = new Date();
+          var nowYear = myDate.getYear();
+          var nowMonth = myDate.getMonth();
+          var nowDay = myDate.getDay();
+          function DateDiff(d1, d2) {//比较两个日期的大小 d1，d2格式为2006-09-08;返回数result>0说明d1>d2 result== 0说明d1==d2 result<0说明d1<d2
+            var result = Date.parse(d1.replace(/-/g, "/")) - Date.parse(d2.replace(/-/g, "/"));
+            return result;
+          }
+          var cale = new Calendar("idCalendar", {
+            onSelectDay: function (o) { o.className = "onSelect"; },
+            onToday: function (o) { o.className = "current"; },
+            onFinish: function () {
+              monthDay = new Date(this.Year, this.Month, 0).getDate();
+              var myDate = new Date();
+              var nowYear = (myDate.getYear() < 1900) ? (1900 + myDate.getYear()) : myDate.getYear();
+              var nowMonth = myDate.getMonth() + 1;
+              var nowDay = myDate.getDate();
+              if (nowMonth > 9) {
+              } else {
+                nowMonth = "0" + nowMonth;
+              }
+              if (nowDay > 9) {
+              } else {
+                nowDay = "0" + nowDay;
+              }
+              nowDate = nowYear + '-' + nowMonth + '-' + nowDay;
+              firstDate = lastDateCalendar;
+              var datediff_sign; //日期比较的标志位
+              var datediff_first;
+              $("idCalendarYear").innerHTML = this.Year; $("idCalendarMonth").innerHTML = this.Month;
+              for (var i = 1, len = monthDay; i <= len; i++) {
+                if (this.Month > 9) {
+                  the_month = this.Month;
+                } else {
+                  the_month = "0" + this.Month;
+                }
+                if (i > 9) {
+                  the_day = i;
+                } else {
+                  the_day = "0" + i;
+                }
+                selectDay = this.Year + '-' + the_month + '-' + the_day;
+                datediff_sign = DateDiff(nowDate, selectDay);
+                datediff_first = DateDiff(firstDate, selectDay);
+                var timeCheck = $("timeCheck").checked ? "/10" : "";
+                if (datediff_sign >= 0 && datediff_first <= 0) {
+                  this.Days[i].innerHTML = '<a href="http://news.ifeng.com/snapshots/' + this.Year + "" + the_month + "/" + the_day + timeCheck + '.html" target="_blank">' + i + "</a>";
+                } else {
+                  this.Days[i].innerHTML = '<a href="javascript:;">' + i + "</a>";
+                }
+              }
+            }
+          });
+          $("idCalendarPre").onclick = function () { cale.PreMonth(); }
+          $("idCalendarNext").onclick = function () { cale.NextMonth(); }
+        </script>
+      </div>
+	
+  </div>
+  <div class="wx"><img src="http://y3.ifengimg.com/2013/11/04/09475232.jpg" width="83" height="98" title="凤凰新闻客户端" alt="凤凰新闻客户端"/></div>
+</div>
+</div>
+    </div>
+    <div class="ad08 mt12">
+	
+<!--s_news_index_ad_banner_bottom_1000x90 2014.03.15 09:17:15-->
+<script type="text/javascript">try{aptracker.add(544);}catch(e){}</script>
+
+
+
+<!--0,0,NULL,fixture--><iframe src="http://www.ifeng.com/ssi-incs/s_all_index_ad_banner_bottom.inc.html" scrolling="no" frameborder="0" style="width:1000px; height:90px; border:0px;background-color=transparent;" allowtransparency="true"></iframe>
+<img height=1 width=1 src="http://dolphin.deliver.ifeng.com/c?z=ifeng&la=0&si=2&ci=23&cg=22&c=29&or=232&l=726&bg=726&b=724&u=http://y0.ifengimg.com/34c4a1d78882290c/2012/0528/1x1.gif" />
+<!--/s_news_index_ad_banner_bottom_1000x90-->
+
+    </div>
+    <!--通用页尾开始-->
+    <div class="footer mt02">
+     <div class="footlink clearfix">
+       <div class="fk_l"><a href="http://www.ifeng.com/corp/about/intro/" target="_blank">凤凰新媒体介绍</a><span>|</span><a href="http://ir.ifeng.com/" target="_blank">投资者关系 Investor Relations</a><span>|</span><a href="http://www.ifeng.com/corp/ad/" target="_blank">广告服务</a><span>|</span><a href="http://career.ifeng.com/" target="_blank">诚征英才</a><span>|</span><a href="http://www.ifeng.com/corp/privacy/" target="_blank">保护隐私权</a><span>|</span><a href="http://www.ifeng.com/corp/exemption/" target="_blank">免责条款</a><span>|</span><a href="#" target="_blank">法律顾问</a><span>|</span><a href="http://www.ifeng.com/corp/feedback/" target="_blank">意见反馈</a><span>|</span><a href="http://phtv.ifeng.com/intro/" target="_blank">凤凰卫视介绍</a></div>
+       <div class="fk_r">
+         <ul class="clearfix">
+           <li class="l_bg001"><a a href="http://v.ifeng.com/" target="_blank" title="视频">视频</a></li>
+           <li>·<a href="http://v.ifeng.com/documentary/index.shtml" target="_blank" title="纪实">纪实</a></li>
+           <li>·<a href="http://v.ifeng.com/live/" target="_blank" title="直播">直播</a></li>
+           <li class="l_bg002"><a href="http://phtv.ifeng.com/"  target="_blank" title="凤凰卫视">凤凰卫视</a></li>
+         </ul>
+       </div>
+     </div>
+     <div class="copyright"><span>凤凰新媒体&nbsp;版权所有</span>&nbsp;&nbsp;&nbsp;&nbsp;Copyright ? 2013 Phoenix New Media Limited All Rights Reserved.</div>
+    </div>
+    <!--通用页尾结束-->
+  </div>
+</div>
+<!--底部结束 end-->
+<script>
+ 	 jq('.pictxt00').hover(function(){
+		jq(this).addClass('bg_b');
+	 },function(){
+		jq(this).removeClass('bg_b');
+	 });
+ 	 jq('.pictxt01').hover(function(){
+		jq(this).addClass('bg_b');
+	 },function(){
+		jq(this).removeClass('bg_b');
+	 });
+</script>
+ <script>
+var sta_collection_time = new Date().getTime();
+  </script>
+  <script src="http://y3.ifengimg.com/sta_collection.3.3.10.min.js" id="sta_collection_new"></script>
+<div id="ifeng_da_le" style="width:1px;height:1px;"><script src="http://m0.ifengimg.com/ifeng/sources/120331-iImpression.js"></script></div>
+<!--通用频道页尾代码结束-->
+  
+<!--s_news_sub_ad_icon 2014.03.15 13:17:14-->
+<script type="text/javascript">try{aptracker.add(940);}catch(e){}</script>
+
+
+<div id="AP940" style="display:none;">
+<!--18004,7507,魏层层,8--><code>
+<!--BOF
+<script language="javascript" type="text/javascript">
+var adflashbig = 'http://y0.ifengimg.com/mappa/2014/03/06/ca399d92991ae12541784fe5ae332878.swf';
+var adflashsmall = 'http://y0.ifengimg.com/mappa/2014/03/06/eec644df76b52263668dfc5c4d22e6e6.jpg';
+var adclickurl = 'http://dolphin.deliver.ifeng.com/c?z=ifeng&la=0&si=2&cg=1&c=1&ci=2&or=3358&l=11652&bg=11652&b=11654&u=http://www.sanyuan.com.cn/';
+var flat_stream_t_showtimer = '0';
+var float_stream_t_small_bottom = '15';
+ 
+var float_stream_width = 258;  //主动画宽度
+var float_stream_height = 215; //主动画高度
+var float_stream_top = 150;//主动画上边距
+var float_stream_left = 0;//主动画左边距
+var ifcl_stylebigBg= 1;  //是否透明
+var closetimer = 8;   //主动画展示时长
+var maxopentime = 2;   //主动展示次数
+var float_stream_small_right = 0; //浮标右边距
+var float_stream_interaction = 0; //1为互动素材，0为非互动素材
+</script>
+
+<script type="text/javascript" src="http://y0.ifengimg.com/ifeng/sources/121205-fubiao.js"></script>
+EOF-->
+</code>
+
+<!--0,0,NULL,fixture--><cite>
+<!--BOF
+EOF-->
+</cite>
+</div>
+<script language="javascript">
+try{
+var defaultAdRotatorConfig = {maxTimes : 2, saleMode : "CPD"};
+new adRotatorFactory({identifier : "AP940"});
+}catch(e){}
+</script>
+<!--/s_news_sub_ad_icon-->
+
+  
+<!--s_news_index_ad_interstitial 2014.03.15 09:17:38-->
+<script type="text/javascript">try{aptracker.add(1139);}catch(e){}</script>
+
+
+<script>
+	var fullScreenList = [];
+</script>
+<script>
+
+<!--0,0,NULL,fixture-->
+</script>
+<script type="text/javascript" src="http://y2.ifengimg.com/zhishaofei/js/20131113-OtherFullScreen.js"></script>
+<!--/s_news_index_ad_interstitial-->
+
+  
+<!--s_news_index_ad_floatpause 2014.03.15 09:17:15-->
+<script type="text/javascript">try{aptracker.add(567);}catch(e){}</script>
+
+
+
+<!--0,0,NULL,fixture-->
+
+<!--/s_news_index_ad_floatpause-->
+
+  
+<!--s_news_index_ad_acrosspart 2014.03.15 09:17:51-->
+<script type="text/javascript">try{aptracker.add(1546);}catch(e){}</script>
+
+
+
+<!--0,0,NULL,fixture-->
+
+<!--/s_news_index_ad_acrosspart-->
+
+  
+<!--s_news_index_ad_media 2014.03.15 09:17:50-->
+<script type="text/javascript">try{aptracker.add(1527);}catch(e){}</script>
+
+
+
+<!--0,0,NULL,fixture-->
+<div id="Ap1527" style="display:none;">
+
+	<code>
+		<!--BOF
+<script>
+	(function () {
+		var mfp_base = "http://mfp.deliver.ifeng.com/mfp/mfpMultipleDelivery.do?t=html&ADUNITID=202&CHANNEL=news";
+		var mfp_user_cookie_name = "userid";
+		var mfp_preview_cookie_name = "PID";
+		function mfp_getCookie(c_name) {
+			var start = document.cookie.indexOf(c_name+"=");
+			if (start ==-1) {return "";}
+			start = start+c_name.length+1;
+			var end = document.cookie.indexOf(";",start);
+			if (end==-1) {end = document.cookie.length;}
+			return decodeURIComponent(document.cookie.substring(start,end));
+		};
+		var mfppid="&"+mfp_preview_cookie_name+"="+mfp_getCookie(mfp_preview_cookie_name);
+		
+		var mfp_url=mfp_base+"&USERID="+mfp_getCookie(mfp_user_cookie_name)+mfppid;
+		document.write('<scr'+'ipt src="'+mfp_url+'"></scr'+'ipt>');
+		
+	})();
+</script>
+
+	EOF-->
+	</code>
+	
+	<cite>
+		<!--BOF
+	
+		EOF-->
+	</cite>
+</div>
+
+<script>
+	var ifengWindow = function(obj){
+		var _ = this;
+		//轮播控制
+		var identifier = obj.identifier;
+		var wrapper = document.getElementById(identifier);
+		var maxTimes = obj.maxTimes;
+		var adContent = '';
+		var elements = wrapper.getElementsByTagName('code');
+		var fixtures = wrapper.getElementsByTagName('cite');
+		//轮播控制cookie
+		var cookieFlag = 'ifengRotator_'+ identifier;
+		var current = _.getcookie(cookieFlag);
+		var timeOut = 43200;//过期时间
+		var element,tempStr;
+		if(typeof current === 'undefined' || current == ''){
+			current =  parseInt(Math.random() * 100000) % maxTimes;
+		}
+		//频次控制cookie
+		var ifengWindowCookieName = 'ifengWindowCookieName' + _.getSecondDomain();
+		if(_.getcookie(ifengWindowCookieName)!=1){
+			_.setcookie(cookieFlag, ((parseInt(current) + 1) % maxTimes), timeOut);
+			if(typeof elements[current] != 'undefined'){
+			element = elements[current];
+			adContent = element.innerHTML;
+		}
+		if(adContent == ''){
+			if(typeof fixtures[0] != 'undefined'){
+				element = fixtures[0];
+				adContent = element.innerHTML;
+			}
+		}
+		adContent = adContent.replace('<!--BOF', '');
+		adContent = adContent.replace('EOF-->', '');
+		}
+		//频次控制
+		var date=new Date();
+		if(_.getcookie(ifengWindowCookieName)!=1){
+			showIfengWindow();
+		}
+		function showIfengWindow(){
+			document.write(adContent);
+			_.setcookie(ifengWindowCookieName, 1, obj.showIntervalTime);	
+		}
+	};
+	ifengWindow.prototype = {
+		//得到一个cookie的值
+		getcookie : function(name) {
+			var splitCookie = document.cookie.split("; ");
+			for(var i = 0; i < splitCookie.length; i++) {
+				var cookieNameValue = splitCookie[i].split("=");
+				if(cookieNameValue[0] == name) {
+					return unescape(cookieNameValue[1]);
+				}
+			}
+			return '';
+		},
+		//种一个cookie
+		setcookie : function(name, value, time) {
+			var date = new Date();
+			var expiresTime = new Date(date.getTime() + time * 1000);
+			document.cookie = name + "=" + escape(value) + ";path=/;expires=" + expiresTime.toGMTString() + ";";
+		},
+		//获得二级域名（频道域名）
+		getSecondDomain : function() {
+				var arr_domain=document.domain.split(".");
+				return arr_domain[0];
+		}
+	}
+	new ifengWindow({
+		showIntervalTime : 600,  //视窗showIntervalTime秒内展示一次
+		maxTimes : 1, //广告流量
+		identifier : 'Ap1527'
+	});
+</script>
+<!--/s_news_index_ad_media-->
+
+  
+<!--s_news_index_ad_couplet 2014.03.15 09:18:39-->
+
+<div id="AP2712" style="display:none;">
+<!--17806,8628,黄娟,B1--><code>
+	<!--BOF
+	<script type="text/javascript">
+		var OtherCoupletObj = {
+			swfUrl: "http://y0.ifengimg.com/mappa/2014/03/12/d54c73b4495575eb1a0ea9742d5b4e7d.jpg",
+			clickUrl:"http://dol.deliver.ifeng.com/c?281101b45MluuVuLEVCrlk7CiF1N5piUjVsuTNmWaw1nose1ZFLj3o8Fdzc7lQGmLvTh9VwlSXDhTbrDBwR4WN0TXAAkwFcbwdla4D+brMspHn1ueWGDFl71orgKLc/BQCbHp4v2PZDjcKGcrxzlwAVSvpBJWOamtNvTifFq9ftLlFHXhQ8dTSHK24lOYbkUW6jhgOSidOBxe0gDLD8SWQJQCOmrYdqoXVWOjjiI",
+			interac:0,
+			delay:0
+		}
+	</script>
+	<script type="text/javascript" src="http://y2.ifengimg.com/zhishaofei/js/20131113-OtherCouplet.js"></script>
+	EOF-->
+</code>
+
+<!--0,0,NULL,fixture--><cite>
+<!--BOF
+EOF-->
+</cite>
+</div>
+<script language="javascript">
+try{
+var defaultAdRotatorConfig = {maxTimes : 2, saleMode : "CPD"};
+new adRotatorFactory({identifier : "AP2712"});
+}catch(e){}
+</script>
+<!--/s_news_index_ad_couplet-->
+
+  
+<!--s_news_index_ad_popunder 2014.03.15 09:17:51-->
+<script type="text/javascript">try{aptracker.add(1547);}catch(e){}</script>
+
+
+
+<!--0,0,NULL,fixture-->
+
+<!--/s_news_index_ad_popunder-->
+
+  
+<!--s_news_index_ad_floatmedia 2014.03.15 09:17:33-->
+<script type="text/javascript">try{aptracker.add(942);}catch(e){}</script>
+
+
+
+<!--0,0,NULL,fixture-->
+
+<!--/s_news_index_ad_floatmedia-->
+
+  
+<!--s_news_index_ad_bgwindows 2014.03.15 09:17:16-->
+<script type="text/javascript">try{aptracker.add(568);}catch(e){}</script>
+
+
+
+<!--0,0,NULL,fixture-->
+
+<!--/s_news_index_ad_bgwindows-->
+
+  
+<!--s_news_index_ad_pvcount 2014.03.15 09:17:42-->
+<script type="text/javascript">try{aptracker.add(1336);}catch(e){}</script>
+
+
+
+<!--0,0,NULL,fixture--><!---->
+<img height=1 width=1 src="http://dolphin.deliver.ifeng.com/c?z=ifeng&la=0&si=2&ci=23&cg=22&c=29&or=232&l=725&bg=725&b=723&u=http://y0.ifengimg.com/34c4a1d78882290c/2012/0528/1x1.gif" />
+<!--/s_news_index_ad_pvcount-->
+
+  
+<!--s_news_index_ad_productdodge_end 2014.03.15 09:17:51-->
+<script type="text/javascript">try{aptracker.add(1548);}catch(e){}</script>
+
+
+
+<!--0,0,NULL,fixture-->
+
+<!--/s_news_index_ad_productdodge_end-->
+
+  <!-- START WRating v1.0 -->
+  <script src="http://t2.wrating.com/a1.js">
+  </script>
+  <script>
+    var vjAcc="860010-2061091700";
+    var wrUrl="http://t2.wrating.com/";
+    vjTrack("");
+  </script>
+  <noscript><img src="http://t2.wrating.com/a.gif?a=&c=860010-2061091700" width="1" height="1"/></noscript>
+  <!-- END WRating v1.0 -->
+  <!-- START WRating v1.0 -->
+  <script src="http://click.wrating.com/c3.js">
+  </script>
+  <script>
+    var vjClickAcc="860010-2061091700";
+    var wrUrl="http://click.wrating.com/";
+    initMouseClick();
+  </script>
+  <!-- END WRating v1.0 -->
+<!-- START WRating v1.0 -->
+<script type="text/javascript" src="http://y2.ifengimg.com/e01ed39fc2da5d4a/2014/0113/wrating.js">
+</script>
+<script type="text/javascript">
+var vjAcc="860010-2063990101";
+var wrUrl="http://ifeng.wrating.com/";
+vjTrack("");
+</script>
+<noscript><img src="http://ifeng.wrating.com/a.gif?a=&c=860010-2063990101" width="1" height="1"/></noscript>
+<!-- END WRating v1.0 -->
+<script>window.onerror=function(){return true;}</script>                 
+<script src="http://y3.ifengimg.com/9db17ab793eef980/2013/0403/clickheat_sim.js"></script>
+<script>
+clickHeatSite = 'news'; 
+clickHeatGroup = 'index';
+clickHeatServer = 'http://map.tongji.ifeng.com/clickheat/click.php';
+initClickHeat(); 
+</script>
+</body>
+</html>

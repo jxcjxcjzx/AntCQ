@@ -64,6 +64,11 @@ function parse(content){
 	
 }
 
+function  innerTestPoint(){
+
+
+}
+
 module.exports = {
 	born : born
 }
