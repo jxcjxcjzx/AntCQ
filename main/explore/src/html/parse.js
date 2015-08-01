@@ -54,7 +54,7 @@ var global_use = {
 
 var patterns = {
 
-	httplinkbegin : '"http://"',
+	httplinkbegin : 'http:// ',
 		
 	defaults : 99
 
@@ -87,7 +87,10 @@ function parseUrls(HtmlPage){
 	// add control here by jxc 
 	for(var i = 0;i<contentArray.length-1;i++){
 		singleLine = contentArray[i];	
-		// lines and chars dealing 
+		// lines and chars dealing
+
+		// console.log(singleLine);
+		
 		if(takeLine(singleLine) === Constants.CONTINUE){
 			takeLine(contentArray[++i]);
 		}else{	
