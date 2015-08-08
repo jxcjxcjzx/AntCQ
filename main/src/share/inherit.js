@@ -16,4 +16,3 @@ function parseFunctionList(){
 	// return a function list which should be inherited by child class from father class 
 }
 
-function 
