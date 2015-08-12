@@ -7,11 +7,21 @@
  }
  
  
+ function reimplement(funcName,thereimplement){
+ 
+	// first check the function exist , better do it 
+	
+	
+	// then re implement it 
+	funcName = thereimplement;
+ 
+ }
+ 
+ 
  
  
  
  module.exports = {
-	
-	formList : formList
+
  
  }

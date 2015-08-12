@@ -46,8 +46,8 @@ Array.prototype.contains = function(item){
 		// then broadcastlist be handled by actions		
 		// in broadcastlist are all names , from name form the js file 
 		for(item in broadcastlist){
-			utils.fromName(item).enter();
-			utils.fromName(item).receive(encapsule_3(action,utils.fromName(item).getPrehandler(),utils.fromName(item).getHandler()));
+			utils.forName(item).enter();
+			utils.forName(item).receive(encapsule_3(action,utils.forName(item).getPrehandler(),utils.forName(item).getHandler()));
 		}
 		
 	}else{

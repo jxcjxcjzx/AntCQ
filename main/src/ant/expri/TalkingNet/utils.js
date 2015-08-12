@@ -4,7 +4,7 @@
 
 
 // for this function, cache this and then gloally return the js object later 
-function fromName(jsModuleName){
+function forName(jsModuleName){
 	// tmpliy do this , adjust it later 
 	return require("./"+jsModuleName+".js");	
 }
@@ -29,7 +29,7 @@ function timeOfNow(){
 
 module.exports = {
 
-	fromName : fromName
+	forName : forName
 
 }
 
