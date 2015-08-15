@@ -1,22 +1,3 @@
-// DONOTGRABME
-// the above tag mean this file is not a simple ant, 
-// or, not like any other ants 
-
-
-// the link map 
-/*
-
-   1 --  2 -- 3 -- 4 -- 5 
-   |     |    |    |    |
-    \- 6 -- 7 -- 8 -- 9-/
-	  / \  / \  / \  / \
-	 10  11   12   13   14 
-	  |   |   |    |    |
-	  15--16--17 --18 --19
-	  
-*/
-
-
 //  the first ant we really press on 
 // start of the shared part 
 var _theSharedFunctionsAndStructures_shared_ = require("./common/theSharedFunctionsAndStructures.js");
@@ -75,13 +56,13 @@ var theSharedFunctionsAndStructures = {
  function enter(){
 	// this function represents enter of function 
 	// for debug only , use log system to replace this later 
-	console.log(" entering linkMgrAnt , welcome ...  ");
+	console.log(" entering endofbroadcast , end broadcast now  ...  ");
  }
 
  var preHandler = {
 	prehandle : function(_action){
-		// dp broadcast first 
-		theSharedFunctionsAndStructures.call("broadcast",[_action,getBroadcastlist()]);
+		// dp broadcast first , end the broadcast now and broadcast it to all 
+		// theSharedFunctionsAndStructures.call("broadcast",[_action,getBroadcastlist()]);
 	}
  };
  
@@ -92,7 +73,7 @@ var theSharedFunctionsAndStructures = {
 	
  };
  
- var _broadcastList = ["logAnt"];
+ var _broadcastList = ["self"];
  
  function getBroadcastlist(){
 	return _broadcastList;
@@ -119,28 +100,6 @@ function tmp_test(){
 }
 
 
- function randomLinkAnts(){
-	// provides a random link algorithm 
-	
- 
- }
- 
- 
- function getAllAnts(){
-	// make a file scan and do collect the names 
-	
-	
-	
- }
- 
- function getLinksForAntxx(thexxAnt){
-	// look into the record table and get the links 
-	
-	
- }
- 
- 
- 
 module.exports = {
 	
 	// if this is an seed ant, just export the tmp_test function or 
@@ -154,4 +113,3 @@ module.exports = {
 	getHandler : getHandler
 
 }
- 

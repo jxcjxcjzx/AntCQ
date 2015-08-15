@@ -106,6 +106,19 @@ var SORTING_ALGORITHMS = {
 		// 选择排序
 	},
 	
+
+	BIT : function(){
+		// 字节排序，比特位排序
+		/* for example  
+			0-0-0-0-0-0-0-0  max value for number is 8 ,  5,2,8  so 
+			will be  0-1-0-0-1-0-0-1 , and check each bit 
+			so the number array after sorting will be  2,5,8
+		*/
+		
+		
+	}
+	
+	
 };
 
 

@@ -4,8 +4,8 @@ var _theSharedFunctionsAndStructures_shared_ = require("./common/theSharedFuncti
 var _reimplement_shared_ = require("./common/reimplement.js");
 //  implement this later 
 // var reimplementList = _reimplement_shared_.formList("enter",);
-var reimplementList = ["enter",];
-var reimplementFunctionList = [enter,];
+var reimplementList = ["enter","getBroadcastlist",];
+var reimplementFunctionList = [enter,getBroadcastlist];
 // should have this function , for each ant 
 Array.prototype.contains = function(item){
 	return RegExp(item).test(this);
@@ -33,9 +33,9 @@ var theSharedFunctionsAndStructures = {
 	
 	call : function(functionName, params){
 		if(_theSharedFunctionsAndStructures_shared_.hasFunction(functionName)){
-			if(reimplementList.contains(functionName)){
+			if(!reimplementList.contains(functionName)){
 				// call function in shared library 
-				console.log(" start to call function shared  ");
+				// console.log(" start to call function shared  functionName is : "+functionName+"  param is : "+params);
 				_theSharedFunctionsAndStructures_shared_.call(functionName,params);
 			}
 			else{
@@ -61,7 +61,8 @@ var theSharedFunctionsAndStructures = {
 
  var preHandler = {
 	prehandle : function(_action){
-		
+		// dp broadcast first 
+		theSharedFunctionsAndStructures.call("broadcast",[_action,getBroadcastlist()]);
 	}
  };
  
@@ -72,18 +73,18 @@ var theSharedFunctionsAndStructures = {
 	
  };
  
- var _broadcastList = [];
+ var _broadcastList = ["queryAnt"];
  
  function getBroadcastlist(){
-	
+	return _broadcastList;
  }
  
  function getPrehandler(){
-	
+	return preHandler;
  }
  
  function getHandler(){
-	
+	return Handler;
  }
  
  /*  end of reimplement list  */
@@ -92,16 +93,27 @@ var theSharedFunctionsAndStructures = {
 // the test function 
 
 
+
+
 function tmp_test(){
 	
-	// just for test 
+	// just for test
+	var action = "calltwiceinquery";
+	console.log(" enter tmp_test  ");
+	theSharedFunctionsAndStructures.call("broadcast",[action,getBroadcastlist()]);
 }
 
 
 module.exports = {
-
-	theSharedFunctionsAndStructures : theSharedFunctionsAndStructures,
 	
-	tmp_test : tmp_test
+	// if this is an seed ant, just export the tmp_test function or 
+	// several functions 
+	tmp_test : tmp_test,
+	
+	enter : enter,
+	
+	getPrehandler : getPrehandler,
+	
+	getHandler : getHandler
 
 }

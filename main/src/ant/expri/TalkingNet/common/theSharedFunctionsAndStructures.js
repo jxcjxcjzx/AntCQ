@@ -8,8 +8,8 @@
 
 var utils = require("../utils.js");
 
-var functionNameList = ["test_me","log"];
-var functionList  = [test_me,log];
+var functionNameList = ["test_me","log","broadcast","receive"];
+var functionList  = [test_me,log,broadcast,receive];
 
 Array.prototype.contains = function(item){
 	return RegExp(item).test(this);
@@ -40,14 +40,16 @@ Array.prototype.contains = function(item){
  // the core distribute functions 
  function broadcast(actions_broadcastlist){
 	// it relates to a whole distributing network here 
+	// console.log(" enter broadcast  ");
 	if(actions_broadcastlist.length>=2){
 		action = actions_broadcastlist[0];
 		broadcastlist = actions_broadcastlist[1];
 		// then broadcastlist be handled by actions		
 		// in broadcastlist are all names , from name form the js file 
-		for(item in broadcastlist){
-			utils.forName(item).enter();
-			utils.forName(item).receive(encapsule_3(action,utils.forName(item).getPrehandler(),utils.forName(item).getHandler()));
+		// console.log(broadcastlist);
+		for(var i=0;i<broadcastlist.length;i++){
+			utils.forName(broadcastlist[i]).enter();
+			receive(encapsule_3(action,utils.forName(broadcastlist[i]).getPrehandler(),utils.forName(broadcastlist[i]).getHandler()));
 		}
 		
 	}else{
@@ -68,19 +70,23 @@ Array.prototype.contains = function(item){
  
  function getBroadcastlist(){
 	// return a default broadcastlist
+	return _broadcastList;
  }
  
  function getPrehandler(){
 	// return a default prehandler
+	return preHandler;
  }
  
  function getHandler(){
 	// return a default handler 
+	return Handler;
  }
  
  function encapsule_3(_actions,_prehandler,_handler){
 	return [_actions,_prehandler,_handler];
  }
+
  
  // the key to this distribution
  function receive(action_prehandler_handler){
@@ -91,7 +97,9 @@ Array.prototype.contains = function(item){
 		
 		action = action_prehandler_handler[0];
 		// use call fucntion instead
-		broadcast([action,getBroadcastlist()]);
+		// whether to broadcast this action, 
+		// left for single module to decide 
+		// broadcast([action,getBroadcastlist()]);
 		
 		if(action_prehandler_handler.length>=3){
 			// action = action_prehandler_handler[0];
