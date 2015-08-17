@@ -40,6 +40,18 @@ var SORTING_ALGORITHMS = {
 		
 	},
 	
+	// need confirmation , check if it works 
+	BINARY_INSERT : function(array){
+		// ∂˛∑÷≤Â»Î≈≈–Ú
+		if(Object.prototype.toString.call(array).slice(8,-1) === 'Array'){
+			for(var i=1;i<array.length;i++){
+				
+			}
+		
+		}
+	
+	},
+	
 	
 	QUICK : function(arr,start,end){
 	// not have debugged this , debug this later 

@@ -1,1 +1,0 @@
-// collect novels for talk 

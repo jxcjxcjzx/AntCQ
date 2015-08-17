@@ -13,6 +13,20 @@ enum Operation {
 	
 	MODULUS,
 
-	POWER
+	POWER,
 	
 }
+
+
+var task = {
+	// simple calculating task 
+	
+
+};
+
+
+function exec(){
+
+
+}
+
