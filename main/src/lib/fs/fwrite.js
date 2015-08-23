@@ -9,7 +9,7 @@ fs = require('fs');
 var _cache_size = 2000;
 var _global_content = "";
 
-function _appendFile(fileName,content,charset/* if needed */,callback){
+function _lazyAppendFile(fileName,content,charset/* if needed */,callback){
 	
 	if(content===null){
 		// no content at all, quit 
@@ -22,14 +22,31 @@ function _appendFile(fileName,content,charset/* if needed */,callback){
 		}else{
 			// no do the actual saving 
 			// for debug only 
-			console.log(" running into _appendFile in fwrite, ready to appendFile ");
-			fs.appendFile(fileName,_global_content,charset,callback);
+			// console.log(" running into _appendFile in fwrite, ready to appendFile ");
+			_appendFile(fileName,_global_content,charset,callback);
 			_clearGlobalContentAfterSave();
 		}
 	}
 
 	
 }
+
+
+function _appendFile(fileName,content,charset/* if needed */,callback){
+	
+	if(content===null){
+		// no content at all, quit 
+		return;
+	}else{
+		
+		fs.appendFile(fileName,_global_content,charset,callback);
+
+	}
+
+	
+}
+
+
 
 function _clearGlobalContentAfterSave(/* no arguments */){
 	_global_content = "";
@@ -38,6 +55,8 @@ function _clearGlobalContentAfterSave(/* no arguments */){
 
 module.exports = {
 	
-	appendFile : _appendFile
+	appendFile : _appendFile,
+	
+	lazyAppendFile : _lazyAppendFile
 
 }
