@@ -9,3 +9,4 @@ the libs in this dir contains :
 * functional : provide function-programming interface, maybe the function-programming is possible using this lib. 
 * fs : using this library to read/write files. 
 * Comm : the communication lib which can be used to publish and receive message. 
+* store, the database store and query service provider, as the db operation is atomed(原子性的), be more careful when use it. 

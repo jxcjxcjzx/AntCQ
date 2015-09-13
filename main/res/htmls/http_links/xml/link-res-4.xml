@@ -1,0 +1,1851 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<stat-node name="HTTP Requests by HTTP Host">
+<Count>251</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0026</Rate--ms->
+<Percent>100%</Percent>
+<Burst-rate>0.0600</Burst-rate>
+<Burst-start>9.640</Burst-start>
+<stat-node name="www.robopeak.com">
+<Count>2</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>0.80%</Percent>
+<Burst-rate>0.0200</Burst-rate>
+<Burst-start>78.507</Burst-start>
+<stat-node name="/img/search.png">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>50.00%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>78.569</Burst-start>
+</stat-node>
+<stat-node name="/css/default/loading.gif">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>50.00%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>78.507</Burst-start>
+</stat-node>
+</stat-node>
+<stat-node name="www.openrov.com">
+<Count>29</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0003</Rate--ms->
+<Percent>11.55%</Percent>
+<Burst-rate>0.0300</Burst-rate>
+<Burst-start>42.508</Burst-start>
+<stat-node name="/assets/openrov/images/timoreilly.jpeg">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>3.45%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>42.571</Burst-start>
+</stat-node>
+<stat-node name="/assets/openrov/images/sharks.jpg">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>3.45%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>41.020</Burst-start>
+</stat-node>
+<stat-node name="/assets/openrov/images/rov1.jpg">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>3.45%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>42.745</Burst-start>
+</stat-node>
+<stat-node name="/assets/openrov/images/openrovBig.png">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>3.45%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>40.755</Burst-start>
+</stat-node>
+<stat-node name="/assets/openrov/images/openrov.png">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>3.45%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>40.533</Burst-start>
+</stat-node>
+<stat-node name="/assets/openrov/images/oe_white.png">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>3.45%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>43.021</Burst-start>
+</stat-node>
+<stat-node name="/assets/openrov/images/nytimes.jpg">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>3.45%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>42.508</Burst-start>
+</stat-node>
+<stat-node name="/assets/openrov/images/map.jpg">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>3.45%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>41.908</Burst-start>
+</stat-node>
+<stat-node name="/assets/openrov/images/kit.jpg">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>3.45%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>41.697</Burst-start>
+</stat-node>
+<stat-node name="/assets/openrov/images/explore.jpg">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>3.45%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>41.764</Burst-start>
+</stat-node>
+<stat-node name="/assets/openrov/images/earle.jpg">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>3.45%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>42.530</Burst-start>
+</stat-node>
+<stat-node name="/assets/openrov/images/DSC_0243_titlebar.JPG">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>3.45%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>40.722</Burst-start>
+</stat-node>
+<stat-node name="/assets/openrov/css/style.css">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>3.45%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>40.029</Burst-start>
+</stat-node>
+<stat-node name="/assets/js/theme.min.js">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>3.45%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>40.281</Burst-start>
+</stat-node>
+<stat-node name="/assets/js/packages.min.js">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>3.45%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>40.237</Burst-start>
+</stat-node>
+<stat-node name="/assets/images/svg/bigplay.svg">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>3.45%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>43.032</Burst-start>
+</stat-node>
+<stat-node name="/assets/images/grid-20.png">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>3.45%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>41.268</Burst-start>
+</stat-node>
+<stat-node name="/assets/fonts/fontawesome-webfont.woff?v=4.2.0">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>3.45%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>43.127</Burst-start>
+</stat-node>
+<stat-node name="/assets/css/theme.min.css">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>3.45%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>37.213</Burst-start>
+</stat-node>
+<stat-node name="/assets/css/swatch-white.min.css">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>3.45%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>38.239</Burst-start>
+</stat-node>
+<stat-node name="/assets/css/swatch-white-red.min.css">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>3.45%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>39.752</Burst-start>
+</stat-node>
+<stat-node name="/assets/css/swatch-white-green.min.css">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>3.45%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>39.536</Burst-start>
+</stat-node>
+<stat-node name="/assets/css/swatch-white-black.min.css">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>3.45%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>39.251</Burst-start>
+</stat-node>
+<stat-node name="/assets/css/swatch-gray.min.css">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>3.45%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>38.759</Burst-start>
+</stat-node>
+<stat-node name="/assets/css/swatch-blue.min.css">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>3.45%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>38.265</Burst-start>
+</stat-node>
+<stat-node name="/assets/css/swatch-black.min.css">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>3.45%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>39.040</Burst-start>
+</stat-node>
+<stat-node name="/assets/css/fonts.min.css">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>3.45%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>39.786</Burst-start>
+</stat-node>
+<stat-node name="/assets/css/color-defaults.min.css">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>3.45%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>37.775</Burst-start>
+</stat-node>
+<stat-node name="/assets/css/bootstrap.min.css">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>3.45%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>42.010</Burst-start>
+</stat-node>
+</stat-node>
+<stat-node name="www.openjumper.com">
+<Count>2</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>0.80%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>99.328</Burst-start>
+<stat-node name="/">
+<Count>2</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>100.00%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>99.328</Burst-start>
+</stat-node>
+</stat-node>
+<stat-node name="www.googletagmanager.com">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>0.40%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>24.647</Burst-start>
+<stat-node name="/gtm.js?id=GTM-M5WW27">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>100.00%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>24.647</Burst-start>
+</stat-node>
+</stat-node>
+<stat-node name="www.google-analytics.com">
+<Count>2</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>0.80%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>29.340</Burst-start>
+<stat-node name="/r/collect?v=1&amp;_v=j38&amp;a=1815857055&amp;t=pageview&amp;_s=1&amp;dl=http%3A%2F%2Fwww.openrov.com%2F&amp;ul=zh-cn&amp;de=UTF-8&amp;dt=OpenROV%20%7C%20Underwater%20Exploration%20Robots&amp;sd=32-bit&amp;sr=480x800&amp;vp=320x420&amp;je=0&amp;fl=11.1%20r111&amp;_u=AACAAEQAI~&amp;jid=364162868&amp;cid=226889529.961542540&amp;tid=UA-18444815-2&amp;_r=1&amp;z=1940946019">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>50.00%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>29.340</Burst-start>
+</stat-node>
+<stat-node name="/collect?v=1&amp;_v=j38&amp;a=254355242&amp;t=pageview&amp;_s=1&amp;dl=http%3A%2F%2Ftech2ipo.com%2Fall%2F2&amp;ul=zh-cn&amp;de=UTF-8&amp;dt=TECH2IPO%E5%88%9B%E8%A7%81%20-%20%E5%88%9B%E6%96%B0%E6%94%B9%E5%8F%98%E4%B8%96%E7%95%8C&amp;sd=32-bit&amp;sr=480x800&amp;vp=320x533&amp;je=0&amp;fl=11.1%20r111&amp;_u=AACAAAQAI~&amp;jid=&amp;cid=406999529.961649633&amp;tid=UA-22331152-1&amp;z=913460900">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>50.00%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>95.099</Burst-start>
+</stat-node>
+</stat-node>
+<stat-node name="www.chinahadoop.cn">
+<Count>19</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0002</Rate--ms->
+<Percent>7.57%</Percent>
+<Burst-rate>0.0300</Burst-rate>
+<Burst-start>93.443</Burst-start>
+<stat-node name="/themes/graceful/js/global-script.js?v6.5.0">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>5.26%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>94.308</Burst-start>
+</stat-node>
+<stat-node name="/themes/graceful/js/controller/index.js?v6.5.0">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>5.26%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>94.365</Burst-start>
+</stat-node>
+<stat-node name="/themes/graceful/css/iconfont.woff?2">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>5.26%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>86.100</Burst-start>
+</stat-node>
+<stat-node name="/files/system/favicon_1405502134.ico?6.5.0">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>5.26%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>96.971</Burst-start>
+</stat-node>
+<stat-node name="/files/default/2015/07-28/114940449e89339731.png?6.5.0">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>5.26%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>96.465</Burst-start>
+</stat-node>
+<stat-node name="/bundles/topxiaweb/js/util/float-consult.js?v6.5.0">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>5.26%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>94.422</Burst-start>
+</stat-node>
+<stat-node name="/bundles/topxiaweb/js/util/card.js?v6.5.0">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>5.26%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>93.525</Burst-start>
+</stat-node>
+<stat-node name="/bundles/topxiaweb/js/app.js?6.5.0">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>5.26%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>87.960</Burst-start>
+</stat-node>
+<stat-node name="/assets/v2/css/fonts/consult-font.woff">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>5.26%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>88.668</Burst-start>
+</stat-node>
+<stat-node name="/assets/libs/swiper/2.7.6/index.js">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>5.26%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>93.541</Burst-start>
+</stat-node>
+<stat-node name="/assets/libs/jquery/1.11.2/jquery.js">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>5.26%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>92.912</Burst-start>
+</stat-node>
+<stat-node name="/assets/libs/jquery.cycle2/2.1.6/index.js">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>5.26%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>95.363</Burst-start>
+</stat-node>
+<stat-node name="/assets/libs/gallery2/bootstrap/3.1.1/bootstrap.js">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>5.26%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>93.164</Burst-start>
+</stat-node>
+<stat-node name="/assets/libs/echo.js/1.7.0/index.js">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>5.26%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>95.474</Burst-start>
+</stat-node>
+<stat-node name="/assets/libs/common/bootstrap-modal-hack2.js?v6.5.0">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>5.26%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>93.443</Burst-start>
+</stat-node>
+<stat-node name="/assets/libs/arale/placeholder/1.1.0/placeholder.js">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>5.26%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>93.444</Burst-start>
+</stat-node>
+<stat-node name="/assets/libs/arale/cookie/1.0.2/cookie.js">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>5.26%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>93.590</Burst-start>
+</stat-node>
+<stat-node name="/assets/img/common/stars.png">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>5.26%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>88.329</Burst-start>
+</stat-node>
+<stat-node name="/assets/fonts/fontawesome-webfont.woff?v=4.3.0">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>5.26%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>88.405</Burst-start>
+</stat-node>
+</stat-node>
+<stat-node name="www.baidu.com">
+<Count>4</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>1.59%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>44.038</Burst-start>
+<stat-node name="/search/error.html">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>25.00%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>44.038</Burst-start>
+</stat-node>
+<stat-node name="/img/bd_logo1.png">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>25.00%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>44.338</Burst-start>
+</stat-node>
+<stat-node name="/img/baidu_jgylogo3.gif">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>25.00%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>44.457</Burst-start>
+</stat-node>
+<stat-node name="/favicon.ico">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>25.00%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>44.720</Burst-start>
+</stat-node>
+</stat-node>
+<stat-node name="widget.weibo.com">
+<Count>2</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>0.80%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>79.412</Burst-start>
+<stat-node name="/relationship/followbutton.php?btn=red&amp;style=2&amp;uid=1812671331&amp;width=136&amp;height=24&amp;language=zh_cn">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>50.00%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>79.412</Burst-start>
+</stat-node>
+<stat-node name="/public/aj_relationship.php?fuid=1812671331&amp;callback=STK_9616496508961">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>50.00%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>95.607</Burst-start>
+</stat-node>
+</stat-node>
+<stat-node name="vs1.gzct.u3.ucweb.com:8080">
+<Count>90</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0009</Rate--ms->
+<Percent>35.86%</Percent>
+<Burst-rate>0.0400</Burst-rate>
+<Burst-start>13.565</Burst-start>
+<stat-node name="/?ucid=1409-15289647011-0530c811">
+<Count>90</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0009</Rate--ms->
+<Percent>100.00%</Percent>
+<Burst-rate>0.0400</Burst-rate>
+<Burst-start>13.565</Burst-start>
+</stat-node>
+</stat-node>
+<stat-node name="ucsec.ucweb.com:8020">
+<Count>12</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0001</Rate--ms->
+<Percent>4.78%</Percent>
+<Burst-rate>0.0200</Burst-rate>
+<Burst-start>85.191</Burst-start>
+<stat-node name="/security/urlsafe/process">
+<Count>12</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0001</Rate--ms->
+<Percent>100.00%</Percent>
+<Burst-rate>0.0200</Burst-rate>
+<Burst-start>85.191</Burst-start>
+</stat-node>
+</stat-node>
+<stat-node name="uc.ucweb.com">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>0.40%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>54.920</Burst-start>
+<stat-node name="/">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>100.00%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>54.920</Burst-start>
+</stat-node>
+</stat-node>
+<stat-node name="ubmcmm.baidustatic.com">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>0.40%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>94.580</Burst-start>
+<stat-node name="/media/v1/0f000DYeKNTFXFlX3jyYq0.png">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>100.00%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>94.580</Burst-start>
+</stat-node>
+</stat-node>
+<stat-node name="track.uc.cn:9080">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>0.40%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>57.836</Burst-start>
+<stat-node name="/collect?uc_param_str=dnfrvecpntss&amp;dn=15289647011-6b8a4c41&amp;fr=android&amp;ve=9.9.6.495&amp;cp=isp:;prov:%E5%B9%BF%E4%B8%9C;city:%E6%B7%B1%E5%9C%B3;na:%E4%B8%AD%E5%9B%BD;cc:CN;ac:&amp;nt=2&amp;ss=480x800&amp;appid=01bdbd494c35&amp;appkey=zdl&amp;lt=log&amp;pg=sjkz&amp;pv_rf=">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>100.00%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>57.836</Burst-start>
+</stat-node>
+</stat-node>
+<stat-node name="tech2ipo.com">
+<Count>6</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0001</Rate--ms->
+<Percent>2.39%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>71.986</Burst-start>
+<stat-node name="/js/new/follow.js">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>16.67%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>85.595</Burst-start>
+</stat-node>
+<stat-node name="/img/top_arrow.png">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>16.67%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>77.339</Burst-start>
+</stat-node>
+<stat-node name="/img/favicon.ico">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>16.67%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>81.502</Burst-start>
+</stat-node>
+<stat-node name="/img/comment_ico.png">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>16.67%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>71.986</Burst-start>
+</stat-node>
+<stat-node name="/img/arrow.png">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>16.67%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>72.982</Burst-start>
+</stat-node>
+<stat-node name="/all/2">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>16.67%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>78.752</Burst-start>
+</stat-node>
+</stat-node>
+<stat-node name="t10.baidu.com">
+<Count>2</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>0.80%</Percent>
+<Burst-rate>0.0200</Burst-rate>
+<Burst-start>19.167</Burst-start>
+<stat-node name="/it/u=1958913348,2721944769&amp;fm=76">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>50.00%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>19.167</Burst-start>
+</stat-node>
+<stat-node name="/it/u=1732385052,2584283502&amp;fm=76">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>50.00%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>19.258</Burst-start>
+</stat-node>
+</stat-node>
+<stat-node name="safe.ucweb.com">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>0.40%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>94.036</Burst-start>
+<stat-node name="/?dataver=pb">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>100.00%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>94.036</Burst-start>
+</stat-node>
+</stat-node>
+<stat-node name="python.net">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>0.40%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>26.192</Burst-start>
+<stat-node name="/crew/theller/ctypes/html4css1.css">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>100.00%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>26.192</Burst-start>
+</stat-node>
+</stat-node>
+<stat-node name="puds.ucweb.com">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>0.40%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>28.188</Burst-start>
+<stat-node name="/upgrade/index.xhtml?dataver=pb">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>100.00%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>28.188</Burst-start>
+</stat-node>
+</stat-node>
+<stat-node name="pos.baidu.com">
+<Count>12</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0001</Rate--ms->
+<Percent>4.78%</Percent>
+<Burst-rate>0.0300</Burst-rate>
+<Burst-start>12.462</Burst-start>
+<stat-node name="/wh/o.htm?ltr=http%3A%2F%2Fpd.ok365.com%2F%3Fdm%3Dlotuschina.com%26acc%3DA24FE2A6-AB90-48EF-A469-28145572803C%26poprequest%3D1&amp;cf=u">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>8.33%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>28.840</Burst-start>
+</stat-node>
+<stat-node name="/sync_pos.htm?cproid=25C670182C7716032F0F3878A15A962F%3AFG%3D1&amp;t=961649568038">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>8.33%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>12.462</Burst-start>
+</stat-node>
+<stat-node name="/acom?di=u2293837&amp;dcb=BAIDU_DUP2_define&amp;dtm=BAIDU_DUP2_SETJSONADSLOT&amp;dbv=0&amp;dci=0&amp;dri=0&amp;dis=3&amp;dai=5&amp;dds=&amp;drs=1&amp;dvi=1440492674&amp;ltu=http%3A%2F%2Fpd.ok365.com%2F%3Fdm%3Dlotuschina.com%26acc%3DA24FE2A6-AB90-48EF-A469-28145572803C%26poprequest%3D1&amp;liu=http%3A%2F%2Fm.ok365.com%2Ftemplate%2F466.html&amp;ltr=http%3A%2F%2Fpd.ok365.com%2F%3Fdm%3Dlotuschina.com%26acc%3DA24FE2A6-AB90-48EF-A469-28145572803C%26poprequest%3D1&amp;lcr=&amp;ps=0x0&amp;psr=480x800&amp;par=480x800&amp;pcs=320x420&amp;pss=320x419&amp;pis=320x420&amp;cfv=11&amp;ccd=32&amp;chi=2&amp;cja=false&amp;cpl=1&amp;cmi=2&amp;cce=true&amp;col=zh-CN&amp;cec=UTF-8&amp;cdo=0&amp;tsr=2760&amp;tlm=1441342202&amp;tcn=961649570&amp;tpr=961649567372&amp;dpt=none&amp;coa=at%3D3%26hn%3D1%26wn%3D2%26imgRatio%3D1.7%26scale%3D20.10%26pat%3D6%26tn%3Dtemplate_inlay_all_mobile_lu_native%26rss1%3D%2523FFFFFF%26adp%3D1%26ptt%3D0%26titFF%3D%2525E5%2525BE%2525AE%2525E8%2525BD%2525AF%2525E9%25259B%252585%2525E9%2525BB%252591%26titFS%3D14%26rss2%3D%2523000000%26titSU%3D0%26ptbg%3D70%26ptp%3D0%26c01%3D1&amp;dpr=1.5&amp;ti=%E7%A4%BE%E4%BC%9A%E7%83%AD%E7%82%B9-%E5%85%B3%E6%B3%A8%E6%97%B6%E4%B8%8B%E6%9C%80%E7%83%AD%E9%97%A8%E5%9B%BE%E7%89%87%E6%96%B0%E9%97%BB&amp;baidu_id=">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>8.33%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>14.474</Burst-start>
+</stat-node>
+<stat-node name="/acom?di=u2293825&amp;dcb=BAIDU_DUP2_define&amp;dtm=BAIDU_DUP2_SETJSONADSLOT&amp;dbv=0&amp;dci=0&amp;dri=0&amp;dis=3&amp;dai=4&amp;dds=&amp;drs=1&amp;dvi=1440492674&amp;ltu=http%3A%2F%2Fpd.ok365.com%2F%3Fdm%3Dlotuschina.com%26acc%3DA24FE2A6-AB90-48EF-A469-28145572803C%26poprequest%3D1&amp;liu=http%3A%2F%2Fm.ok365.com%2Ftemplate%2F466.html&amp;ltr=http%3A%2F%2Fpd.ok365.com%2F%3Fdm%3Dlotuschina.com%26acc%3DA24FE2A6-AB90-48EF-A469-28145572803C%26poprequest%3D1&amp;lcr=&amp;ps=0x0&amp;psr=480x800&amp;par=480x800&amp;pcs=320x420&amp;pss=320x419&amp;pis=320x420&amp;cfv=11&amp;ccd=32&amp;chi=2&amp;cja=false&amp;cpl=1&amp;cmi=2&amp;cce=true&amp;col=zh-CN&amp;cec=UTF-8&amp;cdo=0&amp;tsr=1708&amp;tlm=1441342202&amp;tcn=961649569&amp;tpr=961649567372&amp;dpt=none&amp;coa=at%3D3%26hn%3D1%26wn%3D2%26imgRatio%3D1.7%26scale%3D20.10%26pat%3D6%26tn%3Dtemplate_inlay_all_mobile_lu_native%26rss1%3D%2523FFFFFF%26adp%3D1%26ptt%3D0%26titFF%3D%2525E5%2525BE%2525AE%2525E8%2525BD%2525AF%2525E9%25259B%252585%2525E9%2525BB%252591%26titFS%3D14%26rss2%3D%2523000000%26titSU%3D0%26ptbg%3D70%26ptp%3D0%26c01%3D1&amp;dpr=1.5&amp;ti=%E7%A4%BE%E4%BC%9A%E7%83%AD%E7%82%B9-%E5%85%B3%E6%B3%A8%E6%97%B6%E4%B8%8B%E6%9C%80%E7%83%AD%E9%97%A8%E5%9B%BE%E7%89%87%E6%96%B0%E9%97%BB&amp;baidu_id=">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>8.33%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>13.416</Burst-start>
+</stat-node>
+<stat-node name="/acom?di=u2280596&amp;dcb=BAIDU_DUP2_define&amp;dtm=BAIDU_DUP2_SETJSONADSLOT&amp;dbv=0&amp;dci=0&amp;dri=0&amp;dis=3&amp;dai=3&amp;dds=&amp;drs=1&amp;dvi=1440492674&amp;ltu=http%3A%2F%2Fpd.ok365.com%2F%3Fdm%3Dlotuschina.com%26acc%3DA24FE2A6-AB90-48EF-A469-28145572803C%26poprequest%3D1&amp;liu=http%3A%2F%2Fm.ok365.com%2Ftemplate%2F466.html&amp;ltr=http%3A%2F%2Fpd.ok365.com%2F%3Fdm%3Dlotuschina.com%26acc%3DA24FE2A6-AB90-48EF-A469-28145572803C%26poprequest%3D1&amp;lcr=&amp;ps=0x0&amp;psr=480x800&amp;par=480x800&amp;pcs=320x420&amp;pss=320x419&amp;pis=320x420&amp;cfv=11&amp;ccd=32&amp;chi=2&amp;cja=false&amp;cpl=1&amp;cmi=2&amp;cce=true&amp;col=zh-CN&amp;cec=UTF-8&amp;cdo=0&amp;tsr=825&amp;tlm=1441342202&amp;tcn=961649568&amp;tpr=961649567372&amp;dpt=none&amp;coa=at%3D3%26pat%3D15%26tn%3Dtemplate_inlay_all_mobile_lu_native%26rss1%3D%2523f6f6f6%26titFF%3D%2525E5%2525BE%2525AE%2525E8%2525BD%2525AF%2525E9%25259B%252585%2525E9%2525BB%252591%26titFS%3D14%26rss2%3D%2523808080%26ptFS%3D16%26ptFC%3D%2523333333%26ptFF%3D%2525E5%2525BE%2525AE%2525E8%2525BD%2525AF%2525E9%25259B%252585%2525E9%2525BB%252591%26ptFW%3D1%26conpl%3D0%26conpr%3D1%26conpt%3D0%26conpb%3D0%26rsi1%3D240%26ptn%3D2%26ptp%3D0%26itecpl%3D10%26piw%3D0%26pih%3D0%26ptDesc%3D0%26ptLogo%3D0%26ptLogoFS%3D10%26ptLogoBg%3D%2523DBDBDB%26ptLogoC%3D%2523FFFFFF%26c01%3D1&amp;dpr=1.5&amp;ti=%E7%A4%BE%E4%BC%9A%E7%83%AD%E7%82%B9-%E5%85%B3%E6%B3%A8%E6%97%B6%E4%B8%8B%E6%9C%80%E7%83%AD%E9%97%A8%E5%9B%BE%E7%89%87%E6%96%B0%E9%97%BB&amp;baidu_id=">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>8.33%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>12.538</Burst-start>
+</stat-node>
+<stat-node name="/acom?di=u2280584&amp;dcb=BAIDU_DUP2_define&amp;dtm=BAIDU_DUP2_SETJSONADSLOT&amp;dbv=0&amp;dci=0&amp;dri=0&amp;dis=3&amp;dai=2&amp;dds=&amp;drs=1&amp;dvi=1440492674&amp;ltu=http%3A%2F%2Fpd.ok365.com%2F%3Fdm%3Dlotuschina.com%26acc%3DA24FE2A6-AB90-48EF-A469-28145572803C%26poprequest%3D1&amp;liu=http%3A%2F%2Fm.ok365.com%2Ftemplate%2F466.html&amp;ltr=http%3A%2F%2Fpd.ok365.com%2F%3Fdm%3Dlotuschina.com%26acc%3DA24FE2A6-AB90-48EF-A469-28145572803C%26poprequest%3D1&amp;lcr=&amp;ps=0x0&amp;psr=480x800&amp;par=480x800&amp;pcs=320x420&amp;pss=320x419&amp;pis=320x420&amp;cfv=11&amp;ccd=32&amp;chi=2&amp;cja=false&amp;cpl=1&amp;cmi=2&amp;cce=true&amp;col=zh-CN&amp;cec=UTF-8&amp;cdo=0&amp;tsr=494&amp;tlm=1441342202&amp;tcn=961649568&amp;tpr=961649567372&amp;dpt=none&amp;coa=at%3D3%26hn%3D2%26wn%3D2%26imgRatio%3D1.7%26scale%3D20.20%26pat%3D6%26tn%3Dtemplate_inlay_all_mobile_lu_native%26rss1%3D%2523f6f6f6%26adp%3D1%26ptt%3D0%26titFF%3D%2525E5%2525BE%2525AE%2525E8%2525BD%2525AF%2525E9%25259B%252585%2525E9%2525BB%252591%26titFS%3D14%26rss2%3D%2523000000%26titSU%3D0%26ptbg%3D70%26ptp%3D0%26c01%3D1&amp;dpr=1.5&amp;ti=%E7%A4%BE%E4%BC%9A%E7%83%AD%E7%82%B9-%E5%85%B3%E6%B3%A8%E6%97%B6%E4%B8%8B%E6%9C%80%E7%83%AD%E9%97%A8%E5%9B%BE%E7%89%87%E6%96%B0%E9%97%BB&amp;baidu_id=">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>8.33%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>12.252</Burst-start>
+</stat-node>
+<stat-node name="/acom?di=u2280580&amp;dcb=BAIDU_DUP2_define&amp;dtm=BAIDU_DUP2_SETJSONADSLOT&amp;dbv=0&amp;dci=0&amp;dri=0&amp;dis=3&amp;dai=1&amp;dds=&amp;drs=1&amp;dvi=1440492674&amp;ltu=http%3A%2F%2Fpd.ok365.com%2F%3Fdm%3Dlotuschina.com%26acc%3DA24FE2A6-AB90-48EF-A469-28145572803C%26poprequest%3D1&amp;liu=http%3A%2F%2Fm.ok365.com%2Ftemplate%2F466.html&amp;ltr=http%3A%2F%2Fpd.ok365.com%2F%3Fdm%3Dlotuschina.com%26acc%3DA24FE2A6-AB90-48EF-A469-28145572803C%26poprequest%3D1&amp;lcr=&amp;ps=0x0&amp;psr=480x800&amp;par=480x800&amp;pcs=320x420&amp;pss=320x419&amp;pis=320x420&amp;cfv=11&amp;ccd=32&amp;chi=2&amp;cja=false&amp;cpl=1&amp;cmi=2&amp;cce=true&amp;col=zh-CN&amp;cec=UTF-8&amp;cdo=0&amp;tsr=61&amp;tlm=1441342202&amp;tcn=961649567&amp;tpr=961649567372&amp;dpt=none&amp;coa=at%3D3%26pat%3D8%26rsi1%3D30%26tn%3Dtemplate_inlay_all_mobile_lu_native_ad_txt%26rss1%3D%2523f6f6f6%26titFF%3D%2525E5%2525BE%2525AE%2525E8%2525BD%2525AF%2525E9%25259B%252585%2525E9%2525BB%252591%26titFS%3D16%26rss2%3D%2523000000%26conpl%3D0%26conpr%3D20%26desfs%3D10%26rss3%3D%2523FFFFFF%26desbc%3D%2523DCDCDC%26pimc%3D20%26titSU%3D0%26c01%3D1&amp;dpr=1.5&amp;ti=%E7%A4%BE%E4%BC%9A%E7%83%AD%E7%82%B9-%E5%85%B3%E6%B3%A8%E6%97%B6%E4%B8%8B%E6%9C%80%E7%83%AD%E9%97%A8%E5%9B%BE%E7%89%87%E6%96%B0%E9%97%BB&amp;baidu_id=">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>8.33%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>11.831</Burst-start>
+</stat-node>
+<stat-node name="/acom?adn=3&amp;at=0&amp;aurl=&amp;c01=1&amp;cad=1&amp;ccd=32&amp;cec=UTF-8&amp;cfv=11&amp;ch=0&amp;col=zh-CN&amp;conBW=0&amp;conOP=1&amp;conpl=0&amp;conpr=20&amp;cpa=1&amp;cpro_lu=1%2C%23dfe4f9%2C%23000000%2C%E5%AE%8B%E4%BD%93&amp;dai=1&amp;desbc=%23DCDCDC&amp;desfs=10&amp;dis=3&amp;layout_filter=image&amp;ltr=http%3A%2F%2Fpd.ok365.com%2F%3Fdm%3Dlotuschina.com%26acc%3DA24FE2A6-AB90-48EF-A469-28145572803C%26poprequest%3D1&amp;ltu=http%3A%2F%2Fpd.ok365.com%2F%3Fdm%3Dlotuschina.com%26acc%3DA24FE2A6-AB90-48EF-A469-28145572803C%26poprequest%3D1&amp;lu_161=0&amp;lunum=6&amp;n=21005090_5_cpr&amp;pat=8&amp;pcs=320x420&amp;pimc=20&amp;pis=320x420&amp;ps=0x0&amp;psr=480x800&amp;pss=320x419&amp;qn=ae5b4c39f640cd67&amp;rad=&amp;rsi0=320&amp;rsi1=30&amp;rsi5=4&amp;rss0=%23FFFFFF&amp;rss1=%23f6f6f6&amp;rss2=%23000000&amp;rss3=%23FFFFFF&amp;rss4=%23008000&amp;rss5=&amp;rss6=%23e10900&amp;rss7=&amp;scale=&amp;skin=tabcloud_skin_5&amp;stid=5&amp;td_id=2280580&amp;titFF=%25E5%25BE%25AE%25E8%25BD%25AF%25E9%259B%2585%25E9%25BB%2591&amp;titFS=16&amp;titSU=0&amp;titTA=left&amp;tn=template_inlay_all_mobile_lu_native_ad_txt&amp;tpr=961649567372&amp;ts=1&amp;version=2.0&amp;xuanting=0&amp;tt=961649567250.136.335.458&amp;dtm=BAIDU_DUP2_SETJSONADSLOT&amp;dc=2&amp;di=u2280580&amp;ti=%E7%A4%BE%E4%BC%9A%E7%83%AD%E7%82%B9-%E5%85%B3%E6%B3%A8%E6%97%B6%E4%B8%8B%E6%9C%80%E7%83%AD%E9%97%A8%E5%9B%BE%E7%89%87%E6%96%B0%E9%97%BB&amp;wt=1&amp;distp=1001&amp;conW=320&amp;conH=30">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>8.33%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>12.147</Burst-start>
+</stat-node>
+<stat-node name="/acom?adn=3&amp;at=0&amp;aurl=&amp;c01=1&amp;cad=1&amp;ccd=32&amp;cec=UTF-8&amp;cfv=11&amp;ch=0&amp;col=zh-CN&amp;conBW=0&amp;conOP=1&amp;conpb=0&amp;conpl=0&amp;conpr=1&amp;conpt=0&amp;cpa=1&amp;cpro_lu=1%2C%23dfe4f9%2C%23000000%2C%E5%AE%8B%E4%BD%93&amp;dai=3&amp;dis=3&amp;itecpl=10&amp;layout_filter=image&amp;ltr=http%3A%2F%2Fpd.ok365.com%2F%3Fdm%3Dlotuschina.com%26acc%3DA24FE2A6-AB90-48EF-A469-28145572803C%26poprequest%3D1&amp;ltu=http%3A%2F%2Fpd.ok365.com%2F%3Fdm%3Dlotuschina.com%26acc%3DA24FE2A6-AB90-48EF-A469-28145572803C%26poprequest%3D1&amp;lu_161=0&amp;lunum=6&amp;n=21005090_5_cpr&amp;pat=15&amp;pcs=320x420&amp;pih=0&amp;pis=320x420&amp;piw=0&amp;ps=0x0&amp;psr=480x800&amp;pss=320x419&amp;ptDesc=0&amp;ptFC=%23333333&amp;ptFF=%25E5%25BE%25AE%25E8%25BD%25AF%25E9%259B%2585%25E9%25BB%2591&amp;ptFS=16&amp;ptFW=1&amp;ptLogo=0&amp;ptLogoBg=%23DBDBDB&amp;ptLogoC=%23FFFFFF&amp;ptLogoFS=10&amp;ptn=2&amp;ptp=0&amp;qn=792a127cd1d72617&amp;rad=&amp;rsi0=320&amp;rsi1=240&amp;rsi5=4&amp;rss0=%23FFFFFF&amp;rss1=%23f6f6f6&amp;rss2=%23808080&amp;rss3=%23444444&amp;rss4=%23008000&amp;rss5=&amp;rss6=%23e10900&amp;rss7=&amp;scale=&amp;skin=tabcloud_skin_5&amp;stid=5&amp;td_id=2280596&amp;titFF=%25E5%25BE%25AE%25E8%25BD%25AF%25E9%259B%2585%25E9%25BB%2591&amp;titFS=14&amp;titTA=left&amp;tn=template_inlay_all_mobile_lu_native&amp;tpr=961649567372&amp;ts=1&amp;version=2.0&amp;xuanting=0&amp;tt=961649567250.890.1712.1716&amp;dtm=BAIDU_DUP2_SETJSONADSLOT&amp;dc=2&amp;di=u2280596&amp;ti=%E7%A4%BE%E4%BC%9A%E7%83%AD%E7%82%B9-%E5%85%B3%E6%B3%A8%E6%97%B6%E4%B8%8B%E6%9C%80%E7%83%AD%E9%97%A8%E5%9B%BE%E7%89%87%E6%96%B0%E9%97%BB&amp;wt=1&amp;distp=1001&amp;conW=320&amp;conH=240">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>8.33%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>13.380</Burst-start>
+</stat-node>
+<stat-node name="/acom?adn=3&amp;adp=1&amp;at=0&amp;aurl=&amp;c01=1&amp;cad=1&amp;ccd=32&amp;cec=UTF-8&amp;cfv=11&amp;ch=0&amp;col=zh-CN&amp;conBW=0&amp;conOP=1&amp;cpa=1&amp;cpro_lu=1%2C%23dfe4f9%2C%23000000%2C%E5%AE%8B%E4%BD%93&amp;dai=5&amp;dis=3&amp;hn=1&amp;imgRatio=1.7&amp;layout_filter=image&amp;ltr=http%3A%2F%2Fpd.ok365.com%2F%3Fdm%3Dlotuschina.com%26acc%3DA24FE2A6-AB90-48EF-A469-28145572803C%26poprequest%3D1&amp;ltu=http%3A%2F%2Fpd.ok365.com%2F%3Fdm%3Dlotuschina.com%26acc%3DA24FE2A6-AB90-48EF-A469-28145572803C%26poprequest%3D1&amp;lu_161=0&amp;lunum=6&amp;n=21005090_5_cpr&amp;pat=6&amp;pcs=320x420&amp;pis=320x420&amp;ps=0x0&amp;psr=480x800&amp;pss=320x419&amp;ptbg=70&amp;ptp=0&amp;ptt=0&amp;qn=05a295edd03b24fd&amp;rad=&amp;rsi0=320&amp;rsi1=160&amp;rsi5=4&amp;rss0=%23FFFFFF&amp;rss1=%23FFFFFF&amp;rss2=%23000000&amp;rss3=%23444444&amp;rss4=%23008000&amp;rss5=&amp;rss6=%23e10900&amp;rss7=&amp;scale=20.10&amp;skin=tabcloud_skin_5&amp;stid=5&amp;td_id=2293837&amp;titFF=%25E5%25BE%25AE%25E8%25BD%25AF%25E9%259B%2585%25E9%25BB%2591&amp;titFS=14&amp;titSU=0&amp;titTA=left&amp;tn=template_inlay_all_mobile_lu_native&amp;tpr=961649567372&amp;ts=1&amp;version=2.0&amp;wn=2&amp;xuanting=0&amp;tt=961649567250.2822.3255.3259&amp;dtm=BAIDU_DUP2_SETJSONADSLOT&amp;dc=2&amp;di=u2293837&amp;ti=%E7%A4%BE%E4%BC%9A%E7%83%AD%E7%82%B9-%E5%85%B3%E6%B3%A8%E6%97%B6%E4%B8%8B%E6%9C%80%E7%83%AD%E9%97%A8%E5%9B%BE%E7%89%87%E6%96%B0%E9%97%BB&amp;wt=1&amp;distp=1001&amp;conW=320&amp;conH=160">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>8.33%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>14.920</Burst-start>
+</stat-node>
+<stat-node name="/acom?adn=3&amp;adp=1&amp;at=0&amp;aurl=&amp;c01=1&amp;cad=1&amp;ccd=32&amp;cec=UTF-8&amp;cfv=11&amp;ch=0&amp;col=zh-CN&amp;conBW=0&amp;conOP=1&amp;cpa=1&amp;cpro_lu=1%2C%23dfe4f9%2C%23000000%2C%E5%AE%8B%E4%BD%93&amp;dai=4&amp;dis=3&amp;hn=1&amp;imgRatio=1.7&amp;layout_filter=image&amp;ltr=http%3A%2F%2Fpd.ok365.com%2F%3Fdm%3Dlotuschina.com%26acc%3DA24FE2A6-AB90-48EF-A469-28145572803C%26poprequest%3D1&amp;ltu=http%3A%2F%2Fpd.ok365.com%2F%3Fdm%3Dlotuschina.com%26acc%3DA24FE2A6-AB90-48EF-A469-28145572803C%26poprequest%3D1&amp;lu_161=0&amp;lunum=6&amp;n=21005090_5_cpr&amp;pat=6&amp;pcs=320x420&amp;pis=320x420&amp;ps=0x0&amp;psr=480x800&amp;pss=320x419&amp;ptbg=70&amp;ptp=0&amp;ptt=0&amp;qn=442485e3134614b5&amp;rad=&amp;rsi0=320&amp;rsi1=160&amp;rsi5=4&amp;rss0=%23FFFFFF&amp;rss1=%23FFFFFF&amp;rss2=%23000000&amp;rss3=%23444444&amp;rss4=%23008000&amp;rss5=&amp;rss6=%23e10900&amp;rss7=&amp;scale=20.10&amp;skin=tabcloud_skin_5&amp;stid=5&amp;td_id=2293825&amp;titFF=%25E5%25BE%25AE%25E8%25BD%25AF%25E9%259B%2585%25E9%25BB%2591&amp;titFS=14&amp;titSU=0&amp;titTA=left&amp;tn=template_inlay_all_mobile_lu_native&amp;tpr=961649567372&amp;ts=1&amp;version=2.0&amp;wn=2&amp;xuanting=0&amp;tt=961649567250.1768.2730.2736&amp;dtm=BAIDU_DUP2_SETJSONADSLOT&amp;dc=2&amp;di=u2293825&amp;ti=%E7%A4%BE%E4%BC%9A%E7%83%AD%E7%82%B9-%E5%85%B3%E6%B3%A8%E6%97%B6%E4%B8%8B%E6%9C%80%E7%83%AD%E9%97%A8%E5%9B%BE%E7%89%87%E6%96%B0%E9%97%BB&amp;wt=1&amp;distp=1001&amp;conW=320&amp;conH=160">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>8.33%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>14.418</Burst-start>
+</stat-node>
+<stat-node name="/acom?adn=3&amp;adp=1&amp;at=0&amp;aurl=&amp;c01=1&amp;cad=1&amp;ccd=32&amp;cec=UTF-8&amp;cfv=11&amp;ch=0&amp;col=zh-CN&amp;conBW=0&amp;conOP=1&amp;cpa=1&amp;cpro_lu=1%2C%23dfe4f9%2C%23000000%2C%E5%AE%8B%E4%BD%93&amp;dai=2&amp;dis=3&amp;hn=2&amp;imgRatio=1.7&amp;layout_filter=image&amp;ltr=http%3A%2F%2Fpd.ok365.com%2F%3Fdm%3Dlotuschina.com%26acc%3DA24FE2A6-AB90-48EF-A469-28145572803C%26poprequest%3D1&amp;ltu=http%3A%2F%2Fpd.ok365.com%2F%3Fdm%3Dlotuschina.com%26acc%3DA24FE2A6-AB90-48EF-A469-28145572803C%26poprequest%3D1&amp;lu_161=0&amp;lunum=6&amp;n=21005090_5_cpr&amp;pat=6&amp;pcs=320x420&amp;pis=320x420&amp;ps=0x0&amp;psr=480x800&amp;pss=320x419&amp;ptbg=70&amp;ptp=0&amp;ptt=0&amp;qn=0d65d4a3018dfc18&amp;rad=&amp;rsi0=320&amp;rsi1=320&amp;rsi5=4&amp;rss0=%23FFFFFF&amp;rss1=%23f6f6f6&amp;rss2=%23000000&amp;rss3=%23444444&amp;rss4=%23008000&amp;rss5=&amp;rss6=%23e10900&amp;rss7=&amp;scale=20.20&amp;skin=tabcloud_skin_5&amp;stid=5&amp;td_id=2280584&amp;titFF=%25E5%25BE%25AE%25E8%25BD%25AF%25E9%259B%2585%25E9%25BB%2591&amp;titFS=14&amp;titSU=0&amp;titTA=left&amp;tn=template_inlay_all_mobile_lu_native&amp;tpr=961649567372&amp;ts=1&amp;version=2.0&amp;wn=2&amp;xuanting=0&amp;tt=961649567250.556.836.840&amp;dtm=BAIDU_DUP2_SETJSONADSLOT&amp;dc=2&amp;di=u2280584&amp;ti=%E7%A4%BE%E4%BC%9A%E7%83%AD%E7%82%B9-%E5%85%B3%E6%B3%A8%E6%97%B6%E4%B8%8B%E6%9C%80%E7%83%AD%E9%97%A8%E5%9B%BE%E7%89%87%E6%96%B0%E9%97%BB&amp;wt=1&amp;distp=1001&amp;conW=320&amp;conH=320">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>8.33%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>12.499</Burst-start>
+</stat-node>
+</stat-node>
+<stat-node name="pd.ok365.com">
+<Count>2</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>0.80%</Percent>
+<Burst-rate>0.0200</Burst-rate>
+<Burst-start>28.826</Burst-start>
+<stat-node name="/tracking.php?q=A4YpTvlwHnYWhvXEq0OOyqFhxQ02EGMkxoKOurR8-q5Sm6Ap5A3-Nsnso3zBiVpHLmvTkEbRdCQ9e2YZmtbUm521unSjllITVoYTAGEY6G-fRwsMjRujCKBi1nGcDCtDmLiyuEqOizutkt4fqEFBlZgALsPCKokixDegeGO-gDRpsZNJoon9s2oQMvtgBxuyPMHm_C6PM890QtfWqoiyIY5zFOJXEbVWvtBYOtRuaTIMFgsbg9t86I0iFw5mWPTFLtMAT8-eYSM18w5BNm0VG-pdcfQBnEZpDUt_84ysO-VdklWi-GK66hL7_rQKlHV3IClKbgJqe-Sph688Uj1UV6neCuoYwOlN14QekGAlHJRPjbRtZTcwi8mSLE1ss2wDV5U-H1iyHNe-MUmHTKGRkoSolPVFxhfa-MPhyZsRGCcsiysY_sKJo0yDIIMRXSe-vhE_dltvnD4Wa0VMvixZEOQ9G4yFktAgijaf56A2XcZ-fwsa-PQ6MUgzCC9C_3ZKeH-2lc_QTnexR_xz_C1QIuNHynVwxfB74PFBp96Ma_xTL1e-LmYGo9F7xz88Zxkr0zrWFrNGycLW_2ef5OmWO1Tt51G8YEinE6z0IFkuerfX7arkub9l0_OkRSb9o3R5knYmG6PxdaNF8DmwZHhc2rSE4RIXslGFiqAy6KOTAyGeyxKrDtfPbk-QUEk0-IyujTCDmeFbUulf80MwYfSPcY7nyF8GmoIb5PBiMLf4PDZ4FD_Lvh_E7tXCA9IJ9_N0&amp;p=121&amp;oc=true&amp;ac=0,12&amp;kc=0,10&amp;sw=480&amp;sh=800&amp;if=false&amp;ia=false&amp;nr=false&amp;tz=-480&amp;ck=&amp;req_url=http%3A%2F%2Fpd.ok365.com%2F%3Fdm%3Dlotuschina.com%26acc%3DA24FE2A6-AB90-48EF-A469-28145572803C%26poprequest%3D1&amp;method=index&amp;mm=false">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>50.00%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>28.894</Burst-start>
+</stat-node>
+<stat-node name="/favicon.ico">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>50.00%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>28.826</Burst-start>
+</stat-node>
+</stat-node>
+<stat-node name="openairinterface.eurecom.fr">
+<Count>5</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0001</Rate--ms->
+<Percent>1.99%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>91.714</Burst-start>
+<stat-node name="/sites/all/themes/eurecom_minisites/js/Roman_500.font.js?4">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>20.00%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>91.714</Burst-start>
+</stat-node>
+<stat-node name="/sites/all/themes/eurecom_minisites/images/secondary-menu.gif">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>20.00%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>96.842</Burst-start>
+</stat-node>
+<stat-node name="/sites/all/themes/eurecom_minisites/images/home.png">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>20.00%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>96.498</Burst-start>
+</stat-node>
+<stat-node name="/sites/all/themes/eurecom_minisites/images/bg_title.png">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>20.00%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>95.783</Burst-start>
+</stat-node>
+<stat-node name="/sites/all/themes/eurecom_minisites/favicon.ico">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>20.00%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>97.718</Burst-start>
+</stat-node>
+</stat-node>
+<stat-node name="open-open.com">
+<Count>15</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0002</Rate--ms->
+<Percent>5.98%</Percent>
+<Burst-rate>0.0400</Burst-rate>
+<Burst-start>9.134</Burst-start>
+<stat-node name="/resource/opencsin.css">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>6.67%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>9.135</Burst-start>
+</stat-node>
+<stat-node name="/resource/oncl.gif">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>6.67%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>9.552</Burst-start>
+</stat-node>
+<stat-node name="/resource/line.gif">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>6.67%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>9.234</Burst-start>
+</stat-node>
+<stat-node name="/resource/icon_1.gif">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>6.67%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>9.521</Burst-start>
+</stat-node>
+<stat-node name="/js/jquery.slideshow.lite.js">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>6.67%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>9.155</Burst-start>
+</stat-node>
+<stat-node name="/js/jquery.min1.9.js">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>6.67%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>9.134</Burst-start>
+</stat-node>
+<stat-node name="/images/icons.gif">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>6.67%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>9.609</Burst-start>
+</stat-node>
+<stat-node name="/image/opensearchs.gif">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>6.67%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>9.229</Burst-start>
+</stat-node>
+<stat-node name="/image/bt_title_gray.gif">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>6.67%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>9.247</Burst-start>
+</stat-node>
+<stat-node name="/home/image/icon/post.gif">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>6.67%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>9.654</Burst-start>
+</stat-node>
+<stat-node name="/home/image/icon/lib.gif">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>6.67%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>9.901</Burst-start>
+</stat-node>
+<stat-node name="/home/image/icon/doing.gif">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>6.67%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>9.723</Burst-start>
+</stat-node>
+<stat-node name="/home/image/icon/book.gif">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>6.67%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>9.704</Burst-start>
+</stat-node>
+<stat-node name="/css/slideshow.css">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>6.67%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>9.026</Burst-start>
+</stat-node>
+<stat-node name="/cdn-cgi/pe/bag2?r[]=http%3A%2F%2Fopen-open.com%2Fcdn-cgi%2Fnexp%2Fdok3v%3D1613a3a185%2Fcloudflare%2Fmirage2.js">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>6.67%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>8.608</Burst-start>
+</stat-node>
+</stat-node>
+<stat-node name="mat1.gtimg.com">
+<Count>3</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>1.20%</Percent>
+<Burst-rate>0.0200</Burst-rate>
+<Burst-start>74.015</Burst-start>
+<stat-node name="/app/vt/js/follow/jquery.js">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>33.33%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>74.041</Burst-start>
+</stat-node>
+<stat-node name="/app/vt/js/follow/follow_quick_05.js?t=140523">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>33.33%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>74.015</Burst-start>
+</stat-node>
+<stat-node name="/app/vt/css/follow/quickfollownewstyle5.css?v=1223">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>33.33%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>73.361</Burst-start>
+</stat-node>
+</stat-node>
+<stat-node name="m.baidu.com">
+<Count>4</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>1.59%</Percent>
+<Burst-rate>0.0200</Burst-rate>
+<Burst-start>9.037</Burst-start>
+<stat-node name="/tcbox?service=bdbox&amp;action=pblog&amp;ctv=2&amp;cen=uid_ua_ut&amp;data=%7B%22dataid%22%3A%222%22%2C%22actiontype%22%3A%221%22%2C%22actionid%22%3A%222%22%2C%22actiondata%22%3A%7B%22ref%22%3A%22%22%2C%22gmv%22%3A%22%22%2C%22source%22%3A%22%22%2C%22boxVersion%22%3A0%2C%22boxPlatform%22%3A%22android%22%2C%22evtName%22%3A%22getcuid%22%2C%22evtType%22%3A%7B%22brName%22%3A%22uc%22%2C%22brVer%22%3A%229.9.6.495%22%2C%22isHttp%22%3A1%2C%22isNew%22%3A0%7D%2C%22evtTag%22%3A%22%22%7D%2C%22cateid%22%3A%222%22%7D&amp;_rnd=732413691">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>25.00%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>9.061</Burst-start>
+</stat-node>
+<stat-node name="/tcbox?service=bdbox&amp;action=pblog&amp;ctv=2&amp;cen=uid_ua_ut&amp;data=%7B%22dataid%22%3A%222%22%2C%22actiontype%22%3A%221%22%2C%22actionid%22%3A%221%22%2C%22actiondata%22%3A%7B%22ref%22%3A%22%22%2C%22gmv%22%3A%22%22%2C%22source%22%3A%22%22%2C%22boxVersion%22%3A0%2C%22boxPlatform%22%3A%22android%22%7D%7D&amp;_rnd=1527765728">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>25.00%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>9.037</Burst-start>
+</stat-node>
+<stat-node name="/from=2001a/bd_page_type=1/ssid=0/uid=0/pu=usm%400%2Csz%401320_1003%2Cta%40iphone_2_2.3_1_9.6/baiduid=9188CA5243C1728404978487596EFFB3/w=0_10_%E5%A4%A7%E5%AE%B6%E6%8A%95/t=iphone/l=3/tc?ref=www_iphone&amp;lid=11412098295583031911&amp;order=1&amp;vit=osres&amp;tj=www_normal_1_0_10&amp;m=8&amp;srd=1&amp;cltj=cloud_title&amp;dict=21&amp;sec=36866&amp;di=ab061bb45cbc22c9&amp;bdenc=1&amp;nsrc=IlPT2AEptyoA_yixCFOxXnANedT62v3IEQGG_ypZ_D3viU_ixP4lZQRA&amp;t=961649599448">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>25.00%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>43.858</Burst-start>
+</stat-node>
+<stat-node name="/from=2001a/bd_page_type=1/ssid=0/uid=0/pu=usm%400%2Csz%401320_1003%2Cta%40iphone_2_2.3_1_9.6/baiduid=9188CA5243C1728404978487596EFFB3/w=0_10_%E5%A4%A7%E5%AE%B6%E6%8A%95/t=iphone/l=3/tc?ref=www_iphone&amp;lid=11412098295583031911&amp;order=1&amp;vit=osres&amp;tj=www_normal_1_0_10&amp;m=8&amp;srd=1&amp;cltj=cloud_title&amp;dict=21&amp;sec=36866&amp;di=ab061bb45cbc22c9&amp;bdenc=1&amp;nsrc=IlPT2AEptyoA_yixCFOxXnANedT62v3IEQGG_ypZ_D3viU_ixP4lZQRA">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>25.00%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>43.367</Burst-start>
+</stat-node>
+</stat-node>
+<stat-node name="img.t.sinajs.cn">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>0.40%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>80.757</Burst-start>
+<stat-node name="/t4/appstyle/widget/images/followButton/bg_flbtn.png?id=1367910055834">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>100.00%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>80.757</Burst-start>
+</stat-node>
+</stat-node>
+<stat-node name="i.creativecommons.org">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>0.40%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>25.115</Burst-start>
+<stat-node name="/l/by-nc-sa/3.0/88x31.png">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>100.00%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>25.115</Burst-start>
+</stat-node>
+</stat-node>
+<stat-node name="hm.baidu.com">
+<Count>3</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>1.20%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>94.151</Burst-start>
+<stat-node name="/hm.gif?cc=1&amp;ck=1&amp;cl=32-bit&amp;ds=480x800&amp;et=0&amp;fl=11.1&amp;ja=0&amp;ln=zh-CN&amp;lo=0&amp;lt=961649634&amp;nv=0&amp;rnd=143962047&amp;si=047eac725727fc206cb8019dc0fb9dc9&amp;st=4&amp;v=1.1.4&amp;lv=2">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>33.33%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>96.372</Burst-start>
+</stat-node>
+<stat-node name="/hm.gif?cc=1&amp;ck=1&amp;cl=32-bit&amp;ds=480x800&amp;ep=%7B%22netAll%22%3A514%2C%22netDns%22%3A0%2C%22netTcp%22%3A161%2C%22srv%22%3A6601%2C%22dom%22%3A16488%2C%22loadEvent%22%3A18563%2C%22qid%22%3A%22%22%2C%22bdDom%22%3A0%2C%22bdRun%22%3A0%2C%22bdDef%22%3A0%7D&amp;et=87&amp;fl=11.1&amp;ja=0&amp;ln=zh-CN&amp;lo=0&amp;lt=961649634&amp;nv=0&amp;rnd=1458184723&amp;si=047eac725727fc206cb8019dc0fb9dc9&amp;st=4&amp;v=1.1.4&amp;lv=2">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>33.33%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>97.504</Burst-start>
+</stat-node>
+<stat-node name="/h.js?047eac725727fc206cb8019dc0fb9dc9">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>33.33%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>94.151</Burst-start>
+</stat-node>
+</stat-node>
+<stat-node name="fonts.googleapis.com">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>0.40%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>22.536</Burst-start>
+<stat-node name="/css?family=Source+Sans+Pro:200,300,400,600,700,900,300italic,400italic,600italic">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>100.00%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>22.536</Burst-start>
+</stat-node>
+</stat-node>
+<stat-node name="follow.v.t.qq.com">
+<Count>2</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>0.80%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>93.981</Burst-start>
+<stat-node name="/index.php?c=follow&amp;a=quick&amp;name=techtoipo&amp;style=5&amp;t=1355800882761&amp;f=1">
+<Count>2</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>100.00%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>93.981</Burst-start>
+</stat-node>
+</stat-node>
+<stat-node name="ers.baidu.com">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>0.40%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>94.991</Burst-start>
+<stat-node name="/app/s.js?siteId=1588244&amp;goTop=1">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>100.00%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>94.991</Burst-start>
+</stat-node>
+</stat-node>
+<stat-node name="eclick.baidu.com">
+<Count>5</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0001</Rate--ms->
+<Percent>1.99%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>36.161</Burst-start>
+<stat-node name="/fp.htm?ci=25C670182C7716032F0F3878A15A962F%3AFG%3D1&amp;cn=25C670182C7716032F0F3878A15A962F%3AFG%3D1&amp;cu=&amp;cl=25C670182C7716032F0F3878A15A962F%3AFG%3D1&amp;cf=25C670182C7716032F0F3878A15A962F%3AFG%3D1&amp;ce=25C670182C7716032F0F3878A15A962F&amp;ff=u&amp;cuid=&amp;cuid2=&amp;de=an&amp;bp=&amp;nip=&amp;_=961649591679">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>20.00%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>36.161</Burst-start>
+</stat-node>
+<stat-node name="/fp.htm?ci=25C670182C7716032F0F3878A15A962F%3AFG%3D1&amp;cn=25C670182C7716032F0F3878A15A962F%3AFG%3D1&amp;cu=&amp;cl=25C670182C7716032F0F3878A15A962F%3AFG%3D1&amp;cf=25C670182C7716032F0F3878A15A962F%3AFG%3D1&amp;ce=25C670182C7716032F0F3878A15A962F&amp;ff=c&amp;cuid=&amp;cuid2=&amp;de=an&amp;bp=&amp;nip=&amp;_=961649637435">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>20.00%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>81.854</Burst-start>
+</stat-node>
+<stat-node name="/fp.htm?ci=25C670182C7716032F0F3878A15A962F%3AFG%3D1&amp;cn=25C670182C7716032F0F3878A15A962F%3AFG%3D1&amp;cu=&amp;cl=25C670182C7716032F0F3878A15A962F%3AFG%3D1&amp;cf=&amp;ce=25C670182C7716032F0F3878A15A962F&amp;ff=c&amp;cuid=&amp;cuid2=&amp;de=an&amp;bp=&amp;nip=&amp;_=961649654114">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>20.00%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>98.519</Burst-start>
+</stat-node>
+<stat-node name="/fp.htm?br=4&amp;_=961649652998">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>20.00%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>97.462</Burst-start>
+</stat-node>
+<stat-node name="/fp.htm?br=4&amp;_=961649637211">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>20.00%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>81.726</Burst-start>
+</stat-node>
+</stat-node>
+<stat-node name="ec.pos.baidu.com">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>0.40%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>99.297</Burst-start>
+<stat-node name="/b.php">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>100.00%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>99.297</Burst-start>
+</stat-node>
+</stat-node>
+<stat-node name="dup.baidustatic.com">
+<Count>3</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>1.20%</Percent>
+<Burst-rate>0.0200</Burst-rate>
+<Burst-start>99.159</Burst-start>
+<stat-node name="/tpl/wh.js">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>33.33%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>99.175</Burst-start>
+</stat-node>
+<stat-node name="/tpl/ac.js">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>33.33%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>99.159</Burst-start>
+</stat-node>
+<stat-node name="/painter/clb/fixed7o.js">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>33.33%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>96.938</Burst-start>
+</stat-node>
+</stat-node>
+<stat-node name="clsrv.transifex.com">
+<Count>5</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0001</Rate--ms->
+<Percent>1.99%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>26.611</Burst-start>
+<stat-node name="/">
+<Count>5</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0001</Rate--ms->
+<Percent>100.00%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>26.611</Burst-start>
+</stat-node>
+</stat-node>
+<stat-node name="client.tv.uc.cn">
+<Count>3</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>1.20%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>9.721</Burst-start>
+<stat-node name="/android/ts">
+<Count>2</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>66.67%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>9.721</Burst-start>
+</stat-node>
+<stat-node name="/android/get_episodes">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>33.33%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>27.897</Burst-start>
+</stat-node>
+</stat-node>
+<stat-node name="cdn.transifex.com">
+<Count>2</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>0.80%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>26.293</Burst-start>
+<stat-node name="/993f3545477f4aa8a4c0f28c3e08c11b/latest/settings.jsonp">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>50.00%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>26.293</Burst-start>
+</stat-node>
+<stat-node name="/993f3545477f4aa8a4c0f28c3e08c11b/latest/languages.jsonp">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>50.00%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>35.614</Burst-start>
+</stat-node>
+</stat-node>
+<stat-node name="cb.baidu.com">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>0.40%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>88.105</Burst-start>
+<stat-node name="/ecom?di=771952&amp;dcb=BAIDU_DUP_define&amp;dtm=BAIDU_DUP2_SETJSONADSLOT&amp;dbv=0&amp;dci=0&amp;dri=0&amp;dis=0&amp;dai=1&amp;dds=&amp;drs=1&amp;dvi=1430984165&amp;ltu=http%3A%2F%2Ftech2ipo.com%2Fall%2F2&amp;liu=&amp;ltr=&amp;lcr=&amp;ps=0x0&amp;psr=480x800&amp;par=480x800&amp;pcs=320x533&amp;pss=320x3393&amp;pis=-1x-1&amp;cfv=11&amp;ccd=32&amp;chi=1&amp;cja=false&amp;cpl=1&amp;cmi=2&amp;cce=true&amp;col=zh-CN&amp;cec=UTF-8&amp;cdo=0&amp;tsr=1094&amp;tlm=961620842&amp;tcn=961649642&amp;tpr=961649642281&amp;dpt=none&amp;coa=&amp;ti=TECH2IPO%E5%88%9B%E8%A7%81%20-%20%E5%88%9B%E6%96%B0%E6%94%B9%E5%8F%98%E4%B8%96%E7%95%8C&amp;baidu_id=">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>100.00%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>88.105</Burst-start>
+</stat-node>
+</stat-node>
+<stat-node name="bdimg.share.baidu.com">
+<Count>2</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>0.80%</Percent>
+<Burst-rate>0.0200</Burst-rate>
+<Burst-start>8.899</Burst-start>
+<stat-node name="/static/js/logger.js?cdnversion=267125">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>50.00%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>8.899</Burst-start>
+</stat-node>
+<stat-node name="/static/js/bds_s_v2.js?cdnversion=267125">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>50.00%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>8.902</Burst-start>
+</stat-node>
+</stat-node>
+<stat-node name="140.205.203.110:8016">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>0.40%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>78.905</Burst-start>
+<stat-node name="/m/21711551/138/AhqN2itWFSGdGo4S-PmMJ1kryi_LC4Xcuh-_T1_EyPYG?c=MXwwfDB877%2B977%2B977%2B977%2B9AgR8MHwxfDAwMTIzMTUyMzN8MDAxMjMxNDkzM3wxfDE%3D&amp;s=MDAxMjMxNTIzNEpKVkVpME95bjhxSXNGNlVrUWJyejNMdWZ3dz0=">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>100.00%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>78.905</Burst-start>
+</stat-node>
+</stat-node>
+<stat-node name="115.28.177.72">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>0.40%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>43.575</Burst-start>
+<stat-node name="/plhlsn.php?dq=28&amp;u=D64E3D6B6F1D52F4D1A03B8C24B549C4%3AFG%3D1&amp;t=961649599066">
+<Count>1</Count>
+<Average></Average>
+<Min-val></Min-val>
+<Max-val></Max-val>
+<Rate--ms->0.0000</Rate--ms->
+<Percent>100.00%</Percent>
+<Burst-rate>0.0100</Burst-rate>
+<Burst-start>43.575</Burst-start>
+</stat-node>
+</stat-node>
+</stat-node>
